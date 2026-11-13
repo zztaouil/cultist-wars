@@ -1,0 +1,214 @@
+<div id="statement_back" class="statement_back" style="display:none"></div>
+<div class="statement-body">
+    <!-- GOAL -->
+    <div class="statement-section statement-goal">
+        <h1>
+            <span class="icon icon-goal">&nbsp;</span>
+            <span>The Goal</span>
+        </h1>
+        <div class="statement-goal-content">
+            The aim of this game is to gain as many followers as possible.
+            You win if your opponent's number of units
+            drops to 0 or if you have more units than your enemy by the last round.
+            <br>
+            <br>
+        </div>
+    </div>
+    <!-- RULES -->
+    <div class="statement-section statement-rules">
+        <h1>
+            <span class="icon icon-rules">&nbsp;</span>
+            <span>Rules</span>
+        </h1>
+        <div>
+            <div class="statement-rules-content">
+                The game is played on a grid <strong>13</strong> units wide and <strong>7</strong> units high. The
+                coordinate <strong>X=0</strong>, <strong>Y=0</strong> is the top left tile. The positions of obstacles and
+                neutral units is randomly generated, but is symmetric.<br> <br>
+
+                The source code of the game is available here:
+                <a href="https://bitbucket.org/Nixerrr/cultist-wars/src" target="_blank">https://bitbucket.org/Nixerrr/cultist-wars/src</a>
+                <br>
+
+                <br>
+
+                <strong>Units</strong>, there are three types:
+                <ul>
+                    <li><strong>Neutral</strong> unit: Technically cultists but move randomly and cannot shoot until converted.<br>
+                    <img src="https://i.imgur.com/945L5N7.jpg" style="max-width:80%;max-height:80%;"></li>
+                    <li><strong>Cult Leader:</strong> This is your initial unit and you have only one of it.
+                        It can <action>WAIT</action>, <action>MOVE</action> or <action>CONVERT</action> neutral and enemy units. It has 10 hp.<br>
+                    <img src="https://i.imgur.com/ULyMdiD.jpg" style="max-width:80%;max-height:80%;"></li>
+                    <li><strong>Cultist:</strong> Neutral units become cultists when you convert them.
+                        It can <action>WAIT</action>, <action>MOVE</action> or <action>SHOOT</action> enemy units. It has 10 hp.<br>
+                    <img src="https://i.imgur.com/lWTU23n.jpg" style="max-width:80%;max-height:80%;"></li>
+                </ul>
+                <br>
+
+                <strong>Turns</strong> play out in the following way:
+                <ol>
+                    <li>A player performs <strong> 1 action / turn</strong>. The action can be perfomed by any of the player's units.</li>
+                    <li>A random neutral unit moves in a random direction.</li>
+                    <li>The player's turn ends.</li>
+                </ol>
+
+                <strong>Moving</strong> works in the following way:
+                <ul>
+                    <li>Units can <action>MOVE</action> in four directions.</li>
+                    <li>Units can <action>MOVE</action> one tile per round.</li>
+                    <li>Units cannot move on tiles with obstacles or with other units.<br>
+
+                        <img src="https://i.imgur.com/cfZ8QTY.jpg" style="max-width:50%;max-height:50%;"></li>
+                </ul>
+                <br>
+                    <strong>Shooting</strong> works in the following way:
+                <ul>
+                    <li><strong>Damage</strong> is 7 - distance. Therefore, the maximum damage is 6 hp.</li>
+                    <li>The range of <strong>Cultists</strong> is <const>6</const>. Distances are calculated using <strong>Manhattan distance</strong>.</li>
+                    <li>The path of bullets is calculated based on <a href="https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm" target="_blank">Bresenham's line algorithm</a>,
+                        <strong>always drawing the line from lower Y towards higher Y.</strong></li>
+
+                    <li>If an obstacle or any unit is on the bullet path between the shooter and the target, then it's hit instead of the target.</li>
+                    <li>Obstacles are indestructible.<br>
+                        <img src="https://i.imgur.com/pgEs19K.jpg" style="max-width:50%;max-height:50%;"></li>
+
+                </ul>
+                <br>
+
+                <strong>Converting</strong> units works in the following way:
+                <ul>
+                    <li>Cult leaders can convert neutral units or enemy cultists. The enemy cult leader cannot be converted.</li>
+                    <li>A cult leader can convert units standing on neighboring tiles in the four directions (they cannot convert diagonally).<br>
+
+                        <img src="https://i.imgur.com/kCzFfVn.jpg" style="max-width:50%;max-height:50%;"></li>
+
+                </ul>
+                <br>
+
+                <strong>Pathfinding</strong> works in the following way:
+                <ul>
+                <li>If a unit is told to move to a non-adjacent tile, convert a unit on a non-adjacent tile,
+                    or told to shoot at a target beyond its range, it will move towards the target tile on the shortest
+                    available path to the target tile. If no path is available, it'll still move along the shortest path
+                    until it hits the obstacle.<br>
+
+                    <img src="https://i.imgur.com/JupL5Kv.jpg" style="max-width:50%;max-height:50%;"></li></ul>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <!-- Victory conditions -->
+    <div class="statement-victory-conditions">
+        <div class="icon victory"></div>
+        <div class="blk">
+            <div class="title">Victory Conditions</div>
+            <div class="text">
+                <ul style="padding-bottom: 0;">
+                    <li>
+                        Have more units by the last round than your opponent.
+                    </li>
+                    <li>
+                        Destroy all enemy units.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Lose conditions -->
+    <div class="statement-lose-conditions">
+        <div class="icon lose"></div>
+        <div class="blk">
+            <div class="title">Loss Conditions</div>
+            <div class="text">
+                <ul style="padding-bottom: 0;">
+                    <li>
+                        Have less units by the last round than your opponent.
+                    </li>
+                    <li>
+                        Your number of units drops to 0.
+                    </li>
+                    <li>
+                        You output an invalid action.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- PROTOCOL -->
+    <div class="statement-section statement-protocol">
+        <h1>
+            <span class="icon icon-protocol">&nbsp;</span>
+            <span>Game Input</span>
+        </h1>
+
+        <!-- Protocol block -->
+        <div class="blk">
+            <div class="title">Initial Input</div>
+            <div class="text">
+                <p><span class="statement-lineno">Line 1: </span><var>myId</var>: <const>0</const> - first player, <const>1</const> - second player</p>
+                <p><span class="statement-lineno">Line 2: </span><var>width</var>, <var>height</var>: The width and height of the game board</p>
+                <p><span class="statement-lineno">Next <var>height</var> lines: </span>A string <var>y</var> representing a row of the grid
+                    (<const>"."</const> is an empty tile, <const>"x"</const> is a tile with an obstacle).</p>
+            </div>
+        </div>
+
+        <!-- Protocol block -->
+        <div class="blk">
+            <div class="title">Input</div>
+            <div class="text">
+                <p><span class="statement-lineno">Line 1: </span><var>numOfUnits</var>: the total number of units on the board.</p>
+                <p><span class="statement-lineno">Next <var>numOfUnits</var> lines: </span>
+                    <ul>
+                    <li><var>unitId</var>: individual id of the unit.</li>
+                <li><var>type</var>: The type of the unit.  <const>0</const> = <strong>CULTIST</strong>,
+                    <const>1</const> = <strong>CULT LEADER</strong>. </li>
+                <li><var>hp</var>: current health points of the unit</li>
+                <li><var>x</var>: <strong>x</strong> coordinate of the unit.</li>
+                <li><var>y</var>: <strong>y</strong> coordinate of the unit.</li>
+                <li><var>owner</var>: ID of the owning player. <const>0</const> - Player 1, <const>1</const> - Player 2, <const>2</const> - neutral
+
+                </ul>
+                </p>
+            </div>
+        </div>
+
+        <!-- Protocol block -->
+        <div class="blk">
+            <div class="title">Output</div>
+            <div class="text">
+                <span class="statement-lineno">A single line, one of the following:</span><br>
+                <ul>
+                    <li><action>WAIT</action></li>
+                    <li><var>unitId</var> <action>MOVE</action>  <var>x</var>  <var>y</var></li>
+                    <li><var>unitId</var>  <action>SHOOT</action> <var>targetId</var></li>
+                    <li><var>unitId</var> <action>CONVERT</action> <var>targetId</var></li>
+                </ul>
+                <br>
+            </div>
+        </div>
+
+        <!-- Protocol block -->
+        <div class="blk">
+            <div class="title">Constraints</div>
+            <div class="text">
+                Allotted <strong>response time</strong> to output
+                is ≤
+                <const>50</const>
+                milliseconds.
+                <br>
+                <strong>Health points</strong> = <const>10</const>.<br>
+                <strong>Damage</strong> = <const>7</const> - <var>distance</var> <br>
+                Board <strong>width</strong> is <const>13</const>, <strong>height</strong> is <const>7</const>. <br>
+                Shooting <strong>range</strong> is <const>6</const>.<br>
+                Total <strong>number of units</strong> is <const>14</const>.<br>
+                <strong>Number of turns</strong> is <const>150</const>.
+            </div>
+        </div>
+    </div>
+    <br>
+    <p>(Assets created by www.oryxdesignlab.com)</p>
+
+</div>

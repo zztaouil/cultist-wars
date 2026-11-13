@@ -1,0 +1,7 @@
+/bot
+/tests/test_bot
+.DS_Store
+__pycache__/
+*.pyc
+/source/target/
+/source/.idea/

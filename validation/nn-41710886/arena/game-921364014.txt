@@ -1,0 +1,13 @@
+game 921364014
+options: seed=711187914799584000
+agents:
+  0 kurnevsky (agent_id 4611935)
+  1 hexagonee (me, agent_id 6881442)
+frame 0
+frame 1 agent 0
+  summary: $0 timeout!
+      $1 won!
+result
+  scores: 0=-1 1=0
+  ranking (agent indexes, winner first): 1 0
+  tooltips: frame 1: $0 timeout!

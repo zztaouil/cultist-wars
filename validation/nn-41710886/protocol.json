@@ -1,0 +1,62 @@
+[
+  {
+    "map": "920669387",
+    "action": "0 MOVE 1 3",
+    "diagnostics": "depth=12 advantage=5 nodes=294304 cutoffs=49168 tt=57650 qnodes=225495 pruned=9752 rng=1 elapsed_us=49045"
+  },
+  {
+    "map": "920705320",
+    "action": "0 MOVE 1 3",
+    "diagnostics": "depth=13 advantage=27 nodes=302368 cutoffs=51644 tt=64564 qnodes=222756 pruned=11386 rng=1 elapsed_us=49019"
+  },
+  {
+    "map": "921056482",
+    "action": "0 MOVE 1 3",
+    "diagnostics": "depth=12 advantage=26 nodes=266144 cutoffs=42677 tt=53595 qnodes=201349 pruned=5316 rng=1 elapsed_us=49022"
+  },
+  {
+    "map": "920994877",
+    "action": "0 MOVE 0 2",
+    "diagnostics": "depth=17 advantage=69 nodes=251648 cutoffs=45331 tt=54578 qnodes=179458 pruned=10080 rng=1 elapsed_us=49034"
+  },
+  {
+    "map": "919586413",
+    "action": "0 MOVE 1 3",
+    "diagnostics": "depth=12 advantage=2 nodes=314208 cutoffs=45827 tt=55475 qnodes=252755 pruned=9228 rng=1 elapsed_us=49028"
+  },
+  {
+    "map": "921166001",
+    "action": "0 MOVE 0 2",
+    "diagnostics": "depth=15 advantage=30 nodes=315840 cutoffs=52323 tt=88579 qnodes=216714 pruned=17833 rng=1 elapsed_us=49087"
+  },
+  {
+    "map": "921184348",
+    "action": "0 MOVE 1 3",
+    "diagnostics": "depth=15 advantage=95 nodes=322720 cutoffs=44769 tt=92108 qnodes=243289 pruned=25544 rng=1 elapsed_us=49035"
+  },
+  {
+    "map": "920896522",
+    "action": "0 MOVE 1 3",
+    "diagnostics": "depth=12 advantage=1 nodes=284736 cutoffs=42887 tt=58022 qnodes=224335 pruned=10041 rng=1 elapsed_us=49045"
+  },
+  {
+    "map": "920690535",
+    "action": "0 MOVE 1 3",
+    "diagnostics": "depth=12 advantage=1162 nodes=304832 cutoffs=43752 tt=60744 qnodes=246213 pruned=13205 rng=1 elapsed_us=49085"
+  },
+  {
+    "map": "921156836",
+    "action": "0 MOVE 0 4",
+    "diagnostics": "depth=11 advantage=1163 nodes=311968 cutoffs=46114 tt=67303 qnodes=252177 pruned=20187 rng=1 elapsed_us=49031"
+  },
+  {
+    "map": "920734100",
+    "action": "0 MOVE 0 2",
+    "diagnostics": "depth=18 advantage=-1078 nodes=293376 cutoffs=49021 tt=69285 qnodes=210131 pruned=19033 rng=1 elapsed_us=49073"
+  },
+  {
+    "map": "921168768",
+    "action": "0 MOVE 1 3",
+    "diagnostics": "depth=13 advantage=28 nodes=296384 cutoffs=51675 tt=66980 qnodes=207512 pruned=2908 rng=1 elapsed_us=49029"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "game": 921363527,
+    "seat": 1,
+    "scores": [
+      3,
+      1
+    ],
+    "result": "L",
+    "max_elapsed_us": 49052,
+    "median_depth": 8,
+    "rng_zero": 0,
+    "timeout": false
+  },
+  {
+    "game": 921363529,
+    "seat": 1,
+    "scores": [
+      3,
+      4
+    ],
+    "result": "W",
+    "max_elapsed_us": 49079,
+    "median_depth": 6,
+    "rng_zero": 0,
+    "timeout": false
+  },
+  {
+    "game": 921363530,
+    "seat": 1,
+    "scores": [
+      2,
+      5
+    ],
+    "result": "W",
+    "max_elapsed_us": 49049,
+    "median_depth": 6,
+    "rng_zero": 0,
+    "timeout": false
+  },
+  {
+    "game": 921363638,
+    "seat": 0,
+    "scores": [
+      4,
+      3
+    ],
+    "result": "W",
+    "max_elapsed_us": 49039,
+    "median_depth": 7,
+    "rng_zero": 0,
+    "timeout": false
+  },
+  {
+    "game": 921363858,
+    "seat": 1,
+    "scores": [
+      3,
+      6
+    ],
+    "result": "W",
+    "max_elapsed_us": 49043,
+    "median_depth": 7,
+    "rng_zero": 0,
+    "timeout": false
+  },
+  {
+    "game": 921364014,
+    "seat": 1,
+    "scores": [
+      -1,
+      0
+    ],
+    "result": "W",
+    "max_elapsed_us": null,
+    "median_depth": null,
+    "rng_zero": 0,
+    "timeout": true
+  },
+  {
+    "game": 921364159,
+    "seat": 1,
+    "scores": [
+      -1,
+      0
+    ],
+    "result": "W",
+    "max_elapsed_us": null,
+    "median_depth": null,
+    "rng_zero": 0,
+    "timeout": true
+  },
+  {
+    "game": 921364298,
+    "seat": 0,
+    "scores": [
+      3,
+      0
+    ],
+    "result": "W",
+    "max_elapsed_us": 49046,
+    "median_depth": 7.0,
+    "rng_zero": 0,
+    "timeout": false
+  },
+  {
+    "game": 921364413,
+    "seat": 0,
+    "scores": [
+      7,
+      0
+    ],
+    "result": "W",
+    "max_elapsed_us": 49074,
+    "median_depth": 5.0,
+    "rng_zero": 0,
+    "timeout": false
+  },
+  {
+    "game": 921364554,
+    "seat": 1,
+    "scores": [
+      4,
+      3
+    ],
+    "result": "L",
+    "max_elapsed_us": 49059,
+    "median_depth": 7,
+    "rng_zero": 0,
+    "timeout": false
+  }
+]

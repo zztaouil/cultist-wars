@@ -1,0 +1,51 @@
+{
+  "baseline": "41710886 (archived identical 41709358.c)",
+  "baseline_sha256": "82b341ea7cb5ace6f316af95069fd0d763476c0aa5126693b78b8df398368b4d",
+  "feature_version": 1,
+  "parameters": 4161,
+  "seed": 17,
+  "device": "cuda:0",
+  "gpu": "Tesla T4",
+  "best_epoch": 40,
+  "epochs": 48,
+  "seconds": 16.9,
+  "dataset": {
+    "games_seen": 3097,
+    "games_valid": 3097,
+    "games_rejected": 0,
+    "transitions_verified": 429643,
+    "unmatched_actions": 0,
+    "positions": 50284,
+    "actions": 905166,
+    "split_positions": {
+      "0": 40828,
+      "1": 5012,
+      "2": 4444
+    },
+    "feature_MiB": 442.0,
+    "seconds": 35.7
+  },
+  "validation": {
+    "loss": 1.6223494612685414,
+    "top1": 0.48563447725458897,
+    "top3": 0.7336392657621708,
+    "positions": 5012
+  },
+  "test": {
+    "loss": 1.6269474527408796,
+    "top1": 0.4894239423942394,
+    "top3": 0.7439243924392439,
+    "positions": 4444
+  },
+  "static_order_test": {
+    "loss": null,
+    "top1": 0.3134563456345635,
+    "top3": 0.558055805580558,
+    "positions": 4444
+  },
+  "notes": [
+    "Static ordering excludes history and TT; not a search-strength comparison.",
+    "Test split used only after checkpoint selection.",
+    "No C deployment or match-strength gain established."
+  ]
+}

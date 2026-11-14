@@ -1,0 +1,19 @@
+{
+  "README.md": "c2a85e90118ed08ff7e4f447058e1796a377b665330ed4b6d0862b53ee20a25a",
+  "baseline.c": "82b341ea7cb5ace6f316af95069fd0d763476c0aa5126693b78b8df398368b4d",
+  "features.c": "99fb5bb28910df4857d2129c3eb16af33b33b9acc342e38e4151a5c8b8d86f6c",
+  "prepare.py": "b7a8e26dbe61427e983916f5a63cc49a367c3bea9566103c2258637692ff7b7e",
+  "train.py": "5c920f97ed2bfeb10968710dd1ef9677fe4e1dae405b4461408aaa43eb86e08c",
+  "games.jsonl.gz": "ea35c774971c4a8abded497d31076ae5b0e9ff43ed2c90d93573be3acc09b14b",
+  "java/model/Unit.java": "8bb524dede8d2b516834c43f5650811ab82a944cc97cb2b6b98099bf3b53d358",
+  "java/model/CultLeader.java": "4c37cb2b45dedcff4560f3bcf827b73e5c687cdc05006c1c4de060de7e600d6f",
+  "java/model/Tile.java": "104d19189436bc5255df1e37d8559f6cd7197b7c8265f5200ed98b66f2dc9dd4",
+  "java/model/MoveAction.java": "474596f0dec9d3c2310015e04a863c033b2b06f06a52126c4a481655329d5d97",
+  "java/model/Batch.java": "0683a3601c7d26b3670c08c8f15988900f7bfe7ce8a866631e915b5108654a59",
+  "java/model/E.java": "4a35299a93d8e0a0b3dc49da93d29fa2ea16eaed01ffbdb2e32af5d500b7ad5b",
+  "java/model/Random.java": "8072917d88e006f4e866af7e7bcaaaa38979deda3f81cf6f170ec9f107347656",
+  "java/model/SpecialAction.java": "f4cb0b4ec877778dd7569e0690f84eff1ea0dfe7068b397bcb5d298c9bfc34b7",
+  "java/model/Board.java": "d1929e5db053fe21bfb4ba82ff4dfd32c1d0984d773e2c11719b90328868e34b",
+  "java/model/Action.java": "8ab9e3bb096346f9bd13248b9dd5951f72c3853dab460e9c80eea8d79b27cf82",
+  "java/model/Cultist.java": "9a8d0edb78432b7032c5ea3fee2761981e6e305ac5073a07ec83d8f895b25932"
+}

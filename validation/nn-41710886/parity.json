@@ -1,0 +1,6 @@
+{
+  "groups": 1000,
+  "max_abs_logit_error": 9.5367431640625e-06,
+  "top1_disagreements": 0,
+  "inference_only_p95_ms": 0.07046215
+}

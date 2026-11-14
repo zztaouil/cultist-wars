@@ -1,0 +1,7 @@
+{
+  "positions": 500,
+  "root_precompute_median_ms": 0.035,
+  "root_precompute_p95_ms": 0.08,
+  "root_precompute_max_ms": 0.22,
+  "includes": "action generation, feature extraction, NN inference, rank cache; concurrent match workers active"
+}

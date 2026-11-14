@@ -1,0 +1,297 @@
+{
+  "puzzle": "cultist-wars",
+  "collected_at": "2026-11-13T16:48:54.616210+00:00",
+  "scope": "One public replay sample per player; initial top 10. Not complete histories or guaranteed latest games.",
+  "games": [
+    {
+      "initial_rank": 1,
+      "nickname": "aCat",
+      "game_id": 921164419,
+      "replay_url": "https://www.codingame.com/share-replay/921164419",
+      "agents": [
+        {
+          "index": 0,
+          "name": "aCat",
+          "agent_id": 6870984
+        },
+        {
+          "index": 1,
+          "name": "Noobkins",
+          "agent_id": 6880249
+        }
+      ],
+      "scores": [
+        5.0,
+        1.0
+      ],
+      "ranking": [
+        0,
+        1
+      ],
+      "game_options": "seed=-1425207245125793500",
+      "json_file": "921164419.json",
+      "text_file": "921164419.txt"
+    },
+    {
+      "initial_rank": 2,
+      "nickname": "Noobkins",
+      "game_id": 921163703,
+      "replay_url": "https://www.codingame.com/share-replay/921163703",
+      "agents": [
+        {
+          "index": 0,
+          "name": "Noobkins",
+          "agent_id": 6880249
+        },
+        {
+          "index": 1,
+          "name": "KawattaTaido",
+          "agent_id": 4612070
+        }
+      ],
+      "scores": [
+        6.0,
+        0.0
+      ],
+      "ranking": [
+        0,
+        1
+      ],
+      "game_options": "seed=-2880998669599205000",
+      "json_file": "921163703.json",
+      "text_file": "921163703.txt"
+    },
+    {
+      "initial_rank": 3,
+      "nickname": "MSz",
+      "game_id": 920690863,
+      "replay_url": "https://www.codingame.com/share-replay/920690863",
+      "agents": [
+        {
+          "index": 0,
+          "name": "MSz",
+          "agent_id": 6818707
+        },
+        {
+          "index": 1,
+          "name": "ziele",
+          "agent_id": 6877370
+        }
+      ],
+      "scores": [
+        2.0,
+        2.0
+      ],
+      "ranking": [
+        0,
+        1
+      ],
+      "game_options": "seed=1308189070090567000",
+      "json_file": "920690863.json",
+      "text_file": "920690863.txt"
+    },
+    {
+      "initial_rank": 4,
+      "nickname": "Zylo",
+      "game_id": 920737868,
+      "replay_url": "https://www.codingame.com/share-replay/920737868",
+      "agents": [
+        {
+          "index": 0,
+          "name": "Zylo",
+          "agent_id": 6809893
+        },
+        {
+          "index": 1,
+          "name": "ziele",
+          "agent_id": 6877661
+        }
+      ],
+      "scores": [
+        4.0,
+        0.0
+      ],
+      "ranking": [
+        0,
+        1
+      ],
+      "game_options": "seed=-2054842897517165000",
+      "json_file": "920737868.json",
+      "text_file": "920737868.txt"
+    },
+    {
+      "initial_rank": 5,
+      "nickname": "ziele",
+      "game_id": 921159999,
+      "replay_url": "https://www.codingame.com/share-replay/921159999",
+      "agents": [
+        {
+          "index": 0,
+          "name": "putibuzu",
+          "agent_id": 6380742
+        },
+        {
+          "index": 1,
+          "name": "ziele",
+          "agent_id": 6880132
+        }
+      ],
+      "scores": [
+        0.0,
+        2.0
+      ],
+      "ranking": [
+        1,
+        0
+      ],
+      "game_options": "seed=4551069348932652500",
+      "json_file": "921159999.json",
+      "text_file": "921159999.txt"
+    },
+    {
+      "initial_rank": 6,
+      "nickname": "KawattaTaido",
+      "game_id": 920940730,
+      "replay_url": "https://www.codingame.com/share-replay/920940730",
+      "agents": [
+        {
+          "index": 0,
+          "name": "KawattaTaido",
+          "agent_id": 4612070
+        },
+        {
+          "index": 1,
+          "name": "Noobkins",
+          "agent_id": 6878806
+        }
+      ],
+      "scores": [
+        2.0,
+        2.0
+      ],
+      "ranking": [
+        0,
+        1
+      ],
+      "game_options": "seed=3240368482324478000",
+      "json_file": "920940730.json",
+      "text_file": "920940730.txt"
+    },
+    {
+      "initial_rank": 7,
+      "nickname": "jacek",
+      "game_id": 921035048,
+      "replay_url": "https://www.codingame.com/share-replay/921035048",
+      "agents": [
+        {
+          "index": 0,
+          "name": "jacek",
+          "agent_id": 6722583
+        },
+        {
+          "index": 1,
+          "name": "ziele",
+          "agent_id": 6879434
+        }
+      ],
+      "scores": [
+        0.0,
+        3.0
+      ],
+      "ranking": [
+        1,
+        0
+      ],
+      "game_options": "seed=-6851887432909569000",
+      "json_file": "921035048.json",
+      "text_file": "921035048.txt"
+    },
+    {
+      "initial_rank": 8,
+      "nickname": "Pduhard-",
+      "game_id": 920689171,
+      "replay_url": "https://www.codingame.com/share-replay/920689171",
+      "agents": [
+        {
+          "index": 0,
+          "name": "ziele",
+          "agent_id": 6877370
+        },
+        {
+          "index": 1,
+          "name": "Pduhard-",
+          "agent_id": 6785396
+        }
+      ],
+      "scores": [
+        5.0,
+        3.0
+      ],
+      "ranking": [
+        0,
+        1
+      ],
+      "game_options": "seed=1472687647303468000",
+      "json_file": "920689171.json",
+      "text_file": "920689171.txt"
+    },
+    {
+      "initial_rank": 9,
+      "nickname": "yhyoxx",
+      "game_id": 921165533,
+      "replay_url": "https://www.codingame.com/share-replay/921165533",
+      "agents": [
+        {
+          "index": 0,
+          "name": "yhyoxx",
+          "agent_id": 6880265
+        },
+        {
+          "index": 1,
+          "name": "putibuzu",
+          "agent_id": 6380742
+        }
+      ],
+      "scores": [
+        6.0,
+        0.0
+      ],
+      "ranking": [
+        0,
+        1
+      ],
+      "game_options": "seed=8951400676151646000",
+      "json_file": "921165533.json",
+      "text_file": "921165533.txt"
+    },
+    {
+      "initial_rank": 10,
+      "nickname": "putibuzu",
+      "game_id": 920937777,
+      "replay_url": "https://www.codingame.com/share-replay/920937777",
+      "agents": [
+        {
+          "index": 0,
+          "name": "Noobkins",
+          "agent_id": 6878786
+        },
+        {
+          "index": 1,
+          "name": "putibuzu",
+          "agent_id": 6380742
+        }
+      ],
+      "scores": [
+        3.0,
+        0.0
+      ],
+      "ranking": [
+        0,
+        1
+      ],
+      "game_options": "seed=7445829604425548000",
+      "json_file": "920937777.json",
+      "text_file": "920937777.txt"
+    }
+  ]
+}

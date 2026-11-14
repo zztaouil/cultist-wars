@@ -1,0 +1,16 @@
+{
+  "source": "validation/support-41710886/next-submission.c",
+  "sha256": "5f1dbaed7dca15a70e2131b431974eb770ba5098660be84701a3c8f23c3888fa",
+  "baseline_submission": 41710886,
+  "baseline_source": "submissions/41709358.c",
+  "budget_ms": 49,
+  "submitted": true,
+  "strength": "unproven",
+  "holdout": {
+    "wins": 32,
+    "draws": 17,
+    "losses": 31,
+    "pairs": 40
+  },
+  "submission_id": 41711081
+}

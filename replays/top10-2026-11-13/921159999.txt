@@ -1,0 +1,218 @@
+game 921159999
+options: seed=4551069348932652500
+agents:
+  0 putibuzu (agent_id 6380742)
+  1 ziele (agent_id 6880132)
+frame 0
+frame 1 agent 0
+  summary: Unit 0 moved to row 1 col 3
+      
+      Turn: 0
+  stdout: 0 MOVE 1 3
+frame 2 agent 1
+  summary: Unit 1 moved to row 11 col 3
+      
+      Turn: 1
+  stdout: 1 MOVE 11 3
+frame 3 agent 0
+  summary: Unit 0 moved to row 2 col 3
+      
+      Turn: 2
+  stdout: 0 MOVE 2 3
+frame 4 agent 1
+  summary: Unit 1 moved to row 10 col 3
+      
+      Turn: 3
+  stdout: 1 MOVE 10 3
+frame 5 agent 0
+  summary: Unit 0 moved to row 3 col 3
+      
+      Turn: 4
+  stdout: 0 MOVE 3 3
+frame 6 agent 1
+  summary: Unit 1 moved to row 9 col 3
+      
+      Turn: 5
+  stdout: 1 MOVE 9 3
+frame 7 agent 0
+  summary: Unit 0 converted unit 6
+      
+      Turn: 6
+  stdout: 0 CONVERT 6
+frame 8 agent 1
+  summary: Unit 1 converted unit 12
+      
+      Turn: 7
+  stdout: 1 CONVERT 12
+frame 9 agent 0
+  summary: Unit 6 hit unit 12. New hp: 7
+      
+      Turn: 8
+  stdout: 6 SHOOT 12
+frame 10 agent 1
+  summary: Unit 12 hit unit 6. New hp: 7
+      
+      Turn: 9
+  stdout: 12 SHOOT 0
+frame 11 agent 0
+  summary: Unit 6 hit unit 12. New hp: 4
+      
+      Turn: 10
+  stdout: 6 SHOOT 12
+frame 12 agent 1
+  summary: Unit 12 hit unit 6. New hp: 4
+      
+      Turn: 11
+  stdout: 12 SHOOT 0
+frame 13 agent 0
+  summary: Unit 6 hit unit 12. New hp: 1
+      
+      Turn: 12
+  stdout: 6 SHOOT 12
+frame 14 agent 1
+  summary: Unit 12 hit unit 6. New hp: 1
+      
+      Turn: 13
+  stdout: 12 SHOOT 0
+frame 15 agent 0
+  summary: Unit 6 hit unit 12. New hp: 0
+      
+      Turn: 14
+  stdout: 6 SHOOT 12
+frame 16 agent 1
+  summary: Unit 1 moved to row 8 col 3
+      
+      Turn: 15
+  stdout: 1 MOVE 8 3
+frame 17 agent 0
+  summary: Unit 6 hit unit 1. New hp: 7
+      
+      Turn: 16
+  stdout: 6 SHOOT 1
+frame 18 agent 1
+  summary: Unit 1 converted unit 10
+      
+      Turn: 17
+  stdout: 1 CONVERT 10
+frame 19 agent 0
+  summary: Unit 6 hit unit 1. New hp: 4
+      
+      Turn: 18
+  stdout: 6 SHOOT 1
+frame 20 agent 1
+  summary: Unit 10 moved to row 7 col 2
+      
+      Turn: 19
+  stdout: 10 MOVE 7 2
+frame 21 agent 0
+  summary: Unit 6 hit unit 1. New hp: 1
+      
+      Turn: 20
+  stdout: 6 SHOOT 1
+frame 22 agent 1
+  summary: Unit 1 moved to row 8 col 2
+      
+      Turn: 21
+  stdout: 1 MOVE 8 2
+frame 23 agent 0
+  summary: Unit 6 hit unit 10. New hp: 7
+      
+      Turn: 22
+  stdout: 6 SHOOT 10
+frame 24 agent 1
+  summary: Unit 10 hit unit 6. New hp: 0
+      
+      Turn: 23
+  stdout: 10 SHOOT 0
+frame 25 agent 0
+  summary: Unit 0 moved to row 4 col 3
+      
+      Turn: 24
+  stdout: 0 MOVE 4 3
+frame 26 agent 1
+  summary: Unit 10 hit unit 0. New hp: 7
+      
+      Turn: 25
+  stdout: 10 SHOOT 0
+frame 27 agent 0
+  summary: Unit 0 moved to row 4 col 2
+      
+      Turn: 26
+  stdout: 0 MOVE 4 2
+frame 28 agent 1
+  summary: Unit 10 hit unit 4. New hp: 5
+      
+      Turn: 27
+  stdout: 10 SHOOT 0
+frame 29 agent 0
+  summary: Unit 0 moved to row 4 col 1
+      
+      Turn: 28
+  stdout: 0 MOVE 4 1
+frame 30 agent 1
+  summary: Unit 10 hit unit 0. New hp: 4
+      
+      Turn: 29
+  stdout: 10 SHOOT 0
+frame 31 agent 0
+  summary: Turn: 30
+  stdout: WAIT
+frame 32 agent 1
+  summary: Unit 10 hit unit 5. New hp: 6
+      
+      Turn: 31
+  stdout: 10 SHOOT 0
+frame 33 agent 0
+  summary: Unit 0 moved to row 4 col 0
+      
+      Turn: 32
+  stdout: 0 MOVE 4 0
+frame 34 agent 1
+  summary: Unit 10 moved to row 6 col 2
+      
+      Turn: 33
+  stdout: 10 MOVE 6 2
+frame 35 agent 0
+  summary: Unit 0 moved to row 5 col 0
+      
+      Turn: 34
+  stdout: 0 MOVE 5 0
+frame 36 agent 1
+  summary: Unit 10 hit unit 5. New hp: 1
+      
+      Turn: 35
+  stdout: 10 SHOOT 0
+frame 37 agent 0
+  summary: Unit 0 converted unit 5
+      
+      Turn: 36
+  stdout: 0 CONVERT 5
+frame 38 agent 1
+  summary: Unit 10 hit unit 5. New hp: 0
+      
+      Turn: 37
+  stdout: 10 SHOOT 0
+frame 39 agent 0
+  summary: Unit 0 moved to row 4 col 0
+      
+      Turn: 38
+  stdout: 0 MOVE 4 0
+frame 40 agent 1
+  summary: Unit 10 hit unit 0. New hp: 1
+      
+      Turn: 39
+  stdout: 10 SHOOT 0
+frame 41 agent 0
+  summary: Unit 0 moved to row 4 col 1
+      
+      Turn: 40
+  stdout: 0 MOVE 4 1
+frame 42 agent 1
+  summary: Unit 10 hit unit 0. New hp: 0
+      
+      Turn: 41
+      $1 won!
+  stdout: 10 SHOOT 0
+result
+  scores: 0=0 1=2
+  ranking (agent indexes, winner first): 1 0

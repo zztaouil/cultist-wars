@@ -1,0 +1,16 @@
+{
+  "submission_id": 41708923,
+  "puzzle": "cultist-wars",
+  "language": "C",
+  "sha256": "9670cc7ac1d9baf8f901f8a1f0a29696dd9f03d315e644fe624e6e16073df79f",
+  "test_game_ids": [
+    921171656,
+    921171963
+  ],
+  "local_baseline": 41708638,
+  "local_results": {
+    "wins": 10,
+    "draws": 3,
+    "losses": 3
+  }
+}

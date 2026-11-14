@@ -1,0 +1,8 @@
+{
+  "positions": 71,
+  "changed_actions": 1,
+  "mean_depth_baseline": 7.23943661971831,
+  "mean_depth_candidate": 7.23943661971831,
+  "max_ms_baseline": 49.048,
+  "max_ms_candidate": 49.005
+}

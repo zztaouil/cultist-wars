@@ -1,0 +1,4427 @@
+[
+  {
+    "game": "921374717",
+    "turn": 33,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      2,
+      13,
+      0
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            2,
+            13,
+            0
+          ],
+          "value": -711,
+          "depth": 4,
+          "nodes": 50719,
+          "qnodes": 49542,
+          "ms": 6.878,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            13,
+            0
+          ],
+          "value": -639,
+          "depth": 5,
+          "nodes": 419552,
+          "qnodes": 412782,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            3
+          ],
+          "value": -1036,
+          "depth": 6,
+          "nodes": 4299072,
+          "qnodes": 4177415,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            2,
+            13,
+            0
+          ],
+          "value": -711,
+          "depth": 4,
+          "nodes": 50719,
+          "qnodes": 49542,
+          "ms": 7.541,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            13,
+            0
+          ],
+          "value": -639,
+          "depth": 5,
+          "nodes": 393056,
+          "qnodes": 387242,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            3
+          ],
+          "value": -1036,
+          "depth": 6,
+          "nodes": 3904832,
+          "qnodes": 3790172,
+          "ms": 500.003,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            12,
+            72
+          ],
+          "value": -1102,
+          "depth": 4,
+          "nodes": 182630,
+          "qnodes": 181174,
+          "ms": 29.768,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            12,
+            72
+          ],
+          "value": -1102,
+          "depth": 4,
+          "nodes": 356640,
+          "qnodes": 353823,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            3
+          ],
+          "value": -1036,
+          "depth": 6,
+          "nodes": 4055264,
+          "qnodes": 4010424,
+          "ms": 500.005,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            1,
+            12,
+            72
+          ],
+          "value": -1102,
+          "depth": 4,
+          "nodes": 182630,
+          "qnodes": 181174,
+          "ms": 31.876,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            12,
+            72
+          ],
+          "value": -1102,
+          "depth": 4,
+          "nodes": 323712,
+          "qnodes": 321125,
+          "ms": 49.004,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            12,
+            72
+          ],
+          "value": -167,
+          "depth": 5,
+          "nodes": 3656288,
+          "qnodes": 3615292,
+          "ms": 500.003,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921374717",
+    "turn": 35,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      1,
+      12,
+      74
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            12,
+            74
+          ],
+          "value": -1205,
+          "depth": 4,
+          "nodes": 81659,
+          "qnodes": 80253,
+          "ms": 11.255,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            12,
+            74
+          ],
+          "value": -1205,
+          "depth": 4,
+          "nodes": 440896,
+          "qnodes": 432893,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            13,
+            0
+          ],
+          "value": -717,
+          "depth": 6,
+          "nodes": 4422624,
+          "qnodes": 4302114,
+          "ms": 500.003,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            1,
+            12,
+            74
+          ],
+          "value": -1205,
+          "depth": 4,
+          "nodes": 81659,
+          "qnodes": 80253,
+          "ms": 12.001,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            12,
+            74
+          ],
+          "value": -1205,
+          "depth": 4,
+          "nodes": 397920,
+          "qnodes": 390304,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            13,
+            0
+          ],
+          "value": -717,
+          "depth": 6,
+          "nodes": 4025184,
+          "qnodes": 3918846,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1280,
+          "depth": 4,
+          "nodes": 65122,
+          "qnodes": 63794,
+          "ms": 11.097,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            13,
+            0
+          ],
+          "value": -639,
+          "depth": 3,
+          "nodes": 413408,
+          "qnodes": 411511,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            13,
+            0
+          ],
+          "value": -717,
+          "depth": 6,
+          "nodes": 4076576,
+          "qnodes": 4034380,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1280,
+          "depth": 4,
+          "nodes": 65122,
+          "qnodes": 63794,
+          "ms": 11.791,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            13,
+            0
+          ],
+          "value": -639,
+          "depth": 3,
+          "nodes": 380384,
+          "qnodes": 379722,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            13,
+            0
+          ],
+          "value": -717,
+          "depth": 6,
+          "nodes": 3702272,
+          "qnodes": 3666157,
+          "ms": 500.001,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921374440",
+    "turn": 25,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      2,
+      12,
+      0
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 4,
+          "nodes": 45077,
+          "qnodes": 43970,
+          "ms": 5.507,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1173,
+          "depth": 5,
+          "nodes": 443296,
+          "qnodes": 428798,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1209,
+          "depth": 7,
+          "nodes": 4827840,
+          "qnodes": 4721393,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 4,
+          "nodes": 45077,
+          "qnodes": 43970,
+          "ms": 6.048,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1173,
+          "depth": 5,
+          "nodes": 420320,
+          "qnodes": 409229,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1209,
+          "depth": 7,
+          "nodes": 4404416,
+          "qnodes": 4309522,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 4,
+          "nodes": 129464,
+          "qnodes": 128422,
+          "ms": 14.375,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 4,
+          "nodes": 423744,
+          "qnodes": 421899,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 6,
+          "nodes": 4551968,
+          "qnodes": 4514686,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 4,
+          "nodes": 129464,
+          "qnodes": 128422,
+          "ms": 15.456,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 4,
+          "nodes": 398496,
+          "qnodes": 396787,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 6,
+          "nodes": 4240480,
+          "qnodes": 4210381,
+          "ms": 500.001,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921374440",
+    "turn": 27,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      2,
+      12,
+      0
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 4,
+          "nodes": 91961,
+          "qnodes": 91013,
+          "ms": 10.597,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 4,
+          "nodes": 416832,
+          "qnodes": 413777,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1245,
+          "depth": 6,
+          "nodes": 4825216,
+          "qnodes": 4791732,
+          "ms": 500.003,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 4,
+          "nodes": 91961,
+          "qnodes": 91013,
+          "ms": 11.478,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 4,
+          "nodes": 387296,
+          "qnodes": 384529,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1245,
+          "depth": 6,
+          "nodes": 4357600,
+          "qnodes": 4327293,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 4,
+          "nodes": 379309,
+          "qnodes": 378361,
+          "ms": 39.472,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            12,
+            6
+          ],
+          "value": -1173,
+          "depth": 3,
+          "nodes": 451680,
+          "qnodes": 451379,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1209,
+          "depth": 5,
+          "nodes": 5425856,
+          "qnodes": 5420784,
+          "ms": 500.0,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1218,
+          "depth": 4,
+          "nodes": 379309,
+          "qnodes": 378361,
+          "ms": 41.482,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            12,
+            6
+          ],
+          "value": -1173,
+          "depth": 3,
+          "nodes": 419040,
+          "qnodes": 418753,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1209,
+          "depth": 5,
+          "nodes": 5054752,
+          "qnodes": 5049883,
+          "ms": 500.002,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921370761",
+    "turn": 7,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      3,
+      1,
+      8
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            10
+          ],
+          "value": -1148,
+          "depth": 4,
+          "nodes": 377,
+          "qnodes": 309,
+          "ms": 0.058,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1110,
+          "depth": 9,
+          "nodes": 572992,
+          "qnodes": 490724,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1064,
+          "depth": 11,
+          "nodes": 6194144,
+          "qnodes": 5282745,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            10
+          ],
+          "value": -1148,
+          "depth": 4,
+          "nodes": 377,
+          "qnodes": 309,
+          "ms": 0.064,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1110,
+          "depth": 9,
+          "nodes": 530304,
+          "qnodes": 455841,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1064,
+          "depth": 11,
+          "nodes": 5477344,
+          "qnodes": 4646293,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            10
+          ],
+          "value": -1148,
+          "depth": 4,
+          "nodes": 377,
+          "qnodes": 309,
+          "ms": 0.059,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1110,
+          "depth": 9,
+          "nodes": 591648,
+          "qnodes": 506248,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1064,
+          "depth": 11,
+          "nodes": 6217216,
+          "qnodes": 5303339,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            10
+          ],
+          "value": -1148,
+          "depth": 4,
+          "nodes": 377,
+          "qnodes": 309,
+          "ms": 0.062,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1110,
+          "depth": 9,
+          "nodes": 520192,
+          "qnodes": 446989,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1064,
+          "depth": 11,
+          "nodes": 5493376,
+          "qnodes": 4660317,
+          "ms": 500.002,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921370761",
+    "turn": 9,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      1,
+      1,
+      62
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            10
+          ],
+          "value": -1130,
+          "depth": 4,
+          "nodes": 1389,
+          "qnodes": 1172,
+          "ms": 0.166,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            62
+          ],
+          "value": -1064,
+          "depth": 9,
+          "nodes": 572544,
+          "qnodes": 476407,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            62
+          ],
+          "value": -1064,
+          "depth": 9,
+          "nodes": 6025216,
+          "qnodes": 5258030,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            10
+          ],
+          "value": -1130,
+          "depth": 4,
+          "nodes": 1389,
+          "qnodes": 1172,
+          "ms": 0.179,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            62
+          ],
+          "value": -1064,
+          "depth": 9,
+          "nodes": 509760,
+          "qnodes": 419822,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            62
+          ],
+          "value": -1064,
+          "depth": 9,
+          "nodes": 5289536,
+          "qnodes": 4616431,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            10
+          ],
+          "value": -1130,
+          "depth": 4,
+          "nodes": 1389,
+          "qnodes": 1172,
+          "ms": 0.169,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            62
+          ],
+          "value": -1064,
+          "depth": 9,
+          "nodes": 543968,
+          "qnodes": 450538,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            62
+          ],
+          "value": -1064,
+          "depth": 9,
+          "nodes": 6074432,
+          "qnodes": 5301034,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            10
+          ],
+          "value": -1130,
+          "depth": 4,
+          "nodes": 1389,
+          "qnodes": 1172,
+          "ms": 0.181,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            62
+          ],
+          "value": -1064,
+          "depth": 9,
+          "nodes": 496512,
+          "qnodes": 407611,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            62
+          ],
+          "value": -1064,
+          "depth": 9,
+          "nodes": 5181920,
+          "qnodes": 4519733,
+          "ms": 500.002,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921369625",
+    "turn": 53,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      2,
+      10,
+      6
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1227,
+          "depth": 4,
+          "nodes": 7692,
+          "qnodes": 7019,
+          "ms": 0.966,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1228,
+          "depth": 7,
+          "nodes": 465408,
+          "qnodes": 404877,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1229,
+          "depth": 8,
+          "nodes": 4978592,
+          "qnodes": 4448113,
+          "ms": 500.003,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1227,
+          "depth": 4,
+          "nodes": 7692,
+          "qnodes": 7019,
+          "ms": 1.07,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1228,
+          "depth": 7,
+          "nodes": 428864,
+          "qnodes": 373350,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1229,
+          "depth": 8,
+          "nodes": 4440384,
+          "qnodes": 3977526,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1227,
+          "depth": 4,
+          "nodes": 10490,
+          "qnodes": 9817,
+          "ms": 1.384,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1228,
+          "depth": 7,
+          "nodes": 438912,
+          "qnodes": 390564,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1229,
+          "depth": 8,
+          "nodes": 4490304,
+          "qnodes": 4161747,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1227,
+          "depth": 4,
+          "nodes": 10490,
+          "qnodes": 9817,
+          "ms": 1.498,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1228,
+          "depth": 7,
+          "nodes": 396640,
+          "qnodes": 354169,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1229,
+          "depth": 8,
+          "nodes": 4080160,
+          "qnodes": 3776874,
+          "ms": 500.003,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921369625",
+    "turn": 55,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      2,
+      10,
+      6
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1229,
+          "depth": 4,
+          "nodes": 9170,
+          "qnodes": 8579,
+          "ms": 1.245,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1246,
+          "depth": 7,
+          "nodes": 403168,
+          "qnodes": 368900,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            10,
+            46
+          ],
+          "value": -1284,
+          "depth": 8,
+          "nodes": 4520288,
+          "qnodes": 4066836,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1229,
+          "depth": 4,
+          "nodes": 9170,
+          "qnodes": 8579,
+          "ms": 1.29,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1246,
+          "depth": 7,
+          "nodes": 381664,
+          "qnodes": 349405,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            10,
+            46
+          ],
+          "value": -1284,
+          "depth": 8,
+          "nodes": 4056128,
+          "qnodes": 3667965,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1229,
+          "depth": 4,
+          "nodes": 9947,
+          "qnodes": 9356,
+          "ms": 1.301,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1229,
+          "depth": 6,
+          "nodes": 367104,
+          "qnodes": 344958,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            10,
+            46
+          ],
+          "value": -1284,
+          "depth": 8,
+          "nodes": 4356000,
+          "qnodes": 4014200,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1229,
+          "depth": 4,
+          "nodes": 9947,
+          "qnodes": 9356,
+          "ms": 1.394,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            10,
+            6
+          ],
+          "value": -1229,
+          "depth": 6,
+          "nodes": 346816,
+          "qnodes": 325107,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            10,
+            46
+          ],
+          "value": -1284,
+          "depth": 8,
+          "nodes": 3693056,
+          "qnodes": 3396876,
+          "ms": 500.002,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921369478",
+    "turn": 47,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      2,
+      12,
+      0
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1046,
+          "depth": 4,
+          "nodes": 6728,
+          "qnodes": 5872,
+          "ms": 0.958,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1038,
+          "depth": 7,
+          "nodes": 453824,
+          "qnodes": 381135,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1050,
+          "depth": 8,
+          "nodes": 4935424,
+          "qnodes": 4201580,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1046,
+          "depth": 4,
+          "nodes": 6728,
+          "qnodes": 5872,
+          "ms": 0.901,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1038,
+          "depth": 7,
+          "nodes": 434784,
+          "qnodes": 366817,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1050,
+          "depth": 8,
+          "nodes": 4549600,
+          "qnodes": 3866328,
+          "ms": 500.0,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1046,
+          "depth": 4,
+          "nodes": 6728,
+          "qnodes": 5872,
+          "ms": 0.814,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1038,
+          "depth": 7,
+          "nodes": 478080,
+          "qnodes": 405413,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1050,
+          "depth": 8,
+          "nodes": 5072160,
+          "qnodes": 4407245,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1046,
+          "depth": 4,
+          "nodes": 6728,
+          "qnodes": 5872,
+          "ms": 0.865,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1038,
+          "depth": 7,
+          "nodes": 446816,
+          "qnodes": 381760,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "value": -1050,
+          "depth": 8,
+          "nodes": 4531136,
+          "qnodes": 3889826,
+          "ms": 500.0,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921369478",
+    "turn": 49,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      1,
+      1,
+      63
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            63
+          ],
+          "value": -1045,
+          "depth": 4,
+          "nodes": 7577,
+          "qnodes": 6330,
+          "ms": 0.947,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            63
+          ],
+          "value": -1034,
+          "depth": 7,
+          "nodes": 458304,
+          "qnodes": 372855,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            63
+          ],
+          "value": -1034,
+          "depth": 9,
+          "nodes": 4719040,
+          "qnodes": 3778648,
+          "ms": 500.003,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            63
+          ],
+          "value": -1045,
+          "depth": 4,
+          "nodes": 7577,
+          "qnodes": 6330,
+          "ms": 1.034,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            63
+          ],
+          "value": -1034,
+          "depth": 7,
+          "nodes": 420448,
+          "qnodes": 341659,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            63
+          ],
+          "value": -1034,
+          "depth": 9,
+          "nodes": 4204480,
+          "qnodes": 3337439,
+          "ms": 500.003,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            63
+          ],
+          "value": -1045,
+          "depth": 4,
+          "nodes": 7577,
+          "qnodes": 6330,
+          "ms": 1.094,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            63
+          ],
+          "value": -1034,
+          "depth": 7,
+          "nodes": 417280,
+          "qnodes": 339071,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            63
+          ],
+          "value": -1034,
+          "depth": 9,
+          "nodes": 4578304,
+          "qnodes": 3667187,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            63
+          ],
+          "value": -1045,
+          "depth": 4,
+          "nodes": 7577,
+          "qnodes": 6330,
+          "ms": 1.247,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            63
+          ],
+          "value": -1034,
+          "depth": 7,
+          "nodes": 409824,
+          "qnodes": 333044,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            63
+          ],
+          "value": -1034,
+          "depth": 9,
+          "nodes": 4250464,
+          "qnodes": 3385813,
+          "ms": 500.002,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921369019",
+    "turn": 33,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      1,
+      11,
+      36
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            11,
+            36
+          ],
+          "value": -130,
+          "depth": 4,
+          "nodes": 6247,
+          "qnodes": 5444,
+          "ms": 0.676,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            11,
+            36
+          ],
+          "value": -124,
+          "depth": 7,
+          "nodes": 526912,
+          "qnodes": 453175,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            11,
+            36
+          ],
+          "value": -144,
+          "depth": 8,
+          "nodes": 5443008,
+          "qnodes": 4859264,
+          "ms": 500.003,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            1,
+            11,
+            36
+          ],
+          "value": -130,
+          "depth": 4,
+          "nodes": 6247,
+          "qnodes": 5444,
+          "ms": 0.763,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            11,
+            36
+          ],
+          "value": -124,
+          "depth": 7,
+          "nodes": 484992,
+          "qnodes": 417651,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            11,
+            36
+          ],
+          "value": -144,
+          "depth": 8,
+          "nodes": 4984352,
+          "qnodes": 4453422,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            11,
+            36
+          ],
+          "value": -130,
+          "depth": 4,
+          "nodes": 6349,
+          "qnodes": 5546,
+          "ms": 0.699,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            11,
+            36
+          ],
+          "value": -124,
+          "depth": 7,
+          "nodes": 540192,
+          "qnodes": 465308,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            11,
+            36
+          ],
+          "value": -144,
+          "depth": 8,
+          "nodes": 5518400,
+          "qnodes": 4929510,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            1,
+            11,
+            36
+          ],
+          "value": -130,
+          "depth": 4,
+          "nodes": 6349,
+          "qnodes": 5546,
+          "ms": 0.758,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            11,
+            36
+          ],
+          "value": -124,
+          "depth": 7,
+          "nodes": 490720,
+          "qnodes": 422759,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            11,
+            36
+          ],
+          "value": -144,
+          "depth": 8,
+          "nodes": 4891872,
+          "qnodes": 4375797,
+          "ms": 500.001,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921369019",
+    "turn": 35,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      1,
+      1,
+      49
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            49
+          ],
+          "value": -128,
+          "depth": 4,
+          "nodes": 5136,
+          "qnodes": 4327,
+          "ms": 0.675,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            49
+          ],
+          "value": -144,
+          "depth": 6,
+          "nodes": 497856,
+          "qnodes": 423289,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            49
+          ],
+          "value": -1187,
+          "depth": 7,
+          "nodes": 5048256,
+          "qnodes": 4545964,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            49
+          ],
+          "value": -128,
+          "depth": 4,
+          "nodes": 5136,
+          "qnodes": 4327,
+          "ms": 0.707,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            49
+          ],
+          "value": -144,
+          "depth": 6,
+          "nodes": 446464,
+          "qnodes": 380046,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            49
+          ],
+          "value": -1187,
+          "depth": 7,
+          "nodes": 4554304,
+          "qnodes": 4087965,
+          "ms": 500.003,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            49
+          ],
+          "value": -128,
+          "depth": 4,
+          "nodes": 5136,
+          "qnodes": 4327,
+          "ms": 0.653,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            49
+          ],
+          "value": -144,
+          "depth": 6,
+          "nodes": 481824,
+          "qnodes": 409922,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            49
+          ],
+          "value": -1187,
+          "depth": 7,
+          "nodes": 5088416,
+          "qnodes": 4582244,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            49
+          ],
+          "value": -128,
+          "depth": 4,
+          "nodes": 5136,
+          "qnodes": 4327,
+          "ms": 0.694,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            49
+          ],
+          "value": -144,
+          "depth": 6,
+          "nodes": 461344,
+          "qnodes": 392610,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            49
+          ],
+          "value": -1187,
+          "depth": 7,
+          "nodes": 4558848,
+          "qnodes": 4091201,
+          "ms": 500.003,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921368268",
+    "turn": 31,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      1,
+      1,
+      73
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            59
+          ],
+          "value": -1205,
+          "depth": 4,
+          "nodes": 8581,
+          "qnodes": 7681,
+          "ms": 0.978,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            59
+          ],
+          "value": -1154,
+          "depth": 7,
+          "nodes": 492224,
+          "qnodes": 420959,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            59
+          ],
+          "value": -1196,
+          "depth": 8,
+          "nodes": 5113216,
+          "qnodes": 4288122,
+          "ms": 500.003,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            59
+          ],
+          "value": -1205,
+          "depth": 4,
+          "nodes": 8581,
+          "qnodes": 7681,
+          "ms": 1.137,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            59
+          ],
+          "value": -1196,
+          "depth": 6,
+          "nodes": 424896,
+          "qnodes": 359363,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            59
+          ],
+          "value": -1196,
+          "depth": 8,
+          "nodes": 4538240,
+          "qnodes": 3844650,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            59
+          ],
+          "value": -1205,
+          "depth": 4,
+          "nodes": 8581,
+          "qnodes": 7681,
+          "ms": 1.092,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            59
+          ],
+          "value": -1154,
+          "depth": 7,
+          "nodes": 486560,
+          "qnodes": 416054,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            59
+          ],
+          "value": -1196,
+          "depth": 8,
+          "nodes": 5116544,
+          "qnodes": 4352867,
+          "ms": 500.0,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            59
+          ],
+          "value": -1205,
+          "depth": 4,
+          "nodes": 8581,
+          "qnodes": 7681,
+          "ms": 1.053,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            59
+          ],
+          "value": -1154,
+          "depth": 7,
+          "nodes": 446272,
+          "qnodes": 379079,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            59
+          ],
+          "value": -1196,
+          "depth": 8,
+          "nodes": 4683072,
+          "qnodes": 3998989,
+          "ms": 500.0,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921368268",
+    "turn": 33,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      1,
+      1,
+      72
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            72
+          ],
+          "value": -1196,
+          "depth": 4,
+          "nodes": 3836,
+          "qnodes": 3340,
+          "ms": 0.511,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            72
+          ],
+          "value": -1178,
+          "depth": 7,
+          "nodes": 504480,
+          "qnodes": 447735,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            72
+          ],
+          "value": -1178,
+          "depth": 7,
+          "nodes": 5620864,
+          "qnodes": 5303464,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            72
+          ],
+          "value": -1196,
+          "depth": 4,
+          "nodes": 3836,
+          "qnodes": 3340,
+          "ms": 0.528,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            72
+          ],
+          "value": -1178,
+          "depth": 7,
+          "nodes": 441984,
+          "qnodes": 389310,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            72
+          ],
+          "value": -1178,
+          "depth": 7,
+          "nodes": 4958528,
+          "qnodes": 4671395,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            72
+          ],
+          "value": -1196,
+          "depth": 4,
+          "nodes": 3836,
+          "qnodes": 3340,
+          "ms": 0.518,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            72
+          ],
+          "value": -1178,
+          "depth": 7,
+          "nodes": 481536,
+          "qnodes": 426530,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            72
+          ],
+          "value": -1178,
+          "depth": 7,
+          "nodes": 5591040,
+          "qnodes": 5276007,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            72
+          ],
+          "value": -1196,
+          "depth": 4,
+          "nodes": 3836,
+          "qnodes": 3340,
+          "ms": 0.551,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            72
+          ],
+          "value": -1178,
+          "depth": 7,
+          "nodes": 453184,
+          "qnodes": 399922,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            72
+          ],
+          "value": -1178,
+          "depth": 7,
+          "nodes": 5015616,
+          "qnodes": 4725097,
+          "ms": 500.001,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921366239",
+    "turn": 83,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      2,
+      10,
+      3
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            2,
+            10,
+            3
+          ],
+          "value": -2231,
+          "depth": 4,
+          "nodes": 4656,
+          "qnodes": 4024,
+          "ms": 0.661,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            10,
+            3
+          ],
+          "value": -1248,
+          "depth": 7,
+          "nodes": 452672,
+          "qnodes": 373734,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            10,
+            3
+          ],
+          "value": -1242,
+          "depth": 9,
+          "nodes": 4913184,
+          "qnodes": 4061330,
+          "ms": 500.003,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            2,
+            10,
+            3
+          ],
+          "value": -2231,
+          "depth": 4,
+          "nodes": 4656,
+          "qnodes": 4024,
+          "ms": 0.724,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            10,
+            3
+          ],
+          "value": -1248,
+          "depth": 7,
+          "nodes": 420480,
+          "qnodes": 347164,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            10,
+            3
+          ],
+          "value": -1242,
+          "depth": 9,
+          "nodes": 4567648,
+          "qnodes": 3763270,
+          "ms": 500.0,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            2,
+            10,
+            3
+          ],
+          "value": -2231,
+          "depth": 4,
+          "nodes": 4941,
+          "qnodes": 4309,
+          "ms": 0.771,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            10,
+            3
+          ],
+          "value": -1248,
+          "depth": 7,
+          "nodes": 420832,
+          "qnodes": 356014,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            10,
+            3
+          ],
+          "value": -1242,
+          "depth": 9,
+          "nodes": 4799840,
+          "qnodes": 4048549,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            2,
+            10,
+            3
+          ],
+          "value": -2231,
+          "depth": 4,
+          "nodes": 4941,
+          "qnodes": 4309,
+          "ms": 0.792,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            10,
+            3
+          ],
+          "value": -1248,
+          "depth": 7,
+          "nodes": 398048,
+          "qnodes": 338755,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            10,
+            3
+          ],
+          "value": -1242,
+          "depth": 9,
+          "nodes": 4393856,
+          "qnodes": 3662051,
+          "ms": 500.001,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921366239",
+    "turn": 85,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      1,
+      10,
+      46
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            10,
+            46
+          ],
+          "value": -1273,
+          "depth": 4,
+          "nodes": 4365,
+          "qnodes": 3726,
+          "ms": 0.687,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            10,
+            46
+          ],
+          "value": -1237,
+          "depth": 7,
+          "nodes": 455328,
+          "qnodes": 399705,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            10,
+            34
+          ],
+          "value": -1237,
+          "depth": 9,
+          "nodes": 5000576,
+          "qnodes": 4176360,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            1,
+            10,
+            46
+          ],
+          "value": -1273,
+          "depth": 4,
+          "nodes": 4365,
+          "qnodes": 3726,
+          "ms": 0.79,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            10,
+            46
+          ],
+          "value": -1237,
+          "depth": 7,
+          "nodes": 425312,
+          "qnodes": 373501,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            10,
+            34
+          ],
+          "value": -1237,
+          "depth": 9,
+          "nodes": 4730560,
+          "qnodes": 3925504,
+          "ms": 500.005,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            10,
+            46
+          ],
+          "value": -1273,
+          "depth": 4,
+          "nodes": 4698,
+          "qnodes": 4059,
+          "ms": 0.779,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            10,
+            46
+          ],
+          "value": -1237,
+          "depth": 7,
+          "nodes": 421664,
+          "qnodes": 378981,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            10,
+            34
+          ],
+          "value": -1237,
+          "depth": 9,
+          "nodes": 5032832,
+          "qnodes": 4255004,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            1,
+            10,
+            46
+          ],
+          "value": -1273,
+          "depth": 4,
+          "nodes": 4698,
+          "qnodes": 4059,
+          "ms": 0.741,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            10,
+            46
+          ],
+          "value": -1237,
+          "depth": 7,
+          "nodes": 410144,
+          "qnodes": 369078,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            10,
+            46
+          ],
+          "value": -1269,
+          "depth": 8,
+          "nodes": 4712896,
+          "qnodes": 3982149,
+          "ms": 500.002,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921365944",
+    "turn": 115,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      1,
+      1,
+      61
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            75
+          ],
+          "value": -102,
+          "depth": 4,
+          "nodes": 935,
+          "qnodes": 777,
+          "ms": 0.104,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            61
+          ],
+          "value": -979,
+          "depth": 11,
+          "nodes": 684736,
+          "qnodes": 481014,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            61
+          ],
+          "value": -1238,
+          "depth": 14,
+          "nodes": 7548608,
+          "qnodes": 5304803,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            75
+          ],
+          "value": -102,
+          "depth": 4,
+          "nodes": 935,
+          "qnodes": 777,
+          "ms": 0.112,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            61
+          ],
+          "value": -1080,
+          "depth": 12,
+          "nodes": 671872,
+          "qnodes": 477206,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            61
+          ],
+          "value": -1082,
+          "depth": 14,
+          "nodes": 7430432,
+          "qnodes": 5521249,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            75
+          ],
+          "value": -102,
+          "depth": 4,
+          "nodes": 952,
+          "qnodes": 794,
+          "ms": 0.109,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            61
+          ],
+          "value": -979,
+          "depth": 11,
+          "nodes": 684352,
+          "qnodes": 496780,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            61
+          ],
+          "value": -1238,
+          "depth": 14,
+          "nodes": 7337408,
+          "qnodes": 5531436,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            75
+          ],
+          "value": -102,
+          "depth": 4,
+          "nodes": 952,
+          "qnodes": 794,
+          "ms": 0.113,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            61
+          ],
+          "value": -979,
+          "depth": 11,
+          "nodes": 661120,
+          "qnodes": 488916,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            61
+          ],
+          "value": -1080,
+          "depth": 14,
+          "nodes": 7192032,
+          "qnodes": 5644544,
+          "ms": 500.002,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921365944",
+    "turn": 117,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      2,
+      8,
+      0
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            2,
+            8,
+            0
+          ],
+          "value": -677,
+          "depth": 4,
+          "nodes": 569,
+          "qnodes": 469,
+          "ms": 0.082,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            8,
+            0
+          ],
+          "value": -700,
+          "depth": 13,
+          "nodes": 710144,
+          "qnodes": 483760,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            8,
+            0
+          ],
+          "value": -705,
+          "depth": 16,
+          "nodes": 8064384,
+          "qnodes": 5301672,
+          "ms": 500.0,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            2,
+            8,
+            0
+          ],
+          "value": -677,
+          "depth": 4,
+          "nodes": 569,
+          "qnodes": 469,
+          "ms": 0.091,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            8,
+            0
+          ],
+          "value": -700,
+          "depth": 13,
+          "nodes": 681888,
+          "qnodes": 456399,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            8,
+            0
+          ],
+          "value": -705,
+          "depth": 16,
+          "nodes": 7589568,
+          "qnodes": 4976953,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            2,
+            8,
+            0
+          ],
+          "value": -677,
+          "depth": 4,
+          "nodes": 604,
+          "qnodes": 504,
+          "ms": 0.09,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            8,
+            0
+          ],
+          "value": -700,
+          "depth": 13,
+          "nodes": 695040,
+          "qnodes": 485566,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            8,
+            0
+          ],
+          "value": -705,
+          "depth": 16,
+          "nodes": 7826944,
+          "qnodes": 5678684,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            2,
+            8,
+            0
+          ],
+          "value": -677,
+          "depth": 4,
+          "nodes": 604,
+          "qnodes": 504,
+          "ms": 0.087,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            2,
+            8,
+            0
+          ],
+          "value": -700,
+          "depth": 13,
+          "nodes": 689856,
+          "qnodes": 478772,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            2,
+            8,
+            0
+          ],
+          "value": -705,
+          "depth": 16,
+          "nodes": 7621472,
+          "qnodes": 5284058,
+          "ms": 500.002,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921365647",
+    "turn": 15,
+    "kind": "horizon_neighbor",
+    "rng": 1,
+    "actual": [
+      1,
+      11,
+      86
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            11,
+            60
+          ],
+          "value": -77,
+          "depth": 4,
+          "nodes": 16749,
+          "qnodes": 15541,
+          "ms": 1.397,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            11,
+            60
+          ],
+          "value": 34,
+          "depth": 7,
+          "nodes": 558048,
+          "qnodes": 509568,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            11,
+            60
+          ],
+          "value": 34,
+          "depth": 7,
+          "nodes": 5048320,
+          "qnodes": 4690778,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            1,
+            11,
+            60
+          ],
+          "value": -95,
+          "depth": 4,
+          "nodes": 17966,
+          "qnodes": 16681,
+          "ms": 1.618,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            11,
+            86
+          ],
+          "value": -42,
+          "depth": 6,
+          "nodes": 504768,
+          "qnodes": 453067,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            11,
+            60
+          ],
+          "value": -100,
+          "depth": 8,
+          "nodes": 4774272,
+          "qnodes": 4463221,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            11,
+            86
+          ],
+          "value": -29,
+          "depth": 4,
+          "nodes": 10174,
+          "qnodes": 9498,
+          "ms": 1.002,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            11,
+            86
+          ],
+          "value": -42,
+          "depth": 6,
+          "nodes": 516032,
+          "qnodes": 486396,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            11,
+            60
+          ],
+          "value": 30,
+          "depth": 7,
+          "nodes": 4751136,
+          "qnodes": 4544149,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            1,
+            11,
+            86
+          ],
+          "value": -29,
+          "depth": 4,
+          "nodes": 10174,
+          "qnodes": 9498,
+          "ms": 1.043,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            11,
+            86
+          ],
+          "value": -42,
+          "depth": 6,
+          "nodes": 425920,
+          "qnodes": 407826,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            11,
+            86
+          ],
+          "value": -37,
+          "depth": 7,
+          "nodes": 4265952,
+          "qnodes": 4056510,
+          "ms": 500.0,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921365647",
+    "turn": 17,
+    "kind": "horizon_neighbor",
+    "rng": 1,
+    "actual": [
+      1,
+      1,
+      73
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            73
+          ],
+          "value": -42,
+          "depth": 4,
+          "nodes": 13275,
+          "qnodes": 12893,
+          "ms": 1.389,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            73
+          ],
+          "value": 21,
+          "depth": 7,
+          "nodes": 505120,
+          "qnodes": 482629,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            73
+          ],
+          "value": -157,
+          "depth": 8,
+          "nodes": 5423104,
+          "qnodes": 5126192,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            73
+          ],
+          "value": -42,
+          "depth": 4,
+          "nodes": 12811,
+          "qnodes": 12430,
+          "ms": 1.246,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            73
+          ],
+          "value": -101,
+          "depth": 6,
+          "nodes": 472256,
+          "qnodes": 449628,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            73
+          ],
+          "value": -130,
+          "depth": 8,
+          "nodes": 4994432,
+          "qnodes": 4704394,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            73
+          ],
+          "value": -42,
+          "depth": 4,
+          "nodes": 15488,
+          "qnodes": 15077,
+          "ms": 1.654,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            73
+          ],
+          "value": -84,
+          "depth": 6,
+          "nodes": 473280,
+          "qnodes": 460618,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            73
+          ],
+          "value": 30,
+          "depth": 7,
+          "nodes": 5200352,
+          "qnodes": 5056566,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            73
+          ],
+          "value": -42,
+          "depth": 4,
+          "nodes": 12737,
+          "qnodes": 12357,
+          "ms": 1.296,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            73
+          ],
+          "value": -29,
+          "depth": 6,
+          "nodes": 472608,
+          "qnodes": 454308,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            73
+          ],
+          "value": -130,
+          "depth": 8,
+          "nodes": 4839072,
+          "qnodes": 4648070,
+          "ms": 500.004,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921365647",
+    "turn": 19,
+    "kind": "horizon_neighbor",
+    "rng": 1,
+    "actual": [
+      3,
+      1,
+      8
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "value": -84,
+          "depth": 4,
+          "nodes": 19436,
+          "qnodes": 18627,
+          "ms": 2.019,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "value": -157,
+          "depth": 6,
+          "nodes": 491392,
+          "qnodes": 468832,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            60
+          ],
+          "value": -484,
+          "depth": 8,
+          "nodes": 5090528,
+          "qnodes": 4851110,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -29,
+          "depth": 4,
+          "nodes": 15395,
+          "qnodes": 14869,
+          "ms": 1.768,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "value": -95,
+          "depth": 6,
+          "nodes": 490208,
+          "qnodes": 472901,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "value": -125,
+          "depth": 8,
+          "nodes": 4918752,
+          "qnodes": 4644159,
+          "ms": 500.003,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "value": -84,
+          "depth": 4,
+          "nodes": 27337,
+          "qnodes": 26531,
+          "ms": 3.497,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            60
+          ],
+          "value": -1106,
+          "depth": 6,
+          "nodes": 450784,
+          "qnodes": 437688,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": 29,
+          "depth": 7,
+          "nodes": 4729024,
+          "qnodes": 4570522,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -29,
+          "depth": 4,
+          "nodes": 21478,
+          "qnodes": 20952,
+          "ms": 2.485,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -80,
+          "depth": 6,
+          "nodes": 459264,
+          "qnodes": 446248,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -132,
+          "depth": 8,
+          "nodes": 4878304,
+          "qnodes": 4701535,
+          "ms": 500.0,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921365647",
+    "turn": 21,
+    "kind": "horizon_neighbor",
+    "rng": 1,
+    "actual": [
+      3,
+      1,
+      8
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1195,
+          "depth": 4,
+          "nodes": 17420,
+          "qnodes": 17140,
+          "ms": 2.136,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": 24,
+          "depth": 7,
+          "nodes": 452096,
+          "qnodes": 418520,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": 21,
+          "depth": 9,
+          "nodes": 5716352,
+          "qnodes": 5360815,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -99,
+          "depth": 4,
+          "nodes": 15430,
+          "qnodes": 15106,
+          "ms": 1.997,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -99,
+          "depth": 7,
+          "nodes": 413440,
+          "qnodes": 391814,
+          "ms": 49.004,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -522,
+          "depth": 10,
+          "nodes": 4991232,
+          "qnodes": 4375741,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1195,
+          "depth": 4,
+          "nodes": 56520,
+          "qnodes": 56240,
+          "ms": 6.661,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1195,
+          "depth": 6,
+          "nodes": 425120,
+          "qnodes": 412630,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": 21,
+          "depth": 9,
+          "nodes": 5573248,
+          "qnodes": 5380814,
+          "ms": 500.003,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -80,
+          "depth": 4,
+          "nodes": 34810,
+          "qnodes": 34486,
+          "ms": 4.685,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -132,
+          "depth": 6,
+          "nodes": 423104,
+          "qnodes": 416972,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -491,
+          "depth": 9,
+          "nodes": 4717408,
+          "qnodes": 4414670,
+          "ms": 500.001,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921365647",
+    "turn": 23,
+    "kind": "horizon_neighbor",
+    "rng": 1,
+    "actual": [
+      3,
+      1,
+      8
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1195,
+          "depth": 4,
+          "nodes": 17618,
+          "qnodes": 17325,
+          "ms": 2.122,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": 21,
+          "depth": 7,
+          "nodes": 431424,
+          "qnodes": 389702,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": 18,
+          "depth": 9,
+          "nodes": 5902016,
+          "qnodes": 5527564,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -96,
+          "depth": 4,
+          "nodes": 17166,
+          "qnodes": 16829,
+          "ms": 2.25,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -103,
+          "depth": 7,
+          "nodes": 408000,
+          "qnodes": 380539,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -106,
+          "depth": 10,
+          "nodes": 4819648,
+          "qnodes": 4367139,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1195,
+          "depth": 4,
+          "nodes": 51544,
+          "qnodes": 51251,
+          "ms": 6.12,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -1197,
+          "depth": 6,
+          "nodes": 428032,
+          "qnodes": 415069,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": 18,
+          "depth": 9,
+          "nodes": 5590336,
+          "qnodes": 5333479,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -77,
+          "depth": 4,
+          "nodes": 39744,
+          "qnodes": 39407,
+          "ms": 5.239,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -74,
+          "depth": 6,
+          "nodes": 423904,
+          "qnodes": 414132,
+          "ms": 49.003,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -115,
+          "depth": 9,
+          "nodes": 4903520,
+          "qnodes": 4596402,
+          "ms": 500.002,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921365647",
+    "turn": 93,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      1,
+      1,
+      77
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            89
+          ],
+          "value": -4641,
+          "depth": 4,
+          "nodes": 4298,
+          "qnodes": 4169,
+          "ms": 0.363,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            77
+          ],
+          "value": -5761,
+          "depth": 9,
+          "nodes": 661344,
+          "qnodes": 521032,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            77
+          ],
+          "value": -5870,
+          "depth": 11,
+          "nodes": 7180736,
+          "qnodes": 5625914,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            89
+          ],
+          "value": -4641,
+          "depth": 4,
+          "nodes": 4298,
+          "qnodes": 4169,
+          "ms": 0.363,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            77
+          ],
+          "value": -5761,
+          "depth": 9,
+          "nodes": 633088,
+          "qnodes": 497865,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            77
+          ],
+          "value": -5870,
+          "depth": 11,
+          "nodes": 6805344,
+          "qnodes": 5317852,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            89
+          ],
+          "value": -4641,
+          "depth": 4,
+          "nodes": 4298,
+          "qnodes": 4169,
+          "ms": 0.343,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            77
+          ],
+          "value": -5761,
+          "depth": 9,
+          "nodes": 634752,
+          "qnodes": 499226,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            77
+          ],
+          "value": -5870,
+          "depth": 11,
+          "nodes": 7157632,
+          "qnodes": 5607246,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            89
+          ],
+          "value": -4641,
+          "depth": 4,
+          "nodes": 4298,
+          "qnodes": 4169,
+          "ms": 0.352,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            77
+          ],
+          "value": -5761,
+          "depth": 9,
+          "nodes": 632224,
+          "qnodes": 497136,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            77
+          ],
+          "value": -5870,
+          "depth": 11,
+          "nodes": 6658880,
+          "qnodes": 5196251,
+          "ms": 500.002,
+          "stopped": true
+        }
+      }
+    }
+  },
+  {
+    "game": "921365647",
+    "turn": 95,
+    "kind": "deficit_widens",
+    "rng": 1,
+    "actual": [
+      1,
+      1,
+      64
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            64
+          ],
+          "value": -4633,
+          "depth": 4,
+          "nodes": 1408,
+          "qnodes": 1294,
+          "ms": 0.15,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            64
+          ],
+          "value": -5870,
+          "depth": 9,
+          "nodes": 658752,
+          "qnodes": 513047,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            64
+          ],
+          "value": -5870,
+          "depth": 10,
+          "nodes": 7147328,
+          "qnodes": 5561760,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            64
+          ],
+          "value": -4633,
+          "depth": 4,
+          "nodes": 1408,
+          "qnodes": 1294,
+          "ms": 0.149,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            64
+          ],
+          "value": -5870,
+          "depth": 9,
+          "nodes": 636384,
+          "qnodes": 493689,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            64
+          ],
+          "value": -5870,
+          "depth": 10,
+          "nodes": 6593792,
+          "qnodes": 5133569,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            64
+          ],
+          "value": -4633,
+          "depth": 4,
+          "nodes": 1408,
+          "qnodes": 1294,
+          "ms": 0.141,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            64
+          ],
+          "value": -5870,
+          "depth": 9,
+          "nodes": 642240,
+          "qnodes": 498645,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            64
+          ],
+          "value": -5870,
+          "depth": 10,
+          "nodes": 7246848,
+          "qnodes": 5638043,
+          "ms": 500.0,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            1,
+            1,
+            64
+          ],
+          "value": -4633,
+          "depth": 4,
+          "nodes": 1408,
+          "qnodes": 1294,
+          "ms": 0.145,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            64
+          ],
+          "value": -5870,
+          "depth": 9,
+          "nodes": 634048,
+          "qnodes": 491682,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            64
+          ],
+          "value": -5870,
+          "depth": 10,
+          "nodes": 6668064,
+          "qnodes": 5191885,
+          "ms": 500.002,
+          "stopped": true
+        }
+      }
+    }
+  }
+]

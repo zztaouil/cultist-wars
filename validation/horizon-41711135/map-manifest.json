@@ -1,0 +1,136 @@
+{
+  "development": [
+    {
+      "seed": 41712000,
+      "map_hash": "b54d01ceb9be9048ac1cb7eb7bff6d8c072d9f33e6dc5e85e0a9483bafb47ce0"
+    },
+    {
+      "seed": 41712001,
+      "map_hash": "569f7be27fd09613c4fccce7a7242cf42335e1912b3bcca74b99ec5187a5208f"
+    },
+    {
+      "seed": 41712002,
+      "map_hash": "215d43681478a80234af9be1f930e4f8e52af41fbabd0e99c9dd207c5dbf4cf8"
+    },
+    {
+      "seed": 41712003,
+      "map_hash": "6e23535efbafd8e4b045de3b814c34d1dbddeb9dc6eab0a917cb935d357f8aeb"
+    },
+    {
+      "seed": 41712004,
+      "map_hash": "1ec51072f3096399a17434d21f7d82aa30a15a55262cc44a3fb05bf6fbf3f697"
+    },
+    {
+      "seed": 41712005,
+      "map_hash": "420ab1a8b69c334f761616077520a328ad3c8d803eca63a2d3d5d4080f5e0cbb"
+    },
+    {
+      "seed": 41712006,
+      "map_hash": "e3135253544c457ccd99816e6230c4e409597b434a863453b123e4e0a0870863"
+    },
+    {
+      "seed": 41712007,
+      "map_hash": "1b59a7937d236e3411624ed7c8020fb92d24a7f8360f080ac06df3db12638e2a"
+    }
+  ],
+  "holdout": [
+    {
+      "seed": 41712008,
+      "map_hash": "4fb61602e7ae371b2acb251ce2951e42f3791a618fc9c95b8d60c012f1068a6e"
+    },
+    {
+      "seed": 41712009,
+      "map_hash": "ddddd2c77e9bc0359f79ecb034d8e583cca431cc884c73349579dc7c9f9b84cb"
+    },
+    {
+      "seed": 41712010,
+      "map_hash": "c4f34f7e9a1869cac3ce7e68bde3cae82867a6915e894124a7494f5c68acb130"
+    },
+    {
+      "seed": 41712011,
+      "map_hash": "850fd212c288e1ad701d1c2131a9b8c24fe25b845536c67a698b8be24d70aff4"
+    },
+    {
+      "seed": 41712012,
+      "map_hash": "e669229c691fc3d8275e911555c2ed44a75dcb9d9cb4de11a28448341968d9a0"
+    },
+    {
+      "seed": 41712013,
+      "map_hash": "03d2821946f27b8dde3c01d105c4e003b20d40a7b71b4e72e22a6117ca1000df"
+    },
+    {
+      "seed": 41712014,
+      "map_hash": "41abdc6924d22133cc4816f5e2efe6e02d2dca0c28caebd73f6e1c80f7708a4b"
+    },
+    {
+      "seed": 41712015,
+      "map_hash": "f632455e2bb91010b637742f499d99aec2e6ec134e316f57328719b9d4047841"
+    },
+    {
+      "seed": 41712016,
+      "map_hash": "353db2e26d801fd1f62a221f4dc6e1b45f3624a394444631bf94f7ba6f735820"
+    },
+    {
+      "seed": 41712017,
+      "map_hash": "7da4c0496f309688af642252aa4ca05e297176356385174d01f5e2e1268c0623"
+    },
+    {
+      "seed": 41712018,
+      "map_hash": "5b8f883799f47b4bd1fb7c86f0ccf076d00d78f2fd733f932216065762dde746"
+    },
+    {
+      "seed": 41712019,
+      "map_hash": "8e903d20d09a700322677815ca8593a27020556cc2dba8a8014aaa28899d5825"
+    },
+    {
+      "seed": 41712020,
+      "map_hash": "6ed3bd14edf8e5a64058f8acb0a1cc966d683557c52e1212a29071a716ad75f1"
+    },
+    {
+      "seed": 41712021,
+      "map_hash": "a4787f9bd271490b307a8548b3f349d5990ed6319a15c4d0842dd494560eb219"
+    },
+    {
+      "seed": 41712022,
+      "map_hash": "845e2acaa7aef2959407b8da8be8c4f687edc28d4b8a757513bfb31668571385"
+    },
+    {
+      "seed": 41712023,
+      "map_hash": "dd197276589b731f512cda29f7423926bf0fdafa4949405df8fe855226efe0d4"
+    }
+  ],
+  "reserve": [
+    {
+      "seed": 41712024,
+      "map_hash": "0fba65fcb6cc156c6ee4718f7857126cd2a4398e7fac61457ce5bf581405267b"
+    },
+    {
+      "seed": 41712025,
+      "map_hash": "8d4bb7abccc3d7a19d95d25e97c23a617d26bead4cee99587ac5118aa4f859bb"
+    },
+    {
+      "seed": 41712026,
+      "map_hash": "e2bf0db71470dbc668c4fd94233d4b3f011d76e8df807d2538f291fca43728e4"
+    },
+    {
+      "seed": 41712027,
+      "map_hash": "2529bd610a609c882e4d0c2a71abe8f2f523fb1cfe2a00b6507009806548bc61"
+    },
+    {
+      "seed": 41712028,
+      "map_hash": "50b51140093bc9ab6f7f3d7200159c1f0fa9fdf04e3b0b66799e7da3cc03ffde"
+    },
+    {
+      "seed": 41712029,
+      "map_hash": "6324347163dde9daeb7461a06dbbdeb3aa08cf849f5340d49ecd8ceca57a3e49"
+    },
+    {
+      "seed": 41712030,
+      "map_hash": "c38faaba9a1a8d4d7760ee089c0201b372eda14393b0640bbe1e7284b485f504"
+    },
+    {
+      "seed": 41712031,
+      "map_hash": "eebdf9f96f908d75fa50e9ab4b6287fe39027af25673ddd1d3e10e8ac1d860a6"
+    }
+  ]
+}

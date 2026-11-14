@@ -1,0 +1,14 @@
+{
+  "variant": "contest",
+  "tag": "horizon_contest_holdout",
+  "games": 32,
+  "W": 14,
+  "D": 5,
+  "L": 13,
+  "score": 51.56,
+  "pairs": 16,
+  "seat0": 62.5,
+  "seat1": 40.62,
+  "paired_lo": 44.53,
+  "paired_hi": 58.59
+}

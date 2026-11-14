@@ -1,0 +1,18 @@
+{
+  "baseline": {
+    "bytes": 88240,
+    "sha256": "902527dc4e76421fa7f6e20190d7a6d97a3ee8ef7e22e61deeb7caddb772b4e9"
+  },
+  "contest": {
+    "bytes": 89062,
+    "sha256": "eaafd28a94450b29e53b372b025eec01ba557d7118750912ee5da55a4dde1604"
+  },
+  "extension": {
+    "bytes": 88727,
+    "sha256": "79eba85007c7e1c14b45f2fa9021be49b4f7971a7789711607b5c8bcaa266b0a"
+  },
+  "combined": {
+    "bytes": 89549,
+    "sha256": "e6bdebc3a7fd6f31c1f73d418b7e6f698f75e80a0228813e4044846da3088b46"
+  }
+}

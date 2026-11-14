@@ -1,0 +1,50 @@
+[
+  {
+    "variant": "baseline",
+    "sanitized": false,
+    "returncode": 0,
+    "output": "PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking\n"
+  },
+  {
+    "variant": "baseline",
+    "sanitized": true,
+    "returncode": 0,
+    "output": "PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking\n"
+  },
+  {
+    "variant": "contest",
+    "sanitized": false,
+    "returncode": 0,
+    "output": "PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking\n"
+  },
+  {
+    "variant": "contest",
+    "sanitized": true,
+    "returncode": 0,
+    "output": "PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking\n"
+  },
+  {
+    "variant": "extension",
+    "sanitized": false,
+    "returncode": 0,
+    "output": "PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking\n"
+  },
+  {
+    "variant": "extension",
+    "sanitized": true,
+    "returncode": 0,
+    "output": "PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking\n"
+  },
+  {
+    "variant": "combined",
+    "sanitized": false,
+    "returncode": 0,
+    "output": "PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking\n"
+  },
+  {
+    "variant": "combined",
+    "sanitized": true,
+    "returncode": 0,
+    "output": "PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking\n"
+  }
+]

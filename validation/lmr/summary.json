@@ -1,0 +1,729 @@
+{
+  "development49": {
+    "games": 16,
+    "WDL": [
+      4,
+      3,
+      9
+    ],
+    "score": 0.34375,
+    "paired_bootstrap_95": [
+      0.21875,
+      0.46875
+    ],
+    "bots": [
+      {
+        "turns": 1193,
+        "depth_mean": 7.4174350377200335,
+        "nodes_mean": 489800.4174350377,
+        "q_share": 0.8016896811613047,
+        "wall_over_50ms": 0,
+        "max_ms": 49.707,
+        "metrics": {
+          "reductions": 0,
+          "researches": 0,
+          "research_nodes": 0,
+          "pvs": 25702,
+          "pvs_nodes": 41770140,
+          "aspiration": 958,
+          "aspiration_nodes": 32468236,
+          "tt_cut": 44004440,
+          "qtt_cut": 148004000
+        }
+      },
+      {
+        "turns": 1193,
+        "depth_mean": 7.6621961441743505,
+        "nodes_mean": 472887.0528080469,
+        "q_share": 0.80169074821866,
+        "wall_over_50ms": 0,
+        "max_ms": 49.064,
+        "metrics": {
+          "reductions": 10000729,
+          "researches": 127496,
+          "research_nodes": 22687874,
+          "pvs": 30582,
+          "pvs_nodes": 62003591,
+          "aspiration": 1040,
+          "aspiration_nodes": 23878019,
+          "tt_cut": 39830644,
+          "qtt_cut": 123979388
+        }
+      }
+    ]
+  },
+  "holdout49": {
+    "games": 32,
+    "WDL": [
+      14,
+      8,
+      10
+    ],
+    "score": 0.5625,
+    "paired_bootstrap_95": [
+      0.5,
+      0.625
+    ],
+    "bots": [
+      {
+        "turns": 2285,
+        "depth_mean": 7.226258205689278,
+        "nodes_mean": 458697.94573304156,
+        "q_share": 0.810304173833283,
+        "wall_over_50ms": 2,
+        "max_ms": 79.275,
+        "metrics": {
+          "reductions": 0,
+          "researches": 0,
+          "research_nodes": 0,
+          "pvs": 40508,
+          "pvs_nodes": 60644337,
+          "aspiration": 2378,
+          "aspiration_nodes": 49944654,
+          "tt_cut": 77687324,
+          "qtt_cut": 282764956
+        }
+      },
+      {
+        "turns": 2283,
+        "depth_mean": 7.424879544459045,
+        "nodes_mean": 447306.03022339026,
+        "q_share": 0.8095300896724636,
+        "wall_over_50ms": 2,
+        "max_ms": 51.311,
+        "metrics": {
+          "reductions": 15566681,
+          "researches": 217862,
+          "research_nodes": 38369255,
+          "pvs": 45211,
+          "pvs_nodes": 87987228,
+          "aspiration": 2284,
+          "aspiration_nodes": 39869041,
+          "tt_cut": 72266596,
+          "qtt_cut": 245524220
+        }
+      }
+    ]
+  },
+  "diagnosis": {
+    "0": {
+      "positions": 25,
+      "nodes": 2459359,
+      "seconds": 0.309054,
+      "q_share": 0.9722980662847515,
+      "mean_depth": 5.0
+    },
+    "1": {
+      "positions": 25,
+      "nodes": 2459359,
+      "seconds": 0.322744,
+      "q_share": 0.9722980662847515,
+      "mean_depth": 5.0,
+      "metrics": {
+        "unstable": 394058,
+        "unstable_moves": 1298517,
+        "qtt_cut": 711711,
+        "tt_cut": 19019,
+        "pvs": 261,
+        "pvs_nodes": 281730,
+        "aspiration": 0,
+        "aspiration_nodes": 0,
+        "q_ns": 294356000,
+        "threat_calls": 963848,
+        "threat_ns": 36489000,
+        "screen_calls": 0,
+        "screen_ns": 0,
+        "reductions": 0,
+        "researches": 0,
+        "research_nodes": 0
+      },
+      "by_depth": {
+        "1": {
+          "main": 50272,
+          "expanded": 35047,
+          "generated": 988656,
+          "searched": 246578,
+          "beta": 26916,
+          "first": 21204
+        },
+        "2": {
+          "main": 15240,
+          "expanded": 10317,
+          "generated": 272602,
+          "searched": 50194,
+          "beta": 8859,
+          "first": 7499
+        },
+        "3": {
+          "main": 2072,
+          "expanded": 1845,
+          "generated": 48571,
+          "searched": 15190,
+          "beta": 1370,
+          "first": 978
+        },
+        "4": {
+          "main": 520,
+          "expanded": 479,
+          "generated": 12117,
+          "searched": 2048,
+          "beta": 414,
+          "first": 342
+        },
+        "5": {
+          "main": 25,
+          "expanded": 25,
+          "generated": 498,
+          "searched": 498,
+          "beta": 0,
+          "first": 0
+        }
+      },
+      "q_left": [
+        1030118,
+        644818,
+        259140,
+        210489,
+        246665
+      ]
+    }
+  },
+  "fixed6": {
+    "0": {
+      "positions": 25,
+      "nodes": 13545267,
+      "seconds": 1.473306,
+      "q_share": 0.9686902443488195,
+      "mean_depth": 6.0
+    },
+    "1": {
+      "positions": 25,
+      "nodes": 13545267,
+      "seconds": 1.614086,
+      "q_share": 0.9686902443488195,
+      "mean_depth": 6.0,
+      "metrics": {
+        "unstable": 1340798,
+        "unstable_moves": 7119292,
+        "qtt_cut": 3972398,
+        "tt_cut": 157869,
+        "pvs": 465,
+        "pvs_nodes": 2189395,
+        "aspiration": 0,
+        "aspiration_nodes": 0,
+        "q_ns": 1471133000,
+        "threat_calls": 4908446,
+        "threat_ns": 199791000,
+        "screen_calls": 0,
+        "screen_ns": 0,
+        "reductions": 0,
+        "researches": 0,
+        "research_nodes": 0
+      },
+      "by_depth": {
+        "1": {
+          "main": 344457,
+          "expanded": 208692,
+          "generated": 5518907,
+          "searched": 875875,
+          "beta": 176893,
+          "first": 163062
+        },
+        "2": {
+          "main": 60180,
+          "expanded": 42109,
+          "generated": 1223307,
+          "searched": 344328,
+          "beta": 33190,
+          "first": 24228
+        },
+        "3": {
+          "main": 16509,
+          "expanded": 11454,
+          "generated": 304955,
+          "searched": 60095,
+          "beta": 9804,
+          "first": 7969
+        },
+        "4": {
+          "main": 2402,
+          "expanded": 2066,
+          "generated": 56139,
+          "searched": 16457,
+          "beta": 1566,
+          "first": 1144
+        },
+        "5": {
+          "main": 526,
+          "expanded": 485,
+          "generated": 12311,
+          "searched": 2365,
+          "beta": 409,
+          "first": 329
+        },
+        "6": {
+          "main": 25,
+          "expanded": 25,
+          "generated": 498,
+          "searched": 498,
+          "beta": 0,
+          "first": 0
+        }
+      },
+      "q_left": [
+        6093184,
+        2313574,
+        1845566,
+        1992835,
+        876009
+      ]
+    },
+    "2": {
+      "positions": 25,
+      "nodes": 12761267,
+      "seconds": 1.547327,
+      "q_share": 0.971581191742168,
+      "mean_depth": 6.0,
+      "metrics": {
+        "unstable": 1354234,
+        "unstable_moves": 6972299,
+        "qtt_cut": 3735215,
+        "tt_cut": 131488,
+        "pvs": 651,
+        "pvs_nodes": 2587794,
+        "aspiration": 0,
+        "aspiration_nodes": 0,
+        "q_ns": 1421053000,
+        "threat_calls": 4503985,
+        "threat_ns": 203735000,
+        "screen_calls": 17492,
+        "screen_ns": 534000,
+        "reductions": 11661,
+        "researches": 133,
+        "research_nodes": 77689
+      },
+      "by_depth": {
+        "1": {
+          "main": 297002,
+          "expanded": 182609,
+          "generated": 5018385,
+          "searched": 747631,
+          "beta": 156844,
+          "first": 144039
+        },
+        "2": {
+          "main": 48437,
+          "expanded": 34511,
+          "generated": 990517,
+          "searched": 287681,
+          "beta": 26570,
+          "first": 19846
+        },
+        "3": {
+          "main": 14432,
+          "expanded": 10175,
+          "generated": 273971,
+          "searched": 55146,
+          "beta": 8573,
+          "first": 7182
+        },
+        "4": {
+          "main": 2231,
+          "expanded": 1961,
+          "generated": 53444,
+          "searched": 16288,
+          "beta": 1444,
+          "first": 1054
+        },
+        "5": {
+          "main": 533,
+          "expanded": 492,
+          "generated": 12486,
+          "searched": 2427,
+          "beta": 414,
+          "first": 338
+        },
+        "6": {
+          "main": 25,
+          "expanded": 25,
+          "generated": 498,
+          "searched": 498,
+          "beta": 0,
+          "first": 0
+        }
+      },
+      "q_left": [
+        5969122,
+        2287012,
+        1650750,
+        1743903,
+        747820
+      ]
+    }
+  },
+  "iterative-profile": {
+    "0": {
+      "positions": 25,
+      "nodes": 12010017,
+      "seconds": 1.078679,
+      "q_share": 0.8409978104110927,
+      "mean_depth": 7.28
+    },
+    "1": {
+      "positions": 25,
+      "nodes": 9957249,
+      "seconds": 1.078733,
+      "q_share": 0.840508959854273,
+      "mean_depth": 7.2,
+      "metrics": {
+        "unstable": 381444,
+        "unstable_moves": 2358992,
+        "qtt_cut": 2602542,
+        "tt_cut": 545393,
+        "pvs": 526,
+        "pvs_nodes": 446143,
+        "aspiration": 25,
+        "aspiration_nodes": 479033,
+        "q_ns": 719051000,
+        "threat_calls": 5111449,
+        "threat_ns": 118081000,
+        "screen_calls": 0,
+        "screen_ns": 0,
+        "reductions": 0,
+        "researches": 0,
+        "research_nodes": 0
+      },
+      "by_depth": {
+        "1": {
+          "main": 1081708,
+          "expanded": 700692,
+          "generated": 12979930,
+          "searched": 3081372,
+          "beta": 533441,
+          "first": 496669
+        },
+        "2": {
+          "main": 352175,
+          "expanded": 230664,
+          "generated": 4006066,
+          "searched": 1081555,
+          "beta": 180365,
+          "first": 166275
+        },
+        "3": {
+          "main": 101178,
+          "expanded": 71943,
+          "generated": 1126359,
+          "searched": 352079,
+          "beta": 53577,
+          "first": 48758
+        },
+        "4": {
+          "main": 35202,
+          "expanded": 25130,
+          "generated": 357703,
+          "searched": 101105,
+          "beta": 19583,
+          "first": 18228
+        },
+        "5": {
+          "main": 10490,
+          "expanded": 8076,
+          "generated": 103643,
+          "searched": 35142,
+          "beta": 5699,
+          "first": 5334
+        },
+        "6": {
+          "main": 4035,
+          "expanded": 3143,
+          "generated": 34812,
+          "searched": 10433,
+          "beta": 2364,
+          "first": 2233
+        },
+        "7": {
+          "main": 1454,
+          "expanded": 1107,
+          "generated": 10361,
+          "searched": 3997,
+          "beta": 680,
+          "first": 648
+        },
+        "8": {
+          "main": 784,
+          "expanded": 550,
+          "generated": 3955,
+          "searched": 1428,
+          "beta": 355,
+          "first": 342
+        },
+        "9": {
+          "main": 404,
+          "expanded": 286,
+          "generated": 1699,
+          "searched": 765,
+          "beta": 147,
+          "first": 138
+        },
+        "10": {
+          "main": 264,
+          "expanded": 182,
+          "generated": 811,
+          "searched": 392,
+          "beta": 103,
+          "first": 103
+        },
+        "11": {
+          "main": 151,
+          "expanded": 111,
+          "generated": 440,
+          "searched": 254,
+          "beta": 51,
+          "first": 51
+        },
+        "12": {
+          "main": 112,
+          "expanded": 75,
+          "generated": 273,
+          "searched": 146,
+          "beta": 41,
+          "first": 41
+        },
+        "13": {
+          "main": 63,
+          "expanded": 48,
+          "generated": 160,
+          "searched": 106,
+          "beta": 20,
+          "first": 20
+        },
+        "14": {
+          "main": 42,
+          "expanded": 33,
+          "generated": 111,
+          "searched": 60,
+          "beta": 19,
+          "first": 19
+        },
+        "15": {
+          "main": 18,
+          "expanded": 18,
+          "generated": 62,
+          "searched": 40,
+          "beta": 7,
+          "first": 7
+        },
+        "16": {
+          "main": 8,
+          "expanded": 8,
+          "generated": 27,
+          "searched": 15,
+          "beta": 4,
+          "first": 4
+        },
+        "17": {
+          "main": 3,
+          "expanded": 3,
+          "generated": 9,
+          "searched": 7,
+          "beta": 0,
+          "first": 0
+        },
+        "18": {
+          "main": 1,
+          "expanded": 1,
+          "generated": 3,
+          "searched": 2,
+          "beta": 0,
+          "first": 0
+        }
+      },
+      "q_left": [
+        939216,
+        728013,
+        1002636,
+        2617733,
+        3081559
+      ]
+    },
+    "2": {
+      "positions": 25,
+      "nodes": 9767265,
+      "seconds": 1.078699,
+      "q_share": 0.8429234796025294,
+      "mean_depth": 7.28,
+      "metrics": {
+        "unstable": 393961,
+        "unstable_moves": 2436874,
+        "qtt_cut": 2393776,
+        "tt_cut": 528015,
+        "pvs": 634,
+        "pvs_nodes": 808346,
+        "aspiration": 26,
+        "aspiration_nodes": 486363,
+        "q_ns": 734971000,
+        "threat_calls": 5185975,
+        "threat_ns": 125689000,
+        "screen_calls": 144505,
+        "screen_ns": 3346000,
+        "reductions": 112113,
+        "researches": 1721,
+        "research_nodes": 477698
+      },
+      "by_depth": {
+        "1": {
+          "main": 1099737,
+          "expanded": 702786,
+          "generated": 13047081,
+          "searched": 2739064,
+          "beta": 566748,
+          "first": 524611
+        },
+        "2": {
+          "main": 285232,
+          "expanded": 194440,
+          "generated": 3444578,
+          "searched": 1022459,
+          "beta": 145182,
+          "first": 131017
+        },
+        "3": {
+          "main": 96779,
+          "expanded": 69461,
+          "generated": 1096613,
+          "searched": 336573,
+          "beta": 52832,
+          "first": 47739
+        },
+        "4": {
+          "main": 32806,
+          "expanded": 24184,
+          "generated": 354923,
+          "searched": 112646,
+          "beta": 17860,
+          "first": 16447
+        },
+        "5": {
+          "main": 11581,
+          "expanded": 8972,
+          "generated": 118355,
+          "searched": 38624,
+          "beta": 6517,
+          "first": 6066
+        },
+        "6": {
+          "main": 4444,
+          "expanded": 3391,
+          "generated": 39840,
+          "searched": 13226,
+          "beta": 2442,
+          "first": 2268
+        },
+        "7": {
+          "main": 1696,
+          "expanded": 1333,
+          "generated": 13575,
+          "searched": 4728,
+          "beta": 872,
+          "first": 839
+        },
+        "8": {
+          "main": 848,
+          "expanded": 590,
+          "generated": 4633,
+          "searched": 1717,
+          "beta": 376,
+          "first": 362
+        },
+        "9": {
+          "main": 420,
+          "expanded": 302,
+          "generated": 1879,
+          "searched": 830,
+          "beta": 158,
+          "first": 153
+        },
+        "10": {
+          "main": 268,
+          "expanded": 184,
+          "generated": 826,
+          "searched": 408,
+          "beta": 104,
+          "first": 104
+        },
+        "11": {
+          "main": 151,
+          "expanded": 111,
+          "generated": 440,
+          "searched": 255,
+          "beta": 51,
+          "first": 51
+        },
+        "12": {
+          "main": 112,
+          "expanded": 75,
+          "generated": 273,
+          "searched": 146,
+          "beta": 41,
+          "first": 41
+        },
+        "13": {
+          "main": 62,
+          "expanded": 48,
+          "generated": 160,
+          "searched": 106,
+          "beta": 20,
+          "first": 20
+        },
+        "14": {
+          "main": 42,
+          "expanded": 32,
+          "generated": 108,
+          "searched": 59,
+          "beta": 18,
+          "first": 18
+        },
+        "15": {
+          "main": 18,
+          "expanded": 18,
+          "generated": 62,
+          "searched": 40,
+          "beta": 7,
+          "first": 7
+        },
+        "16": {
+          "main": 8,
+          "expanded": 8,
+          "generated": 27,
+          "searched": 15,
+          "beta": 4,
+          "first": 4
+        },
+        "17": {
+          "main": 3,
+          "expanded": 3,
+          "generated": 9,
+          "searched": 7,
+          "beta": 0,
+          "first": 0
+        },
+        "18": {
+          "main": 1,
+          "expanded": 1,
+          "generated": 3,
+          "searched": 2,
+          "beta": 0,
+          "first": 0
+        }
+      },
+      "q_left": [
+        928010,
+        754178,
+        1069795,
+        2741792,
+        2739282
+      ]
+    }
+  }
+}

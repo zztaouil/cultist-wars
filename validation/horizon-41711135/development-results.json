@@ -1,0 +1,44 @@
+[
+  {
+    "variant": "contest",
+    "tag": "horizon_contest_development",
+    "games": 16,
+    "W": 9,
+    "D": 0,
+    "L": 7,
+    "score": 56.25,
+    "pairs": 8,
+    "seat0": 87.5,
+    "seat1": 25.0,
+    "paired_lo": 34.04,
+    "paired_hi": 78.46
+  },
+  {
+    "variant": "extension",
+    "tag": "horizon_extension_development",
+    "games": 16,
+    "W": 5,
+    "D": 3,
+    "L": 8,
+    "score": 40.62,
+    "pairs": 8,
+    "seat0": 62.5,
+    "seat1": 18.75,
+    "paired_lo": 16.23,
+    "paired_hi": 65.02
+  },
+  {
+    "variant": "combined",
+    "tag": "horizon_combined_development",
+    "games": 16,
+    "W": 4,
+    "D": 3,
+    "L": 9,
+    "score": 34.38,
+    "pairs": 8,
+    "seat0": 50.0,
+    "seat1": 18.75,
+    "paired_lo": 16.0,
+    "paired_hi": 52.75
+  }
+]

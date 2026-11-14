@@ -1,0 +1,348 @@
+{
+  "fixtures": 25,
+  "variants": {
+    "baseline": {
+      "changed49": 0,
+      "changed_recruit49": 0,
+      "mean_depth49": 7.24,
+      "fixed_nodes": 426878,
+      "fixed_ms": 52.527,
+      "fixed_incomplete": 0
+    },
+    "contest": {
+      "changed49": 1,
+      "changed_recruit49": 0,
+      "mean_depth49": 7.16,
+      "fixed_nodes": 421148,
+      "fixed_ms": 55.849,
+      "fixed_incomplete": 0
+    },
+    "extension": {
+      "changed49": 5,
+      "changed_recruit49": 3,
+      "mean_depth49": 6.88,
+      "fixed_nodes": 994899,
+      "fixed_ms": 123.662,
+      "fixed_incomplete": 0
+    },
+    "combined": {
+      "changed49": 5,
+      "changed_recruit49": 3,
+      "mean_depth49": 6.88,
+      "fixed_nodes": 952779,
+      "fixed_ms": 125.886,
+      "fixed_incomplete": 0
+    }
+  },
+  "reversal": {
+    "game": "921365647",
+    "turn": 19,
+    "kind": "horizon_neighbor",
+    "rng": 1,
+    "actual": [
+      3,
+      1,
+      8
+    ],
+    "results": {
+      "baseline": {
+        "fixed": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "value": -84,
+          "depth": 4,
+          "nodes": 19436,
+          "qnodes": 18627,
+          "ms": 2.019,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "value": -157,
+          "depth": 6,
+          "nodes": 491392,
+          "qnodes": 468832,
+          "ms": 49.0,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            1,
+            60
+          ],
+          "value": -484,
+          "depth": 8,
+          "nodes": 5090528,
+          "qnodes": 4851110,
+          "ms": 500.001,
+          "stopped": true
+        }
+      },
+      "contest": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -29,
+          "depth": 4,
+          "nodes": 15395,
+          "qnodes": 14869,
+          "ms": 1.768,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "value": -95,
+          "depth": 6,
+          "nodes": 490208,
+          "qnodes": 472901,
+          "ms": 49.001,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "value": -125,
+          "depth": 8,
+          "nodes": 4918752,
+          "qnodes": 4644159,
+          "ms": 500.003,
+          "stopped": true
+        }
+      },
+      "extension": {
+        "fixed": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "value": -84,
+          "depth": 4,
+          "nodes": 27337,
+          "qnodes": 26531,
+          "ms": 3.497,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            1,
+            1,
+            60
+          ],
+          "value": -1106,
+          "depth": 6,
+          "nodes": 450784,
+          "qnodes": 437688,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": 29,
+          "depth": 7,
+          "nodes": 4729024,
+          "qnodes": 4570522,
+          "ms": 500.002,
+          "stopped": true
+        }
+      },
+      "combined": {
+        "fixed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -29,
+          "depth": 4,
+          "nodes": 21478,
+          "qnodes": 20952,
+          "ms": 2.485,
+          "stopped": false
+        },
+        "timed": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -80,
+          "depth": 6,
+          "nodes": 459264,
+          "qnodes": 446248,
+          "ms": 49.002,
+          "stopped": true
+        },
+        "deep": {
+          "action": [
+            3,
+            1,
+            8
+          ],
+          "value": -132,
+          "depth": 8,
+          "nodes": 4878304,
+          "qnodes": 4701535,
+          "ms": 500.0,
+          "stopped": true
+        }
+      }
+    }
+  },
+  "development-results.json": [
+    {
+      "variant": "contest",
+      "tag": "horizon_contest_development",
+      "games": 16,
+      "W": 9,
+      "D": 0,
+      "L": 7,
+      "score": 56.25,
+      "pairs": 8,
+      "seat0": 87.5,
+      "seat1": 25.0,
+      "paired_lo": 34.04,
+      "paired_hi": 78.46
+    },
+    {
+      "variant": "extension",
+      "tag": "horizon_extension_development",
+      "games": 16,
+      "W": 5,
+      "D": 3,
+      "L": 8,
+      "score": 40.62,
+      "pairs": 8,
+      "seat0": 62.5,
+      "seat1": 18.75,
+      "paired_lo": 16.23,
+      "paired_hi": 65.02
+    },
+    {
+      "variant": "combined",
+      "tag": "horizon_combined_development",
+      "games": 16,
+      "W": 4,
+      "D": 3,
+      "L": 9,
+      "score": 34.38,
+      "pairs": 8,
+      "seat0": 50.0,
+      "seat1": 18.75,
+      "paired_lo": 16.0,
+      "paired_hi": 52.75
+    }
+  ],
+  "holdout-results.json": {
+    "variant": "contest",
+    "tag": "horizon_contest_holdout",
+    "games": 32,
+    "W": 14,
+    "D": 5,
+    "L": 13,
+    "score": 51.56,
+    "pairs": 16,
+    "seat0": 62.5,
+    "seat1": 40.62,
+    "paired_lo": 44.53,
+    "paired_hi": 58.59
+  },
+  "boss-summary.json": {
+    "baseline": {
+      "games": 4,
+      "W": 2,
+      "D": 0,
+      "L": 2,
+      "score": 0.5,
+      "errors": 0,
+      "rng_zero": 0,
+      "max_us": 54171,
+      "seats": {
+        "0": {
+          "W": 2
+        },
+        "1": {
+          "L": 2
+        }
+      }
+    },
+    "combined": {
+      "games": 4,
+      "W": 1,
+      "D": 0,
+      "L": 3,
+      "score": 0.25,
+      "errors": 0,
+      "rng_zero": 0,
+      "max_us": 49067,
+      "seats": {
+        "0": {
+          "L": 1,
+          "W": 1
+        },
+        "1": {
+          "L": 2
+        }
+      }
+    },
+    "contest": {
+      "games": 4,
+      "W": 1,
+      "D": 0,
+      "L": 3,
+      "score": 0.25,
+      "errors": 0,
+      "rng_zero": 0,
+      "max_us": 49065,
+      "seats": {
+        "0": {
+          "L": 1,
+          "W": 1
+        },
+        "1": {
+          "L": 2
+        }
+      }
+    },
+    "extension": {
+      "games": 4,
+      "W": 2,
+      "D": 0,
+      "L": 2,
+      "score": 0.5,
+      "errors": 0,
+      "rng_zero": 0,
+      "max_us": 49067,
+      "seats": {
+        "0": {
+          "W": 2
+        },
+        "1": {
+          "L": 2
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+--- submissions/41709358.c
++++ validation/support-41710886/next-submission.c
+@@ -415,6 +415,25 @@
+     }
+     return 0;
+ }
++/* When both leaders contest a neutral, standing pat can hide the tempo
++   needed to recruit or block the opponent. Search legal quiet replies too. */
++#ifndef RECRUIT_Q
++#define RECRUIT_Q 1
++#endif
++static int recruitment_threat(const State *s) {
++    unsigned ours = s->owned[s->side] & s->leaders;
++    unsigned theirs = s->owned[1-s->side] & s->leaders;
++    if (!ours || !theirs || !s->owned[2]) return 0;
++    int us = __builtin_ctz(ours), them = __builtin_ctz(theirs);
++    unsigned neutral = s->owned[2];
++    while (neutral) {
++        int j = __builtin_ctz(neutral); neutral &= neutral - 1;
++        if (taxi[s->u[them].pos][s->u[j].pos] == 1
++                && distance_table[s->u[us].pos][s->u[j].pos] <= 2)
++            return 1;
++    }
++    return 0;
++}
+ /* Bounded tactical extension. Stand-pat is a heuristic, not a legal pass:
+    neutral movement and zugzwang mean this is intentionally selective. */
+ static int quiescence(const State *s, int alpha, int beta, int left) {
+@@ -433,7 +452,7 @@
+         }
+     }
+     int best = evaluate_live(s);
+-    int unstable = use_threat_q && left && (s->remaining <= left || material_threat(s));
++    int unstable = use_threat_q && left && (s->remaining <= left || material_threat(s) || (RECRUIT_Q && recruitment_threat(s)));
+     if (!left || (!unstable && best >= beta)) {
+         *entry = (QEntry){s->key,best,left+1,!left ? 0 : 1};
+         return best;

@@ -1,0 +1,1 @@
+{"type":"https://www.codingame.com/api/v1/problems/bad-request","title":"Bad request","status":400,"detail":"The query parameter 'limit' must be an integer between 1 and 100.","hint":"Fix 'limit' or omit it (default 20).","limits":{"requests":{"name":"requests_1m","limit":120,"used":4,"remaining":116,"window_seconds":60,"resets_in_seconds":59}}}

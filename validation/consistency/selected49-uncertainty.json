@@ -1,0 +1,10 @@
+{
+  "games": 32,
+  "paired_maps": 16,
+  "score": 0.625,
+  "paired_bootstrap_95_percent_interval": [
+    0.421875,
+    0.8125
+  ],
+  "method": "10000 whole-pair bootstrap resamples, seed 20261113; exploratory, multiple experiments performed"
+}

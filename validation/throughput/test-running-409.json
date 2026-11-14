@@ -1,0 +1,19 @@
+{
+  "type": "https://www.codingame.com/api/v1/problems/test-game-running",
+  "title": "Test game already running",
+  "status": 409,
+  "detail": "Your test game 921180414 is still running.",
+  "hint": "Wait for its end with GET /api/v1/test-games/921180414?wait=30, then start a new one.",
+  "test_game_id": 921180414,
+  "poll_url": "/api/v1/test-games/921180414",
+  "limits": {
+    "requests": {
+      "name": "requests_1m",
+      "limit": 120,
+      "used": 2,
+      "remaining": 118,
+      "window_seconds": 60,
+      "resets_in_seconds": 27
+    }
+  }
+}

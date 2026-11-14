@@ -1,0 +1,10 @@
+{
+  "games": 24,
+  "paired_maps": 12,
+  "score": 0.5625,
+  "paired_bootstrap_95_percent_interval": [
+    0.375,
+    0.7291666666666666
+  ],
+  "method": "10000 bootstrap resamples of whole seat-swapped map pairs, RNG seed 20261113; exploratory interval, not sequential significance test"
+}

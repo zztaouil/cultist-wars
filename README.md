@@ -69,23 +69,4 @@ The existing `source/` Java reference implementation is unchanged.
 
 ## Version control
 
-After cloning, enable the tracked commit hook:
-
-```sh
-git config core.hooksPath .githooks
-```
-
-Commit messages must follow Conventional Commits:
-`type(scope): imperative summary`. Scope is optional; use `!` before the colon
-for breaking changes. Allowed types: `feat`, `fix`, `refactor`, `perf`, `docs`,
-`test`, `chore`, `build`, `ci`, `style`, `revert`.
-
-Start the summary with a lowercase letter or digit. Aim for 50 characters;
-the header limit is 72 characters. No trailing period or whitespace. Separate
-any body with a blank line. Explain breaking changes in the body.
-Example: `fix(search): preserve completed iteration`.
-
-The local hook rejects invalid messages. GitHub Actions validates commit history
-on pushes and pull requests. Keep merge messages compliant or use squash merges
-with a compliant title. GitHub branch protection must require the `validate`
-check to enforce this policy before merging.
+Keep commits focused on one change. Commit-message format is not enforced.

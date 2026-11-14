@@ -1,0 +1,71 @@
+{"game": 921208877, "turn": 16, "actual": [1, 6, 57], "alternative": [2, 6, 8], "actual_cmd": "6 MOVE 5 4", "alternative_cmd": "6 SHOOT 8", "scores": [1007, 1111], "gap": 104}
+{"game": 921208877, "turn": 18, "actual": [1, 6, 56], "alternative": [1, 6, 56], "actual_cmd": "6 MOVE 4 4", "alternative_cmd": "6 MOVE 4 4", "scores": [1037, 1037], "gap": 0}
+{"game": 921208877, "turn": 20, "actual": [2, 6, 1], "alternative": [1, 0, 68], "actual_cmd": "6 SHOOT 1", "alternative_cmd": "0 MOVE 3 5", "scores": [980, 990], "gap": 10}
+{"game": 921208877, "turn": 40, "actual": [2, 2, 1], "alternative": [2, 2, 1], "actual_cmd": "2 SHOOT 1", "alternative_cmd": "2 SHOOT 1", "scores": [-29, -29], "gap": 0}
+{"game": 921208877, "turn": 42, "actual": [2, 2, 1], "alternative": [2, 2, 1], "actual_cmd": "2 SHOOT 1", "alternative_cmd": "2 SHOOT 1", "scores": [-59, -59], "gap": 0}
+{"game": 921208877, "turn": 48, "actual": [1, 5, 56], "alternative": [1, 5, 56], "actual_cmd": "5 MOVE 4 4", "alternative_cmd": "5 MOVE 4 4", "scores": [-660, -660], "gap": 0}
+{"game": 921208877, "turn": 50, "actual": [2, 5, 1], "alternative": [2, 5, 1], "actual_cmd": "5 SHOOT 1", "alternative_cmd": "5 SHOOT 1", "scores": [-660, -660], "gap": 0}
+{"game": 921208877, "turn": 52, "actual": [2, 5, 8], "alternative": [2, 5, 8], "actual_cmd": "5 SHOOT 8", "alternative_cmd": "5 SHOOT 8", "scores": [-662, -662], "gap": 0}
+{"game": 921208877, "turn": 54, "actual": [2, 5, 8], "alternative": [2, 5, 8], "actual_cmd": "5 SHOOT 8", "alternative_cmd": "5 SHOOT 8", "scores": [-672, -672], "gap": 0}
+{"game": 921210462, "turn": 92, "actual": [2, 2, 11], "alternative": [2, 2, 11], "actual_cmd": "2 SHOOT 11", "alternative_cmd": "2 SHOOT 11", "scores": [369, 369], "gap": 0}
+{"game": 921210462, "turn": 110, "actual": [2, 5, 10], "alternative": [2, 5, 10], "actual_cmd": "5 SHOOT 10", "alternative_cmd": "5 SHOOT 10", "scores": [364, 364], "gap": 0}
+{"game": 921210462, "turn": 114, "actual": [1, 0, 55], "alternative": [1, 0, 55], "actual_cmd": "0 MOVE 3 4", "alternative_cmd": "0 MOVE 3 4", "scores": [278, 278], "gap": 0}
+{"game": 921210462, "turn": 116, "actual": [1, 5, 57], "alternative": [1, 5, 57], "actual_cmd": "5 MOVE 5 4", "alternative_cmd": "5 MOVE 5 4", "scores": [-592, -592], "gap": 0}
+{"game": 921210462, "turn": 118, "actual": [2, 5, 13], "alternative": [1, 0, 54], "actual_cmd": "5 SHOOT 13", "alternative_cmd": "0 MOVE 2 4", "scores": [-669, -611], "gap": 58}
+{"game": 921210462, "turn": 120, "actual": [2, 5, 13], "alternative": [2, 5, 13], "actual_cmd": "5 SHOOT 13", "alternative_cmd": "5 SHOOT 13", "scores": [-671, -671], "gap": 0}
+{"game": 921211508, "turn": 29, "actual": [2, 12, 6], "alternative": [2, 12, 6], "actual_cmd": "12 SHOOT 6", "alternative_cmd": "12 SHOOT 6", "scores": [-1289, -1289], "gap": 0}
+{"game": 921211508, "turn": 31, "actual": [2, 12, 6], "alternative": [2, 12, 6], "actual_cmd": "12 SHOOT 6", "alternative_cmd": "12 SHOOT 6", "scores": [-1337, -1337], "gap": 0}
+{"game": 921211508, "turn": 35, "actual": [1, 12, 46], "alternative": [1, 12, 46], "actual_cmd": "12 MOVE 7 3", "alternative_cmd": "12 MOVE 7 3", "scores": [-1365, -1365], "gap": 0}
+{"game": 921211508, "turn": 37, "actual": [2, 12, 2], "alternative": [2, 12, 2], "actual_cmd": "12 SHOOT 2", "alternative_cmd": "12 SHOOT 2", "scores": [-2277, -2277], "gap": 0}
+{"game": 921211508, "turn": 43, "actual": [1, 1, 48], "alternative": [1, 1, 48], "actual_cmd": "1 MOVE 9 3", "alternative_cmd": "1 MOVE 9 3", "scores": [-2287, -2287], "gap": 0}
+{"game": 921211508, "turn": 45, "actual": [1, 1, 61], "alternative": [1, 1, 61], "actual_cmd": "1 MOVE 9 4", "alternative_cmd": "1 MOVE 9 4", "scores": [-2290, -2290], "gap": 0}
+{"game": 921211508, "turn": 47, "actual": [1, 1, 74], "alternative": [1, 1, 74], "actual_cmd": "1 MOVE 9 5", "alternative_cmd": "1 MOVE 9 5", "scores": [-2352, -2352], "gap": 0}
+{"game": 921210319, "turn": 29, "actual": [2, 9, 3], "alternative": [2, 9, 3], "actual_cmd": "9 SHOOT 3", "alternative_cmd": "9 SHOOT 3", "scores": [-1226, -1226], "gap": 0}
+{"game": 921210319, "turn": 31, "actual": [2, 9, 3], "alternative": [2, 9, 3], "actual_cmd": "9 SHOOT 3", "alternative_cmd": "9 SHOOT 3", "scores": [-1209, -1209], "gap": 0}
+{"game": 921210319, "turn": 51, "actual": [1, 9, 34], "alternative": [1, 9, 34], "actual_cmd": "9 MOVE 8 2", "alternative_cmd": "9 MOVE 8 2", "scores": [-1488, -1488], "gap": 0}
+{"game": 921210319, "turn": 53, "actual": [1, 1, 23], "alternative": [1, 1, 23], "actual_cmd": "1 MOVE 10 1", "alternative_cmd": "1 MOVE 10 1", "scores": [-1451, -1451], "gap": 0}
+{"game": 921210319, "turn": 55, "actual": [1, 9, 21], "alternative": [1, 9, 21], "actual_cmd": "9 MOVE 8 1", "alternative_cmd": "9 MOVE 8 1", "scores": [-2482, -2482], "gap": 0}
+{"game": 921210319, "turn": 57, "actual": [1, 10, 35], "alternative": [1, 10, 35], "actual_cmd": "10 MOVE 9 2", "alternative_cmd": "10 MOVE 9 2", "scores": [-2529, -2529], "gap": 0}
+{"game": 921210319, "turn": 59, "actual": [2, 10, 6], "alternative": [2, 10, 6], "actual_cmd": "10 SHOOT 6", "alternative_cmd": "10 SHOOT 6", "scores": [-2543, -2543], "gap": 0}
+{"game": 921210319, "turn": 85, "actual": [2, 11, 5], "alternative": [1, 8, 74], "actual_cmd": "11 SHOOT 5", "alternative_cmd": "8 MOVE 9 5", "scores": [-2960, -2549], "gap": 411}
+{"game": 921210319, "turn": 87, "actual": [2, 11, 5], "alternative": [2, 11, 5], "actual_cmd": "11 SHOOT 5", "alternative_cmd": "11 SHOOT 5", "scores": [-2942, -2942], "gap": 0}
+{"game": 921207904, "turn": 23, "actual": [2, 13, 0], "alternative": [2, 13, 0], "actual_cmd": "13 SHOOT 0", "alternative_cmd": "13 SHOOT 0", "scores": [-1302, -1302], "gap": 0}
+{"game": 921207904, "turn": 25, "actual": [2, 13, 0], "alternative": [2, 13, 0], "actual_cmd": "13 SHOOT 0", "alternative_cmd": "13 SHOOT 0", "scores": [-1299, -1299], "gap": 0}
+{"game": 921207904, "turn": 27, "actual": [2, 13, 0], "alternative": [2, 13, 0], "actual_cmd": "13 SHOOT 0", "alternative_cmd": "13 SHOOT 0", "scores": [-1300, -1300], "gap": 0}
+{"game": 921207904, "turn": 59, "actual": [2, 8, 12], "alternative": [2, 8, 12], "actual_cmd": "8 SHOOT 12", "alternative_cmd": "8 SHOOT 12", "scores": [-1325, -1325], "gap": 0}
+{"game": 921207904, "turn": 61, "actual": [2, 8, 12], "alternative": [2, 8, 12], "actual_cmd": "8 SHOOT 12", "alternative_cmd": "8 SHOOT 12", "scores": [-1314, -1314], "gap": 0}
+{"game": 921207904, "turn": 63, "actual": [2, 8, 12], "alternative": [2, 8, 12], "actual_cmd": "8 SHOOT 12", "alternative_cmd": "8 SHOOT 12", "scores": [-1368, -1368], "gap": 0}
+{"game": 921207904, "turn": 65, "actual": [2, 8, 7], "alternative": [2, 8, 7], "actual_cmd": "8 SHOOT 7", "alternative_cmd": "8 SHOOT 7", "scores": [-1457, -1457], "gap": 0}
+{"game": 921211685, "turn": 39, "actual": [1, 8, 72], "alternative": [1, 1, 86], "actual_cmd": "8 MOVE 7 5", "alternative_cmd": "1 MOVE 8 6", "scores": [-1200, -1210], "gap": -10}
+{"game": 921211685, "turn": 41, "actual": [2, 8, 0], "alternative": [2, 8, 0], "actual_cmd": "8 SHOOT 0", "alternative_cmd": "8 SHOOT 0", "scores": [-1273, -1273], "gap": 0}
+{"game": 921211685, "turn": 43, "actual": [2, 8, 0], "alternative": [2, 8, 0], "actual_cmd": "8 SHOOT 0", "alternative_cmd": "8 SHOOT 0", "scores": [-1475, -1475], "gap": 0}
+{"game": 921211685, "turn": 45, "actual": [1, 1, 74], "alternative": [1, 1, 74], "actual_cmd": "1 MOVE 9 5", "alternative_cmd": "1 MOVE 9 5", "scores": [-2531, -2531], "gap": 0}
+{"game": 921211685, "turn": 47, "actual": [1, 1, 75], "alternative": [1, 1, 75], "actual_cmd": "1 MOVE 10 5", "alternative_cmd": "1 MOVE 10 5", "scores": [-2531, -2531], "gap": 0}
+{"game": 921210755, "turn": 95, "actual": [1, 1, 21], "alternative": [1, 1, 21], "actual_cmd": "1 MOVE 8 1", "alternative_cmd": "1 MOVE 8 1", "scores": [-1609, -1609], "gap": 0}
+{"game": 921210755, "turn": 97, "actual": [1, 12, 74], "alternative": [1, 12, 74], "actual_cmd": "12 MOVE 9 5", "alternative_cmd": "12 MOVE 9 5", "scores": [-1609, -1609], "gap": 0}
+{"game": 921210755, "turn": 99, "actual": [1, 12, 61], "alternative": [1, 12, 61], "actual_cmd": "12 MOVE 9 4", "alternative_cmd": "12 MOVE 9 4", "scores": [-1634, -1634], "gap": 0}
+{"game": 921210755, "turn": 101, "actual": [2, 12, 4], "alternative": [2, 12, 4], "actual_cmd": "12 SHOOT 4", "alternative_cmd": "12 SHOOT 4", "scores": [-1634, -1634], "gap": 0}
+{"game": 921210755, "turn": 103, "actual": [1, 12, 62], "alternative": [1, 8, 25], "actual_cmd": "12 MOVE 10 4", "alternative_cmd": "8 MOVE 12 1", "scores": [-1637, -1637], "gap": 0}
+{"game": 921209667, "turn": 35, "actual": [2, 8, 10], "alternative": [2, 8, 10], "actual_cmd": "8 SHOOT 10", "alternative_cmd": "8 SHOOT 10", "scores": [-36, -36], "gap": 0}
+{"game": 921209667, "turn": 37, "actual": [2, 8, 10], "alternative": [2, 8, 10], "actual_cmd": "8 SHOOT 10", "alternative_cmd": "8 SHOOT 10", "scores": [-29, -29], "gap": 0}
+{"game": 921209667, "turn": 67, "actual": [1, 12, 86], "alternative": [1, 12, 86], "actual_cmd": "12 MOVE 8 6", "alternative_cmd": "12 MOVE 8 6", "scores": [-1177, -1177], "gap": 0}
+{"game": 921209667, "turn": 69, "actual": [1, 1, 47], "alternative": [1, 8, 75], "actual_cmd": "1 MOVE 8 3", "alternative_cmd": "8 MOVE 10 5", "scores": [-2104, -1219], "gap": 885}
+{"game": 921209667, "turn": 71, "actual": [1, 12, 87], "alternative": [1, 12, 87], "actual_cmd": "12 MOVE 9 6", "alternative_cmd": "12 MOVE 9 6", "scores": [-2107, -2107], "gap": 0}
+{"game": 921209667, "turn": 75, "actual": [2, 9, 4], "alternative": [2, 9, 4], "actual_cmd": "9 SHOOT 4", "alternative_cmd": "9 SHOOT 4", "scores": [-2101, -2101], "gap": 0}
+{"game": 921209667, "turn": 77, "actual": [1, 9, 62], "alternative": [1, 9, 62], "actual_cmd": "9 MOVE 10 4", "alternative_cmd": "9 MOVE 10 4", "scores": [-2101, -2101], "gap": 0}
+{"game": 921211936, "turn": 31, "actual": [2, 9, 2], "alternative": [2, 9, 2], "actual_cmd": "9 SHOOT 2", "alternative_cmd": "9 SHOOT 2", "scores": [-1127, -1127], "gap": 0}
+{"game": 921211936, "turn": 33, "actual": [2, 9, 2], "alternative": [2, 9, 2], "actual_cmd": "9 SHOOT 2", "alternative_cmd": "9 SHOOT 2", "scores": [-1167, -1167], "gap": 0}
+{"game": 921211936, "turn": 35, "actual": [2, 9, 7], "alternative": [2, 9, 7], "actual_cmd": "9 SHOOT 7", "alternative_cmd": "9 SHOOT 7", "scores": [-1183, -1183], "gap": 0}
+{"game": 921211936, "turn": 45, "actual": [1, 1, 61], "alternative": [1, 1, 61], "actual_cmd": "1 MOVE 9 4", "alternative_cmd": "1 MOVE 9 4", "scores": [-1143, -1143], "gap": 0}
+{"game": 921211936, "turn": 47, "actual": [1, 1, 74], "alternative": [2, 8, 0], "actual_cmd": "1 MOVE 9 5", "alternative_cmd": "8 SHOOT 0", "scores": [-1130, -1130], "gap": 0}
+{"game": 921210601, "turn": 25, "actual": [1, 8, 47], "alternative": [1, 8, 47], "actual_cmd": "8 MOVE 8 3", "alternative_cmd": "8 MOVE 8 3", "scores": [-1126, -1126], "gap": 0}
+{"game": 921210601, "turn": 27, "actual": [2, 8, 2], "alternative": [2, 8, 2], "actual_cmd": "8 SHOOT 2", "alternative_cmd": "8 SHOOT 2", "scores": [-1182, -1182], "gap": 0}
+{"game": 921210601, "turn": 49, "actual": [2, 12, 0], "alternative": [2, 12, 0], "actual_cmd": "12 SHOOT 0", "alternative_cmd": "12 SHOOT 0", "scores": [-1339, -1339], "gap": 0}
+{"game": 921210601, "turn": 51, "actual": [2, 12, 0], "alternative": [2, 12, 0], "actual_cmd": "12 SHOOT 0", "alternative_cmd": "12 SHOOT 0", "scores": [-1339, -1339], "gap": 0}
+{"game": 921210601, "turn": 53, "actual": [2, 12, 2], "alternative": [2, 12, 2], "actual_cmd": "12 SHOOT 2", "alternative_cmd": "12 SHOOT 2", "scores": [-1339, -1339], "gap": 0}
+{"game": 921208414, "turn": 90, "actual": [1, 2, 27], "alternative": [1, 2, 27], "actual_cmd": "2 MOVE 1 2", "alternative_cmd": "2 MOVE 1 2", "scores": [899, 899], "gap": 0}
+{"game": 921208414, "turn": 92, "actual": [1, 0, 42], "alternative": [1, 2, 14], "actual_cmd": "0 MOVE 3 3", "alternative_cmd": "2 MOVE 1 1", "scores": [886, 888], "gap": 2}
+{"game": 921208414, "turn": 94, "actual": [1, 7, 16], "alternative": [1, 2, 28], "actual_cmd": "7 MOVE 3 1", "alternative_cmd": "2 MOVE 2 2", "scores": [-134, 837], "gap": 971}
+{"game": 921208414, "turn": 98, "actual": [1, 2, 29], "alternative": [1, 2, 29], "actual_cmd": "2 MOVE 3 2", "alternative_cmd": "2 MOVE 3 2", "scores": [-1093, -1093], "gap": 0}
+{"game": 921208414, "turn": 100, "actual": [2, 2, 9], "alternative": [2, 2, 9], "actual_cmd": "2 SHOOT 9", "alternative_cmd": "2 SHOOT 9", "scores": [-1193, -1193], "gap": 0}
+{"game": 921208414, "turn": 102, "actual": [2, 2, 9], "alternative": [1, 2, 28], "actual_cmd": "2 SHOOT 9", "alternative_cmd": "2 MOVE 2 2", "scores": [-2292, -1342], "gap": 950}

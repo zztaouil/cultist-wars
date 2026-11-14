@@ -1,0 +1,5 @@
+w600b: B(candidate) 49W/38D/116L of 203  score 33.5%  paired 95% CI 27.5–39.4  as P0 32.8% as P1 34.2%  pairs 101
+k180: B(candidate) 75W/52D/74L of 201  score 50.2%  paired 95% CI 45.0–55.5  as P0 57.9% as P1 42.5%  pairs 100
+k600: B(candidate) 69W/45D/86L of 200  score 45.8%  paired 95% CI 39.6–50.2  as P0 52.5% as P1 38.8%  pairs 98
+hp60: B(candidate) 72W/52D/75L of 199  score 49.2%  paired 95% CI 43.8–54.7  as P0 57.9% as P1 40.3%  pairs 98
+t2x: B(candidate) 119W/60D/88L of 267  score 55.8%  paired 95% CI 51.2–60.5  as P0 64.4% as P1 47.0%  pairs 132

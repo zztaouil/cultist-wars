@@ -1,0 +1,12 @@
+positions 124345 train 93454 test 30891
+our static eval  test logloss 0.4990
+features ['countDiff'] test logloss 0.5214 coef [0.959]
+features ['countDiff', 'hpDiff'] test logloss 0.4906 coef [0.369 0.085]
+features ['countDiff', 'hpDiff', 'leaderDiff'] test logloss 0.4871 coef [0.351 0.084 0.613]
+features ['countDiff', 'hpDiff', 'leaderDiff', 'neutralRaceDiff'] test logloss 0.4345 coef [ 0.532  0.105 -0.779  0.625]
+features ['countDiff', 'hpDiff', 'leaderDiff', 'neutralRaceDiff', 'neutrals*leaderDiff'] test logloss 0.4294 coef [ 0.523  0.109 -0.008  0.704 -0.466]
+features ['countDiff', 'hpDiff', 'leaderDiff', 'neutralRaceDiff', 'neutrals*leaderDiff', 'countDiff*late', 'hpDiff*late'] test logloss 0.3963 coef [-0.925  0.119 -0.37   0.561 -0.266  2.996  0.032]
+all+ourEval 0.3778 [-10.239  -0.029  -4.903   0.429  -0.32    2.984   0.012   9.36 ]
+phase 0-40: coef count=-0.244 hp=0.082 leader=-1.004 race=0.384  hp-per-unit=-0.337  leader/unit=4.12 race/unit=-1.58  fitted logloss 0.6429 ourEval 0.6904
+phase 40-100: coef count=0.417 hp=0.135 leader=-1.302 race=0.690  hp-per-unit=0.324  leader/unit=-3.12 race/unit=1.66  fitted logloss 0.3851 ourEval 0.4822
+phase 100-151: coef count=1.831 hp=0.159 leader=-1.248 race=0.855  hp-per-unit=0.087  leader/unit=-0.68 race/unit=0.47  fitted logloss 0.1884 ourEval 0.2187

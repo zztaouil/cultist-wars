@@ -1,0 +1,49 @@
+n 16000 decided-by-search(d6 |v|>=1e5) 0.0815
+== all 16000
+  ev                                       logloss 0.4456±0.0079  AUC 0.8616
+  v4                                       logloss 0.3968±0.0067  AUC 0.8942
+  v6                                       logloss 0.3779±0.0064  AUC 0.9051
+  v6+race                                  logloss 0.3549±0.0071  AUC 0.9158
+  v6+race+near                             logloss 0.3524±0.0065  AUC 0.9171
+  ev+race                                  logloss 0.4133±0.0078  AUC 0.8842
+  cnt+hp+lead+race+nl+cntL+hpL             logloss 0.3737±0.0080  AUC 0.9074
+  cnt+hp+lead+race+nl+cntL+hpL+v6          logloss 0.3319±0.0068  AUC 0.9275
+  v6+hp                                    logloss 0.3779±0.0064  AUC 0.9027
+  v6+lead                                  logloss 0.3777±0.0062  AUC 0.9052
+  v6+hp+lead+race                          logloss 0.3422±0.0065  AUC 0.9215
+== 0-40 4551
+  ev                                       logloss 0.6862±0.0034  AUC 0.5683
+  v4                                       logloss 0.6642±0.0048  AUC 0.6374
+  v6                                       logloss 0.6514±0.0066  AUC 0.6583
+  v6+race                                  logloss 0.6115±0.0083  AUC 0.7132
+  v6+race+near                             logloss 0.6093±0.0088  AUC 0.7131
+  ev+race                                  logloss 0.6502±0.0045  AUC 0.6577
+  cnt+hp+lead+race+nl+cntL+hpL             logloss 0.6334±0.0084  AUC 0.6843
+  cnt+hp+lead+race+nl+cntL+hpL+v6          logloss 0.5984±0.0108  AUC 0.7290
+  v6+hp                                    logloss 0.6392±0.0076  AUC 0.6730
+  v6+lead                                  logloss 0.6517±0.0064  AUC 0.6567
+  v6+hp+lead+race                          logloss 0.6084±0.0090  AUC 0.7150
+== 40-100 6873
+  ev                                       logloss 0.4660±0.0096  AUC 0.8586
+  v4                                       logloss 0.3972±0.0118  AUC 0.9004
+  v6                                       logloss 0.3714±0.0127  AUC 0.9144
+  v6+race                                  logloss 0.3422±0.0130  AUC 0.9258
+  v6+race+near                             logloss 0.3365±0.0134  AUC 0.9286
+  ev+race                                  logloss 0.4120±0.0102  AUC 0.8911
+  cnt+hp+lead+race+nl+cntL+hpL             logloss 0.3491±0.0120  AUC 0.9239
+  cnt+hp+lead+race+nl+cntL+hpL+v6          logloss 0.3017±0.0129  AUC 0.9435
+  v6+hp                                    logloss 0.3644±0.0126  AUC 0.9152
+  v6+lead                                  logloss 0.3717±0.0126  AUC 0.9146
+  v6+hp+lead+race                          logloss 0.3114±0.0124  AUC 0.9394
+== 100+ 4576
+  ev                                       logloss 0.1716±0.0190  AUC 0.9824
+  v4                                       logloss 0.1273±0.0176  AUC 0.9902
+  v6                                       logloss 0.1135±0.0164  AUC 0.9921
+  v6+race                                  logloss 0.1137±0.0159  AUC 0.9919
+  v6+race+near                             logloss 0.1130±0.0145  AUC 0.9919
+  ev+race                                  logloss 0.1692±0.0188  AUC 0.9826
+  cnt+hp+lead+race+nl+cntL+hpL             logloss 0.1376±0.0138  AUC 0.9881
+  cnt+hp+lead+race+nl+cntL+hpL+v6          logloss 0.1013±0.0116  AUC 0.9935
+  v6+hp                                    logloss 0.1074±0.0167  AUC 0.9927
+  v6+lead                                  logloss 0.1103±0.0132  AUC 0.9926
+  v6+hp+lead+race                          logloss 0.1021±0.0116  AUC 0.9933

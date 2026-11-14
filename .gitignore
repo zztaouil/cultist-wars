@@ -34,3 +34,4 @@ build/
 /validation/support-41710886/test_recruit-sanitize
 /validation/support-41710886/test_recruit_engine-normal
 /validation/support-41710886/test_recruit_engine-sanitize
+*.jar

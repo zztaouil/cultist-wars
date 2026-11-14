@@ -1,0 +1,290 @@
+{
+  "positions": 56,
+  "games": 14,
+  "rng_zero": 0,
+  "nn49_vs_off49": {
+    "action_changes": 1,
+    "value_changes": 1,
+    "deeper": 0
+  },
+  "nn49_vs_nn500": {
+    "action_changes": 4,
+    "value_changes": 51,
+    "deeper": 56
+  },
+  "nn500_vs_off500": {
+    "action_changes": 0,
+    "value_changes": 1,
+    "deeper": 0
+  },
+  "nn_d4_vs_off_d4": {
+    "action_changes": 4,
+    "value_changes": 0,
+    "deeper": 0
+  },
+  "nn500_vs_no_futility": {
+    "action_changes": 2,
+    "value_changes": 4,
+    "deeper": 0
+  },
+  "nn500_vs_no_threat_q": {
+    "action_changes": 5,
+    "value_changes": 28,
+    "deeper": 22
+  },
+  "fixed_depth_incomplete": 0,
+  "examples": [
+    {
+      "game": "921374440",
+      "turn": 29,
+      "opponent": "YALOKGAR",
+      "actual": [
+        3,
+        1,
+        13
+      ],
+      "choices": {
+        "nn49": {
+          "action": [
+            3,
+            1,
+            13
+          ],
+          "depth": 4,
+          "value": -1245
+        },
+        "off49": {
+          "action": [
+            3,
+            1,
+            13
+          ],
+          "depth": 4,
+          "value": -1245
+        },
+        "nn500": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "depth": 6,
+          "value": -2271
+        },
+        "off500": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "depth": 6,
+          "value": -2271
+        },
+        "nn_d4": {
+          "action": [
+            3,
+            1,
+            13
+          ],
+          "depth": 4,
+          "value": -1245
+        },
+        "off_d4": {
+          "action": [
+            3,
+            1,
+            13
+          ],
+          "depth": 4,
+          "value": -1245
+        },
+        "no_futility": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "depth": 6,
+          "value": -2271
+        },
+        "no_threat_q": {
+          "action": [
+            2,
+            12,
+            7
+          ],
+          "depth": 8,
+          "value": -2253
+        }
+      }
+    },
+    {
+      "game": "921369625",
+      "turn": 29,
+      "opponent": "matsu7874",
+      "actual": [
+        2,
+        12,
+        0
+      ],
+      "choices": {
+        "nn49": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "depth": 7,
+          "value": -48
+        },
+        "off49": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "depth": 7,
+          "value": -48
+        },
+        "nn500": {
+          "action": [
+            1,
+            1,
+            87
+          ],
+          "depth": 8,
+          "value": -82
+        },
+        "off500": {
+          "action": [
+            1,
+            1,
+            87
+          ],
+          "depth": 8,
+          "value": -82
+        },
+        "nn_d4": {
+          "action": [
+            2,
+            12,
+            9
+          ],
+          "depth": 4,
+          "value": -43
+        },
+        "off_d4": {
+          "action": [
+            2,
+            12,
+            0
+          ],
+          "depth": 4,
+          "value": -43
+        },
+        "no_futility": {
+          "action": [
+            1,
+            11,
+            76
+          ],
+          "depth": 7,
+          "value": -48
+        },
+        "no_threat_q": {
+          "action": [
+            1,
+            1,
+            87
+          ],
+          "depth": 9,
+          "value": -80
+        }
+      }
+    },
+    {
+      "game": "921365647",
+      "turn": 19,
+      "opponent": "YurkovAS",
+      "actual": [
+        3,
+        1,
+        8
+      ],
+      "choices": {
+        "nn49": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "depth": 6,
+          "value": -157
+        },
+        "off49": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "depth": 6,
+          "value": -157
+        },
+        "nn500": {
+          "action": [
+            1,
+            1,
+            60
+          ],
+          "depth": 8,
+          "value": -484
+        },
+        "off500": {
+          "action": [
+            1,
+            1,
+            60
+          ],
+          "depth": 8,
+          "value": -484
+        },
+        "nn_d4": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "depth": 4,
+          "value": -84
+        },
+        "off_d4": {
+          "action": [
+            1,
+            11,
+            87
+          ],
+          "depth": 4,
+          "value": -84
+        },
+        "no_futility": {
+          "action": [
+            1,
+            1,
+            60
+          ],
+          "depth": 8,
+          "value": -484
+        },
+        "no_threat_q": {
+          "action": [
+            2,
+            11,
+            0
+          ],
+          "depth": 8,
+          "value": -948
+        }
+      }
+    }
+  ]
+}

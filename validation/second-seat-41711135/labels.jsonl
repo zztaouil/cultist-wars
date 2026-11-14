@@ -1,0 +1,6 @@
+{"game": "921374440", "turn": 27, "scores": [{"action": [2, 12, 0], "depth4": -1218, "depth6": -1245, "depth8": -2271}, {"action": [3, 1, 13], "depth4": -1218, "depth6": -1245, "depth8": -2289}]}
+{"game": "921374440", "turn": 29, "scores": [{"action": [2, 12, 0], "depth4": -1333, "depth6": -2271, "depth8": null}, {"action": [3, 1, 13], "depth4": -1245, "depth6": -2289, "depth8": null}]}
+{"game": "921369625", "turn": 29, "scores": [{"action": [1, 1, 87], "depth4": -62, "depth6": -68, "depth8": -82}, {"action": [2, 12, 0], "depth4": -43, "depth6": -33, "depth8": -99}]}
+{"game": "921369478", "turn": 65, "scores": [{"action": [1, 1, 23], "depth4": -905, "depth6": -905, "depth8": -905}, {"action": [2, 12, 0], "depth4": -905, "depth6": -894, "depth8": -894}]}
+{"game": "921365647", "turn": 19, "scores": [{"action": [1, 1, 60], "depth4": -1109, "depth6": -1106, "depth8": -484}, {"action": [1, 11, 87], "depth4": -84, "depth6": -157, "depth8": -982}, {"action": [3, 1, 8], "depth4": -1195, "depth6": -1195, "depth8": -1195}]}
+{"game": "921364554", "turn": 63, "scores": [{"action": [1, 12, 48], "depth4": 1307, "depth6": 1290, "depth8": 367}, {"action": [1, 13, 44], "depth4": 1384, "depth6": 445, "depth8": 355}]}

@@ -1,0 +1,4 @@
+b2                           aCat 44.4 Noobkins 46.2 MSz 42.4  all 44.4% of 1900  our-shoot-share 28.2%
+k180                         aCat 44.9 Noobkins 48.4 MSz 43.8  all 45.5% of 1900  our-shoot-share 28.7%
+w300                         aCat 44.2 Noobkins 46.8 MSz 43.6  all 44.7% of 1900  our-shoot-share 30.4%
+w600                         aCat 42.6 Noobkins 46.2 MSz 42.4  all 43.5% of 1900  our-shoot-share 30.6%

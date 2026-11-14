@@ -1,0 +1,30 @@
+decisive positions 124345 games 2726
+ourEval                      0.5042 ± 0.0102   (seed3-like single: 0.4980)
+count                        0.5245 ± 0.0095   (seed3-like single: 0.5202)
+cnt+hp+lead                  0.4944 ± 0.0088   (seed3-like single: 0.4887)
++race                        0.4275 ± 0.0105   (seed3-like single: 0.4183)
+7feat                        0.3888 ± 0.0115   (seed3-like single: 0.3853)
+7feat+ev                     0.3729 ± 0.0120   (seed3-like single: 0.3668)
+ourEval+phase                0.4574 ± 0.0129   (seed3-like single: 0.4560)
+ourEval+phase+seat           0.4508 ± 0.0144   (seed3-like single: 0.4486)
+7feat+seat                   0.3886 ± 0.0121   (seed3-like single: 0.3845)
+ourEval+race                 0.4543 ± 0.0138   (seed3-like single: 0.4422)
+ourEval+phase+race           0.4268 ± 0.0153   (seed3-like single: 0.4197)
+ourEval+phase+race+raceL     0.4265 ± 0.0155   (seed3-like single: 0.4193)
+seat only                    0.6587 ± 0.0090   (seed3-like single: 0.6539)
+rating only                  0.5579 ± 0.0141   (seed3-like single: 0.5680)
+rating+seat                  0.5159 ± 0.0154   (seed3-like single: 0.5195)
+ourEval+phase+rating         0.3653 ± 0.0084   (seed3-like single: 0.3688)
+ourEval+phase+race+rating    0.3446 ± 0.0082   (seed3-like single: 0.3430)
+7feat+rating                 0.3150 ± 0.0074   (seed3-like single: 0.3136)
+7feat no race                0.4321 ± 0.0102   (seed3-like single: 0.4315)
+7feat race->wr               0.3859 ± 0.0112   (seed3-like single: 0.3805)
+7feat race->hpr              0.3858 ± 0.0126   (seed3-like single: 0.3824)
+7feat +near                  0.3768 ± 0.0120   (seed3-like single: 0.3728)
+7feat split hp               0.3882 ± 0.0114   (seed3-like single: 0.3847)
+coefs 7feat [-0.93   0.115 -0.31   0.533 -0.284  2.966  0.041]
+coefs ev+phase+race [-0.046  2.434  0.344]
+coefs 7feat+rating [-0.806  0.116 -0.418  0.509 -0.262  3.057  0.034  0.32 ]
+0 40 ourEval=0.6916 ourEval+race=0.6457 cnt+hp+lead=0.6874 +race=0.6388 7feat=0.6358
+40 100 ourEval=0.4757 ourEval+race=0.4213 cnt+hp+lead=0.4481 +race=0.3709 7feat=0.3576
+100 151 ourEval=0.1909 ourEval+race=0.1869 cnt+hp+lead=0.1652 +race=0.1489 7feat=0.1364

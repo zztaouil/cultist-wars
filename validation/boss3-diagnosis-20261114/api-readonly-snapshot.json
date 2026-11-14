@@ -1,0 +1,2493 @@
+{
+ "progress": {
+  "submission_id": 41711350,
+  "language": "C",
+  "in_progress": true,
+  "percentage": 13,
+  "score": 19.17,
+  "rank": 42,
+  "total": 401,
+  "league": "Gold",
+  "league_rank": 23,
+  "league_total": 30,
+  "eligible_for_promotion": false,
+  "next_promotion_in_seconds": 0,
+  "league_boss": {
+   "name": "BOSS 3",
+   "rank": 1,
+   "score": 27.42,
+   "agent_id": 4611894
+  },
+  "league_history": [
+   {
+    "league": "Bronze",
+    "entered_at": "2026-11-13T16:26:11.607Z"
+   },
+   {
+    "league": "Silver",
+    "entered_at": "2026-11-13T16:41:34.096Z"
+   },
+   {
+    "league": "Gold",
+    "entered_at": "2026-11-13T16:53:46.093Z"
+   }
+  ],
+  "promotion_mode": "rank_above_boss",
+  "limits": {
+   "submits": {
+    "name": "submits_5m",
+    "limit": 5,
+    "used": 0,
+    "remaining": 5,
+    "window_seconds": 300,
+    "resets_in_seconds": 0
+   },
+   "test_games": {
+    "name": "test_games_6h",
+    "limit": 200,
+    "used": 199,
+    "remaining": 1,
+    "window_seconds": 21600,
+    "resets_in_seconds": 1626
+   },
+   "requests": {
+    "name": "requests_1m",
+    "limit": 120,
+    "used": 1,
+    "remaining": 119,
+    "window_seconds": 60,
+    "resets_in_seconds": 60
+   }
+  }
+ },
+ "opponents": {
+  "opponents": [
+   {
+    "nickname": "BOSS 3",
+    "agent_id": 4611894,
+    "league": "Gold",
+    "boss": true
+   },
+   {
+    "nickname": "Lv0Sys",
+    "agent_id": 6823739,
+    "rank": 1,
+    "league": "Gold"
+   },
+   {
+    "nickname": "N3l",
+    "agent_id": 6796217,
+    "rank": 2,
+    "league": "Gold"
+   },
+   {
+    "nickname": "YALOKGAR",
+    "agent_id": 6787045,
+    "rank": 3,
+    "league": "Gold"
+   },
+   {
+    "nickname": "matsu7874",
+    "agent_id": 6834404,
+    "rank": 4,
+    "league": "Gold"
+   },
+   {
+    "nickname": "FrancoisB",
+    "agent_id": 6880362,
+    "rank": 5,
+    "league": "Gold"
+   },
+   {
+    "nickname": "Peterpanda",
+    "agent_id": 4611895,
+    "rank": 6,
+    "league": "Gold"
+   },
+   {
+    "nickname": "Konstant",
+    "agent_id": 6797148,
+    "rank": 7,
+    "league": "Gold"
+   },
+   {
+    "nickname": "ElectricTyphoon",
+    "agent_id": 6843875,
+    "rank": 8,
+    "league": "Gold"
+   },
+   {
+    "nickname": "NOT__",
+    "agent_id": 6806047,
+    "rank": 9,
+    "league": "Gold"
+   },
+   {
+    "nickname": "TomAlard",
+    "agent_id": 5045211,
+    "rank": 10,
+    "league": "Gold"
+   },
+   {
+    "nickname": "fabianoliver.at",
+    "agent_id": 6822650,
+    "rank": 11,
+    "league": "Gold"
+   },
+   {
+    "nickname": "DaNinja",
+    "agent_id": 6434314,
+    "rank": 12,
+    "league": "Gold"
+   },
+   {
+    "nickname": "Meruem",
+    "agent_id": 6274923,
+    "rank": 13,
+    "league": "Gold"
+   },
+   {
+    "nickname": "Yapix839",
+    "agent_id": 6819719,
+    "rank": 14,
+    "league": "Gold"
+   },
+   {
+    "nickname": "DomiKo",
+    "agent_id": 5864385,
+    "rank": 15,
+    "league": "Gold"
+   },
+   {
+    "nickname": "Kathrin",
+    "agent_id": 6223058,
+    "rank": 16,
+    "league": "Gold"
+   },
+   {
+    "nickname": "YurkovAS",
+    "agent_id": 5003326,
+    "rank": 17,
+    "league": "Gold"
+   },
+   {
+    "nickname": "Miek93",
+    "agent_id": 6880575,
+    "rank": 18,
+    "league": "Gold"
+   },
+   {
+    "nickname": "Timinator",
+    "agent_id": 6661088,
+    "rank": 19,
+    "league": "Gold"
+   },
+   {
+    "nickname": "Uemu",
+    "agent_id": 6570311,
+    "rank": 20,
+    "league": "Gold"
+   },
+   {
+    "nickname": "P.Greze",
+    "agent_id": 6822639,
+    "rank": 21,
+    "league": "Gold"
+   },
+   {
+    "nickname": "jfaixo",
+    "agent_id": 6120154,
+    "rank": 22,
+    "league": "Gold"
+   },
+   {
+    "nickname": "hexagonee",
+    "agent_id": 6881681,
+    "rank": 23,
+    "league": "Gold",
+    "me": true
+   },
+   {
+    "nickname": "Leos",
+    "agent_id": 6795852,
+    "rank": 24,
+    "league": "Gold"
+   },
+   {
+    "nickname": "kovi",
+    "agent_id": 6822389,
+    "rank": 25,
+    "league": "Gold"
+   },
+   {
+    "nickname": "pbou",
+    "agent_id": 6873176,
+    "rank": 26,
+    "league": "Gold"
+   },
+   {
+    "nickname": "Gabbek",
+    "agent_id": 6873170,
+    "rank": 27,
+    "league": "Gold"
+   },
+   {
+    "nickname": "TimeEngineer",
+    "agent_id": 4611937,
+    "rank": 28,
+    "league": "Gold"
+   },
+   {
+    "nickname": "kurnevsky",
+    "agent_id": 4611935,
+    "rank": 29,
+    "league": "Gold"
+   },
+   {
+    "nickname": "BOSS 2",
+    "agent_id": 4611825,
+    "league": "Silver",
+    "boss": true
+   },
+   {
+    "nickname": "martynas-sm",
+    "agent_id": 4469680,
+    "rank": 1,
+    "league": "Silver"
+   },
+   {
+    "nickname": "wlesavo",
+    "agent_id": 4471420,
+    "rank": 2,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Queuebee",
+    "agent_id": 6801241,
+    "rank": 3,
+    "league": "Silver"
+   },
+   {
+    "nickname": "R4N4R4M4",
+    "agent_id": 5277976,
+    "rank": 4,
+    "league": "Silver"
+   },
+   {
+    "nickname": "cedricdd",
+    "agent_id": 4466603,
+    "rank": 5,
+    "league": "Silver"
+   },
+   {
+    "nickname": "khanh-alice",
+    "agent_id": 4469634,
+    "rank": 6,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Akwa6",
+    "agent_id": 5803616,
+    "rank": 7,
+    "league": "Silver"
+   },
+   {
+    "nickname": "elderlybeginner",
+    "agent_id": 4969046,
+    "rank": 8,
+    "league": "Silver"
+   },
+   {
+    "nickname": "aropan",
+    "agent_id": 4929419,
+    "rank": 9,
+    "league": "Silver"
+   },
+   {
+    "nickname": "TheMagicShop",
+    "agent_id": 4476964,
+    "rank": 10,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Anoyakh",
+    "agent_id": 5920294,
+    "rank": 11,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Tabaxi3K",
+    "agent_id": 6869244,
+    "rank": 12,
+    "league": "Silver"
+   },
+   {
+    "nickname": "bubul",
+    "agent_id": 4524388,
+    "rank": 13,
+    "league": "Silver"
+   },
+   {
+    "nickname": "VizGhar",
+    "agent_id": 4466367,
+    "rank": 14,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Instafluff",
+    "agent_id": 6423391,
+    "rank": 15,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Nerchio",
+    "agent_id": 3727680,
+    "rank": 16,
+    "league": "Silver"
+   },
+   {
+    "nickname": "never-again",
+    "agent_id": 6268120,
+    "rank": 17,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Sheeesh---",
+    "agent_id": 4471180,
+    "rank": 18,
+    "league": "Silver"
+   },
+   {
+    "nickname": "TetraktysPhi",
+    "agent_id": 4464697,
+    "rank": 19,
+    "league": "Silver"
+   },
+   {
+    "nickname": "insomnia_rooster",
+    "agent_id": 4470299,
+    "rank": 20,
+    "league": "Silver"
+   },
+   {
+    "nickname": "jolindien",
+    "agent_id": 3492915,
+    "rank": 21,
+    "league": "Silver"
+   },
+   {
+    "nickname": "[SG]Sebastien",
+    "agent_id": 4469662,
+    "rank": 22,
+    "league": "Silver"
+   },
+   {
+    "nickname": "obrozer",
+    "agent_id": 4475466,
+    "rank": 23,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Saucisse42",
+    "agent_id": 6881086,
+    "rank": 24,
+    "league": "Silver"
+   },
+   {
+    "nickname": "therealbeef",
+    "agent_id": 4472241,
+    "rank": 25,
+    "league": "Silver"
+   },
+   {
+    "nickname": "babaaurhum",
+    "agent_id": 4434613,
+    "rank": 26,
+    "league": "Silver"
+   },
+   {
+    "nickname": "PhOeNyX",
+    "agent_id": 5139433,
+    "rank": 27,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Nixerrr",
+    "agent_id": 2338793,
+    "rank": 28,
+    "league": "Silver"
+   },
+   {
+    "nickname": "WIlChrist",
+    "agent_id": 6193734,
+    "rank": 29,
+    "league": "Silver"
+   },
+   {
+    "nickname": "pierallard",
+    "agent_id": 2591344,
+    "rank": 30,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Arnaud.Net",
+    "agent_id": 4468681,
+    "rank": 31,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Yai",
+    "agent_id": 4519237,
+    "rank": 32,
+    "league": "Silver"
+   },
+   {
+    "nickname": "ArtesScytale",
+    "agent_id": 4516908,
+    "rank": 33,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Darth_Alex",
+    "agent_id": 4462309,
+    "rank": 34,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Crog",
+    "agent_id": 5803020,
+    "rank": 35,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Vincent-T",
+    "agent_id": 4469857,
+    "rank": 36,
+    "league": "Silver"
+   },
+   {
+    "nickname": "lhommefm",
+    "agent_id": 4461800,
+    "rank": 37,
+    "league": "Silver"
+   },
+   {
+    "nickname": "SurprisedBat",
+    "agent_id": 4460151,
+    "rank": 38,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Pedro1994",
+    "agent_id": 6505025,
+    "rank": 39,
+    "league": "Silver"
+   },
+   {
+    "nickname": "SomeNumbers",
+    "agent_id": 4469047,
+    "rank": 40,
+    "league": "Silver"
+   },
+   {
+    "nickname": "VilBoub",
+    "agent_id": 4468731,
+    "rank": 41,
+    "league": "Silver"
+   },
+   {
+    "nickname": "papyjo",
+    "agent_id": 6256114,
+    "rank": 42,
+    "league": "Silver"
+   },
+   {
+    "nickname": "MyIIone",
+    "agent_id": 2435659,
+    "rank": 43,
+    "league": "Silver"
+   },
+   {
+    "nickname": "gpoussel_",
+    "agent_id": 6765093,
+    "rank": 44,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Crsdr",
+    "agent_id": 3492769,
+    "rank": 45,
+    "league": "Silver"
+   },
+   {
+    "nickname": "_NikJ",
+    "agent_id": 4469410,
+    "rank": 46,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Ficek",
+    "agent_id": 6378488,
+    "rank": 47,
+    "league": "Silver"
+   },
+   {
+    "nickname": "nidup",
+    "agent_id": 2596627,
+    "rank": 48,
+    "league": "Silver"
+   },
+   {
+    "nickname": "celeria",
+    "agent_id": 6493216,
+    "rank": 49,
+    "league": "Silver"
+   },
+   {
+    "nickname": "chris.steele",
+    "agent_id": 4459552,
+    "rank": 50,
+    "league": "Silver"
+   },
+   {
+    "nickname": "hasklet",
+    "agent_id": 4524262,
+    "rank": 51,
+    "league": "Silver"
+   },
+   {
+    "nickname": "a76a44",
+    "agent_id": 4476768,
+    "rank": 52,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Tanvir_Ahmed",
+    "agent_id": 4469900,
+    "rank": 53,
+    "league": "Silver"
+   },
+   {
+    "nickname": "ThePurificator",
+    "agent_id": 4468735,
+    "rank": 54,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Skewnart",
+    "agent_id": 4454160,
+    "rank": 55,
+    "league": "Silver"
+   },
+   {
+    "nickname": "melnikk",
+    "agent_id": 6585626,
+    "rank": 56,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Ylald",
+    "agent_id": 6378481,
+    "rank": 57,
+    "league": "Silver"
+   },
+   {
+    "nickname": "rc95401",
+    "agent_id": 5374637,
+    "rank": 58,
+    "league": "Silver"
+   },
+   {
+    "nickname": "KarloHubai",
+    "agent_id": 4466769,
+    "rank": 59,
+    "league": "Silver"
+   },
+   {
+    "nickname": "chilltiger",
+    "agent_id": 6812453,
+    "rank": 60,
+    "league": "Silver"
+   },
+   {
+    "nickname": "conadal",
+    "agent_id": 4469835,
+    "rank": 61,
+    "league": "Silver"
+   },
+   {
+    "nickname": "eulerscheZahl",
+    "agent_id": 2705630,
+    "rank": 62,
+    "league": "Silver"
+   },
+   {
+    "nickname": "philRG",
+    "agent_id": 4469923,
+    "rank": 63,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Valphyr",
+    "agent_id": 4440101,
+    "rank": 64,
+    "league": "Silver"
+   },
+   {
+    "nickname": "kozuechan-AI",
+    "agent_id": 6832423,
+    "rank": 65,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Vemore",
+    "agent_id": 4456402,
+    "rank": 66,
+    "league": "Silver"
+   },
+   {
+    "nickname": "WildSmilodon",
+    "agent_id": 4450687,
+    "rank": 67,
+    "league": "Silver"
+   },
+   {
+    "nickname": "field3",
+    "agent_id": 3530125,
+    "rank": 68,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Remi.",
+    "agent_id": 4470891,
+    "rank": 69,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Tiramon",
+    "agent_id": 2341606,
+    "rank": 70,
+    "league": "Silver"
+   },
+   {
+    "nickname": "darkhorse64",
+    "agent_id": 2503337,
+    "rank": 71,
+    "league": "Silver"
+   },
+   {
+    "nickname": "PaRy",
+    "agent_id": 4469749,
+    "rank": 72,
+    "league": "Silver"
+   },
+   {
+    "nickname": "RockyMullet",
+    "agent_id": 2409369,
+    "rank": 73,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Illedan",
+    "agent_id": 6017949,
+    "rank": 74,
+    "league": "Silver"
+   },
+   {
+    "nickname": "DGynn",
+    "agent_id": 2437047,
+    "rank": 75,
+    "league": "Silver"
+   },
+   {
+    "nickname": "JohnyDarecek",
+    "agent_id": 4473970,
+    "rank": 76,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Azkellas",
+    "agent_id": 2612494,
+    "rank": 77,
+    "league": "Silver"
+   },
+   {
+    "nickname": "AntonSqlDev",
+    "agent_id": 5109598,
+    "rank": 78,
+    "league": "Silver"
+   },
+   {
+    "nickname": "exploder_",
+    "agent_id": 4545102,
+    "rank": 79,
+    "league": "Silver"
+   },
+   {
+    "nickname": "Zenoscave",
+    "agent_id": 2470164,
+    "rank": 80,
+    "league": "Silver"
+   },
+   {
+    "nickname": "AYOUB_DIRI",
+    "agent_id": 6159294,
+    "rank": 81,
+    "league": "Silver"
+   },
+   {
+    "nickname": "redline",
+    "agent_id": 2334933,
+    "rank": 82,
+    "league": "Silver"
+   },
+   {
+    "nickname": "domak",
+    "agent_id": 4490820,
+    "rank": 83,
+    "league": "Silver"
+   },
+   {
+    "nickname": "BlackBird",
+    "agent_id": 2334827,
+    "rank": 84,
+    "league": "Silver"
+   },
+   {
+    "nickname": "ereiam",
+    "agent_id": 2334315,
+    "rank": 85,
+    "league": "Silver"
+   },
+   {
+    "nickname": "JeSuisMoi",
+    "agent_id": 5859807,
+    "rank": 86,
+    "league": "Silver"
+   },
+   {
+    "nickname": "mshibatatt",
+    "agent_id": 4469260,
+    "rank": 87,
+    "league": "Silver"
+   },
+   {
+    "nickname": "i8fbnkyw",
+    "agent_id": 4470759,
+    "rank": 88,
+    "league": "Silver"
+   },
+   {
+    "nickname": "codingWhale",
+    "agent_id": 2334319,
+    "rank": 89,
+    "league": "Silver"
+   },
+   {
+    "nickname": "dbdr",
+    "agent_id": 2342189,
+    "rank": 90,
+    "league": "Silver"
+   },
+   {
+    "nickname": "BOSS 1",
+    "agent_id": 2411205,
+    "league": "Bronze",
+    "boss": true
+   },
+   {
+    "nickname": "vpoulailleau",
+    "agent_id": 4779806,
+    "rank": 1,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "saverio",
+    "agent_id": 4459794,
+    "rank": 2,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Shaq76",
+    "agent_id": 4518419,
+    "rank": 3,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Eldanor",
+    "agent_id": 4505451,
+    "rank": 4,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "leojean890",
+    "agent_id": 4524271,
+    "rank": 5,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "AlucardDH",
+    "agent_id": 4701441,
+    "rank": 6,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Code-Parser",
+    "agent_id": 5358658,
+    "rank": 7,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "AlgoAce",
+    "agent_id": 5276242,
+    "rank": 8,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "AvanCabinet",
+    "agent_id": 3432827,
+    "rank": 9,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Stephen-Kondaveti",
+    "agent_id": 5335380,
+    "rank": 10,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Tehelka",
+    "agent_id": 2480710,
+    "rank": 11,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Markus88",
+    "agent_id": 4477914,
+    "rank": 12,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "JFB",
+    "agent_id": 4458895,
+    "rank": 13,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Runner87",
+    "agent_id": 4701063,
+    "rank": 14,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "DrBrask",
+    "agent_id": 4697539,
+    "rank": 15,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "LeBastIan",
+    "agent_id": 4584946,
+    "rank": 16,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "PowerDrunkCodingFactory",
+    "agent_id": 4450675,
+    "rank": 17,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "NariDia",
+    "agent_id": 3473125,
+    "rank": 18,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "nguyen.lam",
+    "agent_id": 4469537,
+    "rank": 19,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Y8",
+    "agent_id": 6856000,
+    "rank": 20,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Antash",
+    "agent_id": 4495952,
+    "rank": 21,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Gemini3.5Flash",
+    "agent_id": 6505260,
+    "rank": 22,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "nmahoude",
+    "agent_id": 4434190,
+    "rank": 23,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "IlyaPol",
+    "agent_id": 5281244,
+    "rank": 24,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Ellipsis",
+    "agent_id": 4608770,
+    "rank": 25,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "TheRealScotley",
+    "agent_id": 4464602,
+    "rank": 26,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Monkris",
+    "agent_id": 4471108,
+    "rank": 27,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Gorzak",
+    "agent_id": 5001697,
+    "rank": 28,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "abouchfa",
+    "agent_id": 4470162,
+    "rank": 29,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "tonigineer",
+    "agent_id": 4805619,
+    "rank": 30,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "LeReveur",
+    "agent_id": 6398461,
+    "rank": 31,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "I_love_CoC",
+    "agent_id": 5300174,
+    "rank": 32,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "github_yulunyue",
+    "agent_id": 6000365,
+    "rank": 33,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "BurningSmith",
+    "agent_id": 5355579,
+    "rank": 34,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "[CG]KevinGuiraud",
+    "agent_id": 6803029,
+    "rank": 35,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "levbor",
+    "agent_id": 2447294,
+    "rank": 36,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "LeMasSon",
+    "agent_id": 5529983,
+    "rank": 37,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "DoYouEvenFlask",
+    "agent_id": 5629527,
+    "rank": 38,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Serhii_Kovalenko",
+    "agent_id": 4473588,
+    "rank": 39,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Robostomper",
+    "agent_id": 3473096,
+    "rank": 40,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Rolf",
+    "agent_id": 6678351,
+    "rank": 41,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "clerven",
+    "agent_id": 4777090,
+    "rank": 42,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "The_Frost_",
+    "agent_id": 5716542,
+    "rank": 43,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "VitaliiH",
+    "agent_id": 4468973,
+    "rank": 44,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "OccitanieFreelancer",
+    "agent_id": 5380248,
+    "rank": 45,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Jerry81",
+    "agent_id": 4469033,
+    "rank": 46,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "schuutj",
+    "agent_id": 3015237,
+    "rank": 47,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "micmus",
+    "agent_id": 5477392,
+    "rank": 48,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "simdlg",
+    "agent_id": 4450987,
+    "rank": 49,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Mysta_noon",
+    "agent_id": 4468397,
+    "rank": 50,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "yzavoloka",
+    "agent_id": 6872299,
+    "rank": 51,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "TertandoTR",
+    "agent_id": 6836386,
+    "rank": 52,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "lorcQc",
+    "agent_id": 4468676,
+    "rank": 53,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "MasterOfUnderscore",
+    "agent_id": 4468944,
+    "rank": 54,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Bulgot",
+    "agent_id": 4424350,
+    "rank": 55,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "[CG]jupoulton",
+    "agent_id": 4299856,
+    "rank": 56,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Jufo",
+    "agent_id": 4989648,
+    "rank": 57,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "moi_fort",
+    "agent_id": 6868621,
+    "rank": 58,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "[CG]Claude3.7Sonnet-Python",
+    "agent_id": 5818541,
+    "rank": 59,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "bjurner",
+    "agent_id": 2479179,
+    "rank": 60,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Mighty-Professional",
+    "agent_id": 6821385,
+    "rank": 61,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Maurice_Moss",
+    "agent_id": 4463476,
+    "rank": 62,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Cordy",
+    "agent_id": 4477720,
+    "rank": 63,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "TLbuis",
+    "agent_id": 3166285,
+    "rank": 64,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "BigUP",
+    "agent_id": 2440531,
+    "rank": 65,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Potemkine",
+    "agent_id": 2366339,
+    "rank": 66,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "hichemjadlaoui",
+    "agent_id": 6030667,
+    "rank": 67,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "TN19N",
+    "agent_id": 4454739,
+    "rank": 68,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "nick3point5",
+    "agent_id": 3810417,
+    "rank": 69,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "607",
+    "agent_id": 5596673,
+    "rank": 70,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Benoit-Simunsol",
+    "agent_id": 3965031,
+    "rank": 71,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "guruaho",
+    "agent_id": 2436362,
+    "rank": 72,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Shibuyap",
+    "agent_id": 2436121,
+    "rank": 73,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Braxis27",
+    "agent_id": 5281145,
+    "rank": 74,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Mechar",
+    "agent_id": 2353640,
+    "rank": 75,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "PatrickMcGinnisII",
+    "agent_id": 2434880,
+    "rank": 76,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "DepartmentOfRedundancy",
+    "agent_id": 4484994,
+    "rank": 77,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Beretta_Vexee",
+    "agent_id": 4481010,
+    "rank": 78,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "CapLord",
+    "agent_id": 4468991,
+    "rank": 79,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "JesusR",
+    "agent_id": 5791882,
+    "rank": 80,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Fallback",
+    "agent_id": 4484732,
+    "rank": 81,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "yaichi",
+    "agent_id": 6167654,
+    "rank": 82,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "oolivierr",
+    "agent_id": 4980192,
+    "rank": 83,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "slempel",
+    "agent_id": 3838069,
+    "rank": 84,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "yuxiaozhang",
+    "agent_id": 6811839,
+    "rank": 85,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Emanuele.Fasano",
+    "agent_id": 5286901,
+    "rank": 86,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "demetedPufferfish",
+    "agent_id": 4425945,
+    "rank": 87,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Chewys512",
+    "agent_id": 5439858,
+    "rank": 88,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Bitwise",
+    "agent_id": 5477405,
+    "rank": 89,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "SuperDron",
+    "agent_id": 5555249,
+    "rank": 90,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "tashman01",
+    "agent_id": 4482816,
+    "rank": 91,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "CHIKI_",
+    "agent_id": 5839199,
+    "rank": 92,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "YongJing",
+    "agent_id": 2358682,
+    "rank": 93,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "rex42",
+    "agent_id": 6292023,
+    "rank": 94,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Avior",
+    "agent_id": 4469864,
+    "rank": 95,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Monstruo",
+    "agent_id": 4468740,
+    "rank": 96,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Dudee89",
+    "agent_id": 4455359,
+    "rank": 97,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Krlos",
+    "agent_id": 5996428,
+    "rank": 98,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Misiodziej",
+    "agent_id": 5402413,
+    "rank": 99,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "ludodul",
+    "agent_id": 4456037,
+    "rank": 100,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "ChuckTheNinja",
+    "agent_id": 4382957,
+    "rank": 101,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "gallage",
+    "agent_id": 6875230,
+    "rank": 102,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "dolmen1234",
+    "agent_id": 4469736,
+    "rank": 103,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "IamToshiro",
+    "agent_id": 5594644,
+    "rank": 104,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "HarderTilt",
+    "agent_id": 2443995,
+    "rank": 105,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "GrantWard",
+    "agent_id": 2440381,
+    "rank": 106,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Kururugi",
+    "agent_id": 4477101,
+    "rank": 107,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "TiPoix",
+    "agent_id": 4823586,
+    "rank": 108,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "TsubasaHizono",
+    "agent_id": 6423514,
+    "rank": 109,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Karim-",
+    "agent_id": 4468934,
+    "rank": 110,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "RogersMath",
+    "agent_id": 4452232,
+    "rank": 111,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "adlur",
+    "agent_id": 4456879,
+    "rank": 112,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Redstrike",
+    "agent_id": 2471159,
+    "rank": 113,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "FatIvan",
+    "agent_id": 2426843,
+    "rank": 114,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "risko",
+    "agent_id": 3980768,
+    "rank": 115,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "xyz-1",
+    "agent_id": 4432774,
+    "rank": 116,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "[CG]Gemini-Python",
+    "agent_id": 5823346,
+    "rank": 117,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "4n4c0nd4",
+    "agent_id": 2437804,
+    "rank": 118,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "TBali",
+    "agent_id": 4421596,
+    "rank": 119,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Kaplone",
+    "agent_id": 4432117,
+    "rank": 120,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Caled",
+    "agent_id": 2440671,
+    "rank": 121,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Jsw7524",
+    "agent_id": 4473758,
+    "rank": 122,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "quentin_cha",
+    "agent_id": 4459468,
+    "rank": 123,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Lotirador",
+    "agent_id": 4436266,
+    "rank": 124,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "HDainester",
+    "agent_id": 3867767,
+    "rank": 125,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "KAKAROT_MPL",
+    "agent_id": 6239782,
+    "rank": 126,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "BrainSolver",
+    "agent_id": 2849846,
+    "rank": 127,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Cr3aHal0",
+    "agent_id": 2437376,
+    "rank": 128,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "JohnDoe101",
+    "agent_id": 2493394,
+    "rank": 129,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Oleksii_Morozov",
+    "agent_id": 5139476,
+    "rank": 130,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "BAZooo",
+    "agent_id": 4474903,
+    "rank": 131,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Ayza",
+    "agent_id": 4457303,
+    "rank": 132,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "xalloc",
+    "agent_id": 5838377,
+    "rank": 133,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "orkipastafari",
+    "agent_id": 2440129,
+    "rank": 134,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Rysiu22",
+    "agent_id": 4478693,
+    "rank": 135,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "albatross42",
+    "agent_id": 6567925,
+    "rank": 136,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Mastor",
+    "agent_id": 4469600,
+    "rank": 137,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "input.txt",
+    "agent_id": 2416931,
+    "rank": 138,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "M3T4",
+    "agent_id": 3409423,
+    "rank": 139,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "dusiu",
+    "agent_id": 5556373,
+    "rank": 140,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Palau",
+    "agent_id": 4474779,
+    "rank": 141,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "requi",
+    "agent_id": 5042319,
+    "rank": 142,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "LeRenard",
+    "agent_id": 4440385,
+    "rank": 143,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Airmanon",
+    "agent_id": 3941552,
+    "rank": 144,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Segfault_4573256634",
+    "agent_id": 4468836,
+    "rank": 145,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Chajoui",
+    "agent_id": 5839192,
+    "rank": 146,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "nkasimi",
+    "agent_id": 5839214,
+    "rank": 147,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "UnDesFred",
+    "agent_id": 4439677,
+    "rank": 148,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Winter_not_comming",
+    "agent_id": 4517194,
+    "rank": 149,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "vcoubray",
+    "agent_id": 2437469,
+    "rank": 150,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "GwadaKing",
+    "agent_id": 2624716,
+    "rank": 151,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "_Quasar",
+    "agent_id": 5838306,
+    "rank": 152,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "tomeko",
+    "agent_id": 2335645,
+    "rank": 153,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Sedera",
+    "agent_id": 4694362,
+    "rank": 154,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "PRabid",
+    "agent_id": 4469498,
+    "rank": 155,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Flodnes",
+    "agent_id": 2343140,
+    "rank": 156,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "[CG]OpenAIGPTO1-Python",
+    "agent_id": 5809904,
+    "rank": 157,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "TomRubicon",
+    "agent_id": 3998343,
+    "rank": 158,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "hbrbou",
+    "agent_id": 5838383,
+    "rank": 159,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Laars",
+    "agent_id": 5373057,
+    "rank": 160,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "[CG]Simon",
+    "agent_id": 4056426,
+    "rank": 161,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "[CG]OpenAIGPTO1-CPP",
+    "agent_id": 5809811,
+    "rank": 162,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "[CG]MistralCodestral-Python",
+    "agent_id": 5820902,
+    "rank": 163,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Aging_Nerd",
+    "agent_id": 2338700,
+    "rank": 164,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Annabell",
+    "agent_id": 4453193,
+    "rank": 165,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Quentin-R",
+    "agent_id": 5578302,
+    "rank": 166,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Lagonscint",
+    "agent_id": 5866681,
+    "rank": 167,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Rinoweb",
+    "agent_id": 3026975,
+    "rank": 168,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Gandalfchris",
+    "agent_id": 4485637,
+    "rank": 169,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "abobas",
+    "agent_id": 4536952,
+    "rank": 170,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "[CG]Llama3.8b-Python",
+    "agent_id": 5820804,
+    "rank": 171,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Philgerb93",
+    "agent_id": 2417802,
+    "rank": 172,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Anth_",
+    "agent_id": 4453895,
+    "rank": 173,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "2L",
+    "agent_id": 5838303,
+    "rank": 174,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "CAEZAR",
+    "agent_id": 2579599,
+    "rank": 175,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Graviton_Noir",
+    "agent_id": 3767461,
+    "rank": 176,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "3tmvn",
+    "agent_id": 5838467,
+    "rank": 177,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Pesegato",
+    "agent_id": 2346114,
+    "rank": 178,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "LOKI_78",
+    "agent_id": 4736061,
+    "rank": 179,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "[Leonardone]-[-_-]-[NEETSDKASU]",
+    "agent_id": 2401792,
+    "rank": 180,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "NE0dymium",
+    "agent_id": 6816520,
+    "rank": 181,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "abbecool",
+    "agent_id": 3012292,
+    "rank": 182,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "About",
+    "agent_id": 4403531,
+    "rank": 183,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "cup_of_tea",
+    "agent_id": 5355243,
+    "rank": 184,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "vrampal",
+    "agent_id": 2495936,
+    "rank": 185,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "PringleOrange",
+    "agent_id": 3985112,
+    "rank": 186,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Palmipedus",
+    "agent_id": 2828229,
+    "rank": 187,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Ironist",
+    "agent_id": 2579496,
+    "rank": 188,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "derjack",
+    "agent_id": 4441891,
+    "rank": 189,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "otpv",
+    "agent_id": 3314557,
+    "rank": 190,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "ESCANOUR",
+    "agent_id": 5837397,
+    "rank": 191,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "amanjeet",
+    "agent_id": 2434562,
+    "rank": 192,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "scooby13",
+    "agent_id": 5838157,
+    "rank": 193,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "M0dr1cGK",
+    "agent_id": 5838999,
+    "rank": 194,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "dinobogan",
+    "agent_id": 2392318,
+    "rank": 195,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "PaulNord",
+    "agent_id": 5378947,
+    "rank": 196,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "iDxMeG",
+    "agent_id": 2995976,
+    "rank": 197,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "jpcheck",
+    "agent_id": 2475746,
+    "rank": 198,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "LeProfesseur",
+    "agent_id": 4421381,
+    "rank": 199,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "infomaniax",
+    "agent_id": 4769449,
+    "rank": 200,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "eskeln",
+    "agent_id": 2345581,
+    "rank": 201,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "mabenchi",
+    "agent_id": 4459426,
+    "rank": 202,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "HardCoder12",
+    "agent_id": 5838056,
+    "rank": 203,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "mbrouk",
+    "agent_id": 5838211,
+    "rank": 204,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "notcode",
+    "agent_id": 5838044,
+    "rank": 205,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "0x6E0FF",
+    "agent_id": 2578273,
+    "rank": 206,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "TypA",
+    "agent_id": 5377460,
+    "rank": 207,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "crastinus",
+    "agent_id": 5335758,
+    "rank": 208,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "zazaboon",
+    "agent_id": 5432422,
+    "rank": 209,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "mastercode",
+    "agent_id": 2616249,
+    "rank": 210,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "RomainPicot",
+    "agent_id": 5032433,
+    "rank": 211,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Ne-Gok-Sa",
+    "agent_id": 5334966,
+    "rank": 212,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "OhValentin",
+    "agent_id": 4469164,
+    "rank": 213,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Zapatiche",
+    "agent_id": 5387607,
+    "rank": 214,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "[CG]OpenAIGPT4o-Python",
+    "agent_id": 5814266,
+    "rank": 215,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "rodneyipui",
+    "agent_id": 2405135,
+    "rank": 216,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Dagal",
+    "agent_id": 2468136,
+    "rank": 217,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "JeanClaude44",
+    "agent_id": 5990981,
+    "rank": 218,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Shurishe",
+    "agent_id": 2457217,
+    "rank": 219,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Myrtille44",
+    "agent_id": 4499281,
+    "rank": 220,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Westicles",
+    "agent_id": 3450276,
+    "rank": 221,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "elel-m-b",
+    "agent_id": 5838239,
+    "rank": 222,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Mysoka",
+    "agent_id": 5308195,
+    "rank": 223,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "[CG]Maxime",
+    "agent_id": 2435742,
+    "rank": 224,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Dexter_The_Spider-Spoon",
+    "agent_id": 5838051,
+    "rank": 225,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Ebyn",
+    "agent_id": 3529179,
+    "rank": 226,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "kodejuice",
+    "agent_id": 2434491,
+    "rank": 227,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "LostSymphony",
+    "agent_id": 2464187,
+    "rank": 228,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "RomanceDawn",
+    "agent_id": 2333617,
+    "rank": 229,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "tsh",
+    "agent_id": 2477561,
+    "rank": 230,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Theanonym",
+    "agent_id": 4745042,
+    "rank": 231,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "tmenant",
+    "agent_id": 4449393,
+    "rank": 232,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "shwe6",
+    "agent_id": 4762173,
+    "rank": 233,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "yuricat2",
+    "agent_id": 4798533,
+    "rank": 234,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "tazorax",
+    "agent_id": 2434477,
+    "rank": 235,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "TheProCode",
+    "agent_id": 3760669,
+    "rank": 236,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "LegendsOfCodeAndMagic",
+    "agent_id": 4437143,
+    "rank": 237,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "BlaiseEbuth",
+    "agent_id": 4402812,
+    "rank": 238,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "MathisHammel",
+    "agent_id": 4018214,
+    "rank": 239,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "KVLO19",
+    "agent_id": 6875720,
+    "rank": 240,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "jrke",
+    "agent_id": 3159432,
+    "rank": 241,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "The_worst_abi",
+    "agent_id": 5838345,
+    "rank": 242,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Pilsner91",
+    "agent_id": 4439685,
+    "rank": 243,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "NohjKram",
+    "agent_id": 2434997,
+    "rank": 244,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "aelhayyany",
+    "agent_id": 4455335,
+    "rank": 245,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "mfahmi_",
+    "agent_id": 5838375,
+    "rank": 246,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Ten0",
+    "agent_id": 4441502,
+    "rank": 247,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "LA1",
+    "agent_id": 2434823,
+    "rank": 248,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "soufyan",
+    "agent_id": 4523535,
+    "rank": 249,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "[CG]CohereCommandA-Python",
+    "agent_id": 5823348,
+    "rank": 250,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "maaQ",
+    "agent_id": 5838300,
+    "rank": 251,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "ImhotepHUN",
+    "agent_id": 5576973,
+    "rank": 252,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Lorita26",
+    "agent_id": 2435650,
+    "rank": 253,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Gnossienne",
+    "agent_id": 2422968,
+    "rank": 254,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Guydl",
+    "agent_id": 5039955,
+    "rank": 255,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Gray104",
+    "agent_id": 2757308,
+    "rank": 256,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "KesharaRajasingam",
+    "agent_id": 3419237,
+    "rank": 257,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Nikhilj11",
+    "agent_id": 4751663,
+    "rank": 258,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "ybouryal",
+    "agent_id": 5838277,
+    "rank": 259,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "meddit",
+    "agent_id": 5838089,
+    "rank": 260,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "Koji02",
+    "agent_id": 3042613,
+    "rank": 261,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "ronney",
+    "agent_id": 3125160,
+    "rank": 262,
+    "league": "Bronze"
+   },
+   {
+    "nickname": "hmas",
+    "agent_id": 2638409,
+    "rank": 263,
+    "league": "Bronze"
+   }
+  ],
+  "limits": {
+   "requests": {
+    "name": "requests_1m",
+    "limit": 120,
+    "used": 2,
+    "remaining": 118,
+    "window_seconds": 60,
+    "resets_in_seconds": 58
+   }
+  }
+ },
+ "limits": {
+  "puzzle": "cultist-wars",
+  "submits": [
+   {
+    "name": "submits_5m",
+    "limit": 5,
+    "used": 0,
+    "remaining": 5,
+    "window_seconds": 300,
+    "resets_in_seconds": 0
+   },
+   {
+    "name": "submits_30m",
+    "limit": 20,
+    "used": 1,
+    "remaining": 19,
+    "window_seconds": 1800,
+    "resets_in_seconds": 828
+   },
+   {
+    "name": "submits_1h",
+    "limit": 40,
+    "used": 1,
+    "remaining": 39,
+    "window_seconds": 3600,
+    "resets_in_seconds": 2628
+   },
+   {
+    "name": "submits_5h",
+    "limit": 100,
+    "used": 6,
+    "remaining": 94,
+    "window_seconds": 18000,
+    "resets_in_seconds": 3130
+   }
+  ],
+  "test_games": [
+   {
+    "name": "test_games_1m",
+    "limit": 10,
+    "used": 0,
+    "remaining": 10,
+    "window_seconds": 60,
+    "resets_in_seconds": 0
+   },
+   {
+    "name": "test_games_5m",
+    "limit": 20,
+    "used": 0,
+    "remaining": 20,
+    "window_seconds": 300,
+    "resets_in_seconds": 0
+   },
+   {
+    "name": "test_games_15m",
+    "limit": 30,
+    "used": 2,
+    "remaining": 28,
+    "window_seconds": 900,
+    "resets_in_seconds": 168
+   },
+   {
+    "name": "test_games_1h",
+    "limit": 80,
+    "used": 34,
+    "remaining": 46,
+    "window_seconds": 3600,
+    "resets_in_seconds": 491
+   },
+   {
+    "name": "test_games_3h",
+    "limit": 150,
+    "used": 58,
+    "remaining": 92,
+    "window_seconds": 10800,
+    "resets_in_seconds": 134
+   },
+   {
+    "name": "test_games_6h",
+    "limit": 200,
+    "used": 199,
+    "remaining": 1,
+    "window_seconds": 21600,
+    "resets_in_seconds": 1618
+   },
+   {
+    "name": "test_games_24h",
+    "limit": 600,
+    "used": 274,
+    "remaining": 326,
+    "window_seconds": 86400,
+    "resets_in_seconds": 49856
+   }
+  ],
+  "limits": {
+   "requests": {
+    "name": "requests_1m",
+    "limit": 120,
+    "used": 3,
+    "remaining": 117,
+    "window_seconds": 60,
+    "resets_in_seconds": 52
+   }
+  }
+ }
+}

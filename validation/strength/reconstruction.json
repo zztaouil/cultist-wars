@@ -1,0 +1,155 @@
+[
+  {
+    "game": "boss-baseline-2000",
+    "seed": 2000,
+    "transitions": 148,
+    "final_counts": [
+      0,
+      5
+    ]
+  },
+  {
+    "game": "boss-baseline-2001",
+    "seed": 2001,
+    "transitions": 150,
+    "final_counts": [
+      1,
+      4
+    ]
+  },
+  {
+    "game": "budget35-boss-loss",
+    "seed": 593530583075211000,
+    "transitions": 150,
+    "final_counts": [
+      4,
+      5
+    ]
+  },
+  {
+    "game": "budget35-lv0sys",
+    "seed": 4138667358690129000,
+    "transitions": 150,
+    "final_counts": [
+      4,
+      4
+    ]
+  },
+  {
+    "game": "budget35-boss-b",
+    "seed": 4160813631360656000,
+    "transitions": 150,
+    "final_counts": [
+      3,
+      4
+    ]
+  },
+  {
+    "game": "budget35-boss-a",
+    "seed": 4160813631360656000,
+    "transitions": 150,
+    "final_counts": [
+      4,
+      4
+    ]
+  },
+  {
+    "game": "budget35-boss-loss2",
+    "seed": 2727523781013921000,
+    "transitions": 123,
+    "final_counts": [
+      5,
+      0
+    ]
+  },
+  {
+    "game": "920737868",
+    "seed": -2054842897517165000,
+    "transitions": 131,
+    "final_counts": [
+      4,
+      0
+    ]
+  },
+  {
+    "game": "921159999",
+    "seed": 4551069348932652500,
+    "transitions": 42,
+    "final_counts": [
+      0,
+      2
+    ]
+  },
+  {
+    "game": "921163703",
+    "seed": -2880998669599205000,
+    "transitions": 127,
+    "final_counts": [
+      6,
+      0
+    ]
+  },
+  {
+    "game": "920940730",
+    "seed": 3240368482324478000,
+    "transitions": 150,
+    "final_counts": [
+      2,
+      2
+    ]
+  },
+  {
+    "game": "921164419",
+    "seed": -1425207245125793500,
+    "transitions": 150,
+    "final_counts": [
+      5,
+      1
+    ]
+  },
+  {
+    "game": "920690863",
+    "seed": 1308189070090567000,
+    "transitions": 150,
+    "final_counts": [
+      2,
+      2
+    ]
+  },
+  {
+    "game": "921165533",
+    "seed": 8951400676151646000,
+    "transitions": 127,
+    "final_counts": [
+      6,
+      0
+    ]
+  },
+  {
+    "game": "921035048",
+    "seed": -6851887432909569000,
+    "transitions": 72,
+    "final_counts": [
+      0,
+      3
+    ]
+  },
+  {
+    "game": "920937777",
+    "seed": 7445829604425548000,
+    "transitions": 87,
+    "final_counts": [
+      3,
+      0
+    ]
+  },
+  {
+    "game": "920689171",
+    "seed": 1472687647303468000,
+    "transitions": 150,
+    "final_counts": [
+      5,
+      3
+    ]
+  }
+]

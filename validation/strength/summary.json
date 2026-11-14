@@ -1,0 +1,176 @@
+{
+  "hp-development.jsonl": {
+    "games": 16,
+    "wdl": [
+      4,
+      4,
+      8
+    ],
+    "score": 0.375,
+    "paired_ci95": [
+      0.21875,
+      0.53125
+    ],
+    "baseline_candidate": [
+      {
+        "turns": 1153,
+        "timeouts_proxy": 0,
+        "max_ms": 49.046,
+        "qshare": 0.7664972606149459,
+        "mean_depth": 7.928881179531657
+      },
+      {
+        "turns": 1154,
+        "timeouts_proxy": 1,
+        "max_ms": 52.546,
+        "qshare": 0.7588443573919729,
+        "mean_depth": 8.047660311958406
+      }
+    ]
+  },
+  "race-development.jsonl": {
+    "games": 16,
+    "wdl": [
+      8,
+      2,
+      6
+    ],
+    "score": 0.5625,
+    "paired_ci95": [
+      0.34375,
+      0.78125
+    ],
+    "baseline_candidate": [
+      {
+        "turns": 1115,
+        "timeouts_proxy": 2,
+        "max_ms": 66.91,
+        "qshare": 0.7839302305079272,
+        "mean_depth": 7.705829596412556
+      },
+      {
+        "turns": 1114,
+        "timeouts_proxy": 4,
+        "max_ms": 51.903,
+        "qshare": 0.7823065041018967,
+        "mean_depth": 7.666965888689408
+      }
+    ]
+  },
+  "q-development.jsonl": {
+    "games": 16,
+    "wdl": [
+      6,
+      1,
+      9
+    ],
+    "score": 0.40625,
+    "paired_ci95": [
+      0.28125,
+      0.5
+    ],
+    "baseline_candidate": [
+      {
+        "turns": 1156,
+        "timeouts_proxy": 5,
+        "max_ms": 75.561,
+        "qshare": 0.8268354283944377,
+        "mean_depth": 6.812283737024221
+      },
+      {
+        "turns": 1158,
+        "timeouts_proxy": 4,
+        "max_ms": 86.927,
+        "qshare": 0.8295635154165586,
+        "mean_depth": 6.875647668393782
+      }
+    ]
+  },
+  "q-holdout.jsonl": {
+    "games": 32,
+    "wdl": [
+      10,
+      10,
+      12
+    ],
+    "score": 0.46875,
+    "paired_ci95": [
+      0.390625,
+      0.546875
+    ],
+    "baseline_candidate": [
+      {
+        "turns": 2343,
+        "timeouts_proxy": 2,
+        "max_ms": 51.45,
+        "qshare": 0.7955598556832632,
+        "mean_depth": 7.585574050362783
+      },
+      {
+        "turns": 2342,
+        "timeouts_proxy": 1,
+        "max_ms": 51.719,
+        "qshare": 0.7955075937869127,
+        "mean_depth": 7.6084543125533735
+      }
+    ]
+  },
+  "style-baseline.jsonl": {
+    "games": 8,
+    "wdl": [
+      3,
+      3,
+      2
+    ],
+    "score": 0.5625,
+    "paired_ci95": [
+      0.375,
+      0.75
+    ],
+    "baseline_candidate": [
+      {
+        "turns": 568,
+        "timeouts_proxy": 1,
+        "max_ms": 50.072,
+        "qshare": 0.7132179586300021,
+        "mean_depth": 8.257042253521126
+      },
+      {
+        "turns": 569,
+        "timeouts_proxy": 2,
+        "max_ms": 60.572,
+        "qshare": 0.783732216755574,
+        "mean_depth": 7.936731107205624
+      }
+    ]
+  },
+  "style-q.jsonl": {
+    "games": 8,
+    "wdl": [
+      3,
+      3,
+      2
+    ],
+    "score": 0.5625,
+    "paired_ci95": [
+      0.3125,
+      0.875
+    ],
+    "baseline_candidate": [
+      {
+        "turns": 586,
+        "timeouts_proxy": 0,
+        "max_ms": 49.831,
+        "qshare": 0.7010254878036121,
+        "mean_depth": 8.401023890784982
+      },
+      {
+        "turns": 586,
+        "timeouts_proxy": 2,
+        "max_ms": 52.517,
+        "qshare": 0.7734864080503188,
+        "mean_depth": 8.083617747440274
+      }
+    ]
+  }
+}

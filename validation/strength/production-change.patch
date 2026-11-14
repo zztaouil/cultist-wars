@@ -1,0 +1,23 @@
+--- frozen-baseline.c
++++ bot.c
+@@ -417,6 +417,9 @@
+ }
+ /* Bounded tactical extension. Stand-pat is a heuristic, not a legal pass:
+    neutral movement and zugzwang mean this is intentionally selective. */
++#ifndef Q_LAZY_EVAL
++#define Q_LAZY_EVAL 1
++#endif
+ static int quiescence(const State *s, int alpha, int beta, int left) {
+     State copy;
+     if (!s->ready) { copy = *s; prepare(&copy); s = &copy; }
+@@ -432,8 +435,9 @@
+             ++hits; return entry->value;
+         }
+     }
+-    int best = evaluate_live(s);
+     int unstable = use_threat_q && left && (s->remaining <= left || material_threat(s));
++    /* Threatened nodes cannot stand pat: their static value is discarded. */
++    int best = (Q_LAZY_EVAL && unstable) ? -INF : evaluate_live(s);
+     if (!left || (!unstable && best >= beta)) {
+         *entry = (QEntry){s->key,best,left+1,!left ? 0 : 1};
+         return best;

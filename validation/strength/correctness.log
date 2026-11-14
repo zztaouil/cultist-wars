@@ -1,0 +1,4 @@
+./tests/test_bot
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+python3 tests/test_protocol.py
+PASS: 12 protocol turns; max local latency 52.3 ms

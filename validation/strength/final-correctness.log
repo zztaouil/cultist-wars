@@ -1,0 +1,6 @@
+cc -O3 -std=c11 -Wall -Wextra -Wpedantic tests/test_bot.c -o tests/test_bot
+cc -O3 -std=c11 -Wall -Wextra -Wpedantic bot.c -o bot
+./tests/test_bot
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+python3 tests/test_protocol.py
+PASS: 12 protocol turns; max local latency 238.5 ms

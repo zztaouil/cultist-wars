@@ -1,0 +1,50 @@
+{
+  "train": {
+    "positions": 40828,
+    "games": 1279,
+    "maps": 1276,
+    "players": {
+      "Noobkins": 25521,
+      "MSz": 7804,
+      "aCat": 7503
+    },
+    "seat": {
+      "1": 20845,
+      "0": 19983
+    }
+  },
+  "validation": {
+    "positions": 5012,
+    "games": 157,
+    "maps": 157,
+    "players": {
+      "Noobkins": 2826,
+      "MSz": 1123,
+      "aCat": 1063
+    },
+    "seat": {
+      "1": 2425,
+      "0": 2587
+    }
+  },
+  "test": {
+    "positions": 4444,
+    "games": 139,
+    "maps": 139,
+    "players": {
+      "Noobkins": 2859,
+      "MSz": 755,
+      "aCat": 830
+    },
+    "seat": {
+      "0": 2377,
+      "1": 2067
+    }
+  },
+  "inputs_sha256": {
+    "features.c": "99fb5bb28910df4857d2129c3eb16af33b33b9acc342e38e4151a5c8b8d86f6c",
+    "cache/meta.json": "9fe972bb4477d14ab9f79a85387c6cb8436aea5d5d982009429e48d94080f52f",
+    "cache/features.f32": "45238779153b66f695993f188c0393ae9140b1f8373ecd6eac46bf3be9c930b2",
+    "cache/orders.i32": "4e4cbfc2a3e4f9b6ce0fca828e657f879260b143705af73dde6265686d253120"
+  }
+}

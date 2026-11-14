@@ -1,0 +1,6 @@
+{
+  "submission_id": 41711350,
+  "sha256": "a722bde9d755960698fe3e3aa3bebe365840e0f23f3d36e4fcb123e2529eb6f1",
+  "change": "larger root policy: 128-128-64-1, 24833 parameters, FP16 storage; user-requested arena trial",
+  "progress": "pending"
+}

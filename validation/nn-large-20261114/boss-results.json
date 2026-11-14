@@ -1,0 +1,121 @@
+{
+  "games": 16,
+  "variants": {
+    "baseline": {
+      "W": 3,
+      "D": 0,
+      "L": 5,
+      "score": 0.375,
+      "errors": 0,
+      "max_internal_us": 50073,
+      "seats": {
+        "0": {
+          "games": 4,
+          "W": 2,
+          "D": 0,
+          "L": 2
+        },
+        "1": {
+          "games": 4,
+          "W": 1,
+          "D": 0,
+          "L": 3
+        }
+      }
+    },
+    "candidate": {
+      "W": 2,
+      "D": 4,
+      "L": 2,
+      "score": 0.5,
+      "errors": 0,
+      "max_internal_us": 49556,
+      "seats": {
+        "0": {
+          "games": 4,
+          "W": 2,
+          "D": 2,
+          "L": 0
+        },
+        "1": {
+          "games": 4,
+          "W": 0,
+          "D": 2,
+          "L": 2
+        }
+      }
+    }
+  },
+  "paired_cases": [
+    {
+      "case": "seat1-921359954",
+      "seat": 1,
+      "baseline": "L",
+      "candidate": "L",
+      "score_delta": 0.0,
+      "margin_delta": 1
+    },
+    {
+      "case": "seat0-41713001",
+      "seat": 0,
+      "baseline": "W",
+      "candidate": "W",
+      "score_delta": 0.0,
+      "margin_delta": -2
+    },
+    {
+      "case": "seat1-921359519",
+      "seat": 1,
+      "baseline": "W",
+      "candidate": "D",
+      "score_delta": -0.5,
+      "margin_delta": -1
+    },
+    {
+      "case": "seat0-41713002",
+      "seat": 0,
+      "baseline": "L",
+      "candidate": "D",
+      "score_delta": 0.5,
+      "margin_delta": 1
+    },
+    {
+      "case": "seat1-921345459",
+      "seat": 1,
+      "baseline": "L",
+      "candidate": "D",
+      "score_delta": 0.5,
+      "margin_delta": 3
+    },
+    {
+      "case": "seat0-41713003",
+      "seat": 0,
+      "baseline": "W",
+      "candidate": "D",
+      "score_delta": -0.5,
+      "margin_delta": -3
+    },
+    {
+      "case": "seat1-921338908",
+      "seat": 1,
+      "baseline": "L",
+      "candidate": "L",
+      "score_delta": 0.0,
+      "margin_delta": 0
+    },
+    {
+      "case": "seat0-41713004",
+      "seat": 0,
+      "baseline": "L",
+      "candidate": "W",
+      "score_delta": 1.0,
+      "margin_delta": 7
+    }
+  ],
+  "paired_score_delta": 0.125,
+  "approximate_95_ci": [
+    -0.23364327680858588,
+    0.4836432768085859
+  ],
+  "limits": "Eight-case pilot, repeated historical second-seat maps and fresh first-seat maps. Seat samples differ. Approximate normal interval with few cases; not proof of strength or arena promotion."
+}

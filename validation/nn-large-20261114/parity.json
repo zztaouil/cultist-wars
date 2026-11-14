@@ -1,0 +1,9 @@
+{
+  "groups": 4444,
+  "decoded_params_exact": true,
+  "max_c_vs_fp16_numpy_error": 9.5367431640625e-06,
+  "c_vs_fp16_top1_disagreements": 0,
+  "max_c_vs_fp32_error": 0.00409698486328125,
+  "fp32_vs_fp16_top1_disagreements": 0,
+  "fp16_test_top1": 0.4835733573357336
+}

@@ -1,0 +1,370 @@
+[
+  {
+    "case": "seat0-41713001-baseline",
+    "scores": [
+      4,
+      1
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 5,
+        "enemy_converts": 0,
+        "kills": 4,
+        "neutral_kills": 0
+      },
+      {
+        "recruits": 4,
+        "enemy_converts": 0,
+        "kills": 2,
+        "neutral_kills": 1
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat0-41713001-candidate",
+    "scores": [
+      2,
+      1
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 6,
+        "enemy_converts": 0,
+        "kills": 6,
+        "neutral_kills": 0
+      },
+      {
+        "recruits": 6,
+        "enemy_converts": 0,
+        "kills": 5,
+        "neutral_kills": 0
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat0-41713002-baseline",
+    "scores": [
+      4,
+      5
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 4,
+        "enemy_converts": 0,
+        "kills": 2,
+        "neutral_kills": 0
+      },
+      {
+        "recruits": 6,
+        "enemy_converts": 0,
+        "kills": 1,
+        "neutral_kills": 2
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat0-41713002-candidate",
+    "scores": [
+      4,
+      4
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 4,
+        "enemy_converts": 0,
+        "kills": 3,
+        "neutral_kills": 0
+      },
+      {
+        "recruits": 6,
+        "enemy_converts": 0,
+        "kills": 1,
+        "neutral_kills": 2
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat0-41713003-baseline",
+    "scores": [
+      4,
+      1
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 5,
+        "enemy_converts": 0,
+        "kills": 5,
+        "neutral_kills": 0
+      },
+      {
+        "recruits": 5,
+        "enemy_converts": 0,
+        "kills": 2,
+        "neutral_kills": 0
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat0-41713003-candidate",
+    "scores": [
+      3,
+      3
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 5,
+        "enemy_converts": 0,
+        "kills": 3,
+        "neutral_kills": 0
+      },
+      {
+        "recruits": 5,
+        "enemy_converts": 0,
+        "kills": 3,
+        "neutral_kills": 1
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat0-41713004-baseline",
+    "scores": [
+      0,
+      2
+    ],
+    "actions": 146,
+    "metrics": [
+      {
+        "recruits": 5,
+        "enemy_converts": 7,
+        "kills": 4,
+        "neutral_kills": 0
+      },
+      {
+        "recruits": 6,
+        "enemy_converts": 6,
+        "kills": 7,
+        "neutral_kills": 1
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat0-41713004-candidate",
+    "scores": [
+      5,
+      0
+    ],
+    "actions": 95,
+    "metrics": [
+      {
+        "recruits": 7,
+        "enemy_converts": 0,
+        "kills": 4,
+        "neutral_kills": 1
+      },
+      {
+        "recruits": 3,
+        "enemy_converts": 0,
+        "kills": 3,
+        "neutral_kills": 1
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat1-921338908-baseline",
+    "scores": [
+      7,
+      6
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 6,
+        "enemy_converts": 0,
+        "kills": 0,
+        "neutral_kills": 1
+      },
+      {
+        "recruits": 5,
+        "enemy_converts": 0,
+        "kills": 0,
+        "neutral_kills": 0
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat1-921338908-candidate",
+    "scores": [
+      7,
+      6
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 6,
+        "enemy_converts": 0,
+        "kills": 0,
+        "neutral_kills": 1
+      },
+      {
+        "recruits": 5,
+        "enemy_converts": 0,
+        "kills": 0,
+        "neutral_kills": 0
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat1-921345459-baseline",
+    "scores": [
+      4,
+      1
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 7,
+        "enemy_converts": 0,
+        "kills": 5,
+        "neutral_kills": 0
+      },
+      {
+        "recruits": 5,
+        "enemy_converts": 0,
+        "kills": 4,
+        "neutral_kills": 0
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat1-921345459-candidate",
+    "scores": [
+      2,
+      2
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 5,
+        "enemy_converts": 0,
+        "kills": 3,
+        "neutral_kills": 0
+      },
+      {
+        "recruits": 4,
+        "enemy_converts": 0,
+        "kills": 4,
+        "neutral_kills": 2
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat1-921359519-baseline",
+    "scores": [
+      4,
+      5
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 5,
+        "enemy_converts": 0,
+        "kills": 3,
+        "neutral_kills": 0
+      },
+      {
+        "recruits": 7,
+        "enemy_converts": 0,
+        "kills": 2,
+        "neutral_kills": 0
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat1-921359519-candidate",
+    "scores": [
+      5,
+      5
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 5,
+        "enemy_converts": 0,
+        "kills": 1,
+        "neutral_kills": 1
+      },
+      {
+        "recruits": 5,
+        "enemy_converts": 0,
+        "kills": 1,
+        "neutral_kills": 1
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat1-921359954-baseline",
+    "scores": [
+      6,
+      4
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 8,
+        "enemy_converts": 0,
+        "kills": 1,
+        "neutral_kills": 0
+      },
+      {
+        "recruits": 4,
+        "enemy_converts": 0,
+        "kills": 3,
+        "neutral_kills": 0
+      }
+    ],
+    "verified": true
+  },
+  {
+    "case": "seat1-921359954-candidate",
+    "scores": [
+      5,
+      4
+    ],
+    "actions": 150,
+    "metrics": [
+      {
+        "recruits": 6,
+        "enemy_converts": 0,
+        "kills": 1,
+        "neutral_kills": 1
+      },
+      {
+        "recruits": 4,
+        "enemy_converts": 0,
+        "kills": 2,
+        "neutral_kills": 1
+      }
+    ],
+    "verified": true
+  }
+]

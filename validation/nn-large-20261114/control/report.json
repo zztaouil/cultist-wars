@@ -1,0 +1,51 @@
+{
+  "architecture": [
+    128,
+    32,
+    1
+  ],
+  "parameters": 4161,
+  "seed": 17,
+  "best_epoch": 71,
+  "epochs": 83,
+  "seconds": 14.09,
+  "validation": {
+    "loss": 1.6241421406495504,
+    "top1": 0.4858339984038308,
+    "top3": 0.737829209896249,
+    "positions": 5012
+  },
+  "test": {
+    "loss": 1.6321892450780722,
+    "top1": 0.4896489648964896,
+    "top3": 0.745949594959496,
+    "positions": 4444
+  },
+  "config": {
+    "hidden": [
+      32
+    ],
+    "seed": 17,
+    "epochs": 100,
+    "patience": 12,
+    "minutes": 15,
+    "device": "cpu",
+    "out": "control"
+  },
+  "torch_version": "2.15.0",
+  "numpy_version": "2.5.4",
+  "meta_sha256": "9fe972bb4477d14ab9f79a85387c6cb8436aea5d5d982009429e48d94080f52f",
+  "baseline_sha256": "82b341ea7cb5ace6f316af95069fd0d763476c0aa5126693b78b8df398368b4d",
+  "feature_version": 1,
+  "split_positions": [
+    40828,
+    5012,
+    4444
+  ],
+  "map_groups": 1572,
+  "notes": [
+    "Test split reused from prior research, not globally untouched.",
+    "Checkpoint selected only by validation cross entropy.",
+    "Imitation metrics do not establish search strength."
+  ]
+}

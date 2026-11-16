@@ -1,0 +1,15 @@
+{
+  "sources": {
+    "bot.c": "96ca86d8855230504e4ff1c733270009d33171c7d9e8092361136b9820ef8641",
+    "bot.cpp": "36c52b4bcd0927f5e6ede62ef5514bcad777b6a2598c24f7fb850eab55c38663",
+    "validation/cpp-port-20261114/baseline.c": "96ca86d8855230504e4ff1c733270009d33171c7d9e8092361136b9820ef8641"
+  },
+  "compiler": "Apple clang version 21.0.0 (clang-2100.4.1.1)",
+  "platform": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "maps": "validation/arena-verify/results/maps.json",
+  "shuffle_seed": 2024,
+  "maps_used": 32,
+  "games": 64,
+  "budget_ms": 48,
+  "match_flags": "-O3 -march=native; C11 / C++17"
+}

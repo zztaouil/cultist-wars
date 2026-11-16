@@ -1,4 +1,93 @@
+# Primary engine: C++17 — neural value experiment
+
+Current `bot.cpp` uses a trained full-state NN as the alpha-beta/quiescence leaf
+evaluator and for root move ordering. Standalone C++17; 239 inputs, 8,225 weights.
+`make` / `make test` build and validate it. This local model is experimental:
+initial paired screen lost 0–8 against the frozen incoming bot. No arena submission
+or strength promotion. [Implementation, training and evidence](validation/nn-alpha-beta-20261114/README.md).
+
+## Previous C++ production baseline — submission 41714965
+
+Future development and submissions use `bot.cpp`. `make` builds `bot_cpp`;
+`make test` runs C++ engine tests with ASan/UBSan and protocol checks.
+Historical C builds/tests remain available through `make bot`, `make test-c`,
+and `make sanitize-c`.
+
+Latest weakness audit and upgrade: [report](validation/cpp-legend-20261114/README.md).
+Older entries below describe historical versions and budgets.
+
+# C++17 port — 2026-11-14
+
+`bot.cpp` is a standalone, strategy-preserving C++17 port of the current `bot.c`.
+Uses named structs, constexpr engine constants, C++ aggregate initialization,
+and explicit narrowing at compact-state boundaries. Network weights, search,
+clock, protocol, and 48 ms budget are preserved.
+
+```sh
+make bot_cpp
+make test-cpp
+./bot_cpp < game_input.txt
+```
+
+Local C/C++ comparison and reproduction commands:
+[validation report](validation/cpp-port-20261114/README.md).
+
+# Component upgrade — submission 41714747
+
+Implemented owned-unit fire exposure, relative recruitment access, leader bonus 0,
+defensive futility guard, and six-ply tactical search around contested conversions.
+48 ms budget; NN unchanged. Rules/features/protocol tests and ASan/UBSan pass.
+64-game separate paired holdout: 25W/19D/20L (53.91%; interval 43.80–64.01).
+Four judge replays: candidate and baseline both 0W/1D/3L; no failures.
+Arena strength gain remains unproven; user-requested submission accepted.
+[Implementation and validation](validation/upgrade-41714601/README.md).
+Older sections below describe historical versions.
+
+Arena update: user requested submission; accepted as **41714601**. Ranking in progress. Earlier no-submission notes below are historical.
+
+# Recruitment evaluation update — 2026-11-14
+
+`bot.c` adds bounded neutral-access evaluation, accounts for blocked first steps,
+and discounts potential recruits exposed to an opposing shot. The default turn
+budget is now 48 ms, reserving more margin after the audited arena timeout.
+`-DRECRUIT_WEIGHT=0` disables the new evaluation term. Network bytes are unchanged;
+standalone source remains below the 100,000-byte judge cap.
+
+Local development: 32W/10D/22L (57.81%). Separate 128-game, equal-48-ms holdout:
+46W/36D/46L (50.0%, paired approximate 95% interval 43.64–56.36%). **Strength gain
+is unproven.** This is an implemented candidate, not a validated arena upgrade.
+Private judge validation needs source-upload approval; nothing submitted or
+written to the IDE. Details: [experiment](validation/recruitment-20261114/README.md).
+Earlier entries below are historical.
+
+# Search efficiency update — 2026-11-14
+
+`bot.c` now freezes live submission 41711656's network/evaluation and improves
+four-ply tactical caching, bound reuse, and quiet-escape history ordering.
+49 ms retained. New 49 ms paired sample: 27W/14D/23L (53.12%, approximate paired
+95% interval 47.41–58.84%). Private selected replays: 2W/2L versus rerun baseline
+1W/3L. Strength gain remains unproven; no arena submission or IDE overwrite.
+Correctness, ASan/UBSan, protocol, and differential tests pass. Read
+`validation/search-20261114/README.md` and `performance.json` for measured speed,
+rejected alternatives, source provenance, and limitations. The prior incoming
+local million-position integration is preserved in that directory's `incoming.c`.
+Earlier entries below are historical.
+
 # Cultist Wars C bot
+
+## Current bot — million-position policy
+
+`bot.c` now combines the established 41711135 alpha-beta engine with the
+128→128→64→1 policy trained on 1,000,000 top-ten imitation examples
+(253,182 original positions plus 746,818 verified reflections). Policy scores
+order root actions; the search retains its 49 ms budget. Weights use FP16 storage
+and float32 inference. Standalone source is 99,119 bytes.
+
+Integration evidence and limitations:
+[`validation/nn-1m-integration-20261114/README.md`](validation/nn-1m-integration-20261114/README.md).
+Training results: [`validation/imitation-1m-20261114/README.md`](validation/imitation-1m-20261114/README.md).
+Older sections below describe historical versions and experiments.
+
 
 Latest experiment revision and larger-policy training: [review](validation/nn-large-20261114/REVIEW.md).
 BOSS 3 is the target; imitation accuracy and self-play alone do not establish improvement.

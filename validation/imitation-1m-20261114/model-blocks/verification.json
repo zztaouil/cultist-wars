@@ -1,0 +1,7 @@
+{
+  "checkpoint_npz_json_exact_match": true,
+  "finite_weights": true,
+  "parameter_count": 24833,
+  "best_epoch": 36,
+  "early_stopping_verified": true
+}

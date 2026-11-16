@@ -1,0 +1,19 @@
+{
+  "validation": {
+    "positions": 11228,
+    "policy_loss": 1.8361119079046246,
+    "value_mse": 0.777536872276684,
+    "top1": 0.4144994656216601,
+    "zero_value_mse": 0.9010509252548218,
+    "train_mean_value_mse": 0.8907685279846191
+  },
+  "test": {
+    "positions": 9200,
+    "policy_loss": 1.8084999482528024,
+    "value_mse": 0.6619023497208305,
+    "top1": 0.42130434782608694,
+    "zero_value_mse": 0.8725000023841858,
+    "train_mean_value_mse": 0.8688997030258179
+  },
+  "screen_map_overlap_with_pilot_corpus": 0
+}

@@ -1,0 +1,19 @@
+{
+  "off": {
+    "positions": 80,
+    "median_nodes": 226384.0,
+    "median_depth": 7.0,
+    "median_ms": 48.002,
+    "max_ms": 48.014,
+    "median_nn_calls": 0.0
+  },
+  "on": {
+    "positions": 80,
+    "median_nodes": 183424.0,
+    "median_depth": 6.0,
+    "median_ms": 48.002,
+    "max_ms": 48.23,
+    "median_nn_calls": 93359.0
+  },
+  "max_integer_parity_error": 0
+}

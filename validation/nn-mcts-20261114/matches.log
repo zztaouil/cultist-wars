@@ -1,0 +1,13 @@
+{"finished_games": 4}
+{"finished_games": 8}
+{"finished_games": 12}
+{"finished_games": 16}
+{"finished_games": 20}
+{"finished_games": 24}
+{"finished_games": 28}
+{"finished_games": 32}
+{"finished_games": 36}
+{"finished_games": 40}
+{"finished_games": 44}
+{"finished_games": 48}
+{"puct-value": {"games": 16, "wins": 0, "draws": 0, "losses": 16, "score": 0, "approx_paired_95": [0.0, 0.0]}, "puct-heuristic": {"games": 16, "wins": 1, "draws": 3, "losses": 12, "score": 0.15625, "approx_paired_95": [0.027354451201757973, 0.28514554879824205]}, "ab-value": {"games": 16, "wins": 0, "draws": 0, "losses": 16, "score": 0, "approx_paired_95": [0.0, 0.0]}}

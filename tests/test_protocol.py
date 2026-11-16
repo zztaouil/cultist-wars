@@ -1,8 +1,9 @@
 """Exercise persistent turn parsing, legal commands and per-turn latency."""
 import subprocess
 import time
+import sys
 
-p = subprocess.Popen(['./bot'], stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+p = subprocess.Popen([sys.argv[1] if len(sys.argv) > 1 else './bot'], stdin=subprocess.PIPE, stdout=subprocess.PIPE,
                      stderr=subprocess.DEVNULL, text=True, bufsize=1)
 p.stdin.write('0\n13 7\n' + ('.............\n' * 7))
 units = [(0, 1, 10, 0, 3, 0), (1, 1, 10, 12, 3, 1)]

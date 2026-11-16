@@ -1,0 +1,1224 @@
+[
+  {
+    "id": "game-921597656",
+    "opp": "BOSS 3",
+    "seat": 0,
+    "result": "L",
+    "score": [
+      1,
+      4
+    ],
+    "verified": true,
+    "recruit": [
+      4,
+      7
+    ],
+    "kills": [
+      4,
+      4
+    ],
+    "enemy_convert": [
+      0,
+      0
+    ],
+    "events": [
+      [
+        10,
+        "us",
+        "convert",
+        4,
+        2
+      ],
+      [
+        11,
+        "opp",
+        "convert",
+        13,
+        2
+      ],
+      [
+        12,
+        "us",
+        "convert",
+        5,
+        2
+      ],
+      [
+        15,
+        "opp",
+        "convert",
+        11,
+        2
+      ],
+      [
+        16,
+        "us",
+        "kill",
+        2,
+        2
+      ],
+      [
+        20,
+        "us",
+        "convert",
+        6,
+        2
+      ],
+      [
+        26,
+        "us",
+        "convert",
+        3,
+        2
+      ],
+      [
+        27,
+        "opp",
+        "convert",
+        7,
+        2
+      ],
+      [
+        36,
+        "us",
+        "kill",
+        7,
+        1
+      ],
+      [
+        37,
+        "opp",
+        "kill",
+        5,
+        0
+      ],
+      [
+        45,
+        "opp",
+        "convert",
+        10,
+        2
+      ],
+      [
+        50,
+        "us",
+        "kill",
+        13,
+        1
+      ],
+      [
+        57,
+        "opp",
+        "convert",
+        12,
+        2
+      ],
+      [
+        78,
+        "us",
+        "kill",
+        11,
+        1
+      ],
+      [
+        83,
+        "opp",
+        "convert",
+        8,
+        2
+      ],
+      [
+        105,
+        "opp",
+        "convert",
+        9,
+        2
+      ],
+      [
+        117,
+        "opp",
+        "kill",
+        3,
+        0
+      ],
+      [
+        125,
+        "opp",
+        "kill",
+        0,
+        0
+      ],
+      [
+        133,
+        "opp",
+        "kill",
+        4,
+        0
+      ],
+      [
+        134,
+        "us",
+        "kill",
+        9,
+        1
+      ]
+    ],
+    "t20": {
+      "count": [
+        3,
+        3
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 7
+    },
+    "t30": {
+      "count": [
+        5,
+        4
+      ],
+      "lhp": [
+        5,
+        10
+      ],
+      "neutrals": 4
+    },
+    "t40": {
+      "count": [
+        4,
+        3
+      ],
+      "lhp": [
+        5,
+        8
+      ],
+      "neutrals": 4
+    },
+    "t60": {
+      "count": [
+        4,
+        4
+      ],
+      "lhp": [
+        5,
+        8
+      ],
+      "neutrals": 2
+    },
+    "t100": {
+      "count": [
+        4,
+        4
+      ],
+      "lhp": [
+        5,
+        7
+      ],
+      "neutrals": 1
+    },
+    "t150": {
+      "count": [
+        1,
+        4
+      ],
+      "lhp": [
+        0,
+        7
+      ],
+      "neutrals": 0
+    },
+    "depth_mid": 5.15,
+    "rng_fail": 0,
+    "elapsed_max": 49047
+  },
+  {
+    "id": "game-921597759",
+    "opp": "BOSS 3",
+    "seat": 1,
+    "result": "L",
+    "score": [
+      6,
+      7
+    ],
+    "verified": true,
+    "recruit": [
+      5,
+      6
+    ],
+    "kills": [
+      0,
+      0
+    ],
+    "enemy_convert": [
+      0,
+      0
+    ],
+    "events": [
+      [
+        3,
+        "us",
+        "convert",
+        11,
+        2
+      ],
+      [
+        4,
+        "opp",
+        "convert",
+        5,
+        2
+      ],
+      [
+        6,
+        "opp",
+        "convert",
+        3,
+        2
+      ],
+      [
+        10,
+        "opp",
+        "convert",
+        4,
+        2
+      ],
+      [
+        13,
+        "us",
+        "convert",
+        8,
+        2
+      ],
+      [
+        17,
+        "us",
+        "convert",
+        13,
+        2
+      ],
+      [
+        18,
+        "opp",
+        "convert",
+        7,
+        2
+      ],
+      [
+        24,
+        "opp",
+        "convert",
+        2,
+        2
+      ],
+      [
+        27,
+        "us",
+        "convert",
+        10,
+        2
+      ],
+      [
+        32,
+        "opp",
+        "convert",
+        6,
+        2
+      ],
+      [
+        33,
+        "us",
+        "convert",
+        9,
+        2
+      ],
+      [
+        41,
+        "us",
+        "kill",
+        12,
+        2
+      ]
+    ],
+    "t20": {
+      "count": [
+        4,
+        5
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 5
+    },
+    "t30": {
+      "count": [
+        5,
+        6
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 3
+    },
+    "t40": {
+      "count": [
+        6,
+        7
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 1
+    },
+    "t60": {
+      "count": [
+        6,
+        7
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 0
+    },
+    "t100": {
+      "count": [
+        6,
+        7
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 0
+    },
+    "t150": {
+      "count": [
+        6,
+        7
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 0
+    },
+    "depth_mid": 5.05,
+    "rng_fail": 0,
+    "elapsed_max": 50579
+  },
+  {
+    "id": "game-921597897",
+    "opp": "N3l",
+    "seat": 1,
+    "result": "L",
+    "score": [
+      -1,
+      0
+    ],
+    "verified": false,
+    "recruit": [
+      4,
+      4
+    ],
+    "kills": [
+      0,
+      0
+    ],
+    "enemy_convert": [
+      0,
+      0
+    ],
+    "events": [
+      [
+        2,
+        "opp",
+        "convert",
+        4,
+        2
+      ],
+      [
+        5,
+        "us",
+        "convert",
+        10,
+        2
+      ],
+      [
+        8,
+        "opp",
+        "convert",
+        3,
+        2
+      ],
+      [
+        12,
+        "opp",
+        "convert",
+        7,
+        2
+      ],
+      [
+        13,
+        "us",
+        "convert",
+        13,
+        2
+      ],
+      [
+        16,
+        "opp",
+        "convert",
+        6,
+        2
+      ],
+      [
+        17,
+        "us",
+        "convert",
+        12,
+        2
+      ],
+      [
+        25,
+        "us",
+        "convert",
+        8,
+        2
+      ]
+    ],
+    "t20": {
+      "count": [
+        4,
+        5
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 5
+    },
+    "t30": {
+      "count": [
+        5,
+        5
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 4
+    },
+    "t40": {
+      "count": [
+        5,
+        5
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 4
+    },
+    "t60": {
+      "count": [
+        5,
+        5
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 4
+    },
+    "t100": {
+      "count": [
+        5,
+        5
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 4
+    },
+    "t150": {
+      "count": [
+        5,
+        5
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 4
+    },
+    "depth_mid": 4.5,
+    "rng_fail": 0,
+    "elapsed_max": 49045
+  },
+  {
+    "id": "game-921598028",
+    "opp": "YALOKGAR",
+    "seat": 1,
+    "result": "L",
+    "score": [
+      1,
+      7
+    ],
+    "verified": true,
+    "recruit": [
+      6,
+      6
+    ],
+    "kills": [
+      1,
+      5
+    ],
+    "enemy_convert": [
+      0,
+      1
+    ],
+    "events": [
+      [
+        2,
+        "opp",
+        "convert",
+        6,
+        2
+      ],
+      [
+        3,
+        "us",
+        "convert",
+        12,
+        2
+      ],
+      [
+        4,
+        "opp",
+        "convert",
+        5,
+        2
+      ],
+      [
+        9,
+        "us",
+        "convert",
+        9,
+        2
+      ],
+      [
+        13,
+        "us",
+        "convert",
+        11,
+        2
+      ],
+      [
+        16,
+        "opp",
+        "convert",
+        4,
+        2
+      ],
+      [
+        22,
+        "opp",
+        "convert",
+        10,
+        2
+      ],
+      [
+        24,
+        "opp",
+        "convert",
+        7,
+        2
+      ],
+      [
+        25,
+        "us",
+        "convert",
+        13,
+        2
+      ],
+      [
+        28,
+        "opp",
+        "kill",
+        13,
+        1
+      ],
+      [
+        29,
+        "us",
+        "convert",
+        8,
+        2
+      ],
+      [
+        34,
+        "opp",
+        "kill",
+        8,
+        1
+      ],
+      [
+        35,
+        "us",
+        "convert",
+        2,
+        2
+      ],
+      [
+        44,
+        "opp",
+        "kill",
+        2,
+        1
+      ],
+      [
+        61,
+        "us",
+        "kill",
+        7,
+        0
+      ],
+      [
+        76,
+        "opp",
+        "kill",
+        9,
+        1
+      ],
+      [
+        80,
+        "opp",
+        "convert",
+        3,
+        2
+      ],
+      [
+        146,
+        "opp",
+        "convert",
+        11,
+        1
+      ],
+      [
+        148,
+        "opp",
+        "kill",
+        1,
+        1
+      ]
+    ],
+    "t20": {
+      "count": [
+        4,
+        4
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 6
+    },
+    "t30": {
+      "count": [
+        5,
+        6
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 2
+    },
+    "t40": {
+      "count": [
+        5,
+        6
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 1
+    },
+    "t60": {
+      "count": [
+        4,
+        6
+      ],
+      "lhp": [
+        2,
+        10
+      ],
+      "neutrals": 1
+    },
+    "t100": {
+      "count": [
+        3,
+        6
+      ],
+      "lhp": [
+        2,
+        10
+      ],
+      "neutrals": 0
+    },
+    "t150": {
+      "count": [
+        1,
+        7
+      ],
+      "lhp": [
+        0,
+        4
+      ],
+      "neutrals": 0
+    },
+    "depth_mid": 5.4,
+    "rng_fail": 0,
+    "elapsed_max": 49054
+  },
+  {
+    "id": "game-921598264",
+    "opp": "YALOKGAR",
+    "seat": 0,
+    "result": "L",
+    "score": [
+      2,
+      4
+    ],
+    "verified": true,
+    "recruit": [
+      5,
+      5
+    ],
+    "kills": [
+      2,
+      4
+    ],
+    "enemy_convert": [
+      0,
+      0
+    ],
+    "events": [
+      [
+        4,
+        "us",
+        "convert",
+        4,
+        2
+      ],
+      [
+        5,
+        "opp",
+        "convert",
+        10,
+        2
+      ],
+      [
+        8,
+        "us",
+        "convert",
+        7,
+        2
+      ],
+      [
+        10,
+        "us",
+        "convert",
+        5,
+        2
+      ],
+      [
+        11,
+        "opp",
+        "convert",
+        11,
+        2
+      ],
+      [
+        13,
+        "opp",
+        "convert",
+        13,
+        2
+      ],
+      [
+        17,
+        "opp",
+        "convert",
+        12,
+        2
+      ],
+      [
+        18,
+        "us",
+        "convert",
+        6,
+        2
+      ],
+      [
+        33,
+        "opp",
+        "kill",
+        6,
+        0
+      ],
+      [
+        38,
+        "us",
+        "kill",
+        12,
+        1
+      ],
+      [
+        41,
+        "opp",
+        "convert",
+        9,
+        2
+      ],
+      [
+        79,
+        "opp",
+        "kill",
+        4,
+        0
+      ],
+      [
+        80,
+        "us",
+        "convert",
+        2,
+        2
+      ],
+      [
+        81,
+        "opp",
+        "kill",
+        0,
+        0
+      ],
+      [
+        108,
+        "us",
+        "kill",
+        3,
+        2
+      ],
+      [
+        126,
+        "us",
+        "kill",
+        10,
+        1
+      ],
+      [
+        127,
+        "opp",
+        "kill",
+        5,
+        0
+      ],
+      [
+        142,
+        "us",
+        "kill",
+        8,
+        2
+      ]
+    ],
+    "t20": {
+      "count": [
+        5,
+        5
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 4
+    },
+    "t30": {
+      "count": [
+        5,
+        5
+      ],
+      "lhp": [
+        3,
+        10
+      ],
+      "neutrals": 4
+    },
+    "t40": {
+      "count": [
+        4,
+        4
+      ],
+      "lhp": [
+        1,
+        10
+      ],
+      "neutrals": 4
+    },
+    "t60": {
+      "count": [
+        4,
+        5
+      ],
+      "lhp": [
+        1,
+        6
+      ],
+      "neutrals": 3
+    },
+    "t100": {
+      "count": [
+        3,
+        5
+      ],
+      "lhp": [
+        0,
+        6
+      ],
+      "neutrals": 2
+    },
+    "t150": {
+      "count": [
+        2,
+        4
+      ],
+      "lhp": [
+        0,
+        4
+      ],
+      "neutrals": 0
+    },
+    "depth_mid": 4.2,
+    "rng_fail": 0,
+    "elapsed_max": 49689
+  },
+  {
+    "id": "game-921598429",
+    "opp": "BOSS 3",
+    "seat": 1,
+    "result": "L",
+    "score": [
+      4,
+      5
+    ],
+    "verified": true,
+    "recruit": [
+      5,
+      7
+    ],
+    "kills": [
+      3,
+      2
+    ],
+    "enemy_convert": [
+      0,
+      0
+    ],
+    "events": [
+      [
+        2,
+        "opp",
+        "convert",
+        6,
+        2
+      ],
+      [
+        3,
+        "us",
+        "convert",
+        12,
+        2
+      ],
+      [
+        6,
+        "opp",
+        "convert",
+        5,
+        2
+      ],
+      [
+        9,
+        "us",
+        "convert",
+        13,
+        2
+      ],
+      [
+        14,
+        "opp",
+        "convert",
+        2,
+        2
+      ],
+      [
+        16,
+        "opp",
+        "convert",
+        4,
+        2
+      ],
+      [
+        17,
+        "us",
+        "convert",
+        8,
+        2
+      ],
+      [
+        24,
+        "opp",
+        "convert",
+        7,
+        2
+      ],
+      [
+        25,
+        "us",
+        "kill",
+        4,
+        0
+      ],
+      [
+        40,
+        "opp",
+        "kill",
+        8,
+        1
+      ],
+      [
+        41,
+        "us",
+        "convert",
+        9,
+        2
+      ],
+      [
+        42,
+        "opp",
+        "convert",
+        10,
+        2
+      ],
+      [
+        47,
+        "us",
+        "convert",
+        11,
+        2
+      ],
+      [
+        72,
+        "opp",
+        "convert",
+        3,
+        2
+      ],
+      [
+        73,
+        "us",
+        "kill",
+        2,
+        0
+      ],
+      [
+        75,
+        "us",
+        "kill",
+        0,
+        0
+      ],
+      [
+        78,
+        "opp",
+        "kill",
+        9,
+        1
+      ]
+    ],
+    "t20": {
+      "count": [
+        4,
+        5
+      ],
+      "lhp": [
+        10,
+        10
+      ],
+      "neutrals": 5
+    },
+    "t30": {
+      "count": [
+        4,
+        5
+      ],
+      "lhp": [
+        7,
+        10
+      ],
+      "neutrals": 4
+    },
+    "t40": {
+      "count": [
+        4,
+        5
+      ],
+      "lhp": [
+        2,
+        10
+      ],
+      "neutrals": 4
+    },
+    "t60": {
+      "count": [
+        5,
+        6
+      ],
+      "lhp": [
+        2,
+        10
+      ],
+      "neutrals": 1
+    },
+    "t100": {
+      "count": [
+        4,
+        5
+      ],
+      "lhp": [
+        1,
+        0
+      ],
+      "neutrals": 0
+    },
+    "t150": {
+      "count": [
+        4,
+        5
+      ],
+      "lhp": [
+        1,
+        0
+      ],
+      "neutrals": 0
+    },
+    "depth_mid": 4.6,
+    "rng_fail": 0,
+    "elapsed_max": 49184
+  }
+]

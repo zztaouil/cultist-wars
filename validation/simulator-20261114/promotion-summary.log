@@ -1,0 +1,32 @@
+{
+  "budget_ms": 48,
+  "games": 16,
+  "wins": 10,
+  "draws": 1,
+  "losses": 5,
+  "average_depth_baseline_new": [
+    6.668096054888507,
+    6.57840616966581
+  ],
+  "average_nodes_baseline_new": [
+    257970.22469982848,
+    257991.11568123393
+  ],
+  "score": 0.65625,
+  "pair_scores": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    1,
+    1,
+    0.75
+  ],
+  "paired_bootstrap_95": [
+    0.53125,
+    0.8125
+  ],
+  "note": "Exploratory eight-map paired bootstrap; small related-engine sample. No proven strength gain; speed gate failed.",
+  "paired_signflip_two_sided_p": 0.25
+}

@@ -9,7 +9,7 @@ Usage (one worker per core; resumable, append-only):
 A = reference, B = candidate. Each map is played with B in seat 0 and seat 1.
 Scores are candidate-side; the paired statistic averages the two seats of one
 map, so the reported interval is not inflated by the large first-seat edge.
-Specs are 'source.c[:MACRO=VAL[:MACRO=VAL...]]'; defaults of bot_r.c reproduce
+Specs are 'source.c[:MACRO=VAL[:MACRO=VAL...]]' (also .cpp/.cc/.cxx); defaults of bot_r.c reproduce
 production behavior.
 """
 import argparse, ctypes as C, json, math, os, random, subprocess, sys
@@ -23,10 +23,18 @@ import harness as h
 def build(spec, tag, budget):
     src, *flags = spec.split(':')
     d = Path('build'); d.mkdir(exist_ok=True)
-    c = d / (tag + '.c')
-    c.write_text(h.CODE.replace('SOURCE', str((ROOT / src).resolve())))
+    cpp = Path(src).suffix in ('.cpp', '.cc', '.cxx')
+    c = d / (tag + ('.cpp' if cpp else '.c'))
+    code = h.CODE.replace('SOURCE', str((ROOT / src).resolve()))
+    if cpp:
+        code = code.replace('(Unit){p[4*i],p[4*i+1],p[4*i+2],p[4*i+3]}',
+                            'Unit{(uint8_t)p[4*i],(uint8_t)p[4*i+1],(uint8_t)p[4*i+2],(uint8_t)p[4*i+3]}')
+        for signature in ('void setup', 'int run', 'int score_child', 'void step', 'int static_eval'):
+            code = code.replace(signature, 'extern "C" ' + signature)
+    c.write_text(code)
     so = d / (tag + '.so')
-    subprocess.run(['cc', '-O3', '-march=native', '-std=c11', '-shared', '-fPIC',
+    subprocess.run(['c++' if cpp else 'cc', '-O3', '-march=native',
+                    '-std=c++17' if cpp else '-std=c11', '-shared', '-fPIC',
                     f'-DBUDGET_MS={budget}', *[f'-D{f}' for f in flags if f],
                     str(c), '-o', str(so)], check=True)
     return C.CDLL(str(so.resolve()))

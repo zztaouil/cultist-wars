@@ -1,0 +1,14 @@
+{
+  "games": 200,
+  "positions": 3508,
+  "split_counts": [
+    2860,
+    278,
+    370
+  ],
+  "timeouts": 0,
+  "seconds": 20.898283707996598,
+  "teacher_depth": 2,
+  "teacher_qdepth": 4,
+  "source_sha256": "96ca86d8855230504e4ff1c733270009d33171c7d9e8092361136b9820ef8641"
+}

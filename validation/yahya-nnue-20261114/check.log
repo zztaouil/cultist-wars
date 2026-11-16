@@ -1,0 +1,6 @@
+CW_NET=candidate.bin ./build/test_accumulator
+PASS: 20197 legal transitions, incremental NNUE/cache parity
+/private/tmp/cultist-big-nn-env/bin/python verify.py
+{"positions": 6795, "max_integer_error": 0, "embedded_parity": true, "source_characters": 94681}
+/private/tmp/cultist-big-nn-env/bin/python ../../tests/test_protocol.py ./build/bot
+PASS: 12 protocol turns; max local latency 559.4 ms

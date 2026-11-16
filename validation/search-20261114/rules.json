@@ -1,0 +1,138 @@
+{
+  "pretty_id": "cultist-wars",
+  "title": "Cultist Wars",
+  "category": "bot-programming",
+  "arcade": false,
+  "url": "https://www.codingame.com/multiplayer/bot-programming/cultist-wars",
+  "community": true,
+  "solved_count": 0,
+  "rating": 4.76,
+  "rating_count": 37,
+  "played": true,
+  "submitted": true,
+  "last_played_at": "2026-11-14T14:02:10.683Z",
+  "league": "Gold",
+  "players_min": 2,
+  "players_max": 2,
+  "languages": [
+    {
+      "id": "Bash",
+      "name": "Bash"
+    },
+    {
+      "id": "C",
+      "name": "C"
+    },
+    {
+      "id": "C#",
+      "name": "C#"
+    },
+    {
+      "id": "C++",
+      "name": "C++"
+    },
+    {
+      "id": "Clojure",
+      "name": "Clojure"
+    },
+    {
+      "id": "D",
+      "name": "D"
+    },
+    {
+      "id": "Dart",
+      "name": "Dart"
+    },
+    {
+      "id": "F#",
+      "name": "F#"
+    },
+    {
+      "id": "Go",
+      "name": "Go"
+    },
+    {
+      "id": "Groovy",
+      "name": "Groovy"
+    },
+    {
+      "id": "Haskell",
+      "name": "Haskell"
+    },
+    {
+      "id": "Java",
+      "name": "Java"
+    },
+    {
+      "id": "Javascript",
+      "name": "JavaScript"
+    },
+    {
+      "id": "Kotlin",
+      "name": "Kotlin"
+    },
+    {
+      "id": "Lua",
+      "name": "Lua"
+    },
+    {
+      "id": "ObjectiveC",
+      "name": "Objective-C"
+    },
+    {
+      "id": "OCaml",
+      "name": "OCaml"
+    },
+    {
+      "id": "Pascal",
+      "name": "Pascal"
+    },
+    {
+      "id": "Perl",
+      "name": "Perl"
+    },
+    {
+      "id": "PHP",
+      "name": "PHP"
+    },
+    {
+      "id": "Python3",
+      "name": "Python 3"
+    },
+    {
+      "id": "Ruby",
+      "name": "Ruby"
+    },
+    {
+      "id": "Rust",
+      "name": "Rust"
+    },
+    {
+      "id": "Scala",
+      "name": "Scala"
+    },
+    {
+      "id": "Swift",
+      "name": "Swift"
+    },
+    {
+      "id": "TypeScript",
+      "name": "TypeScript"
+    },
+    {
+      "id": "VB.NET",
+      "name": "VB.NET"
+    }
+  ],
+  "statement": "# The Goal\n\nThe aim of this game is to gain as many followers as possible. You win if your opponent's number of units drops to 0 or if you have more units than your enemy by the last round.\n\n# Rules\n\nThe game is played on a grid **13** units wide and **7** units high. The coordinate **X=0**, **Y=0** is the top left tile. The positions of obstacles and neutral units is randomly generated, but is symmetric.\n\nThe source code of the game is available here: https://bitbucket.org/Nixerrr/cultist-wars/src\n\n**Units**, there are three types:\n\n- **Neutral** unit: Technically cultists but move randomly and cannot shoot until converted.\n  ![](https://i.imgur.com/945L5N7.jpg)\n- **Cult Leader:** This is your initial unit and you have only one of it. It can `WAIT`, `MOVE` or `CONVERT` neutral and enemy units. It has 10 hp.\n  ![](https://i.imgur.com/ULyMdiD.jpg)\n- **Cultist:** Neutral units become cultists when you convert them. It can `WAIT`, `MOVE` or `SHOOT` enemy units. It has 10 hp.\n  ![](https://i.imgur.com/lWTU23n.jpg)\n\n**Turns** play out in the following way:\n\n1. A player performs  **1 action / turn**. The action can be perfomed by any of the player's units.\n2. A random neutral unit moves in a random direction.\n3. The player's turn ends.\n\n**Moving** works in the following way:\n\n- Units can `MOVE` in four directions.\n- Units can `MOVE` one tile per round.\n- Units cannot move on tiles with obstacles or with other units.\n  ![](https://i.imgur.com/cfZ8QTY.jpg)\n\n**Shooting** works in the following way:\n\n- **Damage** is 7 - distance. Therefore, the maximum damage is 6 hp.\n- The range of **Cultists** is `6`. Distances are calculated using **Manhattan distance**.\n- The path of bullets is calculated based on [Bresenham's line algorithm](https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm), **always drawing the line from lower Y towards higher Y.**\n- If an obstacle or any unit is on the bullet path between the shooter and the target, then it's hit instead of the target.\n- Obstacles are indestructible.\n  ![](https://i.imgur.com/pgEs19K.jpg)\n\n**Converting** units works in the following way:\n\n- Cult leaders can convert neutral units or enemy cultists. The enemy cult leader cannot be converted.\n- A cult leader can convert units standing on neighboring tiles in the four directions (they cannot convert diagonally).\n  ![](https://i.imgur.com/kCzFfVn.jpg)\n\n**Pathfinding** works in the following way:\n\n- If a unit is told to move to a non-adjacent tile, convert a unit on a non-adjacent tile, or told to shoot at a target beyond its range, it will move towards the target tile on the shortest available path to the target tile. If no path is available, it'll still move along the shortest path until it hits the obstacle.\n  ![](https://i.imgur.com/JupL5Kv.jpg)\n\n### Victory Conditions\n\n- Have more units by the last round than your opponent.\n- Destroy all enemy units.\n\n### Loss Conditions\n\n- Have less units by the last round than your opponent.\n- Your number of units drops to 0.\n- You output an invalid action.\n\n# Game Input\n\n### Initial Input\n\nLine 1: `myId`: `0` - first player, `1` - second player\n\nLine 2: `width`, `height`: The width and height of the game board\n\nNext `height` lines: A string `y` representing a row of the grid (`\".\"` is an empty tile, `\"x\"` is a tile with an obstacle).\n\n### Input\n\nLine 1: `numOfUnits`: the total number of units on the board.\n\nNext `numOfUnits` lines:\n\n- `unitId`: individual id of the unit.\n- `type`: The type of the unit. `0` = **CULTIST**, `1` = **CULT LEADER**.\n- `hp`: current health points of the unit\n- `x`: **x** coordinate of the unit.\n- `y`: **y** coordinate of the unit.\n- `owner`: ID of the owning player. `0` - Player 1, `1` - Player 2, `2` - neutral\n\n### Output\n\nA single line, one of the following:\n\n- `WAIT`\n- `unitId` `MOVE` `x` `y`\n- `unitId` `SHOOT` `targetId`\n- `unitId` `CONVERT` `targetId`\n\n### Constraints\n\nAllotted **response time** to output is \u2264 `50` milliseconds.\n**Health points** = `10`.\n**Damage** = `7` - `distance`\nBoard **width** is `13`, **height** is `7`.\nShooting **range** is `6`.\nTotal **number of units** is `14`.\n**Number of turns** is `150`.\n\n(Assets created by www.oryxdesignlab.com)",
+  "limits": {
+    "requests": {
+      "name": "requests_1m",
+      "limit": 120,
+      "used": 3,
+      "remaining": 117,
+      "window_seconds": 60,
+      "resets_in_seconds": 58
+    }
+  }
+}

@@ -1,0 +1,45 @@
+cc -O1 -g -std=c11 -Wall -Wextra -fsanitize=address,undefined tests/test_bot.c -o /tmp/cultist-wars-test
+/tmp/cultist-wars-test
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+cc -O1 -g -std=c11 -Wall -Wextra -fsanitize=address,undefined tests/test_search.c -o /tmp/cultist-wars-search-test
+In file included from tests/test_search.c:2:
+tests/../bot.c:716:15: warning: unused function 'choose' [-Wunused-function]
+  716 | static Action choose(const State *s, int *completed_depth, int *advantage) {
+      |               ^~~~~~
+tests/../bot.c:751:13: warning: unused function 'track_observation' [-Wunused-function]
+  751 | static void track_observation(Tracker *t, State *observed, int first) {
+      |             ^~~~~~~~~~~~~~~~~
+tests/../bot.c:789:13: warning: unused function 'track_action' [-Wunused-function]
+  789 | static void track_action(Tracker *t, Action a) {
+      |             ^~~~~~~~~~~~
+3 warnings generated.
+/tmp/cultist-wars-search-test
+PASS: Q bounds, horizon isolation, compact move hints
+cc -O1 -g -std=c11 -Wall -Wextra -fsanitize=address,undefined tests/test_recruitment.c -o /tmp/cultist-wars-recruitment-test
+In file included from tests/test_recruitment.c:2:
+tests/../bot.c:716:15: warning: unused function 'choose' [-Wunused-function]
+  716 | static Action choose(const State *s, int *completed_depth, int *advantage) {
+      |               ^~~~~~
+tests/../bot.c:751:13: warning: unused function 'track_observation' [-Wunused-function]
+  751 | static void track_observation(Tracker *t, State *observed, int first) {
+      |             ^~~~~~~~~~~~~~~~~
+tests/../bot.c:789:13: warning: unused function 'track_action' [-Wunused-function]
+  789 | static void track_action(Tracker *t, Action a) {
+      |             ^~~~~~~~~~~~
+3 warnings generated.
+/tmp/cultist-wars-recruitment-test
+PASS: recruitment access, blocking, exposure, symmetry, cache, dead leaders, walls
+cc -O1 -g -std=c11 -Wall -Wextra -fsanitize=address,undefined tests/test_components.c -o /tmp/cultist-wars-components-test
+In file included from tests/test_components.c:2:
+tests/../bot.c:716:15: warning: unused function 'choose' [-Wunused-function]
+  716 | static Action choose(const State *s, int *completed_depth, int *advantage) {
+      |               ^~~~~~
+tests/../bot.c:751:13: warning: unused function 'track_observation' [-Wunused-function]
+  751 | static void track_observation(Tracker *t, State *observed, int first) {
+      |             ^~~~~~~~~~~~~~~~~
+tests/../bot.c:789:13: warning: unused function 'track_action' [-Wunused-function]
+  789 | static void track_action(Tracker *t, Action a) {
+      |             ^~~~~~~~~~~~
+3 warnings generated.
+/tmp/cultist-wars-components-test
+PASS: safety damage, ownership symmetry, cache sign, walls, conversion contest

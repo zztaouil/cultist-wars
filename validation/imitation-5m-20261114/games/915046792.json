@@ -1,0 +1,1 @@
+{"id": 915046792, "ref": "seed=-8782995932766454000\n", "scores": [-1.0, 0.0], "agents": [{"pseudo": "Noobkins", "agentId": 6835829, "index": 0}, {"pseudo": "mikmak", "agentId": 6835405, "index": 1}], "actions": ["0 MOVE 0 2", "1 MOVE 12 2", "0 MOVE 1 2", "1 MOVE 11 2", "0 MOVE 2 2", "1 MOVE 10 2", "TIMEOUT"]}

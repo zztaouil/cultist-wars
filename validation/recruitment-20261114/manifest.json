@@ -1,0 +1,11 @@
+{
+  "baseline_submission": 41714430,
+  "baseline_sha256": "dda94ee98deb90b2c5fc1f6821af0b9587242aa2b5df012ca20e980b1cf6ac3b",
+  "candidate_sha256": "728cbc8412a487c31da12fa240f6c4bd5e8e3fb99332e02979d9ef017c3a64d0",
+  "candidate_bytes": 99830,
+  "recruit_weight": 120,
+  "budget_ms": 48,
+  "judge_tests": "blocked: source-upload approval required",
+  "arena_submitted": true,
+  "submission_id": 41714601
+}

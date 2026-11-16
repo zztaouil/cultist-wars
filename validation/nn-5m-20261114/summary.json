@@ -1,0 +1,580 @@
+{
+  "compute": {
+    "completed_epochs": {
+      "warm": 1,
+      "fast": 12,
+      "wide": 8,
+      "fine-small": 12,
+      "fine-wide": 7
+    },
+    "completed_example_presentations": 200000000,
+    "sum_epoch_worker_seconds": 8294.75,
+    "training_wall_seconds": 5172.93
+  },
+  "models": {
+    "baseline_float": {
+      "validation": {
+        "loss": 1.662796805445421,
+        "top1": 0.47026738602003915,
+        "top3": 0.7278314657813086,
+        "positions": 50601
+      },
+      "test": {
+        "positions": 50291,
+        "loss": 1.6379246178962072,
+        "top1": 0.4777395557853294,
+        "top3": 0.7354596249826013
+      }
+    },
+    "small_float": {
+      "architecture": [
+        128,
+        128,
+        64,
+        1
+      ],
+      "parameters": 24833,
+      "seed": 29,
+      "best_epoch": 9,
+      "epochs": 12,
+      "seconds": 2405.02,
+      "validation": {
+        "loss": 1.585185968226372,
+        "top1": 0.4824805833876801,
+        "top3": 0.7440169166617261,
+        "positions": 50601
+      },
+      "test": {
+        "loss": 1.5604817862870126,
+        "top1": 0.4892923187051361,
+        "top3": 0.7521425304726492,
+        "positions": 50291
+      },
+      "config": {
+        "reuse_audit": true,
+        "init": "validation/nn-5m-20261114/fast/best.pt",
+        "lr": 5e-05,
+        "threads": 4,
+        "batch_size": 512,
+        "hidden": [
+          128,
+          64
+        ],
+        "seed": 29,
+        "epochs": 12,
+        "shuffle_block": 8192,
+        "patience": 5,
+        "minutes": 45.0,
+        "device": "cpu",
+        "out": "fine-small",
+        "cache": "validation/imitation-5m-20261114/cache"
+      },
+      "torch_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "meta_sha256": "765cc278cb106254ef6e4f1e3d97d31ebed02deec481aae2cd3c4a4fcb17c963",
+      "baseline_sha256": "82b341ea7cb5ace6f316af95069fd0d763476c0aa5126693b78b8df398368b4d",
+      "feature_version": 1,
+      "split_positions": [
+        5000000,
+        50601,
+        50291
+      ],
+      "map_groups": 4343,
+      "dataset": {
+        "corpus_games": 4463,
+        "timeout_or_empty_games_excluded": 105,
+        "games_seen": 4358,
+        "games_valid": 4355,
+        "games_rejected": 3,
+        "transitions_verified": 600932,
+        "original_positions": 513027,
+        "duplicates": 168,
+        "reflection_ray_rejected": 62980,
+        "unmatched": 2449,
+        "forced": 2,
+        "positions": 5100892,
+        "split_positions": [
+          5000000,
+          50601,
+          50291
+        ],
+        "reflection_counts": [
+          1366582,
+          1265690,
+          1234336,
+          1234284
+        ],
+        "permutation_counts": [
+          1729016,
+          1627956,
+          1628124,
+          115796,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "id_relabelled_positions": 3371876,
+        "geometry_only_positions": 1729016,
+        "synthetic_positions": 4587865,
+        "player_positions": {
+          "yhyoxx": 531969,
+          "MSz": 360809,
+          "aCat": 360261,
+          "Noobkins": 1033106,
+          "putibuzu": 115862,
+          "ziele": 1417836,
+          "Zylo": 371439,
+          "Pduhard-": 301391,
+          "jacek": 271719,
+          "Astrobytes": 138942,
+          "KawattaTaido": 197558
+        },
+        "feature_bytes": 47137124864,
+        "seconds": 214,
+        "target_train_positions": 5000000,
+        "target_reached": true
+      },
+      "notes": [
+        "Original-only test split; map grouping reused from prior research, not globally untouched.",
+        "Checkpoint selected only by validation cross entropy.",
+        "Imitation metrics do not establish search strength."
+      ]
+    },
+    "wide_float": {
+      "architecture": [
+        128,
+        192,
+        96,
+        1
+      ],
+      "parameters": 43393,
+      "seed": 83,
+      "best_epoch": 2,
+      "epochs": 7,
+      "seconds": 1637.02,
+      "validation": {
+        "loss": 1.5784682906387102,
+        "top1": 0.4840220549001008,
+        "top3": 0.7482263196379518,
+        "positions": 50601
+      },
+      "test": {
+        "loss": 1.552772019677508,
+        "top1": 0.4897297727227536,
+        "top3": 0.7570141774870255,
+        "positions": 50291
+      },
+      "config": {
+        "reuse_audit": true,
+        "init": "validation/nn-5m-20261114/wide/best.pt",
+        "lr": 5e-05,
+        "threads": 4,
+        "batch_size": 512,
+        "hidden": [
+          192,
+          96
+        ],
+        "seed": 83,
+        "epochs": 12,
+        "shuffle_block": 8192,
+        "patience": 5,
+        "minutes": 45.0,
+        "device": "cpu",
+        "out": "fine-wide",
+        "cache": "validation/imitation-5m-20261114/cache"
+      },
+      "torch_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "meta_sha256": "765cc278cb106254ef6e4f1e3d97d31ebed02deec481aae2cd3c4a4fcb17c963",
+      "baseline_sha256": "82b341ea7cb5ace6f316af95069fd0d763476c0aa5126693b78b8df398368b4d",
+      "feature_version": 1,
+      "split_positions": [
+        5000000,
+        50601,
+        50291
+      ],
+      "map_groups": 4343,
+      "dataset": {
+        "corpus_games": 4463,
+        "timeout_or_empty_games_excluded": 105,
+        "games_seen": 4358,
+        "games_valid": 4355,
+        "games_rejected": 3,
+        "transitions_verified": 600932,
+        "original_positions": 513027,
+        "duplicates": 168,
+        "reflection_ray_rejected": 62980,
+        "unmatched": 2449,
+        "forced": 2,
+        "positions": 5100892,
+        "split_positions": [
+          5000000,
+          50601,
+          50291
+        ],
+        "reflection_counts": [
+          1366582,
+          1265690,
+          1234336,
+          1234284
+        ],
+        "permutation_counts": [
+          1729016,
+          1627956,
+          1628124,
+          115796,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "id_relabelled_positions": 3371876,
+        "geometry_only_positions": 1729016,
+        "synthetic_positions": 4587865,
+        "player_positions": {
+          "yhyoxx": 531969,
+          "MSz": 360809,
+          "aCat": 360261,
+          "Noobkins": 1033106,
+          "putibuzu": 115862,
+          "ziele": 1417836,
+          "Zylo": 371439,
+          "Pduhard-": 301391,
+          "jacek": 271719,
+          "Astrobytes": 138942,
+          "KawattaTaido": 197558
+        },
+        "feature_bytes": 47137124864,
+        "seconds": 214,
+        "target_train_positions": 5000000,
+        "target_reached": true
+      },
+      "notes": [
+        "Original-only test split; map grouping reused from prior research, not globally untouched.",
+        "Checkpoint selected only by validation cross entropy.",
+        "Imitation metrics do not establish search strength."
+      ]
+    },
+    "small_fp16": {
+      "groups": 100892,
+      "decoded_params_exact": true,
+      "max_c_vs_fp16_numpy_error": 2.288818359375e-05,
+      "c_vs_fp16_top1_disagreements": 0,
+      "max_c_vs_fp32_error": 0.019755840301513672,
+      "fp32_vs_fp16_top1_disagreements": 47,
+      "fp16_test_top1": 0.48927243443160806,
+      "validation": {
+        "positions": 50601,
+        "top1": 0.4824015335665303,
+        "top3": 0.7439576292958637,
+        "loss": 1.585177007577218
+      },
+      "test": {
+        "positions": 50291,
+        "top1": 0.48927243443160806,
+        "top3": 0.7522021832932334,
+        "loss": 1.560476934706388
+      }
+    },
+    "wide_row_int8": {
+      "groups": 100892,
+      "decoded_params_exact": true,
+      "max_c_vs_int8_numpy_error": 3.814697265625e-05,
+      "c_vs_int8_top1_disagreements": 0,
+      "max_c_vs_fp32_error": 4.854714393615723,
+      "fp32_vs_int8_top1_disagreements": 14273,
+      "int8_test_top1": 0.47280825595036885,
+      "validation": {
+        "positions": 50601,
+        "top1": 0.4673030177269224,
+        "top3": 0.7320606312128218,
+        "loss": 1.6320610768986874
+      },
+      "test": {
+        "positions": 50291,
+        "top1": 0.47280825595036885,
+        "top3": 0.7402517349028653,
+        "loss": 1.6119141367615064
+      }
+    },
+    "wide_group_int8": {
+      "groups": 100892,
+      "decoded_params_exact": true,
+      "max_c_vs_int8_numpy_error": 3.814697265625e-05,
+      "c_vs_int8_top1_disagreements": 0,
+      "max_c_vs_fp32_error": 1.6595649719238281,
+      "fp32_vs_int8_top1_disagreements": 3671,
+      "int8_test_top1": 0.48809926229345213,
+      "validation": {
+        "positions": 50601,
+        "top1": 0.4818679472737693,
+        "top3": 0.7470603347759925,
+        "loss": 1.5828107153159359
+      },
+      "test": {
+        "positions": 50291,
+        "top1": 0.48809926229345213,
+        "top3": 0.7552842456900837,
+        "loss": 1.5576169418405759
+      }
+    }
+  },
+  "selection": {
+    "selected": "wide-group",
+    "quantized_validation_losses": {
+      "candidate": 1.585177007577218,
+      "wide": 1.6320610768986874,
+      "wide-group": 1.5828107153159359
+    },
+    "criterion": "Minimum quantized validation cross-entropy; test and match outcomes not used.",
+    "initial_selection": "selection.json"
+  },
+  "matches": {
+    "small_vs_baseline": {
+      "tag": "five49",
+      "games": 128,
+      "W": 45,
+      "D": 38,
+      "L": 45,
+      "score": 50.0,
+      "pairs": 64,
+      "seat0": 49.22,
+      "seat1": 50.78,
+      "paired_lo": 45.37,
+      "paired_hi": 54.63
+    },
+    "wide_row_vs_baseline": {
+      "tag": "wide49",
+      "games": 128,
+      "W": 45,
+      "D": 35,
+      "L": 48,
+      "score": 48.83,
+      "pairs": 64,
+      "seat0": 52.34,
+      "seat1": 45.31,
+      "paired_lo": 44.54,
+      "paired_hi": 53.11
+    },
+    "small_tree_vs_small": {
+      "tag": "tree49",
+      "games": 128,
+      "W": 48,
+      "D": 31,
+      "L": 49,
+      "score": 49.61,
+      "pairs": 64,
+      "seat0": 52.34,
+      "seat1": 46.88,
+      "paired_lo": 44.67,
+      "paired_hi": 54.55
+    },
+    "wide_group_vs_baseline": {
+      "tag": "group49",
+      "games": 128,
+      "W": 47,
+      "D": 31,
+      "L": 50,
+      "score": 48.83,
+      "pairs": 64,
+      "seat0": 55.47,
+      "seat1": 42.19,
+      "paired_lo": 44.14,
+      "paired_hi": 53.51
+    },
+    "wide_group_tree_vs_group": {
+      "tag": "grouptree49",
+      "games": 128,
+      "W": 45,
+      "D": 28,
+      "L": 55,
+      "score": 46.09,
+      "pairs": 64,
+      "seat0": 52.34,
+      "seat1": 39.84,
+      "paired_lo": 40.09,
+      "paired_hi": 52.09
+    }
+  },
+  "sources": {
+    "baseline": {
+      "bytes": 99119,
+      "sha256": "c7bf57e54c2a174abe5b4cb7074face043a9fea1efe6f11e570ea4370f0b1a35"
+    },
+    "candidate": {
+      "bytes": 99119,
+      "sha256": "6f7a7b34137e818366f3979c1d575a668f368da0257af33aa1738b85f8a970e5"
+    },
+    "wide": {
+      "bytes": 92208,
+      "sha256": "44a826d6b29b5bab0af282446773a93b5ddd4c689b42a75f6685a5b32c0ba86f"
+    },
+    "tree": {
+      "bytes": 99551,
+      "sha256": "1bf2aeb314b186d3cefdc3aa58171c6efdc3b25b3c80c309d7947963f167e571"
+    },
+    "wide-group": {
+      "bytes": 98790,
+      "sha256": "5bf9e3c8ad89dbde797b687333f90e26c266c3fc22a2f6e68d97a32083c3d17a"
+    },
+    "group-tree": {
+      "bytes": 99222,
+      "sha256": "8294634581b4e85efd6b78e0409c1ce888bcfaa2738e55ac64fd04690f315527"
+    }
+  },
+  "production_unchanged": true,
+  "search_cost": {
+    "baseline": {
+      "positions": 100,
+      "mean_depth": 7.21,
+      "median_nodes": 520176.0,
+      "median_ms": 49.0,
+      "p95_ms": 49.003,
+      "max_ms": 49.005
+    },
+    "candidate": {
+      "positions": 100,
+      "mean_depth": 7.21,
+      "median_nodes": 521904.0,
+      "median_ms": 49.001,
+      "p95_ms": 49.003,
+      "max_ms": 49.004
+    },
+    "tree": {
+      "positions": 100,
+      "mean_depth": 7.07,
+      "median_nodes": 449856.0,
+      "median_ms": 49.001,
+      "p95_ms": 49.003,
+      "max_ms": 49.007
+    },
+    "wide": {
+      "positions": 100,
+      "mean_depth": 7.18,
+      "median_nodes": 515488.0,
+      "median_ms": 49.001,
+      "p95_ms": 49.003,
+      "max_ms": 49.004
+    }
+  },
+  "group_search_cost": {
+    "candidate": {
+      "positions": 100,
+      "mean_depth": 7.23,
+      "median_nodes": 517296.0,
+      "median_ms": 49.001,
+      "p95_ms": 49.003,
+      "max_ms": 49.005
+    },
+    "wide-group": {
+      "positions": 100,
+      "mean_depth": 7.22,
+      "median_nodes": 520656.0,
+      "median_ms": 49.0,
+      "p95_ms": 49.002,
+      "max_ms": 49.005
+    },
+    "group-tree": {
+      "positions": 100,
+      "mean_depth": 6.98,
+      "median_nodes": 407296.0,
+      "median_ms": 49.0005,
+      "p95_ms": 49.003,
+      "max_ms": 49.005
+    }
+  },
+  "checks": {
+    "engine_block": {
+      "candidate": {
+        "all_code_outside_weight_decoder_and_scorer_exact": true
+      },
+      "wide": {
+        "all_code_outside_weight_decoder_and_scorer_exact": true
+      },
+      "wide-group": {
+        "all_code_outside_weight_decoder_and_scorer_exact": true
+      }
+    },
+    "disabled": {
+      "positions": 100,
+      "depth": 4,
+      "disabled_policy_exact": true
+    },
+    "tree": {
+      "positions": 100,
+      "depth": 4,
+      "tree_full_width_value_exact": true
+    },
+    "group_tree": {
+      "positions": 100,
+      "depth": 4,
+      "tree_full_width_value_exact": true
+    },
+    "runtime": {
+      "candidate": "PASS: 12 protocol turns; max local latency 248.8 ms",
+      "wide": "PASS: 12 protocol turns; max local latency 254.6 ms",
+      "tree": "PASS: 12 protocol turns; max local latency 256.8 ms",
+      "differential": "{\"positions\": 720, \"transitions\": 21708, \"fixed_depth_positions\": 24, \"seconds_before_after\": [0.0435187480179593, 0.01692833102424629], \"visits_before_after\": [228844, 155203], \"speedup\": 2.570764238697117}"
+    },
+    "group_runtime": {
+      "wide-group": "PASS: 12 protocol turns; max local latency 251.6 ms",
+      "group-tree": "PASS: 12 protocol turns; max local latency 255.2 ms"
+    }
+  },
+  "limitations": [
+    "5M inputs include 3,371,876 ID-relabeled variants; 1,628,124 distinct training tactical boards.",
+    "Validation/test maps reused in prior research; original-only and map-separated from training.",
+    "Matches use the same 64 fresh maps across five exploratory comparisons, paired seats, exact RNG, same-family simulator.",
+    "Paired intervals are approximate 95% intervals; no judge timing or arena promotion claim.",
+    "Policy selected by quantized validation loss, not test or match results."
+  ]
+}

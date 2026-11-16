@@ -1,0 +1,19 @@
+game 921592941
+options: seed=-6976571589952715000
+agents:
+  0 hexagonee (me, agent_id 6882765)
+  1 kurnevsky (agent_id 4611935)
+frame 0
+frame 1 agent 0
+  summary: Unit 0 converted unit 4
+      
+      Turn: 0
+  stderr: depth=9 advantage=60 nodes=62232 cutoffs=8979 tt=13165 qnodes=48827 pruned=2368 rng=1 elapsed_us=46027
+  stdout: 0 CONVERT 4
+frame 2 agent 1
+  summary: $1 timeout!
+      $0 won!
+result
+  scores: 0=0 1=-1
+  ranking (agent indexes, winner first): 0 1
+  tooltips: frame 2: $1 timeout!

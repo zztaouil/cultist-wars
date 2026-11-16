@@ -1,0 +1,132 @@
+[
+  {
+    "file": "judge-baseline-921574271.json",
+    "result": "L",
+    "score": [
+      3,
+      6
+    ],
+    "elapsed_max": 48106,
+    "timeout": false
+  },
+  {
+    "file": "judge-baseline-921587178.json",
+    "result": "L",
+    "score": [
+      1,
+      7
+    ],
+    "elapsed_max": 49276,
+    "timeout": false
+  },
+  {
+    "file": "judge-baseline-921587779.json",
+    "result": "L",
+    "score": [
+      3,
+      4
+    ],
+    "elapsed_max": 48067,
+    "timeout": false
+  },
+  {
+    "file": "judge-baseline-921587959.json",
+    "result": "L",
+    "score": [
+      0,
+      4
+    ],
+    "elapsed_max": 48038,
+    "timeout": false
+  },
+  {
+    "file": "judge-baseline-921589293.json",
+    "result": "W",
+    "score": [
+      6,
+      1
+    ],
+    "elapsed_max": 48083,
+    "timeout": false
+  },
+  {
+    "file": "judge-candidate-921587779.json",
+    "result": "W",
+    "score": [
+      3,
+      2
+    ],
+    "elapsed_max": 46051,
+    "timeout": false
+  },
+  {
+    "file": "judge-candidate-921587959.json",
+    "result": "L",
+    "score": [
+      0,
+      2
+    ],
+    "elapsed_max": 46057,
+    "timeout": false
+  },
+  {
+    "file": "judge-candidate-921589293.json",
+    "result": "L",
+    "score": [
+      2,
+      4
+    ],
+    "elapsed_max": 46145,
+    "timeout": false
+  },
+  {
+    "file": "judge-candidate_final-921574271.json",
+    "result": "D",
+    "score": [
+      5,
+      5
+    ],
+    "elapsed_max": 47221,
+    "timeout": false
+  },
+  {
+    "file": "judge-candidate_final-921587178.json",
+    "result": "L",
+    "score": [
+      1,
+      6
+    ],
+    "elapsed_max": 46050,
+    "timeout": false
+  },
+  {
+    "file": "judge-no_options-921587779.json",
+    "result": "W",
+    "score": [
+      3,
+      2
+    ],
+    "elapsed_max": 46137,
+    "timeout": false
+  },
+  {
+    "file": "judge-no_options-921587959.json",
+    "result": "L",
+    "score": [
+      0,
+      5
+    ],
+    "elapsed_max": 46057,
+    "timeout": false
+  },
+  {
+    "file": "judge-no_options-921589293.json",
+    "result": "W",
+    "score": [
+      3,
+      1
+    ],
+    "elapsed_max": 46038,
+    "timeout": false
+  }
+]

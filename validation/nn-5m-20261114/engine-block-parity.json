@@ -1,0 +1,11 @@
+{
+  "candidate": {
+    "all_code_outside_weight_decoder_and_scorer_exact": true
+  },
+  "wide": {
+    "all_code_outside_weight_decoder_and_scorer_exact": true
+  },
+  "wide-group": {
+    "all_code_outside_weight_decoder_and_scorer_exact": true
+  }
+}

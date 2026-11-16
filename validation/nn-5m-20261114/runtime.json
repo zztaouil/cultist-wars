@@ -1,0 +1,6 @@
+{
+  "candidate": "PASS: 12 protocol turns; max local latency 248.8 ms",
+  "wide": "PASS: 12 protocol turns; max local latency 254.6 ms",
+  "tree": "PASS: 12 protocol turns; max local latency 256.8 ms",
+  "differential": "{\"positions\": 720, \"transitions\": 21708, \"fixed_depth_positions\": 24, \"seconds_before_after\": [0.0435187480179593, 0.01692833102424629], \"visits_before_after\": [228844, 155203], \"speedup\": 2.570764238697117}"
+}

@@ -1,0 +1,23 @@
+{
+  "positions_checked": 2301,
+  "legal_action_or_label_membership_failures": 0,
+  "unmatched_original_labels": 88,
+  "old_to_new_unit_id": [
+    0,
+    1,
+    12,
+    5,
+    2,
+    4,
+    9,
+    13,
+    3,
+    11,
+    7,
+    6,
+    8,
+    10
+  ],
+  "transition_equivariance_asserted": false,
+  "dataset_augmentation_enabled": false
+}

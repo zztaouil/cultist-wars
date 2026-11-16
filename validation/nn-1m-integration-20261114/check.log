@@ -1,0 +1,3 @@
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+{'groups': 32382, 'decoded_params_exact': True, 'max_c_vs_fp16_numpy_error': 1.9073486328125e-05, 'c_vs_fp16_top1_disagreements': 0, 'max_c_vs_fp32_error': 0.030193328857421875, 'fp32_vs_fp16_top1_disagreements': 8, 'fp16_test_top1': 0.48184176394293127}

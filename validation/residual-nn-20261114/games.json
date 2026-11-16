@@ -1,0 +1,114 @@
+[
+  {
+    "map": 41734000,
+    "seat": 0,
+    "own": 3,
+    "opponent": 5,
+    "plies": 150
+  },
+  {
+    "map": 41734000,
+    "seat": 1,
+    "own": 2,
+    "opponent": 3,
+    "plies": 150
+  },
+  {
+    "map": 41734001,
+    "seat": 0,
+    "own": 6,
+    "opponent": 1,
+    "plies": 150
+  },
+  {
+    "map": 41734001,
+    "seat": 1,
+    "own": 4,
+    "opponent": 6,
+    "plies": 150
+  },
+  {
+    "map": 41734002,
+    "seat": 0,
+    "own": 4,
+    "opponent": 4,
+    "plies": 150
+  },
+  {
+    "map": 41734002,
+    "seat": 1,
+    "own": 3,
+    "opponent": 5,
+    "plies": 150
+  },
+  {
+    "map": 41734003,
+    "seat": 0,
+    "own": 4,
+    "opponent": 4,
+    "plies": 150
+  },
+  {
+    "map": 41734003,
+    "seat": 1,
+    "own": 6,
+    "opponent": 8,
+    "plies": 150
+  },
+  {
+    "map": 41734004,
+    "seat": 0,
+    "own": 6,
+    "opponent": 2,
+    "plies": 150
+  },
+  {
+    "map": 41734004,
+    "seat": 1,
+    "own": 3,
+    "opponent": 3,
+    "plies": 150
+  },
+  {
+    "map": 41734005,
+    "seat": 0,
+    "own": 1,
+    "opponent": 1,
+    "plies": 150
+  },
+  {
+    "map": 41734005,
+    "seat": 1,
+    "own": 2,
+    "opponent": 2,
+    "plies": 150
+  },
+  {
+    "map": 41734006,
+    "seat": 0,
+    "own": 4,
+    "opponent": 4,
+    "plies": 150
+  },
+  {
+    "map": 41734006,
+    "seat": 1,
+    "own": 5,
+    "opponent": 5,
+    "plies": 150
+  },
+  {
+    "map": 41734007,
+    "seat": 0,
+    "own": 2,
+    "opponent": 2,
+    "plies": 150
+  },
+  {
+    "map": 41734007,
+    "seat": 1,
+    "own": 3,
+    "opponent": 2,
+    "plies": 150
+  }
+]

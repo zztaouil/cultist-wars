@@ -1,0 +1,47 @@
+{"phase": "discovery", "agents": 10, "pending": 453, "teacher_agents": 73, "games": 3335}
+{"phase": "discovery", "agents": 20, "pending": 443, "teacher_agents": 73, "games": 3339}
+{"phase": "discovery", "agents": 30, "pending": 433, "teacher_agents": 73, "games": 3339}
+{"phase": "discovery", "agents": 40, "pending": 423, "teacher_agents": 73, "games": 3339}
+{"phase": "discovery", "agents": 50, "pending": 413, "teacher_agents": 73, "games": 3339}
+{"phase": "discovery", "agents": 60, "pending": 403, "teacher_agents": 73, "games": 3339}
+{"phase": "discovery", "agents": 70, "pending": 393, "teacher_agents": 73, "games": 3344}
+{"phase": "discovery", "agents": 80, "pending": 387, "teacher_agents": 77, "games": 3372}
+{"phase": "discovery", "agents": 90, "pending": 384, "teacher_agents": 84, "games": 3381}
+{"phase": "discovery", "agents": 100, "pending": 375, "teacher_agents": 85, "games": 3382}
+{"phase": "discovery", "agents": 110, "pending": 367, "teacher_agents": 87, "games": 3385}
+{"phase": "discovery", "agents": 120, "pending": 357, "teacher_agents": 87, "games": 3386}
+{"phase": "discovery", "agents": 130, "pending": 348, "teacher_agents": 88, "games": 3387}
+{"phase": "discovery", "agents": 140, "pending": 339, "teacher_agents": 89, "games": 3388}
+{"phase": "discovery", "agents": 150, "pending": 330, "teacher_agents": 90, "games": 3392}
+{"phase": "discovery", "agents": 160, "pending": 320, "teacher_agents": 90, "games": 3395}
+{"phase": "discovery", "agents": 170, "pending": 310, "teacher_agents": 90, "games": 3398}
+{"phase": "discovery", "agents": 180, "pending": 301, "teacher_agents": 91, "games": 3402}
+{"phase": "discovery", "agents": 190, "pending": 292, "teacher_agents": 92, "games": 3405}
+{"phase": "discovery", "agents": 200, "pending": 282, "teacher_agents": 92, "games": 3405}
+{"phase": "discovery", "agents": 210, "pending": 272, "teacher_agents": 92, "games": 3406}
+{"phase": "discovery", "agents": 220, "pending": 263, "teacher_agents": 93, "games": 3410}
+{"phase": "discovery", "agents": 230, "pending": 253, "teacher_agents": 93, "games": 3414}
+{"phase": "discovery", "agents": 240, "pending": 243, "teacher_agents": 93, "games": 3420}
+{"phase": "discovery", "agents": 250, "pending": 233, "teacher_agents": 93, "games": 3434}
+{"phase": "discovery", "agents": 260, "pending": 223, "teacher_agents": 93, "games": 3435}
+{"phase": "discovery", "agents": 270, "pending": 213, "teacher_agents": 93, "games": 3445}
+{"phase": "discovery", "agents": 280, "pending": 203, "teacher_agents": 93, "games": 3447}
+{"phase": "discovery", "agents": 290, "pending": 193, "teacher_agents": 93, "games": 3450}
+{"phase": "discovery", "agents": 300, "pending": 183, "teacher_agents": 93, "games": 3452}
+{"phase": "discovery", "agents": 310, "pending": 173, "teacher_agents": 93, "games": 3455}
+{"phase": "discovery", "agents": 320, "pending": 163, "teacher_agents": 93, "games": 3457}
+{"phase": "discovery", "agents": 330, "pending": 153, "teacher_agents": 93, "games": 3464}
+Traceback (most recent call last):
+  File "/Users/hexagone/Documents/ChatGPT/cultist-wars/validation/imitation-5m-20261114/collect.py", line 90, in <module>
+    for path in (ROOT/'games').glob('*.json'):
+                           ^^^^^^
+  File "/Users/hexagone/Documents/ChatGPT/cultist-wars/validation/imitation-5m-20261114/collect.py", line 63, in main
+    for player in battle['players']:
+                ^^^^^^^^^
+  File "/Users/hexagone/Documents/ChatGPT/cultist-wars/validation/imitation-5m-20261114/collect.py", line 52, in absorb
+    agents={r['agent_id'] for r in rows};teachers={r['agent_id'] for r in json.loads((ROOT/'leaderboard.json').read_text())['rows']}
+             ^^^
+  File "/Users/hexagone/Documents/ChatGPT/cultist-wars/validation/imitation-5m-20261114/collect.py", line 52, in <genexpr>
+    agents={r['agent_id'] for r in rows};teachers={r['agent_id'] for r in json.loads((ROOT/'leaderboard.json').read_text())['rows']}
+                 ^^^^^^^^^^^^^
+KeyError: 'nickname'

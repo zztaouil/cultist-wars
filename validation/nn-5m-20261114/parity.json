@@ -1,0 +1,21 @@
+{
+  "groups": 100892,
+  "decoded_params_exact": true,
+  "max_c_vs_fp16_numpy_error": 2.288818359375e-05,
+  "c_vs_fp16_top1_disagreements": 0,
+  "max_c_vs_fp32_error": 0.019755840301513672,
+  "fp32_vs_fp16_top1_disagreements": 47,
+  "fp16_test_top1": 0.48927243443160806,
+  "validation": {
+    "positions": 50601,
+    "top1": 0.4824015335665303,
+    "top3": 0.7439576292958637,
+    "loss": 1.585177007577218
+  },
+  "test": {
+    "positions": 50291,
+    "top1": 0.48927243443160806,
+    "top3": 0.7522021832932334,
+    "loss": 1.560476934706388
+  }
+}

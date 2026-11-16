@@ -1,0 +1,104 @@
+{
+  "features": 239,
+  "architecture": [
+    239,
+    32,
+    16,
+    1
+  ],
+  "parameters": 8225,
+  "best_epoch": 2,
+  "validation_mse": 0.6546756029129028,
+  "test_mse": 0.5998860597610474,
+  "test_zero_mse": 0.8725000023841858,
+  "split_positions": [
+    83744,
+    11228,
+    9200
+  ],
+  "history": [
+    {
+      "epoch": 1,
+      "validation_mse": 0.6564904451370239
+    },
+    {
+      "epoch": 2,
+      "validation_mse": 0.6546688079833984
+    },
+    {
+      "epoch": 3,
+      "validation_mse": 0.6665151715278625
+    },
+    {
+      "epoch": 4,
+      "validation_mse": 0.6819908022880554
+    },
+    {
+      "epoch": 5,
+      "validation_mse": 0.7231007814407349
+    },
+    {
+      "epoch": 6,
+      "validation_mse": 0.7663857936859131
+    },
+    {
+      "epoch": 7,
+      "validation_mse": 0.8038196563720703
+    },
+    {
+      "epoch": 8,
+      "validation_mse": 0.8383341431617737
+    },
+    {
+      "epoch": 9,
+      "validation_mse": 0.8588130474090576
+    },
+    {
+      "epoch": 10,
+      "validation_mse": 0.8730548024177551
+    },
+    {
+      "epoch": 11,
+      "validation_mse": 0.8981916904449463
+    },
+    {
+      "epoch": 12,
+      "validation_mse": 0.9192487001419067
+    },
+    {
+      "epoch": 13,
+      "validation_mse": 0.9190809726715088
+    },
+    {
+      "epoch": 14,
+      "validation_mse": 0.978649914264679
+    },
+    {
+      "epoch": 15,
+      "validation_mse": 0.9786612391471863
+    },
+    {
+      "epoch": 16,
+      "validation_mse": 0.987507700920105
+    },
+    {
+      "epoch": 17,
+      "validation_mse": 1.0154609680175781
+    },
+    {
+      "epoch": 18,
+      "validation_mse": 1.0565924644470215
+    },
+    {
+      "epoch": 19,
+      "validation_mse": 1.0645591020584106
+    },
+    {
+      "epoch": 20,
+      "validation_mse": 1.0402170419692993
+    }
+  ],
+  "torch_version": "2.15.0",
+  "data_sha256": "c20073da00724848ba98d5df49bea081884f422fb1f239ad20cd847fc1be9aa4",
+  "baseline_sha256": "53b76385ff7fdd7ab064bfb17b0b14ab2cd48c72c16d4b176416fbfa5c8a58a8"
+}

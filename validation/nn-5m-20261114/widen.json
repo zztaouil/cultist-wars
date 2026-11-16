@@ -1,0 +1,13 @@
+{
+  "source": "fast/best.pt",
+  "source_sha256": "c7e91e27b482507c44794b23a83a544362fb08293457c5d167af86f50ca236b5",
+  "architecture": [
+    128,
+    192,
+    96,
+    1
+  ],
+  "max_initial_function_error": 0.0001220703125,
+  "weight_noise_std": 0.0001,
+  "seed": 71
+}

@@ -1,0 +1,53 @@
+{"stage": "loading", "cache": "validation/imitation-5m-20261114/cache"}
+{"stage": "training", "split_positions": [5000000, 50601, 50291]}
+{"initial_validation": {"loss": 1.5878188075813102, "top1": 0.4823224837453805, "top3": 0.7451038517025356, "positions": 50601}}
+{"epoch": 1, "processed": 819200, "seconds": 38.37}
+{"epoch": 1, "processed": 1633088, "seconds": 76.54}
+{"epoch": 1, "processed": 2452288, "seconds": 114.44}
+{"epoch": 1, "processed": 3271488, "seconds": 153.35}
+{"epoch": 1, "processed": 4090688, "seconds": 190.85}
+{"epoch": 1, "processed": 4909888, "seconds": 226.64}
+{"epoch": 1, "train_loss": 1.5544077451774596, "validation": {"loss": 1.5787032924549647, "top1": 0.48352799351791464, "top3": 0.7480484575403649, "positions": 50601}, "seconds": 232.81, "lr": 5e-05}
+{"epoch": 2, "processed": 819200, "seconds": 38.76}
+{"epoch": 2, "processed": 1638400, "seconds": 75.55}
+{"epoch": 2, "processed": 2457600, "seconds": 113.83}
+{"epoch": 2, "processed": 3276800, "seconds": 152.13}
+{"epoch": 2, "processed": 4090688, "seconds": 189.71}
+{"epoch": 2, "processed": 4909888, "seconds": 226.87}
+{"epoch": 2, "train_loss": 1.5522605575401307, "validation": {"loss": 1.5784682906387102, "top1": 0.4840220549001008, "top3": 0.7482263196379518, "positions": 50601}, "seconds": 232.59, "lr": 5e-05}
+{"epoch": 3, "processed": 819200, "seconds": 37.06}
+{"epoch": 3, "processed": 1638400, "seconds": 74.37}
+{"epoch": 3, "processed": 2457600, "seconds": 113.23}
+{"epoch": 3, "processed": 3276800, "seconds": 149.86}
+{"epoch": 3, "processed": 4096000, "seconds": 186.53}
+{"epoch": 3, "processed": 4909888, "seconds": 224.31}
+{"epoch": 3, "train_loss": 1.5513326666374208, "validation": {"loss": 1.5810817776479065, "top1": 0.4825596332088299, "top3": 0.748680856109563, "positions": 50601}, "seconds": 230.59, "lr": 5e-05}
+{"epoch": 4, "processed": 819200, "seconds": 38.17}
+{"epoch": 4, "processed": 1638400, "seconds": 76.23}
+{"epoch": 4, "processed": 2457600, "seconds": 114.06}
+{"epoch": 4, "processed": 3271488, "seconds": 151.31}
+{"epoch": 4, "processed": 4090688, "seconds": 188.01}
+{"epoch": 4, "processed": 4909888, "seconds": 225.0}
+{"epoch": 4, "train_loss": 1.5505236902992248, "validation": {"loss": 1.5794167576193143, "top1": 0.4842394419082627, "top3": 0.7477322582557657, "positions": 50601}, "seconds": 231.69, "lr": 5e-05}
+{"epoch": 5, "processed": 819200, "seconds": 37.23}
+{"epoch": 5, "processed": 1638400, "seconds": 76.11}
+{"epoch": 5, "processed": 2457600, "seconds": 113.76}
+{"epoch": 5, "processed": 3276800, "seconds": 152.04}
+{"epoch": 5, "processed": 4090688, "seconds": 189.96}
+{"epoch": 5, "processed": 4909888, "seconds": 228.13}
+{"epoch": 5, "train_loss": 1.54987021428833, "validation": {"loss": 1.5795099158119406, "top1": 0.48303393213572854, "top3": 0.7472777217841544, "positions": 50601}, "seconds": 234.58, "lr": 5e-05}
+{"epoch": 6, "processed": 819200, "seconds": 38.62}
+{"epoch": 6, "processed": 1633088, "seconds": 77.42}
+{"epoch": 6, "processed": 2452288, "seconds": 115.25}
+{"epoch": 6, "processed": 3271488, "seconds": 152.87}
+{"epoch": 6, "processed": 4090688, "seconds": 189.51}
+{"epoch": 6, "processed": 4909888, "seconds": 226.28}
+{"epoch": 6, "train_loss": 1.5493584269340515, "validation": {"loss": 1.5804132803921473, "top1": 0.4827572577617043, "top3": 0.74708009723128, "positions": 50601}, "seconds": 233.03, "lr": 2.5e-05}
+{"epoch": 7, "processed": 819200, "seconds": 37.14}
+{"epoch": 7, "processed": 1633088, "seconds": 76.21}
+{"epoch": 7, "processed": 2452288, "seconds": 113.14}
+{"epoch": 7, "processed": 3271488, "seconds": 152.54}
+{"epoch": 7, "processed": 4090688, "seconds": 196.15}
+{"epoch": 7, "processed": 4909888, "seconds": 232.41}
+{"epoch": 7, "train_loss": 1.5480994821411134, "validation": {"loss": 1.5784390172605747, "top1": 0.48352799351791464, "top3": 0.7475741586134661, "positions": 50601}, "seconds": 238.28, "lr": 2.5e-05}
+{"architecture": [128, 192, 96, 1], "parameters": 43393, "seed": 83, "best_epoch": 2, "epochs": 7, "seconds": 1637.02, "validation": {"loss": 1.5784682906387102, "top1": 0.4840220549001008, "top3": 0.7482263196379518, "positions": 50601}, "test": {"loss": 1.552772019677508, "top1": 0.4897297727227536, "top3": 0.7570141774870255, "positions": 50291}, "config": {"reuse_audit": true, "init": "validation/nn-5m-20261114/wide/best.pt", "lr": 5e-05, "threads": 4, "batch_size": 512, "hidden": [192, 96], "seed": 83, "epochs": 12, "shuffle_block": 8192, "patience": 5, "minutes": 45.0, "device": "cpu", "out": "fine-wide", "cache": "validation/imitation-5m-20261114/cache"}, "torch_version": "2.15.0", "numpy_version": "2.5.4", "meta_sha256": "765cc278cb106254ef6e4f1e3d97d31ebed02deec481aae2cd3c4a4fcb17c963", "baseline_sha256": "82b341ea7cb5ace6f316af95069fd0d763476c0aa5126693b78b8df398368b4d", "feature_version": 1, "split_positions": [5000000, 50601, 50291], "map_groups": 4343, "dataset": {"corpus_games": 4463, "timeout_or_empty_games_excluded": 105, "games_seen": 4358, "games_valid": 4355, "games_rejected": 3, "transitions_verified": 600932, "original_positions": 513027, "duplicates": 168, "reflection_ray_rejected": 62980, "unmatched": 2449, "forced": 2, "positions": 5100892, "split_positions": [5000000, 50601, 50291], "reflection_counts": [1366582, 1265690, 1234336, 1234284], "permutation_counts": [1729016, 1627956, 1628124, 115796, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "id_relabelled_positions": 3371876, "geometry_only_positions": 1729016, "synthetic_positions": 4587865, "player_positions": {"yhyoxx": 531969, "MSz": 360809, "aCat": 360261, "Noobkins": 1033106, "putibuzu": 115862, "ziele": 1417836, "Zylo": 371439, "Pduhard-": 301391, "jacek": 271719, "Astrobytes": 138942, "KawattaTaido": 197558}, "feature_bytes": 47137124864, "seconds": 214, "target_train_positions": 5000000, "target_reached": true}, "notes": ["Original-only test split; map grouping reused from prior research, not globally untouched.", "Checkpoint selected only by validation cross entropy.", "Imitation metrics do not establish search strength."]}

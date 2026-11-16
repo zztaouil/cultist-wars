@@ -1,0 +1,41 @@
+{
+  "games_seen": 3250,
+  "games_valid": 3250,
+  "games_rejected": 0,
+  "transitions_verified": 448724,
+  "original_positions": 319361,
+  "duplicates": 0,
+  "reflection_ray_rejected": 12330,
+  "unmatched": 8,
+  "forced": 2,
+  "positions": 1066179,
+  "split_positions": [
+    1000000,
+    33797,
+    32382
+  ],
+  "reflection_counts": [
+    319361,
+    253048,
+    246885,
+    246885
+  ],
+  "player_positions": {
+    "Zylo": 115205,
+    "Noobkins": 293752,
+    "KawattaTaido": 60633,
+    "yhyoxx": 126603,
+    "MSz": 114941,
+    "aCat": 109006,
+    "Pduhard-": 91680,
+    "putibuzu": 33676,
+    "jacek": 84275,
+    "Astrobytes": 36408
+  },
+  "feature_bytes": 9540068864,
+  "seconds": 39,
+  "target_train_positions": 1000000,
+  "target_reached": true,
+  "corpus_games": 3315,
+  "timeout_or_empty_games_excluded": 65
+}

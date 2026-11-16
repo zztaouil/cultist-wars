@@ -1,0 +1,35 @@
+cc -O3 -std=c11 -Wall -Wextra -Wpedantic bot.c -o bot
+bot.c:503:1: warning: string literal of length 65428 exceeds maximum length 4095 that ISO C99 compilers are required to support [-Woverlength-strings]
+  503 | "8/0fPzADUMwWE4Fz8ef7AfSB6O/0AAnd++go9gIGyJwR3R7mBveR343xKRF/gnLI7B4IJbDW4wEEA9voxX8S/QOBlA8r9vwL3Ow8Cg3/AvGB9wgG/Qfp2QRi"
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  504 | "/Pb8+r7p+v30FvAoFv8DBfkI1ul/+wr37wYZCgAGgQMC9koH/AR/+OxkhcETeAL0d5PI10b53xgp7rVr9+4qN/bEf/jQOC/uR2H/yTUf2qV/+PkPHuFdYfbq"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  505 | "KBDa+2f1+jkx6gV/+/4iNdxqe/baMT3qRH/8Fvrvtu1R+wMj/+Eqf/z6EA7+/BPTNN54AIH/FvgUFvoC/+4C+gACAfZ/+v8JAAEvACL5fxU7CfwADkEQ5/j4"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  506 | "+/6bEOOB+P8A6g0TogcDAdIwBpEW/v6B/e+qEv38BQh1Av74AhLzfwAN7P5f60P+DgQEI98t/gwF/b9a5dYE//9/VmDR+ggFmn+QXvkF/8Aqc3MDauDEERTx"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  507 | "0QnzxvvAf3D3GAEU5PsDCX8k//H4+hf9Afov6g7+EAn5Bn/WBUgHAIH8G6L1DQHj8unjCv8GbQ8NRvkFBwDzEdQADf6Bx80L5fQLroWBq/obBk1rKBEJEgAa"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  508 | "IH5A/g36gdWftwkCAyckfun3BQIKB38/EhMCIq8b+f0JBQfo+gMN/QD4fy0CCBYQAA/y0wSege77OxT3pQTRroGGpaLZwPPI35auyQsBsTmcVYqdiKrAx80s"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  509 | "ZOgjgQmBJufSHe7AHwq6E/4N5wLxfwW/uNDs4iSvlgj/n8QnZIPPziJ/qtnGaG9PlgNXDj+mBbq6z4jsES2Wfx+gH0/Y+Qou0GklgcLf2KgQAtGNovbY6yUW"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  510 | "v8sYgdLBzYjvoQEIBv8aC/EAAqO/o/aBAgPgfwyp//v9uTZejwYI/AbkKqcGBQPgfz6bB/sCe2k8uAT8/YGvNCH/+wAWGRoQBfn7oreBjw0B/AV9Gcbz9//1"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  511 | "59B//f4BLcP0FPr7/5o+GCgJOR3XEgf78wUNFX9/Kzf86gVHJ0Dx2u7X8bR/6RPLHQf9K8j02X8FbZA8BOTrB/7/ZlQQDAbE/zmNAAYG2H9/vwr+DIzzLxL4"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  512 | "CQcZbBIJAvsD438L1wQECeZPSQQJBwTjUnwBCAQFGk9/0/cQBbDpCsYLCwUVOu7/CAUE2iN/9//0Dg7U+AIQBOoPfyUM4QoFBxiBAAy5jf78JAMCxAPu+nKB"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  513 | "IOq6NRkhQYEQl90Hq/v7Pv8C/RXQS4EE/wQQ0wUVA/j+vQbrEwcDA/mBHQsBAADo/RYbBP8FzekWgQL7/hbD9sD78gXQqoEJ/gD/4M/V8gQFAQW0cQIA+v6j"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  514 | "gQUNAwj2Jy76CwoB9RWB9gIKgePW7iIk/g1J6/f+RAQjEgn+2Mce/tYGAoES/f/2+vwNAzEu+Af/Synlgfr7/0zZ4uT28f3FJrfH+gQCdEwigfwEAtdx6KUJ"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  515 | "//8Ff+Kc/A7+Fn/nAff7+Qw3M+ECBQWmTqTg/foAHfsz4AED/9h/sLn9f9Txrg38+/vvEVsgX0hH6hMj4AjyDX/s7M4N8f32u/+BWcEBzA3quBJOGCMmArk/"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  516 | "yCILQwCUf/6X7TL+6WJxTwEe/zF5sEz5IQGRDPp/7QMK7vL3V/wM+oEDJ2MPDf6MKBx2BBoCv0zkGfQNAYEcDSAKC/2BDxji8hL9qyfULviT61tUi/h//DW3"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  517 | "IpzsxYH2BhTXE/mqp0YQFRIH8fEB+zCGwv+B6vRDHtMdov/qfwCDBRkE6lbWFtH38eL2DI2J6ff16qaLHxAH/AnygQHF3wOBsMzu5/cM+TQfr/sCDRTy9gIo"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  518 | "CQq3ElKBJg7jA6m2Q/oK6wWBpiwI+frRDb+d758R0vDh06nJTPZ/ONIEDjfSTBCBwJr73+sa1JzQ138GMAYsHB11AR33FwIg9gBXv8TdCPYLNRbCK38tAjMh"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.

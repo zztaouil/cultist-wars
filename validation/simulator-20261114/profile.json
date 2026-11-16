@@ -1,0 +1,39 @@
+{
+  "apply": {
+    "ns": 473058000,
+    "calls": 8161326
+  },
+  "generate_mode": {
+    "ns": 923507000,
+    "calls": 1839444
+  },
+  "evaluate_live": {
+    "ns": 3344501000,
+    "calls": 3572371
+  },
+  "nn_begin": {
+    "ns": 69123000,
+    "calls": 183
+  },
+  "fast_hit": {
+    "ns": 4262679000,
+    "calls": 205785444
+  },
+  "move_neutral": {
+    "ns": 175789000,
+    "calls": 8161326
+  },
+  "search": {
+    "ns": 394804000,
+    "calls": 2100365
+  },
+  "quiescence": {
+    "ns": 929165000,
+    "calls": 7762379
+  },
+  "material_threat": {
+    "ns": 161570000,
+    "calls": 3133901
+  },
+  "note": "Exclusive instrumented times; timestamp/wrapper overhead included. NN root initialization included. Search/Q residual includes ordering/cache/terminal. Not promotion timings."
+}

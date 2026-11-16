@@ -1,0 +1,38 @@
+{
+  "baseline": {
+    "positions": 100,
+    "median_ms": 48.002,
+    "p95_ms": 48.007,
+    "max_ms": 48.022,
+    "median_visits": 245216.0
+  },
+  "puct-value": {
+    "positions": 100,
+    "median_ms": 48.001,
+    "p95_ms": 48.005,
+    "max_ms": 48.014,
+    "median_visits": 5325.5,
+    "median_nn_calls": 4951.0,
+    "median_max_depth": 12.5,
+    "median_root_coverage": 1.0,
+    "pool_full": 1
+  },
+  "puct-heuristic": {
+    "positions": 100,
+    "median_ms": 48.001,
+    "p95_ms": 48.006,
+    "max_ms": 48.006,
+    "median_visits": 5080.5,
+    "median_nn_calls": 4731.5,
+    "median_max_depth": 13.0,
+    "median_root_coverage": 1.0,
+    "pool_full": 1
+  },
+  "ab-value": {
+    "positions": 100,
+    "median_ms": 48.056,
+    "p95_ms": 48.142,
+    "max_ms": 48.186,
+    "median_visits": 12768.0
+  }
+}

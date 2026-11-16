@@ -1,0 +1,7 @@
+{
+  "positions": 104172,
+  "max_error": 4.172325134277344e-07,
+  "encoder_positions": 1074,
+  "inference_microseconds": 3.491114051896429,
+  "source_sha256": "26581fb8d7360167ab58e2202ad93ba5c25a2c8712ac22eba5216bd1154f26a3"
+}

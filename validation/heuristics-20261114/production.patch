@@ -1,0 +1,36 @@
+--- baseline.cpp
++++ bot.cpp
+@@ -240,6 +240,12 @@
+ #ifndef LETHAL_PENALTY
+ #define LETHAL_PENALTY 180
+ #endif
++#ifndef LEADER_EXPOSURE
++#define LEADER_EXPOSURE 18
++#endif
++#ifndef RECAPTURE_DISCOUNT
++#define RECAPTURE_DISCOUNT 1
++#endif
+ #ifndef SAFETY_WEIGHT
+ #define SAFETY_WEIGHT 1
+ #endif
+@@ -274,6 +280,11 @@
+ for(int i=0;i<UNITS;i++)if(s->u[i].hp && s->u[i].owner<2 && damage[i]) {
+ int d=damage[i],hp=s->u[i].hp;
+ int penalty=12*d+(2*d>=hp?90:0)+(d>=hp?LETHAL_PENALTY:0);
++// Exposed leaders also risk losing the remaining recruitment economy.
++if(s->u[i].leader) {
++int neutrals=__builtin_popcount((unsigned)s->owned[2]);
++penalty+=LEADER_EXPOSURE*d*(neutrals<3?neutrals:3);
++}
+ value+=(s->u[i].owner?1:-1)*penalty;
+ }
+ return value;
+@@ -327,6 +338,8 @@
+ if(damage>risk && fast_hit(s,s->u[j].pos,s->u[i].pos)==i) risk=damage;}
+ if(risk>s->u[i].hp) risk=s->u[i].hp;
+ access[p]=RECRUIT_WEIGHT*(2*s->u[i].hp-risk)/(2*s->u[i].hp*(d[p]+2));
++// A neutral beside the enemy leader cannot be counted as secure material.
++if(RECAPTURE_DISCOUNT && d[1-p]==0) access[p]/=2;
+ }
+ value+=access[0]-access[1];
+ if(RACE_WEIGHT && d[0]!=d[1]) {

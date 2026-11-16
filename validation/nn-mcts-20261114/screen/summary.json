@@ -1,0 +1,26 @@
+{
+  "puct-value": {
+    "games": 16,
+    "wins": 0,
+    "draws": 0,
+    "losses": 16,
+    "score": 0,
+    "interval_note": "Exploratory eight-pair screen; no confidence interval reported."
+  },
+  "puct-heuristic": {
+    "games": 16,
+    "wins": 1,
+    "draws": 3,
+    "losses": 12,
+    "score": 0.15625,
+    "interval_note": "Exploratory eight-pair screen; no confidence interval reported."
+  },
+  "ab-value": {
+    "games": 16,
+    "wins": 0,
+    "draws": 0,
+    "losses": 16,
+    "score": 0,
+    "interval_note": "Exploratory eight-pair screen; no confidence interval reported."
+  }
+}

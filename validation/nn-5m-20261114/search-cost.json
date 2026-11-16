@@ -1,0 +1,34 @@
+{
+  "baseline": {
+    "positions": 100,
+    "mean_depth": 7.21,
+    "median_nodes": 520176.0,
+    "median_ms": 49.0,
+    "p95_ms": 49.003,
+    "max_ms": 49.005
+  },
+  "candidate": {
+    "positions": 100,
+    "mean_depth": 7.21,
+    "median_nodes": 521904.0,
+    "median_ms": 49.001,
+    "p95_ms": 49.003,
+    "max_ms": 49.004
+  },
+  "tree": {
+    "positions": 100,
+    "mean_depth": 7.07,
+    "median_nodes": 449856.0,
+    "median_ms": 49.001,
+    "p95_ms": 49.003,
+    "max_ms": 49.007
+  },
+  "wide": {
+    "positions": 100,
+    "mean_depth": 7.18,
+    "median_nodes": 515488.0,
+    "median_ms": 49.001,
+    "p95_ms": 49.003,
+    "max_ms": 49.004
+  }
+}

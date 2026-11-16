@@ -1,5 +1,5 @@
 """Resume public replay collection for a frozen top-ten player cohort."""
-import gzip,json,re,time,urllib.request,urllib.error
+import gzip,json,re,time,urllib.request,urllib.error,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
 TOP={r['nickname'] for r in json.loads((ROOT/'leaderboard.json').read_text())['rows']}
@@ -38,7 +38,7 @@ while agents-seen:
    if p['nickname'] in TOP:agents.add(p['playerAgentId'])
  print(json.dumps({'agent':agent,'battles':len(b),'games':len(ids),'agents_remaining':len(agents-seen)}),flush=True)
 (ROOT/'game_ids.json').write_text(json.dumps(sorted(ids)))
-for i,gid in enumerate(sorted(ids)):
+for i,gid in enumerate(sorted(ids,reverse="--reverse" in sys.argv)):
  if gid in old:continue
  path=ROOT/'games'/f'{gid}.json'
  if path.exists():continue

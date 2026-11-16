@@ -1,0 +1,4 @@
+{"stage": "loading", "cache": "validation/imitation-5m-20261114/cache"}
+{"stage": "training", "split_positions": [5000000, 50601, 50291]}
+{"initial_validation": {"loss": 1.662796805445421, "top1": 0.47026738602003915, "top3": 0.7278314657813086, "positions": 50601}}
+{"epoch": 1, "train_loss": 1.6159305306229115, "validation": {"loss": 1.609655009529595, "top1": 0.4791407284441019, "top3": 0.7398075136855002, "positions": 50601}, "seconds": 257.19, "lr": 0.0003}

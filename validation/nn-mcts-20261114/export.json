@@ -1,0 +1,8 @@
+{
+  "source_bytes": 80322,
+  "parameters": 16578,
+  "storage": "FP16",
+  "checkpoint": "validation/nn-mcts-20261114/pilot/best.pt",
+  "checkpoint_sha256": "1679cda688ecacc5eb17dea442a34f505eb1a542e6c4312fb2ff1f9b5967d2b4",
+  "source_sha256": "44edc940582a221b57fec2e0da19b6f58d02d21eb0fbb91cfafcfe2c34f44b2f"
+}

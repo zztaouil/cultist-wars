@@ -1,0 +1,742 @@
+[
+  {
+    "id": "game-921574605",
+    "turn": 79,
+    "unpruned": {
+      "value": 1982,
+      "action": [
+        1,
+        2,
+        17
+      ],
+      "depth": 4,
+      "nodes": 36328,
+      "ns": 5006000
+    },
+    "pruned": {
+      "value": 1982,
+      "action": [
+        1,
+        2,
+        17
+      ],
+      "depth": 4,
+      "nodes": 31184,
+      "ns": 4148000
+    },
+    "guarded": {
+      "value": 1982,
+      "action": [
+        1,
+        2,
+        17
+      ],
+      "depth": 4,
+      "nodes": 31184,
+      "ns": 4291000
+    }
+  },
+  {
+    "id": "game-921574605",
+    "turn": 81,
+    "unpruned": {
+      "value": 1967,
+      "action": [
+        2,
+        2,
+        7
+      ],
+      "depth": 4,
+      "nodes": 16979,
+      "ns": 2074000
+    },
+    "pruned": {
+      "value": 1967,
+      "action": [
+        2,
+        2,
+        7
+      ],
+      "depth": 4,
+      "nodes": 16979,
+      "ns": 2019000
+    },
+    "guarded": {
+      "value": 1967,
+      "action": [
+        2,
+        2,
+        7
+      ],
+      "depth": 4,
+      "nodes": 16979,
+      "ns": 2020000
+    }
+  },
+  {
+    "id": "game-921574605",
+    "turn": 83,
+    "unpruned": {
+      "value": 1950,
+      "action": [
+        2,
+        2,
+        0
+      ],
+      "depth": 4,
+      "nodes": 10257,
+      "ns": 1206000
+    },
+    "pruned": {
+      "value": 1950,
+      "action": [
+        2,
+        2,
+        0
+      ],
+      "depth": 4,
+      "nodes": 9912,
+      "ns": 1139000
+    },
+    "guarded": {
+      "value": 1950,
+      "action": [
+        2,
+        2,
+        0
+      ],
+      "depth": 4,
+      "nodes": 9912,
+      "ns": 1123000
+    }
+  },
+  {
+    "id": "game-921574605",
+    "turn": 85,
+    "unpruned": {
+      "value": 1910,
+      "action": [
+        1,
+        8,
+        18
+      ],
+      "depth": 4,
+      "nodes": 27337,
+      "ns": 3007000
+    },
+    "pruned": {
+      "value": 1933,
+      "action": [
+        2,
+        2,
+        0
+      ],
+      "depth": 4,
+      "nodes": 12896,
+      "ns": 1407000
+    },
+    "guarded": {
+      "value": 1933,
+      "action": [
+        2,
+        2,
+        0
+      ],
+      "depth": 4,
+      "nodes": 12896,
+      "ns": 1426000
+    }
+  },
+  {
+    "id": "game-921574605",
+    "turn": 89,
+    "unpruned": {
+      "value": 1037,
+      "action": [
+        2,
+        8,
+        0
+      ],
+      "depth": 4,
+      "nodes": 17459,
+      "ns": 1890000
+    },
+    "pruned": {
+      "value": 1061,
+      "action": [
+        2,
+        8,
+        0
+      ],
+      "depth": 4,
+      "nodes": 26032,
+      "ns": 3004000
+    },
+    "guarded": {
+      "value": 1061,
+      "action": [
+        2,
+        8,
+        0
+      ],
+      "depth": 4,
+      "nodes": 27059,
+      "ns": 3079000
+    }
+  },
+  {
+    "id": "game-921574605",
+    "turn": 91,
+    "unpruned": {
+      "value": 1023,
+      "action": [
+        2,
+        8,
+        0
+      ],
+      "depth": 4,
+      "nodes": 9553,
+      "ns": 960000
+    },
+    "pruned": {
+      "value": 1023,
+      "action": [
+        2,
+        8,
+        0
+      ],
+      "depth": 4,
+      "nodes": 7959,
+      "ns": 764000
+    },
+    "guarded": {
+      "value": 1023,
+      "action": [
+        2,
+        8,
+        0
+      ],
+      "depth": 4,
+      "nodes": 8143,
+      "ns": 778000
+    }
+  },
+  {
+    "id": "game-921574271",
+    "turn": 29,
+    "unpruned": {
+      "value": -91,
+      "action": [
+        1,
+        8,
+        25
+      ],
+      "depth": 4,
+      "nodes": 8470,
+      "ns": 1371000
+    },
+    "pruned": {
+      "value": -91,
+      "action": [
+        1,
+        8,
+        25
+      ],
+      "depth": 4,
+      "nodes": 8470,
+      "ns": 1397000
+    },
+    "guarded": {
+      "value": -91,
+      "action": [
+        1,
+        8,
+        25
+      ],
+      "depth": 4,
+      "nodes": 8470,
+      "ns": 1445000
+    }
+  },
+  {
+    "id": "game-921574271",
+    "turn": 39,
+    "unpruned": {
+      "value": -156,
+      "action": [
+        1,
+        10,
+        61
+      ],
+      "depth": 4,
+      "nodes": 11833,
+      "ns": 2112000
+    },
+    "pruned": {
+      "value": -156,
+      "action": [
+        1,
+        10,
+        61
+      ],
+      "depth": 4,
+      "nodes": 11827,
+      "ns": 2104000
+    },
+    "guarded": {
+      "value": -156,
+      "action": [
+        1,
+        10,
+        61
+      ],
+      "depth": 4,
+      "nodes": 11827,
+      "ns": 2131000
+    }
+  },
+  {
+    "id": "game-921574271",
+    "turn": 49,
+    "unpruned": {
+      "value": -260,
+      "action": [
+        2,
+        10,
+        9
+      ],
+      "depth": 4,
+      "nodes": 17730,
+      "ns": 2707000
+    },
+    "pruned": {
+      "value": -260,
+      "action": [
+        2,
+        10,
+        9
+      ],
+      "depth": 4,
+      "nodes": 16939,
+      "ns": 2572000
+    },
+    "guarded": {
+      "value": -260,
+      "action": [
+        2,
+        10,
+        9
+      ],
+      "depth": 4,
+      "nodes": 16939,
+      "ns": 2552000
+    }
+  },
+  {
+    "id": "game-921574680",
+    "turn": 33,
+    "unpruned": {
+      "value": -1100,
+      "action": [
+        1,
+        1,
+        45
+      ],
+      "depth": 4,
+      "nodes": 9177,
+      "ns": 1497000
+    },
+    "pruned": {
+      "value": -1100,
+      "action": [
+        1,
+        1,
+        45
+      ],
+      "depth": 4,
+      "nodes": 7872,
+      "ns": 1295000
+    },
+    "guarded": {
+      "value": -1100,
+      "action": [
+        1,
+        1,
+        45
+      ],
+      "depth": 4,
+      "nodes": 7888,
+      "ns": 1298000
+    }
+  },
+  {
+    "id": "game-921574680",
+    "turn": 37,
+    "unpruned": {
+      "value": -2179,
+      "action": [
+        3,
+        1,
+        13
+      ],
+      "depth": 4,
+      "nodes": 40416,
+      "ns": 6667000
+    },
+    "pruned": {
+      "value": -2179,
+      "action": [
+        3,
+        1,
+        13
+      ],
+      "depth": 4,
+      "nodes": 38649,
+      "ns": 6392000
+    },
+    "guarded": {
+      "value": -2179,
+      "action": [
+        3,
+        1,
+        13
+      ],
+      "depth": 4,
+      "nodes": 39284,
+      "ns": 6412000
+    }
+  },
+  {
+    "id": "game-921574680",
+    "turn": 99,
+    "unpruned": {
+      "value": -2227,
+      "action": [
+        3,
+        1,
+        13
+      ],
+      "depth": 4,
+      "nodes": 32337,
+      "ns": 4184000
+    },
+    "pruned": {
+      "value": -2227,
+      "action": [
+        3,
+        1,
+        13
+      ],
+      "depth": 4,
+      "nodes": 31928,
+      "ns": 4082000
+    },
+    "guarded": {
+      "value": -2227,
+      "action": [
+        3,
+        1,
+        13
+      ],
+      "depth": 4,
+      "nodes": 31961,
+      "ns": 4058000
+    }
+  },
+  {
+    "id": "game-921574680",
+    "turn": 139,
+    "unpruned": {
+      "value": -2177,
+      "action": [
+        3,
+        1,
+        13
+      ],
+      "depth": 4,
+      "nodes": 40569,
+      "ns": 5536000
+    },
+    "pruned": {
+      "value": -2177,
+      "action": [
+        3,
+        1,
+        13
+      ],
+      "depth": 4,
+      "nodes": 39999,
+      "ns": 5454000
+    },
+    "guarded": {
+      "value": -2177,
+      "action": [
+        3,
+        1,
+        13
+      ],
+      "depth": 4,
+      "nodes": 40032,
+      "ns": 5419000
+    }
+  },
+  {
+    "id": "game-921572974",
+    "turn": 52,
+    "unpruned": {
+      "value": -2162,
+      "action": [
+        3,
+        0,
+        4
+      ],
+      "depth": 4,
+      "nodes": 42939,
+      "ns": 6411000
+    },
+    "pruned": {
+      "value": -2162,
+      "action": [
+        3,
+        0,
+        4
+      ],
+      "depth": 4,
+      "nodes": 42408,
+      "ns": 6221000
+    },
+    "guarded": {
+      "value": -2162,
+      "action": [
+        3,
+        0,
+        4
+      ],
+      "depth": 4,
+      "nodes": 42939,
+      "ns": 6233000
+    }
+  },
+  {
+    "id": "game-921572974",
+    "turn": 100,
+    "unpruned": {
+      "value": -2162,
+      "action": [
+        3,
+        0,
+        4
+      ],
+      "depth": 4,
+      "nodes": 7399,
+      "ns": 1223000
+    },
+    "pruned": {
+      "value": -2162,
+      "action": [
+        3,
+        0,
+        4
+      ],
+      "depth": 4,
+      "nodes": 6868,
+      "ns": 1170000
+    },
+    "guarded": {
+      "value": -2162,
+      "action": [
+        3,
+        0,
+        4
+      ],
+      "depth": 4,
+      "nodes": 7399,
+      "ns": 1180000
+    }
+  },
+  {
+    "id": "game-921572974",
+    "turn": 140,
+    "unpruned": {
+      "value": -2162,
+      "action": [
+        3,
+        0,
+        4
+      ],
+      "depth": 4,
+      "nodes": 7401,
+      "ns": 1214000
+    },
+    "pruned": {
+      "value": -2162,
+      "action": [
+        3,
+        0,
+        4
+      ],
+      "depth": 4,
+      "nodes": 6870,
+      "ns": 1163000
+    },
+    "guarded": {
+      "value": -2162,
+      "action": [
+        3,
+        0,
+        4
+      ],
+      "depth": 4,
+      "nodes": 7401,
+      "ns": 1230000
+    }
+  },
+  {
+    "id": "game-921574110",
+    "turn": 115,
+    "unpruned": {
+      "value": 384,
+      "action": [
+        1,
+        1,
+        59
+      ],
+      "depth": 4,
+      "nodes": 763,
+      "ns": 66000
+    },
+    "pruned": {
+      "value": 384,
+      "action": [
+        1,
+        1,
+        59
+      ],
+      "depth": 4,
+      "nodes": 720,
+      "ns": 55000
+    },
+    "guarded": {
+      "value": 384,
+      "action": [
+        1,
+        1,
+        59
+      ],
+      "depth": 4,
+      "nodes": 720,
+      "ns": 62000
+    }
+  },
+  {
+    "id": "game-921574110",
+    "turn": 117,
+    "unpruned": {
+      "value": 265,
+      "action": [
+        3,
+        1,
+        6
+      ],
+      "depth": 4,
+      "nodes": 2128,
+      "ns": 159000
+    },
+    "pruned": {
+      "value": 265,
+      "action": [
+        3,
+        1,
+        6
+      ],
+      "depth": 4,
+      "nodes": 1944,
+      "ns": 127000
+    },
+    "guarded": {
+      "value": 265,
+      "action": [
+        3,
+        1,
+        6
+      ],
+      "depth": 4,
+      "nodes": 1967,
+      "ns": 139000
+    }
+  },
+  {
+    "id": "game-921574564",
+    "turn": 22,
+    "unpruned": {
+      "value": -719,
+      "action": [
+        3,
+        0,
+        12
+      ],
+      "depth": 4,
+      "nodes": 10586,
+      "ns": 1645000
+    },
+    "pruned": {
+      "value": -719,
+      "action": [
+        3,
+        0,
+        12
+      ],
+      "depth": 4,
+      "nodes": 10349,
+      "ns": 1588000
+    },
+    "guarded": {
+      "value": -719,
+      "action": [
+        3,
+        0,
+        12
+      ],
+      "depth": 4,
+      "nodes": 10458,
+      "ns": 1655000
+    }
+  },
+  {
+    "id": "game-921574564",
+    "turn": 24,
+    "unpruned": {
+      "value": -790,
+      "action": [
+        2,
+        12,
+        9
+      ],
+      "depth": 4,
+      "nodes": 142638,
+      "ns": 18733000
+    },
+    "pruned": {
+      "value": -790,
+      "action": [
+        2,
+        12,
+        9
+      ],
+      "depth": 4,
+      "nodes": 141316,
+      "ns": 18516000
+    },
+    "guarded": {
+      "value": -790,
+      "action": [
+        2,
+        12,
+        9
+      ],
+      "depth": 4,
+      "nodes": 142103,
+      "ns": 18527000
+    }
+  }
+]

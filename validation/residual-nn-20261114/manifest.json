@@ -1,0 +1,31 @@
+{
+  "source_sha256": {
+    "baseline.c": "96ca86d8855230504e4ff1c733270009d33171c7d9e8092361136b9820ef8641",
+    "candidate.c": "4492696cf968eb46367e6d1aa8d519bee5e665ddbffbf44c2697922258ab196c",
+    "residual.h": "06c0205ff184390bd51996d09412e549131cf7ab1b1fb738ecf8d872d695cd83",
+    "weights.h": "8f5afcfb1b9cb870818f142738609b9fdb09f24d626287cf885071f3e4d905e9",
+    "standalone.c": "2d65d45cca6c9d112e775100656fcc23efbc3f68c4d1bc7e43569e2c8b05777d",
+    "data.npz": "27fff63ee1fb7693dab2d1652d2d52c702757d7db4968f85249e0199af314aa6",
+    "records.json": "55f1a647dd1d0e701080eef4b5ef27665f9b57b8ac6c5d8d85fabb56c29e4bb6",
+    "model.pt": "a46f35619dd42b841e0dc5e4f0dc33833e49751bd1971109fdc7f2364186563f",
+    "collection.json": "1baca95968cc2c7df131a17eb5f05cd3891bb2a7419919dad20533140eb80ca5",
+    "training.json": "8b8d2d85c982ff1328aeffd1a0950e6a3601f91be73f43d2176805e9674b5ce5",
+    "checks.json": "10c2904390ca43a732aa7346f484e43f8cdb4e0bdd260ea33836f3f7531a909c",
+    "throughput.json": "256eb901a50486e5b0e78cee375277ed0152ee730bec0b5e30a3f5bd94ace3dd",
+    "tactical.json": "71b906b1f177ab65b4cd49510d328d668a5e2448c30b7b3b62402912ea19b29a",
+    "matches.json": "8c13dbd17cb15a627a05527754e824a23ae0712059f98266ca79a4cd4239a1b9",
+    "games.json": "d7baaaee1f0461ca2328e02f4057862c5bf2d0ae026249e2000afe962754b439",
+    "match-maps.json": "e71753ee74168765e27b0a9d175b5d3998ff01c8ee5f045960632139f464fd07",
+    "protocol.json": "dfce2223b5a7371452215323f25297dc6a11c319977199301a54138d90aff67a",
+    "experiment.py": "de60d0e459f6528096c9c3574ef72dce7c0fa4a571788bd0a1bd871bf9bee04b",
+    "collect.py": "de30fe78988ce2f1c4fdae64ed8d81d7a25bc4a848927fb6b3aef20ded76859f",
+    "train.py": "3d7a132004d3bef9ab6709d35ff26a7cc882ec18a533058299053155751740a6",
+    "check.py": "5692cc3d9fd0f9c5b668a706dfa1961ad849834b83b4b7fa3b3bf7f55aa41279",
+    "evaluate.py": "55e13f5ba0784d7c40c39e3869f4db55891bf23d7b04d70cd852595f48e5284e",
+    "finalize.py": "dacfdcf9d022057684acbef3f81ec45be45a8817c91d9948433634baeea833be"
+  },
+  "budget_ms": 48,
+  "correction_bound": 150,
+  "production_matches_frozen": true,
+  "standalone_bytes": 99745
+}

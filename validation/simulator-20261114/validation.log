@@ -1,0 +1,17 @@
+{"random_states": 1000, "transitions": 27431, "variants": ["baseline", "neutral", "ray", "metadata", "packed", "undo", "rowray", "rowneutral"], "prepared_unprepared": true}
+targeted rays, membership/dead/absent/trapped draws, caches: PASS
+baseline passed
+targeted rays, membership/dead/absent/trapped draws, caches: PASS
+neutral passed
+targeted rays, membership/dead/absent/trapped draws, caches: PASS
+ray passed
+targeted rays, membership/dead/absent/trapped draws, caches: PASS
+metadata passed
+targeted rays, membership/dead/absent/trapped draws, caches: PASS
+packed passed
+targeted rays, membership/dead/absent/trapped draws, caches: PASS
+undo passed
+targeted rays, membership/dead/absent/trapped draws, caches: PASS
+rowray passed
+targeted rays, membership/dead/absent/trapped draws, caches: PASS
+rowneutral passed

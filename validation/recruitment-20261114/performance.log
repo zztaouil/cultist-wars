@@ -1,0 +1,3 @@
+baseline {'depth': 6.28, 'nodes': 429643, 'ns': 48002062.5, 'eval_ns': 28.46} max_ns 48006000
+selected {'depth': 5.94, 'nodes': 319300, 'ns': 48002718.75, 'eval_ns': 104.03} max_ns 48006000
+changed moves 4 / 32

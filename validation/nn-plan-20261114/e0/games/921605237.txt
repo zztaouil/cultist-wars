@@ -1,0 +1,821 @@
+game 921605237
+options: seed=2061172864249007900
+agents:
+  0 hexagonee (me, agent_id 6882802)
+  1 YALOKGAR (agent_id 6787045)
+frame 0
+frame 1 agent 0
+  summary: Unit 0 moved to row 1 col 3
+      
+      Turn: 0
+  stderr: depth=12 advantage=-52 nodes=55496 cutoffs=7608 tt=14354 qnodes=42971 pruned=2963 rng=1 elapsed_us=49032
+  stdout: 0 MOVE 1 3
+frame 2 agent 1
+  summary: Unit 1 moved to row 11 col 3
+      
+      Turn: 1
+  stdout: 1 MOVE 11 3
+frame 3 agent 0
+  summary: Unit 0 moved to row 2 col 3
+      
+      Turn: 2
+  stderr: depth=11 advantage=-46 nodes=45776 cutoffs=5948 tt=11596 qnodes=36901 pruned=276 rng=1 elapsed_us=49016
+  stdout: 0 MOVE 2 3
+frame 4 agent 1
+  summary: Unit 1 moved to row 10 col 3
+      
+      Turn: 3
+  stdout: 1 MOVE 10 3
+frame 5 agent 0
+  summary: Unit 0 moved to row 2 col 2
+      
+      Turn: 4
+  stderr: depth=9 advantage=-46 nodes=44144 cutoffs=6620 tt=11470 qnodes=31129 pruned=146 rng=1 elapsed_us=49025
+  stdout: 0 MOVE 2 2
+frame 6 agent 1
+  summary: Turn: 5
+  stdout: WAIT
+frame 7 agent 0
+  summary: Unit 0 moved to row 3 col 2
+      
+      Turn: 6
+  stderr: depth=9 advantage=-81 nodes=43360 cutoffs=6080 tt=8572 qnodes=35060 pruned=2213 rng=1 elapsed_us=49019
+  stdout: 0 MOVE 3 2
+frame 8 agent 1
+  summary: Unit 1 converted unit 13
+      
+      Turn: 7
+  stdout: 1 CONVERT 13
+frame 9 agent 0
+  summary: Unit 0 moved to row 4 col 2
+      
+      Turn: 8
+  stderr: depth=8 advantage=-145 nodes=40936 cutoffs=6122 tt=9074 qnodes=34751 pruned=1136 rng=1 elapsed_us=49012
+  stdout: 0 MOVE 4 2
+frame 10 agent 1
+  summary: Unit 13 hit unit 12. New hp: 6
+      
+      Turn: 9
+  stdout: 13 SHOOT 6
+frame 11 agent 0
+  summary: Unit 0 converted unit 6
+      
+      Turn: 10
+  stderr: depth=7 advantage=109 nodes=42280 cutoffs=5955 tt=8981 qnodes=35068 pruned=475 rng=1 elapsed_us=49017
+  stdout: 0 CONVERT 6
+frame 12 agent 1
+  summary: Unit 13 moved to row 9 col 4
+      
+      Turn: 11
+  stdout: 13 MOVE 9 4
+frame 13 agent 0
+  summary: Unit 0 converted unit 5
+      
+      Turn: 12
+  stderr: depth=7 advantage=162 nodes=41808 cutoffs=5202 tt=8569 qnodes=35324 pruned=954 rng=1 elapsed_us=49020
+  stdout: 0 CONVERT 5
+frame 14 agent 1
+  summary: Unit 1 converted unit 10
+      
+      Turn: 13
+  stdout: 1 CONVERT 10
+frame 15 agent 0
+  summary: Unit 0 moved to row 4 col 3
+      
+      Turn: 14
+  stderr: depth=6 advantage=984 nodes=45848 cutoffs=4828 tt=12402 qnodes=37076 pruned=64 rng=1 elapsed_us=49011
+  stdout: 0 MOVE 4 3
+frame 16 agent 1
+  summary: Unit 1 moved to row 9 col 3
+      
+      Turn: 15
+  stdout: 1 MOVE 9 3
+frame 17 agent 0
+  summary: Unit 0 moved to row 4 col 4
+      
+      Turn: 16
+  stderr: depth=6 advantage=1131 nodes=43096 cutoffs=4781 tt=10152 qnodes=35568 pruned=78 rng=1 elapsed_us=49035
+  stdout: 0 MOVE 4 4
+frame 18 agent 1
+  summary: Unit 1 converted unit 11
+      
+      Turn: 17
+  stdout: 1 CONVERT 11
+frame 19 agent 0
+  summary: Unit 0 converted unit 2
+      
+      Turn: 18
+  stderr: depth=5 advantage=1172 nodes=49616 cutoffs=4097 tt=14857 qnodes=44214 pruned=0 rng=1 elapsed_us=49016
+  stdout: 0 CONVERT 2
+frame 20 agent 1
+  summary: Unit 1 moved to row 8 col 3
+      
+      Turn: 19
+  stdout: 1 MOVE 8 3
+frame 21 agent 0
+  summary: Unit 0 converted unit 7
+      
+      Turn: 20
+  stderr: depth=5 advantage=1233 nodes=49400 cutoffs=3044 tt=15646 qnodes=44587 pruned=321 rng=1 elapsed_us=49010
+  stdout: 0 CONVERT 7
+frame 22 agent 1
+  summary: Unit 11 hit unit 6. New hp: 7
+      
+      Turn: 21
+  stdout: 11 SHOOT 6
+frame 23 agent 0
+  summary: Unit 6 hit unit 11. New hp: 7
+      
+      Turn: 22
+  stderr: depth=5 advantage=1233 nodes=55704 cutoffs=4517 tt=18023 qnodes=48048 pruned=26 rng=1 elapsed_us=49014
+  stdout: 6 SHOOT 11
+frame 24 agent 1
+  summary: Unit 11 hit unit 6. New hp: 4
+      
+      Turn: 23
+  stdout: 11 SHOOT 6
+frame 25 agent 0
+  summary: Unit 6 hit unit 11. New hp: 4
+      
+      Turn: 24
+  stderr: depth=5 advantage=1233 nodes=46408 cutoffs=5836 tt=11321 qnodes=38818 pruned=283 rng=1 elapsed_us=49043
+  stdout: 6 SHOOT 11
+frame 26 agent 1
+  summary: Unit 11 hit unit 6. New hp: 1
+      
+      Turn: 25
+  stdout: 11 SHOOT 6
+frame 27 agent 0
+  summary: Unit 6 hit unit 11. New hp: 1
+      
+      Turn: 26
+  stderr: depth=5 advantage=1155 nodes=53304 cutoffs=7660 tt=17104 qnodes=50801 pruned=359 rng=1 elapsed_us=49019
+  stdout: 6 SHOOT 11
+frame 28 agent 1
+  summary: Unit 11 hit unit 6. New hp: 0
+      
+      Turn: 27
+  stdout: 11 SHOOT 6
+frame 29 agent 0
+  summary: Unit 5 hit unit 11. New hp: 0
+      
+      Turn: 28
+  stderr: depth=4 advantage=1068 nodes=47400 cutoffs=5703 tt=9458 qnodes=46273 pruned=1493 rng=1 elapsed_us=49020
+  stdout: 5 SHOOT 11
+frame 30 agent 1
+  summary: Unit 13 moved to row 9 col 3
+      
+      Turn: 29
+  stdout: 13 MOVE 9 3
+frame 31 agent 0
+  summary: Unit 2 moved to row 5 col 5
+      
+      Turn: 30
+  stderr: depth=6 advantage=1204 nodes=52600 cutoffs=6760 tt=13425 qnodes=42269 pruned=658 rng=1 elapsed_us=49014
+  stdout: 2 MOVE 5 5
+frame 32 agent 1
+  summary: Unit 13 moved to row 9 col 2
+      
+      Turn: 31
+  stdout: 13 MOVE 9 2
+frame 33 agent 0
+  summary: Unit 2 moved to row 5 col 6
+      
+      Turn: 32
+  stderr: depth=5 advantage=1305 nodes=51752 cutoffs=6262 tt=10493 qnodes=44446 pruned=0 rng=1 elapsed_us=49010
+  stdout: 2 MOVE 5 6
+frame 34 agent 1
+  summary: Unit 13 hit unit 5. New hp: 9
+      
+      Turn: 33
+  stdout: 13 SHOOT 5
+frame 35 agent 0
+  summary: Unit 0 moved to row 4 col 5
+      
+      Turn: 34
+  stderr: depth=5 advantage=1406 nodes=53280 cutoffs=5877 tt=12674 qnodes=46906 pruned=70 rng=1 elapsed_us=49018
+  stdout: 0 MOVE 4 5
+frame 36 agent 1
+  summary: Unit 1 moved to row 8 col 4
+      
+      Turn: 35
+  stdout: 1 MOVE 8 4
+frame 37 agent 0
+  summary: Unit 2 moved to row 6 col 6
+      
+      Turn: 36
+  stderr: depth=5 advantage=1474 nodes=55912 cutoffs=9957 tt=13235 qnodes=52206 pruned=354 rng=1 elapsed_us=49012
+  stdout: 2 MOVE 6 6
+frame 38 agent 1
+  summary: Unit 13 hit unit 5. New hp: 8
+      
+      Turn: 37
+  stdout: 13 SHOOT 5
+frame 39 agent 0
+  summary: Unit 2 moved to row 7 col 6
+      
+      Turn: 38
+  stderr: depth=5 advantage=1704 nodes=58216 cutoffs=6922 tt=15030 qnodes=54994 pruned=498 rng=1 elapsed_us=49016
+  stdout: 2 MOVE 7 6
+frame 40 agent 1
+  summary: Unit 10 moved to row 9 col 4
+      
+      Turn: 39
+  stdout: 10 MOVE 9 4
+frame 41 agent 0
+  summary: Unit 0 moved to row 5 col 5
+      
+      Turn: 40
+  stderr: depth=4 advantage=1697 nodes=57208 cutoffs=6487 tt=14973 qnodes=55135 pruned=14 rng=1 elapsed_us=49013
+  stdout: 0 MOVE 5 5
+frame 42 agent 1
+  summary: Unit 1 moved to row 8 col 3
+      
+      Turn: 41
+  stdout: 1 MOVE 8 3
+frame 43 agent 0
+  summary: Unit 0 converted unit 12
+      
+      Turn: 42
+  stderr: depth=5 advantage=2591 nodes=54456 cutoffs=5811 tt=12609 qnodes=48829 pruned=291 rng=1 elapsed_us=49014
+  stdout: 0 CONVERT 12
+frame 44 agent 1
+  summary: Unit 10 moved to row 8 col 4
+      
+      Turn: 43
+  stdout: 10 MOVE 8 4
+frame 45 agent 0
+  summary: Unit 12 moved to row 6 col 6
+      
+      Turn: 44
+  stderr: depth=5 advantage=3446 nodes=59272 cutoffs=10092 tt=16562 qnodes=55727 pruned=430 rng=1 elapsed_us=49010
+  stdout: 12 MOVE 6 6
+frame 46 agent 1
+  summary: Unit 10 hit unit 12. New hp: 3
+      
+      Turn: 45
+  stdout: 10 SHOOT 12
+frame 47 agent 0
+  summary: Unit 2 hit unit 10. New hp: 6
+      
+      Turn: 46
+  stderr: depth=5 advantage=3457 nodes=76824 cutoffs=11633 tt=23439 qnodes=72425 pruned=8 rng=1 elapsed_us=49014
+  stdout: 2 SHOOT 1
+frame 48 agent 1
+  summary: Unit 10 hit unit 12. New hp: 0
+      
+      Turn: 47
+  stdout: 10 SHOOT 12
+frame 49 agent 0
+  summary: Unit 2 hit unit 10. New hp: 2
+      
+      Turn: 48
+  stderr: depth=5 advantage=3468 nodes=83600 cutoffs=15096 tt=20275 qnodes=82079 pruned=8 rng=1 elapsed_us=49014
+  stdout: 2 SHOOT 1
+frame 50 agent 1
+  summary: Unit 10 hit unit 2. New hp: 6
+      
+      Turn: 49
+  stdout: 10 SHOOT 2
+frame 51 agent 0
+  summary: Unit 2 hit unit 10. New hp: 0
+      
+      Turn: 50
+  stderr: depth=5 advantage=3530 nodes=77480 cutoffs=12674 tt=18647 qnodes=68340 pruned=212 rng=1 elapsed_us=49014
+  stdout: 2 SHOOT 1
+frame 52 agent 1
+  summary: Unit 13 moved to row 9 col 3
+      
+      Turn: 51
+  stdout: 13 MOVE 9 3
+frame 53 agent 0
+  summary: Unit 0 converted unit 8
+      
+      Turn: 52
+  stderr: depth=6 advantage=3464 nodes=76576 cutoffs=8382 tt=21385 qnodes=63594 pruned=1788 rng=1 elapsed_us=49015
+  stdout: 0 CONVERT 8
+frame 54 agent 1
+  summary: Unit 1 moved to row 8 col 2
+      
+      Turn: 53
+  stdout: 1 MOVE 8 2
+frame 55 agent 0
+  summary: Unit 2 hit unit 13. New hp: 8
+      
+      Turn: 54
+  stderr: depth=5 advantage=3563 nodes=76256 cutoffs=6028 tt=22257 qnodes=68819 pruned=442 rng=1 elapsed_us=49017
+  stdout: 2 SHOOT 13
+frame 56 agent 1
+  summary: Unit 13 hit unit 2. New hp: 4
+      
+      Turn: 55
+  stdout: 13 SHOOT 2
+frame 57 agent 0
+  summary: Unit 2 hit unit 13. New hp: 6
+      
+      Turn: 56
+  stderr: depth=5 advantage=3636 nodes=70848 cutoffs=9742 tt=14928 qnodes=59332 pruned=2758 rng=1 elapsed_us=49016
+  stdout: 2 SHOOT 13
+frame 58 agent 1
+  summary: Unit 13 hit unit 2. New hp: 2
+      
+      Turn: 57
+  stdout: 13 SHOOT 2
+frame 59 agent 0
+  summary: Unit 2 moved to row 6 col 6
+      
+      Turn: 58
+  stderr: depth=5 advantage=3685 nodes=70880 cutoffs=13165 tt=14022 qnodes=60272 pruned=2983 rng=1 elapsed_us=49015
+  stdout: 2 MOVE 6 6
+frame 60 agent 1
+  summary: Unit 13 hit unit 2. New hp: 1
+      
+      Turn: 59
+  stdout: 13 SHOOT 2
+frame 61 agent 0
+  summary: Unit 8 moved to row 7 col 5
+      
+      Turn: 60
+  stderr: depth=6 advantage=3853 nodes=80064 cutoffs=13686 tt=17794 qnodes=68504 pruned=2933 rng=1 elapsed_us=49013
+  stdout: 8 MOVE 7 5
+frame 62 agent 1
+  summary: Unit 1 moved to row 9 col 2
+      
+      Turn: 61
+  stdout: 1 MOVE 9 2
+frame 63 agent 0
+  summary: Unit 8 hit unit 13. New hp: 3
+      
+      Turn: 62
+  stderr: depth=4 advantage=4511 nodes=66936 cutoffs=10072 tt=17095 qnodes=65382 pruned=56 rng=1 elapsed_us=49015
+  stdout: 8 SHOOT 13
+frame 64 agent 1
+  summary: Unit 13 moved to row 10 col 3
+      
+      Turn: 63
+  stdout: 13 MOVE 10 3
+frame 65 agent 0
+  summary: Unit 8 hit unit 13. New hp: 1
+      
+      Turn: 64
+  stderr: depth=4 advantage=4537 nodes=69576 cutoffs=11035 tt=14828 qnodes=67627 pruned=418 rng=1 elapsed_us=49017
+  stdout: 8 SHOOT 13
+frame 66 agent 1
+  summary: Unit 1 moved to row 10 col 2
+      
+      Turn: 65
+  stdout: 1 MOVE 10 2
+frame 67 agent 0
+  summary: Unit 8 hit unit 13. New hp: 0
+      
+      Turn: 66
+  stderr: depth=4 advantage=4427 nodes=83704 cutoffs=17026 tt=17341 qnodes=82110 pruned=51 rng=1 elapsed_us=49013
+  stdout: 8 SHOOT 13
+frame 68 agent 1
+  summary: Unit 1 moved to row 11 col 2
+      
+      Turn: 67
+  stdout: 1 MOVE 11 2
+frame 69 agent 0
+  summary: Unit 8 moved to row 8 col 5
+      
+      Turn: 68
+  stderr: depth=6 advantage=3539 nodes=89848 cutoffs=10720 tt=30764 qnodes=74423 pruned=447 rng=1 elapsed_us=49011
+  stdout: 8 MOVE 8 5
+frame 70 agent 1
+  summary: Unit 1 moved to row 11 col 1
+      
+      Turn: 69
+  stdout: 1 MOVE 11 1
+frame 71 agent 0
+  summary: Unit 8 moved to row 8 col 4
+      
+      Turn: 70
+  stderr: depth=6 advantage=3521 nodes=90536 cutoffs=8344 tt=33762 qnodes=74952 pruned=2082 rng=1 elapsed_us=49014
+  stdout: 8 MOVE 8 4
+frame 72 agent 1
+  summary: Unit 1 converted unit 9
+      
+      Turn: 71
+  stdout: 1 CONVERT 9
+frame 73 agent 0
+  summary: Unit 0 moved to row 4 col 5
+      
+      Turn: 72
+  stderr: depth=6 advantage=3522 nodes=77592 cutoffs=10146 tt=16222 qnodes=59355 pruned=392 rng=1 elapsed_us=49014
+  stdout: 0 MOVE 4 5
+frame 74 agent 1
+  summary: Turn: 73
+  stdout: WAIT
+frame 75 agent 0
+  summary: Unit 0 moved to row 4 col 4
+      
+      Turn: 74
+  stderr: depth=5 advantage=3632 nodes=83280 cutoffs=11382 tt=20279 qnodes=65673 pruned=303 rng=1 elapsed_us=49014
+  stdout: 0 MOVE 4 4
+frame 76 agent 1
+  summary: Unit 9 moved to row 10 col 0
+      
+      Turn: 75
+  stdout: 9 MOVE 10 0
+frame 77 agent 0
+  summary: Unit 0 moved to row 4 col 3
+      
+      Turn: 76
+  stderr: depth=6 advantage=4734 nodes=83952 cutoffs=9604 tt=25681 qnodes=65213 pruned=15043 rng=1 elapsed_us=49017
+  stdout: 0 MOVE 4 3
+frame 78 agent 1
+  summary: Unit 1 moved to row 11 col 2
+      
+      Turn: 77
+  stdout: 1 MOVE 11 2
+frame 79 agent 0
+  summary: Unit 0 moved to row 4 col 2
+      
+      Turn: 78
+  stderr: depth=6 advantage=5677 nodes=73032 cutoffs=8771 tt=20353 qnodes=54948 pruned=8912 rng=1 elapsed_us=49022
+  stdout: 0 MOVE 4 2
+frame 80 agent 1
+  summary: Turn: 79
+  stdout: WAIT
+frame 81 agent 0
+  summary: Unit 0 moved to row 3 col 2
+      
+      Turn: 80
+  stderr: depth=6 advantage=5681 nodes=76920 cutoffs=9413 tt=14777 qnodes=61440 pruned=13013 rng=1 elapsed_us=49020
+  stdout: 0 MOVE 3 2
+frame 82 agent 1
+  summary: Unit 1 moved to row 11 col 1
+      
+      Turn: 81
+  stdout: 1 MOVE 11 1
+frame 83 agent 0
+  summary: Unit 8 hit unit 1. New hp: 9
+      
+      Turn: 82
+  stderr: depth=6 advantage=5699 nodes=81528 cutoffs=11725 tt=20149 qnodes=61926 pruned=5979 rng=1 elapsed_us=49020
+  stdout: 8 SHOOT 1
+frame 84 agent 1
+  summary: Turn: 83
+  stdout: WAIT
+frame 85 agent 0
+  summary: Unit 0 converted unit 3
+      
+      Turn: 84
+  stderr: depth=6 advantage=5702 nodes=91936 cutoffs=10246 tt=30926 qnodes=70041 pruned=16727 rng=1 elapsed_us=49024
+  stdout: 0 CONVERT 3
+frame 86 agent 1
+  summary: Unit 1 moved to row 11 col 0
+      
+      Turn: 85
+  stdout: 1 MOVE 11 0
+frame 87 agent 0
+  summary: Unit 0 moved to row 4 col 2
+      
+      Turn: 86
+  stderr: depth=6 advantage=5703 nodes=95096 cutoffs=10437 tt=36928 qnodes=70295 pruned=2261 rng=1 elapsed_us=49019
+  stdout: 0 MOVE 4 2
+frame 88 agent 1
+  summary: Unit 1 moved to row 12 col 0
+      
+      Turn: 87
+  stdout: 1 MOVE 12 0
+frame 89 agent 0
+  summary: Unit 0 moved to row 4 col 3
+      
+      Turn: 88
+  stderr: depth=6 advantage=5704 nodes=82128 cutoffs=12694 tt=23180 qnodes=58066 pruned=884 rng=1 elapsed_us=49024
+  stdout: 0 MOVE 4 3
+frame 90 agent 1
+  summary: Unit 9 moved to row 11 col 0
+      
+      Turn: 89
+  stdout: 9 MOVE 11 0
+frame 91 agent 0
+  summary: Unit 8 moved to row 8 col 5
+      
+      Turn: 90
+  stderr: depth=5 advantage=5710 nodes=92104 cutoffs=13234 tt=25444 qnodes=68538 pruned=4262 rng=1 elapsed_us=49021
+  stdout: 8 MOVE 8 5
+frame 92 agent 1
+  summary: Unit 9 moved to row 10 col 0
+      
+      Turn: 91
+  stdout: 9 MOVE 10 0
+frame 93 agent 0
+  summary: Unit 8 moved to row 7 col 5
+      
+      Turn: 92
+  stderr: depth=6 advantage=5709 nodes=109848 cutoffs=12820 tt=45230 qnodes=81451 pruned=17631 rng=1 elapsed_us=49017
+  stdout: 8 MOVE 7 5
+frame 94 agent 1
+  summary: Unit 1 moved to row 11 col 0
+      
+      Turn: 93
+  stdout: 1 MOVE 11 0
+frame 95 agent 0
+  summary: Unit 0 converted unit 4
+      
+      Turn: 94
+  stderr: depth=6 advantage=5709 nodes=96144 cutoffs=11319 tt=37999 qnodes=71046 pruned=11768 rng=1 elapsed_us=49015
+  stdout: 0 CONVERT 4
+frame 96 agent 1
+  summary: Unit 1 moved to row 11 col 1
+      
+      Turn: 95
+  stdout: 1 MOVE 11 1
+frame 97 agent 0
+  summary: Unit 0 moved to row 4 col 2
+      
+      Turn: 96
+  stderr: depth=6 advantage=5711 nodes=94472 cutoffs=12846 tt=44044 qnodes=62914 pruned=827 rng=1 elapsed_us=49013
+  stdout: 0 MOVE 4 2
+frame 98 agent 1
+  summary: Unit 9 moved to row 11 col 0
+      
+      Turn: 97
+  stdout: 9 MOVE 11 0
+frame 99 agent 0
+  summary: Unit 0 moved to row 5 col 2
+      
+      Turn: 98
+  stderr: depth=6 advantage=5711 nodes=93480 cutoffs=17560 tt=42404 qnodes=57346 pruned=634 rng=1 elapsed_us=49026
+  stdout: 0 MOVE 5 2
+frame 100 agent 1
+  summary: Unit 9 moved to row 12 col 0
+      
+      Turn: 99
+  stdout: 9 MOVE 12 0
+frame 101 agent 0
+  summary: Unit 0 moved to row 6 col 2
+      
+      Turn: 100
+  stderr: depth=6 advantage=5711 nodes=97296 cutoffs=19655 tt=40995 qnodes=54406 pruned=528 rng=1 elapsed_us=49012
+  stdout: 0 MOVE 6 2
+frame 102 agent 1
+  summary: Unit 9 moved to row 11 col 0
+      
+      Turn: 101
+  stdout: 9 MOVE 11 0
+frame 103 agent 0
+  summary: Unit 0 moved to row 6 col 1
+      
+      Turn: 102
+  stderr: depth=5 advantage=5718 nodes=97312 cutoffs=18328 tt=39799 qnodes=58742 pruned=780 rng=1 elapsed_us=49011
+  stdout: 0 MOVE 6 1
+frame 104 agent 1
+  summary: Unit 9 moved to row 10 col 0
+      
+      Turn: 103
+  stdout: 9 MOVE 10 0
+frame 105 agent 0
+  summary: Unit 0 moved to row 7 col 1
+      
+      Turn: 104
+  stderr: depth=5 advantage=5719 nodes=90160 cutoffs=18241 tt=33587 qnodes=54967 pruned=532 rng=1 elapsed_us=49011
+  stdout: 0 MOVE 7 1
+frame 106 agent 1
+  summary: Unit 9 moved to row 11 col 0
+      
+      Turn: 105
+  stdout: 9 MOVE 11 0
+frame 107 agent 0
+  summary: Unit 8 moved to row 8 col 5
+      
+      Turn: 106
+  stderr: depth=5 advantage=5721 nodes=100448 cutoffs=13433 tt=40431 qnodes=76996 pruned=520 rng=1 elapsed_us=49011
+  stdout: 8 MOVE 8 5
+frame 108 agent 1
+  summary: Unit 9 moved to row 12 col 0
+      
+      Turn: 107
+  stdout: 9 MOVE 12 0
+frame 109 agent 0
+  summary: Unit 0 moved to row 7 col 2
+      
+      Turn: 108
+  stderr: depth=6 advantage=5725 nodes=101256 cutoffs=17289 tt=43669 qnodes=63414 pruned=111 rng=1 elapsed_us=49010
+  stdout: 0 MOVE 7 2
+frame 110 agent 1
+  summary: Turn: 109
+  stdout: WAIT
+frame 111 agent 0
+  summary: Unit 0 moved to row 8 col 2
+      
+      Turn: 110
+  stderr: depth=6 advantage=5725 nodes=98360 cutoffs=17469 tt=44656 qnodes=59940 pruned=551 rng=1 elapsed_us=49017
+  stdout: 0 MOVE 8 2
+frame 112 agent 1
+  summary: Unit 1 moved to row 11 col 0
+      
+      Turn: 111
+  stdout: 1 MOVE 11 0
+frame 113 agent 0
+  summary: Unit 0 moved to row 9 col 2
+      
+      Turn: 112
+  stderr: depth=6 advantage=5725 nodes=106640 cutoffs=16037 tt=50895 qnodes=67479 pruned=654 rng=1 elapsed_us=49014
+  stdout: 0 MOVE 9 2
+frame 114 agent 1
+  summary: Turn: 113
+  stdout: WAIT
+frame 115 agent 0
+  summary: Unit 8 moved to row 8 col 4
+      
+      Turn: 114
+  stderr: depth=6 advantage=5726 nodes=107544 cutoffs=17343 tt=47246 qnodes=69131 pruned=389 rng=1 elapsed_us=49016
+  stdout: 8 MOVE 8 4
+frame 116 agent 1
+  summary: Turn: 115
+  stdout: WAIT
+frame 117 agent 0
+  summary: Unit 5 moved to row 5 col 1
+      
+      Turn: 116
+  stderr: depth=5 advantage=5745 nodes=98048 cutoffs=17618 tt=41259 qnodes=67261 pruned=537 rng=1 elapsed_us=49020
+  stdout: 5 MOVE 5 1
+frame 118 agent 1
+  summary: Unit 1 moved to row 10 col 0
+      
+      Turn: 117
+  stdout: 1 MOVE 10 0
+frame 119 agent 0
+  summary: Unit 5 moved to row 6 col 1
+      
+      Turn: 118
+  stderr: depth=5 advantage=5750 nodes=99624 cutoffs=12723 tt=42389 qnodes=77312 pruned=483 rng=1 elapsed_us=49019
+  stdout: 5 MOVE 6 1
+frame 120 agent 1
+  summary: Unit 9 moved to row 11 col 0
+      
+      Turn: 119
+  stdout: 9 MOVE 11 0
+frame 121 agent 0
+  summary: Unit 8 moved to row 8 col 3
+      
+      Turn: 120
+  stderr: depth=5 advantage=5771 nodes=101896 cutoffs=7564 tt=40090 qnodes=90999 pruned=476 rng=1 elapsed_us=49013
+  stdout: 8 MOVE 8 3
+frame 122 agent 1
+  summary: Unit 9 moved to row 11 col 1
+      
+      Turn: 121
+  stdout: 9 MOVE 11 1
+frame 123 agent 0
+  summary: Unit 8 moved to row 8 col 2
+      
+      Turn: 122
+  stderr: depth=5 advantage=5764 nodes=118744 cutoffs=6082 tt=52874 qnodes=109609 pruned=18 rng=1 elapsed_us=49015
+  stdout: 8 MOVE 8 2
+frame 124 agent 1
+  summary: Unit 1 moved to row 11 col 0
+      
+      Turn: 123
+  stdout: 1 MOVE 11 0
+frame 125 agent 0
+  summary: Unit 8 moved to row 8 col 1
+      
+      Turn: 124
+  stderr: depth=5 advantage=5758 nodes=109792 cutoffs=10430 tt=43690 qnodes=97843 pruned=600 rng=1 elapsed_us=49014
+  stdout: 8 MOVE 8 1
+frame 126 agent 1
+  summary: Unit 9 moved to row 11 col 2
+      
+      Turn: 125
+  stdout: 9 MOVE 11 2
+frame 127 agent 0
+  summary: Unit 0 moved to row 10 col 2
+      
+      Turn: 126
+  stderr: depth=5 advantage=5757 nodes=113624 cutoffs=14020 tt=44444 qnodes=98752 pruned=60 rng=1 elapsed_us=49015
+  stdout: 0 MOVE 10 2
+frame 128 agent 1
+  summary: Unit 9 moved to row 11 col 3
+      
+      Turn: 127
+  stdout: 9 MOVE 11 3
+frame 129 agent 0
+  summary: Unit 0 moved to row 10 col 3
+      
+      Turn: 128
+  stderr: depth=5 advantage=5772 nodes=111648 cutoffs=14520 tt=41103 qnodes=89314 pruned=29 rng=1 elapsed_us=49014
+  stdout: 0 MOVE 10 3
+frame 130 agent 1
+  summary: Unit 9 moved to row 12 col 3
+      
+      Turn: 129
+  stdout: 9 MOVE 12 3
+frame 131 agent 0
+  summary: Unit 0 moved to row 11 col 3
+      
+      Turn: 130
+  stderr: depth=5 advantage=5764 nodes=113224 cutoffs=13697 tt=45004 qnodes=91623 pruned=1055 rng=1 elapsed_us=49013
+  stdout: 0 MOVE 11 3
+frame 132 agent 1
+  summary: Unit 9 moved to row 12 col 2
+      
+      Turn: 131
+  stdout: 9 MOVE 12 2
+frame 133 agent 0
+  summary: Unit 0 moved to row 11 col 2
+      
+      Turn: 132
+  stderr: depth=6 advantage=5664 nodes=115080 cutoffs=16538 tt=47888 qnodes=78053 pruned=9947 rng=1 elapsed_us=49014
+  stdout: 0 MOVE 11 2
+frame 134 agent 1
+  summary: Unit 9 moved to row 12 col 3
+      
+      Turn: 133
+  stdout: 9 MOVE 12 3
+frame 135 agent 0
+  summary: Unit 0 moved to row 11 col 3
+      
+      Turn: 134
+  stderr: depth=5 advantage=5764 nodes=108944 cutoffs=18824 tt=41070 qnodes=71239 pruned=104 rng=1 elapsed_us=49015
+  stdout: 0 MOVE 11 3
+frame 136 agent 1
+  summary: Unit 9 moved to row 12 col 2
+      
+      Turn: 135
+  stdout: 9 MOVE 12 2
+frame 137 agent 0
+  summary: Unit 0 moved to row 11 col 2
+      
+      Turn: 136
+  stderr: depth=6 advantage=5664 nodes=123176 cutoffs=18695 tt=49767 qnodes=86232 pruned=9625 rng=1 elapsed_us=49013
+  stdout: 0 MOVE 11 2
+frame 138 agent 1
+  summary: Unit 9 moved to row 12 col 3
+      
+      Turn: 137
+  stdout: 9 MOVE 12 3
+frame 139 agent 0
+  summary: Unit 0 moved to row 11 col 3
+      
+      Turn: 138
+  stderr: depth=6 advantage=5656 nodes=123856 cutoffs=20324 tt=47689 qnodes=82768 pruned=384 rng=1 elapsed_us=49024
+  stdout: 0 MOVE 11 3
+frame 140 agent 1
+  summary: Unit 9 moved to row 12 col 2
+      
+      Turn: 139
+  stdout: 9 MOVE 12 2
+frame 141 agent 0
+  summary: Unit 0 moved to row 12 col 3
+      
+      Turn: 140
+  stderr: depth=5 advantage=5772 nodes=287632 cutoffs=81769 tt=116016 qnodes=284935 pruned=0 rng=1 elapsed_us=49010
+  stdout: 0 MOVE 12 3
+frame 142 agent 1
+  summary: Unit 9 moved to row 11 col 2
+      
+      Turn: 141
+  stdout: 9 MOVE 11 2
+frame 143 agent 0
+  summary: Unit 0 moved to row 11 col 3
+      
+      Turn: 142
+  stderr: depth=3 advantage=5772 nodes=304416 cutoffs=93304 tt=117972 qnodes=303570 pruned=0 rng=1 elapsed_us=49027
+  stdout: 0 MOVE 11 3
+frame 144 agent 1
+  summary: Unit 9 moved to row 12 col 2
+      
+      Turn: 143
+  stdout: 9 MOVE 12 2
+frame 145 agent 0
+  summary: Unit 0 moved to row 12 col 3
+      
+      Turn: 144
+  stderr: depth=2 advantage=1000000 nodes=481 cutoffs=69 tt=107 qnodes=437 pruned=0 rng=1 elapsed_us=1628
+  stdout: 0 MOVE 12 3
+frame 146 agent 1
+  summary: Unit 9 moved to row 11 col 2
+      
+      Turn: 145
+  stdout: 9 MOVE 11 2
+frame 147 agent 0
+  summary: Unit 8 hit unit 9. New hp: 7
+      
+      Turn: 146
+  stderr: depth=1 advantage=1000000 nodes=2645 cutoffs=937 tt=675 qnodes=2644 pruned=0 rng=1 elapsed_us=1945
+  stdout: 8 SHOOT 0
+frame 148 agent 1
+  summary: Unit 9 hit unit 0. New hp: 5
+      
+      Turn: 147
+  stdout: 9 SHOOT 0
+frame 149 agent 0
+  summary: Unit 8 hit unit 9. New hp: 4
+      
+      Turn: 148
+  stderr: depth=1 advantage=1000000 nodes=91 cutoffs=37 tt=4 qnodes=90 pruned=0 rng=1 elapsed_us=1710
+  stdout: 8 SHOOT 0
+frame 150 agent 1
+  summary: Unit 9 hit unit 0. New hp: 0
+      
+      Turn: 149
+      $0 won!
+  stdout: 9 SHOOT 0
+result
+  scores: 0=6 1=2
+  ranking (agent indexes, winner first): 0 1

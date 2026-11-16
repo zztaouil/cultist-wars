@@ -1,0 +1,22 @@
+{"seed": 1411, "epochs": 20, "lr": 0.0002, "batch": 1024, "positions": {"train": 35468, "val": 6650, "test": 6795}, "maps": {"train": 255, "val": 48, "test": 48}, "excluded_overlap": {"val": 0, "test": 0}, "teacher_val": {"target_bce": 0.48861959572125196, "result_bce": 0.3587261700540557}, "teacher_test": {"target_bce": 0.5335124553170951, "result_bce": 0.4245390455542109}, "history": []}
+{"epoch": 1, "train_bce": 0.5134046375180119, "target_bce": 0.48774694411378156, "result_bce": 0.3682764519470975}
+{"epoch": 2, "train_bce": 0.5079018836617268, "target_bce": 0.4881575888350494, "result_bce": 0.37193251484318784}
+{"epoch": 3, "train_bce": 0.5056151183855847, "target_bce": 0.4885956700941674, "result_bce": 0.373423670982956}
+{"epoch": 4, "train_bce": 0.5042264839197155, "target_bce": 0.48871049586991616, "result_bce": 0.37458172850142746}
+{"epoch": 5, "train_bce": 0.5032480798432318, "target_bce": 0.4891448514712484, "result_bce": 0.37621727343340566}
+{"epoch": 6, "train_bce": 0.5025543114156777, "target_bce": 0.4895686574000165, "result_bce": 0.37824378747689097}
+{"epoch": 7, "train_bce": 0.5020111101623101, "target_bce": 0.490122950516249, "result_bce": 0.37949002097871964}
+{"epoch": 8, "train_bce": 0.5016013991574605, "target_bce": 0.49059038944710465, "result_bce": 0.38114130923622536}
+{"epoch": 9, "train_bce": 0.5012785691721297, "target_bce": 0.49064925121185476, "result_bce": 0.38166963996743797}
+{"epoch": 10, "train_bce": 0.5010125677252456, "target_bce": 0.4907667024601671, "result_bce": 0.38157040382686414}
+{"epoch": 11, "train_bce": 0.5008008114996093, "target_bce": 0.49091724993591024, "result_bce": 0.38196008008673676}
+{"epoch": 12, "train_bce": 0.5006320146410848, "target_bce": 0.4910573725323928, "result_bce": 0.38271418038167454}
+{"epoch": 13, "train_bce": 0.500501040472204, "target_bce": 0.491081349338804, "result_bce": 0.3825929693933716}
+{"epoch": 14, "train_bce": 0.500400697598802, "target_bce": 0.4910856351099516, "result_bce": 0.38284140544726436}
+{"epoch": 15, "train_bce": 0.5003231885576511, "target_bce": 0.49116093642729564, "result_bce": 0.3831970654259947}
+{"epoch": 16, "train_bce": 0.5002674465250966, "target_bce": 0.4912213822415, "result_bce": 0.3832408030409562}
+{"epoch": 17, "train_bce": 0.5002276923646515, "target_bce": 0.49121200691488454, "result_bce": 0.3834094986207503}
+{"epoch": 18, "train_bce": 0.500203603094025, "target_bce": 0.49125815868377687, "result_bce": 0.3834834354981444}
+{"epoch": 19, "train_bce": 0.5001897327496877, "target_bce": 0.4912731029126877, "result_bce": 0.3834985796983977}
+{"epoch": 20, "train_bce": 0.5001835881272257, "target_bce": 0.49129537894313496, "result_bce": 0.3835694182322438}
+{"seed": 1411, "epochs": 20, "lr": 0.0002, "batch": 1024, "positions": {"train": 35468, "val": 6650, "test": 6795}, "maps": {"train": 255, "val": 48, "test": 48}, "excluded_overlap": {"val": 0, "test": 0}, "teacher_val": {"target_bce": 0.48861959572125196, "result_bce": 0.3587261700540557}, "teacher_test": {"target_bce": 0.5335124553170951, "result_bce": 0.4245390455542109}, "best_epoch": 1, "candidate_val": {"target_bce": 0.48774694411378156, "result_bce": 0.3682764519470975}, "candidate_test": {"target_bce": 0.5319056723554666, "result_bce": 0.4253206769888501}, "sha256": "1081244f492a097e936ff507c8176faa31033f12b342116874aa219c99d8e84a", "torch": "2.15.0"}

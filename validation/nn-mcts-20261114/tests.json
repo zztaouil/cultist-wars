@@ -1,0 +1,8 @@
+{
+  "test_mcts_san": "PASS: backup perspective, both-seat forced win, visits, priors, terminal scoring, arena exhaustion",
+  "test_limits_san": "PASS: expired-deadline fallback; bounded arena saturation; legal output",
+  "test_bot": "PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking",
+  "test_search": "PASS: Q bounds, horizon isolation, compact move hints",
+  "test_recruitment": "PASS: recruitment access, blocking, exposure, symmetry, cache, dead leaders, walls",
+  "test_components": "PASS: safety damage, ownership symmetry, cache sign, walls, conversion contest"
+}

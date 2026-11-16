@@ -1,0 +1,54 @@
+[
+  {
+    "tag": "recruit120",
+    "games": 64,
+    "W": 32,
+    "D": 10,
+    "L": 22,
+    "score": 57.81,
+    "pairs": 32,
+    "seat0": 67.19,
+    "seat1": 48.44,
+    "paired_lo": 50.05,
+    "paired_hi": 65.57
+  },
+  {
+    "tag": "recruit_holdout48",
+    "games": 128,
+    "W": 46,
+    "D": 36,
+    "L": 46,
+    "score": 50.0,
+    "pairs": 64,
+    "seat0": 61.72,
+    "seat1": 38.28,
+    "paired_lo": 43.64,
+    "paired_hi": 56.36
+  },
+  {
+    "tag": "recruit360",
+    "games": 64,
+    "W": 26,
+    "D": 15,
+    "L": 23,
+    "score": 52.34,
+    "pairs": 32,
+    "seat0": 67.19,
+    "seat1": 37.5,
+    "paired_lo": 42.66,
+    "paired_hi": 62.02
+  },
+  {
+    "tag": "recruit_fast48",
+    "games": 64,
+    "W": 25,
+    "D": 15,
+    "L": 24,
+    "score": 50.78,
+    "pairs": 32,
+    "seat0": 62.5,
+    "seat1": 39.06,
+    "paired_lo": 42.12,
+    "paired_hi": 59.44
+  }
+]

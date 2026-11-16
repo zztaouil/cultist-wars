@@ -1,0 +1,7 @@
+{
+  "positions": 100,
+  "max_logit_error": 1.9073486328125e-06,
+  "max_value_error": 6.128102540969849e-07,
+  "top1_disagreements": 0,
+  "decoded_weights_exact": true
+}

@@ -1,0 +1,112 @@
+{
+  "full48": {
+    "tag": "full48",
+    "games": 32,
+    "W": 14,
+    "D": 8,
+    "L": 10,
+    "score": 56.25,
+    "pairs": 16,
+    "seat0": 59.38,
+    "seat1": 53.12,
+    "paired_lo": 44.85,
+    "paired_hi": 67.65
+  },
+  "holdout48": {
+    "tag": "holdout48",
+    "games": 64,
+    "W": 25,
+    "D": 19,
+    "L": 20,
+    "score": 53.91,
+    "pairs": 32,
+    "seat0": 60.94,
+    "seat1": 46.88,
+    "paired_lo": 43.8,
+    "paired_hi": 64.01
+  },
+  "baseline_judge": [
+    {
+      "replay": 921574271,
+      "seat": 1,
+      "score": [
+        7,
+        3
+      ],
+      "result": "L",
+      "errors": []
+    },
+    {
+      "replay": 921574605,
+      "seat": 1,
+      "score": [
+        4,
+        4
+      ],
+      "result": "D",
+      "errors": []
+    },
+    {
+      "replay": 921572974,
+      "seat": 0,
+      "score": [
+        6,
+        8
+      ],
+      "result": "L",
+      "errors": []
+    },
+    {
+      "replay": 921574680,
+      "seat": 1,
+      "score": [
+        3,
+        1
+      ],
+      "result": "L",
+      "errors": []
+    }
+  ],
+  "candidate_judge": [
+    {
+      "replay": 921574271,
+      "seat": 1,
+      "score": [
+        6,
+        5
+      ],
+      "result": "L",
+      "errors": []
+    },
+    {
+      "replay": 921574605,
+      "seat": 1,
+      "score": [
+        3,
+        3
+      ],
+      "result": "D",
+      "errors": []
+    },
+    {
+      "replay": 921572974,
+      "seat": 0,
+      "score": [
+        6,
+        8
+      ],
+      "result": "L",
+      "errors": []
+    },
+    {
+      "replay": 921574680,
+      "seat": 1,
+      "score": [
+        5,
+        3
+      ],
+      "result": "L",
+      "errors": []
+    }
+  ]
+}

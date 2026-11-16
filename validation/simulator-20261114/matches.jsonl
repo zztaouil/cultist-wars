@@ -1,0 +1,17 @@
+{"seed": 86000, "seat": 0, "new": 3, "baseline": 5}
+{"seed": 86000, "seat": 1, "new": 4, "baseline": 3}
+{"seed": 86001, "seat": 0, "new": 4, "baseline": 0}
+{"seed": 86001, "seat": 1, "new": 0, "baseline": 4}
+{"seed": 86002, "seat": 0, "new": 4, "baseline": 3}
+{"seed": 86002, "seat": 1, "new": 3, "baseline": 4}
+{"seed": 86003, "seat": 0, "new": 7, "baseline": 2}
+{"seed": 86003, "seat": 1, "new": 2, "baseline": 7}
+{"seed": 86004, "seat": 0, "new": 3, "baseline": 0}
+{"seed": 86004, "seat": 1, "new": 2, "baseline": 4}
+{"seed": 86005, "seat": 0, "new": 3, "baseline": 2}
+{"seed": 86005, "seat": 1, "new": 3, "baseline": 2}
+{"seed": 86006, "seat": 0, "new": 5, "baseline": 4}
+{"seed": 86006, "seat": 1, "new": 6, "baseline": 5}
+{"seed": 86007, "seat": 0, "new": 7, "baseline": 3}
+{"seed": 86007, "seat": 1, "new": 3, "baseline": 3}
+{"budget_ms": 48, "games": 16, "wins": 10, "draws": 1, "losses": 5, "average_depth_baseline_new": [6.668096054888507, 6.57840616966581], "average_nodes_baseline_new": [257970.22469982848, 257991.11568123393]}

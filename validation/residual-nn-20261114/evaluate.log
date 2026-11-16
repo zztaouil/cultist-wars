@@ -1,0 +1,18 @@
+{"off": {"positions": 80, "median_nodes": 226384.0, "median_depth": 7.0, "median_ms": 48.002, "max_ms": 48.014, "median_nn_calls": 0.0}, "on": {"positions": 80, "median_nodes": 183424.0, "median_depth": 6.0, "median_ms": 48.002, "max_ms": 48.23, "median_nn_calls": 93359.0}, "max_integer_parity_error": 0}
+{"completed_games": 1}
+{"completed_games": 2}
+{"completed_games": 3}
+{"completed_games": 4}
+{"completed_games": 5}
+{"completed_games": 6}
+{"completed_games": 7}
+{"completed_games": 8}
+{"completed_games": 9}
+{"completed_games": 10}
+{"completed_games": 11}
+{"completed_games": 12}
+{"completed_games": 13}
+{"completed_games": 14}
+{"completed_games": 15}
+{"completed_games": 16}
+{"wins": 3, "draws": 8, "losses": 5, "score": 0.4375, "budget_ms": 48, "pairs": 8, "workers": 1}

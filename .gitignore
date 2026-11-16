@@ -1,5 +1,7 @@
 /bot
 /tests/test_bot
+/tests/test_search
+/tests/test_recruitment
 .DS_Store
 __pycache__/
 *.pyc
@@ -35,3 +37,37 @@ build/
 /validation/support-41710886/test_recruit_engine-normal
 /validation/support-41710886/test_recruit_engine-sanitize
 *.jar
+
+/bot_cpp
+
+# Large experiment data stays local (>=10 MB)
+/validation/imitation-1m-20261114/cache/meta.json
+/validation/imitation-1m-20261114/cache/records.jsonl
+/validation/imitation-1m-20261114/smoke-cache/features.f32
+/validation/imitation-5m-20261114/cache/meta.json
+/validation/imitation-5m-20261114/probe-cache/features.f32
+/validation/imitation-5m-20261114/relabel-smoke-cache/features.f32
+/validation/imitation-5m-20261114/smoke-cache/features.f32
+/validation/nn-alpha-beta-20261114/trained-v2/data.npz
+/validation/nn-alpha-beta-20261114/trained/data.npz
+/validation/nn-mcts-20261114/cache/actions.f32
+/validation/nn-mcts-20261114/cache/records.jsonl
+/validation/nn-mcts-20261114/cache/states.npy
+/validation/nn-mcts-20261114/nn-mcts-kaggle.zip
+/validation/nn-plan-20261114/dall3.npz
+
+# Generated test executable
+/tests/test_components
+
+# External checkout preserved in validation/reference-yahya-76c8c52.tar.gz
+/cultist-wars-yahya/
+
+# Additional experiment datasets >=10 MB
+/validation/nn-plan-20261114/data/gen_claude_0.jsonl
+/validation/nn-plan-20261114/data/gen_claude_1.jsonl
+/validation/nn-plan-20261114/data/gen_claude_2.jsonl
+/validation/nn-plan-20261114/data/gen_claude_3.jsonl
+/validation/nn-plan-20261114/data2/genr1_claude_0.jsonl
+/validation/nn-plan-20261114/data2/genr1_claude_1.jsonl
+/validation/nn-plan-20261114/data2/genr1_claude_2.jsonl
+/validation/nn-plan-20261114/data2/genr1_claude_3.jsonl

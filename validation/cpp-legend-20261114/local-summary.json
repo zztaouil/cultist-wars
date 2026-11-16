@@ -1,0 +1,41 @@
+[
+  {
+    "tag": "dev",
+    "games": 24,
+    "W": 9,
+    "D": 3,
+    "L": 12,
+    "score": 43.75,
+    "pairs": 12,
+    "seat0": 62.5,
+    "seat1": 25.0,
+    "paired_lo": 27.65,
+    "paired_hi": 59.85
+  },
+  {
+    "tag": "no_options",
+    "games": 24,
+    "W": 9,
+    "D": 5,
+    "L": 10,
+    "score": 47.92,
+    "pairs": 12,
+    "seat0": 58.33,
+    "seat1": 37.5,
+    "paired_lo": 40.63,
+    "paired_hi": 55.2
+  },
+  {
+    "tag": "holdout",
+    "games": 32,
+    "W": 14,
+    "D": 4,
+    "L": 14,
+    "score": 50.0,
+    "pairs": 16,
+    "seat0": 78.12,
+    "seat1": 21.88,
+    "paired_lo": 37.35,
+    "paired_hi": 62.65
+  }
+]

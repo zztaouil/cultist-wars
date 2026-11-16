@@ -1,0 +1,11 @@
+tree source bytes 99222
+{'positions': 100, 'depth': 4, 'tree_full_width_value_exact': True}
+wide-group PASS: 12 protocol turns; max local latency 251.6 ms
+group-tree PASS: 12 protocol turns; max local latency 255.2 ms
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+{"tag": "group49", "games": 128, "W": 47, "D": 31, "L": 50, "score": 48.83, "pairs": 64, "seat0": 55.47, "seat1": 42.19, "paired_lo": 44.14, "paired_hi": 53.51}
+
+{"tag": "grouptree49", "games": 128, "W": 45, "D": 28, "L": 55, "score": 46.09, "pairs": 64, "seat0": 52.34, "seat1": 39.84, "paired_lo": 40.09, "paired_hi": 52.09}
+
+{"candidate": {"positions": 100, "mean_depth": 7.23, "median_nodes": 517296.0, "median_ms": 49.001, "p95_ms": 49.003, "max_ms": 49.005}, "wide-group": {"positions": 100, "mean_depth": 7.22, "median_nodes": 520656.0, "median_ms": 49.0, "p95_ms": 49.002, "max_ms": 49.005}, "group-tree": {"positions": 100, "mean_depth": 6.98, "median_nodes": 407296.0, "median_ms": 49.0005, "p95_ms": 49.003, "max_ms": 49.005}}
+Grouped-policy evaluation complete.

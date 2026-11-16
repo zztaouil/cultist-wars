@@ -1,0 +1,59 @@
+{"stage": "loading", "cache": "validation/imitation-5m-20261114/cache"}
+{"stage": "training", "split_positions": [5000000, 50601, 50291]}
+{"initial_validation": {"loss": 1.5993786033430895, "top1": 0.47963478982628804, "top3": 0.7396296515879133, "positions": 50601}}
+{"epoch": 1, "processed": 819200, "seconds": 38.35}
+{"epoch": 1, "processed": 1638400, "seconds": 76.64}
+{"epoch": 1, "processed": 2457600, "seconds": 113.39}
+{"epoch": 1, "processed": 3276800, "seconds": 151.23}
+{"epoch": 1, "processed": 4090688, "seconds": 188.69}
+{"epoch": 1, "processed": 4909888, "seconds": 226.0}
+{"epoch": 1, "train_loss": 1.5853392609466552, "validation": {"loss": 1.601084774245985, "top1": 0.4779154562162803, "top3": 0.7391553526610146, "positions": 50601}, "seconds": 230.5, "lr": 0.0003}
+{"epoch": 2, "processed": 819200, "seconds": 38.95}
+{"epoch": 2, "processed": 1638400, "seconds": 75.4}
+{"epoch": 2, "processed": 2457600, "seconds": 113.38}
+{"epoch": 2, "processed": 3271488, "seconds": 151.52}
+{"epoch": 2, "processed": 4090688, "seconds": 188.96}
+{"epoch": 2, "processed": 4909888, "seconds": 227.2}
+{"epoch": 2, "train_loss": 1.5802126478050231, "validation": {"loss": 1.5981550783025533, "top1": 0.4802869508507737, "top3": 0.7409339736368846, "positions": 50601}, "seconds": 233.21, "lr": 0.0003}
+{"epoch": 3, "processed": 813888, "seconds": 35.14}
+{"epoch": 3, "processed": 1633088, "seconds": 71.93}
+{"epoch": 3, "processed": 2452288, "seconds": 109.17}
+{"epoch": 3, "processed": 3271488, "seconds": 146.45}
+{"epoch": 3, "processed": 4090688, "seconds": 184.29}
+{"epoch": 3, "processed": 4909888, "seconds": 220.77}
+{"epoch": 3, "train_loss": 1.5763141909370422, "validation": {"loss": 1.594730295703071, "top1": 0.4812355487045711, "top3": 0.7444516906780498, "positions": 50601}, "seconds": 226.79, "lr": 0.0003}
+{"epoch": 4, "processed": 819200, "seconds": 37.75}
+{"epoch": 4, "processed": 1638400, "seconds": 76.98}
+{"epoch": 4, "processed": 2457600, "seconds": 114.34}
+{"epoch": 4, "processed": 3276800, "seconds": 152.2}
+{"epoch": 4, "processed": 4096000, "seconds": 188.15}
+{"epoch": 4, "processed": 4909888, "seconds": 226.58}
+{"epoch": 4, "train_loss": 1.5728656108833312, "validation": {"loss": 1.595061390407613, "top1": 0.4789826288018023, "top3": 0.7394517894903263, "positions": 50601}, "seconds": 232.74, "lr": 0.0003}
+{"epoch": 5, "processed": 819200, "seconds": 37.48}
+{"epoch": 5, "processed": 1638400, "seconds": 74.33}
+{"epoch": 5, "processed": 2457600, "seconds": 113.09}
+{"epoch": 5, "processed": 3276800, "seconds": 150.08}
+{"epoch": 5, "processed": 4090688, "seconds": 185.95}
+{"epoch": 5, "processed": 4909888, "seconds": 223.44}
+{"epoch": 5, "train_loss": 1.5693972622283936, "validation": {"loss": 1.5926438724355512, "top1": 0.4837849054366514, "top3": 0.7431078437185036, "positions": 50601}, "seconds": 229.3, "lr": 0.0003}
+{"epoch": 6, "processed": 819200, "seconds": 38.11}
+{"epoch": 6, "processed": 1638400, "seconds": 74.43}
+{"epoch": 6, "processed": 2457600, "seconds": 110.25}
+{"epoch": 6, "processed": 3276800, "seconds": 146.18}
+{"epoch": 6, "processed": 4096000, "seconds": 180.18}
+{"epoch": 6, "processed": 4909888, "seconds": 217.84}
+{"epoch": 6, "train_loss": 1.5664205664726258, "validation": {"loss": 1.5882989270482473, "top1": 0.48038576312721093, "top3": 0.7449852769708109, "positions": 50601}, "seconds": 223.86, "lr": 0.0003}
+{"epoch": 7, "processed": 819200, "seconds": 35.64}
+{"epoch": 7, "processed": 1638400, "seconds": 74.5}
+{"epoch": 7, "processed": 2457600, "seconds": 111.36}
+{"epoch": 7, "processed": 3276800, "seconds": 149.36}
+{"epoch": 7, "processed": 4090688, "seconds": 186.99}
+{"epoch": 7, "processed": 4909888, "seconds": 229.54}
+{"epoch": 7, "train_loss": 1.5638861385231018, "validation": {"loss": 1.5913124071656732, "top1": 0.48003003893203694, "top3": 0.7472974842394419, "positions": 50601}, "seconds": 236.45, "lr": 0.0003}
+{"epoch": 8, "processed": 819200, "seconds": 40.32}
+{"epoch": 8, "processed": 1638400, "seconds": 76.58}
+{"epoch": 8, "processed": 2457600, "seconds": 114.32}
+{"epoch": 8, "processed": 3276800, "seconds": 152.24}
+{"epoch": 8, "processed": 4096000, "seconds": 190.72}
+{"epoch": 8, "processed": 4909888, "seconds": 227.02}
+{"epoch": 8, "train_loss": 1.561074541405487, "validation": {"loss": 1.5878188075813102, "top1": 0.4823224837453805, "top3": 0.7451038517025356, "positions": 50601}, "seconds": 233.06, "lr": 0.0003}

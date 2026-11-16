@@ -1,0 +1,398 @@
+[
+  {
+    "split": "train",
+    "shard": 0,
+    "seed": 141100,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1079,
+    "sha256": "8cf92f82e5c478aa395a9d9674266b26492ed15a237fba3da40dff8cae6896a8"
+  },
+  {
+    "split": "train",
+    "shard": 1,
+    "seed": 141101,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1017,
+    "sha256": "cd4ea656dce6ff4b1106f3611a40f5cd58d8ec47b082cc0125a99eb66fd080bf"
+  },
+  {
+    "split": "train",
+    "shard": 2,
+    "seed": 141102,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1159,
+    "sha256": "4232f98ac74947074f72c2686ca5a5d50bc9eb3a51aee9288dfb044c1c08125f"
+  },
+  {
+    "split": "train",
+    "shard": 3,
+    "seed": 141103,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1091,
+    "sha256": "775241d02dcf0e56763785ec94d1bf5fe77b8696430561f75a67a5cb64907245"
+  },
+  {
+    "split": "train",
+    "shard": 4,
+    "seed": 141104,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1110,
+    "sha256": "07938bf148434f020f88e0e98fc505e3f596ce0ef4a62d1eb41c3b3899c25282"
+  },
+  {
+    "split": "train",
+    "shard": 5,
+    "seed": 141105,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1053,
+    "sha256": "587673910212d24f40d27a100b7d36f4b7f71c4c44add7387278b51973b6aaa2"
+  },
+  {
+    "split": "train",
+    "shard": 6,
+    "seed": 141106,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1156,
+    "sha256": "3c30d0247c94383b1a8a9aa00c5b95e70e00f1552e8bac3357f9047a0e004311"
+  },
+  {
+    "split": "train",
+    "shard": 7,
+    "seed": 141107,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1115,
+    "sha256": "5132a3171499ce282dacbe6984fd7ba703f712d528dce8cfda6724ba679f8115"
+  },
+  {
+    "split": "train",
+    "shard": 8,
+    "seed": 141108,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1087,
+    "sha256": "8076f81be6045a44ed4b5a3f96869a054e3de456f6df48dfb45d615855a5799b"
+  },
+  {
+    "split": "train",
+    "shard": 9,
+    "seed": 141109,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1174,
+    "sha256": "20b3773cc0e28bfe683743251897ffe919dad2b1531a08b368b332615b3b9553"
+  },
+  {
+    "split": "train",
+    "shard": 10,
+    "seed": 141110,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1158,
+    "sha256": "e90d03ae4e22638d56a41cb684a1f3f008b58ddfeaa796afb1c25bef6222ea2c"
+  },
+  {
+    "split": "train",
+    "shard": 11,
+    "seed": 141111,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1006,
+    "sha256": "103cdd4cb4df5ab6b2f5332f71120c39d495f44b20ebcb177867f320902dac39"
+  },
+  {
+    "split": "train",
+    "shard": 12,
+    "seed": 141112,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1031,
+    "sha256": "10277f12e9ea6e30435306a4b167cb70ac4caa47717d0a665b364e77614d8de8"
+  },
+  {
+    "split": "train",
+    "shard": 13,
+    "seed": 141113,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1122,
+    "sha256": "94bac8245d9a75a01002296c5f399aa18e8267a53743a02d195eadc8f0a16adf"
+  },
+  {
+    "split": "train",
+    "shard": 14,
+    "seed": 141114,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1136,
+    "sha256": "f7dbe4b415b8f84289f2655afe193b62e2cc6be15304bf97b96e3571332afc99"
+  },
+  {
+    "split": "train",
+    "shard": 15,
+    "seed": 141115,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1108,
+    "sha256": "3b03d9b76c8556cc89ad469809738b0159aa2903255fcd2436cd35b097024781"
+  },
+  {
+    "split": "train",
+    "shard": 16,
+    "seed": 141116,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1081,
+    "sha256": "3f63ed091bedc5c9bd3e73410ba4c494e6f6d894c7f0e96c41dc1b49b745891f"
+  },
+  {
+    "split": "train",
+    "shard": 17,
+    "seed": 141117,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1092,
+    "sha256": "f21c0036eb56228dbeaaa74bfe9af987c8aacc60498a8a82532025626daf85da"
+  },
+  {
+    "split": "train",
+    "shard": 18,
+    "seed": 141118,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1092,
+    "sha256": "f937d79e88bb039d1e038ba5a997717fb94391f7b4f9cc30c6be4bbf675027a9"
+  },
+  {
+    "split": "train",
+    "shard": 19,
+    "seed": 141119,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1162,
+    "sha256": "1ee403fddc4e6158e896a1267986115a22479fcda8741ac00edcc840648a6923"
+  },
+  {
+    "split": "train",
+    "shard": 20,
+    "seed": 141120,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1103,
+    "sha256": "dd6a1d8c293c7db3fd5475ddec66f7985776792a7c45d5b471dead5e13315e53"
+  },
+  {
+    "split": "train",
+    "shard": 21,
+    "seed": 141121,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1126,
+    "sha256": "5bfc7575cb8f25d0fc5953bec38181c6c3c7465bc0b9c50d7fc179804a973079"
+  },
+  {
+    "split": "train",
+    "shard": 22,
+    "seed": 141122,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1137,
+    "sha256": "8e34322d90870f1fca9b617ef74bf3cb1f6c6c12398bcbe30aa22269dc63ac7d"
+  },
+  {
+    "split": "train",
+    "shard": 23,
+    "seed": 141123,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1066,
+    "sha256": "dcefc82d0610d70c7005944408281aa4b09dd25aefa0ebf9f73e0a018e48afc7"
+  },
+  {
+    "split": "train",
+    "shard": 24,
+    "seed": 141124,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1125,
+    "sha256": "a7d10ecbc2d48192577234dbfd224c3bf4e0457480b7654db2bb8caa487948d2"
+  },
+  {
+    "split": "train",
+    "shard": 25,
+    "seed": 141125,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1065,
+    "sha256": "368eea24ea53ce350961225db2dbd85e63e191d2d92bdbd550d8d66bab730b58"
+  },
+  {
+    "split": "train",
+    "shard": 26,
+    "seed": 141126,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1097,
+    "sha256": "0f453a7f3d0a5f8fdca6a5d1ba1dca1dcdee1e138251717dde2b389f10e69906"
+  },
+  {
+    "split": "train",
+    "shard": 27,
+    "seed": 141127,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1173,
+    "sha256": "a39411b1519c06ff732475eb3b214e26218f44fb3cc19e496c9c2172e41f763f"
+  },
+  {
+    "split": "train",
+    "shard": 28,
+    "seed": 141128,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1127,
+    "sha256": "6b0b757749f24f783edb9f667c1c4071ea64d3d8981474021b272a555685aa3e"
+  },
+  {
+    "split": "train",
+    "shard": 29,
+    "seed": 141129,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1149,
+    "sha256": "52532340a3cad6ce2a0a505dd87c34230cde99a82a431a57d2a43a10ac3930aa"
+  },
+  {
+    "split": "train",
+    "shard": 30,
+    "seed": 141130,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1171,
+    "sha256": "1b8988550bfa5146be4178757ec9e8265e7dea0de3c16de19ef7dcafe22c2ec7"
+  },
+  {
+    "split": "train",
+    "shard": 31,
+    "seed": 141131,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1100,
+    "sha256": "881ee0ee71a88d9d91e777e2dd439c62ff3444ab48dfb49ad556229262fcff58"
+  },
+  {
+    "split": "val",
+    "shard": 0,
+    "seed": 241100,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1112,
+    "sha256": "a8e995092b0d534ee1638a9f49591e3b554c95d8110af0f6c1fde0749a69d5b1"
+  },
+  {
+    "split": "val",
+    "shard": 1,
+    "seed": 241101,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1094,
+    "sha256": "264cf68af1b10cbacdf9e8fac884c872d1b8f89c607395725c0e74b2e84e549a"
+  },
+  {
+    "split": "val",
+    "shard": 2,
+    "seed": 241102,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1168,
+    "sha256": "2acd3a906c36effe77c4f5c19d9b3769a8dbd1721777d3540578b24abf4dae40"
+  },
+  {
+    "split": "val",
+    "shard": 3,
+    "seed": 241103,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1149,
+    "sha256": "4e1ec13c138d5fbf62eb65628634a2aba01d6ab7ac658bee3d974303ea958752"
+  },
+  {
+    "split": "val",
+    "shard": 4,
+    "seed": 241104,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1011,
+    "sha256": "c414a451b0df9f8129be515409f27e549f82caf42f02d7ed8774975d15488650"
+  },
+  {
+    "split": "val",
+    "shard": 5,
+    "seed": 241105,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1116,
+    "sha256": "a28e6d60fc644308dcf4d2426cdfe7deb301fe21b5953c8320115073f16d5398"
+  },
+  {
+    "split": "test",
+    "shard": 0,
+    "seed": 341100,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1088,
+    "sha256": "64b01b60fc9b1444dc01b0aa95f10eb0fb259b9836d0efb8fabbf5b939f0b50d"
+  },
+  {
+    "split": "test",
+    "shard": 1,
+    "seed": 341101,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1093,
+    "sha256": "c6c69ea05c308f67c41e849192148cbb7ed5e71d5d70ea669ccdef97f9e1f4a2"
+  },
+  {
+    "split": "test",
+    "shard": 2,
+    "seed": 341102,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1153,
+    "sha256": "c95456538473773fc58808cd891eab02a0f8225449223835f8dfc8c887e91ac0"
+  },
+  {
+    "split": "test",
+    "shard": 3,
+    "seed": 341103,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1163,
+    "sha256": "802027f99d17d11e2b4bbeac7140e34bdd9781772f2fc98f5ebfa78c64bf34b6"
+  },
+  {
+    "split": "test",
+    "shard": 4,
+    "seed": 341104,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1147,
+    "sha256": "38afab67a17bdd4de496b726dbef3f3d935f1a44990be2f823aac53761bbe024"
+  },
+  {
+    "split": "test",
+    "shard": 5,
+    "seed": 341105,
+    "games": 8,
+    "nodes": 8000,
+    "positions": 1151,
+    "sha256": "791e57ea9bcf08fc629bb443d9fcf3bacc4fcc493f17f2873b3805c97fafaf6a"
+  }
+]

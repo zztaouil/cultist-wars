@@ -1,0 +1,36 @@
+{
+  "apply": {
+    "ns": 209577000,
+    "calls": 8161326
+  },
+  "generate_mode": {
+    "ns": 218451000,
+    "calls": 1839444
+  },
+  "evaluate_live": {
+    "ns": 857645000,
+    "calls": 3572371
+  },
+  "nn_begin": {
+    "ns": 66390000,
+    "calls": 183
+  },
+  "search": {
+    "ns": 275866000,
+    "calls": 2100365
+  },
+  "quiescence": {
+    "ns": 780283000,
+    "calls": 7762379
+  },
+  "material_threat": {
+    "ns": 77421000,
+    "calls": 3133901
+  },
+  "ray": {
+    "calls": 205785444,
+    "multi": 38743642,
+    "multi_cells": 63787914
+  },
+  "note": "Exclusive coarse regions, fast_hit included in caller; neutral included in apply. Instrumented overhead remains; uninstrumented benchmark determines promotion."
+}

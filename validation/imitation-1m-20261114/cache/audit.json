@@ -1,0 +1,34 @@
+{
+  "positions": 1066179,
+  "unique_visible_states": 1066179,
+  "source_game_turns": 319361,
+  "split_positions": [
+    1000000,
+    33797,
+    32382
+  ],
+  "map_groups": 3039,
+  "reflection_counts": [
+    319361,
+    253048,
+    246885,
+    246885
+  ],
+  "players": {
+    "Zylo": 115205,
+    "Noobkins": 293752,
+    "KawattaTaido": 60633,
+    "yhyoxx": 126603,
+    "MSz": 114941,
+    "aCat": 109006,
+    "Pduhard-": 91680,
+    "putibuzu": 33676,
+    "jacek": 84275,
+    "Astrobytes": 36408
+  },
+  "map_leakage": false,
+  "duplicate_states": false,
+  "heldouts_original_only": true,
+  "meta_sha256": "3955295eeede6afbfd3e79e9678bfd17037a69bcee44b9dcf2f655dac1697cd3",
+  "records_sha256": "6d110f96313e285a16e9e33bb12dbf4c41818d69153a9afcf92be188e6ef0fea"
+}

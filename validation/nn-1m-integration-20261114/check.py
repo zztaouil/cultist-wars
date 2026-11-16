@@ -1,0 +1,34 @@
+import ctypes as C, json, subprocess, time
+from pathlib import Path
+import numpy as np
+R=Path(__file__).resolve().parent; OLD=R.parent/'nn-41710886'; B=R/'build';B.mkdir(exist_ok=True)
+(B/'parity.c').write_text('''#define BOT_TEST
+#include "../candidate.c"
+void score(const float*f,float*out,int n){nn_init();for(int i=0;i<n;i++)out[i]=nn_score(f+i*128);}
+void params(float*out){nn_init();memcpy(out,nn_params,sizeof nn_params);}
+''')
+subprocess.run(['cc','-O3','-std=c11','-shared','-fPIC',str(B/'parity.c'),'-o',str(B/'parity.so')],check=True)
+lib=C.CDLL(str(B/'parity.so'));lib.score.argtypes=[C.c_void_p,C.c_void_p,C.c_int];lib.params.argtypes=[C.c_void_p]
+packed=np.load(R/'packed_weights.npy');actual=np.empty_like(packed);lib.params(actual.ctypes.data);assert np.array_equal(packed,actual)
+w=json.loads((R.parent/'imitation-1m-20261114/model-blocks/policy_weights.json').read_text()); w={k:np.array(v,np.float32) for k,v in w.items()};q={k:v.astype(np.float16).astype(np.float32) for k,v in w.items()}
+def forward(f,weights):
+    for i in (0,2,4):
+        f=f@weights[f'{i}.weight'].T+weights[f'{i}.bias']
+        if i<4:f=np.maximum(f,0)
+    return f.flatten()
+x=np.memmap(R.parent/'imitation-1m-20261114/cache/features.f32',dtype='<f4',mode='r').reshape(-1,128)
+m=json.loads((R.parent/'imitation-1m-20261114/cache/meta.json').read_text());ids=[i for i,s in enumerate(m['splits']) if s==2]
+maxerr=quant_err=0.;disagree=quant_disagree=correct=0
+for i in ids:
+    f=np.ascontiguousarray(x[m['offsets'][i]:m['offsets'][i+1]]);ref=forward(f,q);full=forward(f,w);out=np.empty(len(f),np.float32)
+    lib.score(f.ctypes.data,out.ctypes.data,len(f));maxerr=max(maxerr,float(np.max(abs(ref-out))))
+    quant_err=max(quant_err,float(np.max(abs(full-out))));disagree+=int(ref.argmax()!=out.argmax());quant_disagree+=int(full.argmax()!=out.argmax());correct+=int(out.argmax()==m['labels'][i])
+assert maxerr<.0002 and disagree<=2
+report=dict(groups=len(ids),decoded_params_exact=True,max_c_vs_fp16_numpy_error=maxerr,c_vs_fp16_top1_disagreements=disagree,max_c_vs_fp32_error=quant_err,fp32_vs_fp16_top1_disagreements=quant_disagree,fp16_test_top1=correct/len(ids))
+(R/'parity.json').write_text(json.dumps(report,indent=2));print(report)
+# Existing full regression suite against isolated candidate.
+test=(R.parents[1]/'tests/test_bot.c').read_text().replace('#include "../bot.c"','#include "../candidate.c"');(B/'test.c').write_text(test)
+for flags,name in [(['-O2'],'test'),(['-O1','-g','-fsanitize=address,undefined'],'sanitize')]:
+    subprocess.run(['cc','-std=c11',*flags,str(B/'test.c'),'-o',str(B/name)],check=True)
+    subprocess.run([str(B/name)],check=True)
+subprocess.run(['cc','-O3','-std=c11',str(R/'candidate.c'),'-o',str(B/'candidate')],check=True)

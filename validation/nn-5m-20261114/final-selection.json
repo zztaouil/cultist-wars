@@ -1,0 +1,10 @@
+{
+  "selected": "wide-group",
+  "quantized_validation_losses": {
+    "candidate": 1.585177007577218,
+    "wide": 1.6320610768986874,
+    "wide-group": 1.5828107153159359
+  },
+  "criterion": "Minimum quantized validation cross-entropy; test and match outcomes not used.",
+  "initial_selection": "selection.json"
+}

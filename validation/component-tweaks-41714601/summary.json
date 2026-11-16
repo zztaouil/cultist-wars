@@ -1,0 +1,25 @@
+{
+  "baseline": {
+    "mean_depth": 6.6,
+    "mean_nodes": 409109.86666666664,
+    "max_ms": 48.006,
+    "bytes": 99830,
+    "changed_actions": 0
+  },
+  "guard_futility": {
+    "mean_depth": 6.65,
+    "mean_nodes": 412267.2,
+    "max_ms": 48.006,
+    "bytes": 99853,
+    "changed_actions": 3
+  },
+  "no_nn": {
+    "mean_depth": 6.55,
+    "mean_nodes": 413496,
+    "max_ms": 48.011,
+    "bytes": 99850,
+    "changed_actions": 0
+  },
+  "futility_depth4_value_differences": 2,
+  "baseline_sha256": "728cbc8412a487c31da12fa240f6c4bd5e8e3fb99332e02979d9ef017c3a64d0"
+}

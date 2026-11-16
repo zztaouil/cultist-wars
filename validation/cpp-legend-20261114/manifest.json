@@ -1,0 +1,18 @@
+{
+  "bot.cpp": {
+    "sha256": "9d45c7b88cbaaf8bc98baf0202c40edaca8f452bc9f9e12304bf1341f1abd02b",
+    "bytes": 96014
+  },
+  "/Users/hexagone/Documents/ChatGPT/cultist-wars/validation/cpp-legend-20261114/baseline.cpp": {
+    "sha256": "36c52b4bcd0927f5e6ede62ef5514bcad777b6a2598c24f7fb850eab55c38663",
+    "bytes": 95902
+  },
+  "/Users/hexagone/Documents/ChatGPT/cultist-wars/validation/cpp-legend-20261114/candidate46.cpp": {
+    "sha256": "49e94430eeede2f65a93e1e070e5c25126479bfea692755934e91e5df3a90cf9",
+    "bytes": 96250
+  },
+  "/Users/hexagone/Documents/ChatGPT/cultist-wars/validation/cpp-legend-20261114/no_options.cpp": {
+    "sha256": "33e5515cdf9c6a755e249ad6ec1d9a5ba9dd4f0c52d9d235b6be8fa51507ab9e",
+    "bytes": 96250
+  }
+}

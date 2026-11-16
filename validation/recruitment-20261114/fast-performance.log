@@ -1,0 +1,3 @@
+selected {'depth': 5.97, 'nodes': 326724, 'ns': 48002968.75, 'eval_ns': 99.86} max_ns 48008000
+fast {'depth': 5.94, 'nodes': 326871, 'ns': 48003218.75, 'eval_ns': 106.02} max_ns 48020000
+changed moves 0 / 32

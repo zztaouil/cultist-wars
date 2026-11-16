@@ -1,0 +1,139 @@
+{
+  "architecture": [
+    128,
+    128,
+    64,
+    1
+  ],
+  "parameters": 24833,
+  "seed": 29,
+  "best_epoch": 9,
+  "epochs": 12,
+  "seconds": 2405.02,
+  "validation": {
+    "loss": 1.585185968226372,
+    "top1": 0.4824805833876801,
+    "top3": 0.7440169166617261,
+    "positions": 50601
+  },
+  "test": {
+    "loss": 1.5604817862870126,
+    "top1": 0.4892923187051361,
+    "top3": 0.7521425304726492,
+    "positions": 50291
+  },
+  "config": {
+    "reuse_audit": true,
+    "init": "validation/nn-5m-20261114/fast/best.pt",
+    "lr": 5e-05,
+    "threads": 4,
+    "batch_size": 512,
+    "hidden": [
+      128,
+      64
+    ],
+    "seed": 29,
+    "epochs": 12,
+    "shuffle_block": 8192,
+    "patience": 5,
+    "minutes": 45.0,
+    "device": "cpu",
+    "out": "fine-small",
+    "cache": "validation/imitation-5m-20261114/cache"
+  },
+  "torch_version": "2.15.0",
+  "numpy_version": "2.5.4",
+  "meta_sha256": "765cc278cb106254ef6e4f1e3d97d31ebed02deec481aae2cd3c4a4fcb17c963",
+  "baseline_sha256": "82b341ea7cb5ace6f316af95069fd0d763476c0aa5126693b78b8df398368b4d",
+  "feature_version": 1,
+  "split_positions": [
+    5000000,
+    50601,
+    50291
+  ],
+  "map_groups": 4343,
+  "dataset": {
+    "corpus_games": 4463,
+    "timeout_or_empty_games_excluded": 105,
+    "games_seen": 4358,
+    "games_valid": 4355,
+    "games_rejected": 3,
+    "transitions_verified": 600932,
+    "original_positions": 513027,
+    "duplicates": 168,
+    "reflection_ray_rejected": 62980,
+    "unmatched": 2449,
+    "forced": 2,
+    "positions": 5100892,
+    "split_positions": [
+      5000000,
+      50601,
+      50291
+    ],
+    "reflection_counts": [
+      1366582,
+      1265690,
+      1234336,
+      1234284
+    ],
+    "permutation_counts": [
+      1729016,
+      1627956,
+      1628124,
+      115796,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "id_relabelled_positions": 3371876,
+    "geometry_only_positions": 1729016,
+    "synthetic_positions": 4587865,
+    "player_positions": {
+      "yhyoxx": 531969,
+      "MSz": 360809,
+      "aCat": 360261,
+      "Noobkins": 1033106,
+      "putibuzu": 115862,
+      "ziele": 1417836,
+      "Zylo": 371439,
+      "Pduhard-": 301391,
+      "jacek": 271719,
+      "Astrobytes": 138942,
+      "KawattaTaido": 197558
+    },
+    "feature_bytes": 47137124864,
+    "seconds": 214,
+    "target_train_positions": 5000000,
+    "target_reached": true
+  },
+  "notes": [
+    "Original-only test split; map grouping reused from prior research, not globally untouched.",
+    "Checkpoint selected only by validation cross entropy.",
+    "Imitation metrics do not establish search strength."
+  ]
+}

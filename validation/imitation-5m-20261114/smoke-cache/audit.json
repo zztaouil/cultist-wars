@@ -1,0 +1,37 @@
+{
+  "positions": 9695,
+  "unique_visible_states": 9695,
+  "source_game_turns": 2878,
+  "split_positions": [
+    9144,
+    150,
+    401
+  ],
+  "map_groups": 20,
+  "reflection_counts": [
+    2878,
+    2327,
+    2245,
+    2245
+  ],
+  "players": {
+    "Zylo": 882,
+    "Noobkins": 2086,
+    "KawattaTaido": 1180,
+    "yhyoxx": 884,
+    "ziele": 1882,
+    "MSz": 414,
+    "aCat": 876,
+    "Pduhard-": 899,
+    "putibuzu": 296,
+    "jacek": 296
+  },
+  "map_leakage": false,
+  "duplicate_states": false,
+  "heldouts_original_only": true,
+  "original_dataset_missing_states": 1058366,
+  "target_train_positions": 5000000,
+  "target_reached": false,
+  "meta_sha256": "50051f66946edd04369b05ec1123b8e45e7eb9347ac3d83b2b4fa100f4298a79",
+  "records_sha256": "9ea4fa3438db0f140be5f296781160b8844c768fbc5677985be7922926043dc1"
+}

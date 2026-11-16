@@ -1,0 +1,115 @@
+{
+  "cohort": "union of original and current top ten, user approved both",
+  "rows": [
+    {
+      "rank": 1,
+      "nickname": "aCat",
+      "league": "Legend",
+      "score": 31.86,
+      "language": "C++",
+      "country": "PL",
+      "agent_id": 6870984,
+      "percentage": 100
+    },
+    {
+      "rank": 2,
+      "nickname": "Noobkins",
+      "league": "Legend",
+      "score": 31.64,
+      "language": "C++",
+      "country": "PL",
+      "agent_id": 6881318,
+      "percentage": 100
+    },
+    {
+      "rank": 3,
+      "nickname": "yhyoxx",
+      "league": "Legend",
+      "score": 30.22,
+      "language": "C++",
+      "country": "MA",
+      "agent_id": 6881717,
+      "percentage": 17
+    },
+    {
+      "rank": 4,
+      "nickname": "MSz",
+      "league": "Legend",
+      "score": 29.47,
+      "language": "C++",
+      "country": "PL",
+      "agent_id": 6818707,
+      "percentage": 100
+    },
+    {
+      "rank": 5,
+      "nickname": "Zylo",
+      "league": "Legend",
+      "score": 26.03,
+      "language": "C++",
+      "country": "PL",
+      "agent_id": 6809893,
+      "percentage": 100
+    },
+    {
+      "rank": 8,
+      "nickname": "jacek",
+      "league": "Legend",
+      "score": 24.51,
+      "language": "C++",
+      "country": "PL",
+      "agent_id": 6722583,
+      "percentage": 100
+    },
+    {
+      "rank": 7,
+      "nickname": "KawattaTaido",
+      "league": "Legend",
+      "score": 24.57,
+      "language": "C++",
+      "country": "JP",
+      "agent_id": 4612070,
+      "percentage": 100
+    },
+    {
+      "rank": 6,
+      "nickname": "Pduhard-",
+      "league": "Legend",
+      "score": 24.74,
+      "language": "C++",
+      "country": "FR",
+      "agent_id": 6785396,
+      "percentage": 100
+    },
+    {
+      "rank": 10,
+      "nickname": "putibuzu",
+      "league": "Legend",
+      "score": 20.61,
+      "language": "C++",
+      "country": "DE",
+      "agent_id": 6380742,
+      "percentage": 100
+    },
+    {
+      "rank": 10,
+      "nickname": "Astrobytes",
+      "league": "Legend",
+      "score": 20.3,
+      "language": "C++",
+      "country": "GB",
+      "agent_id": 6760368,
+      "percentage": 100
+    },
+    {
+      "rank": 9,
+      "nickname": "ziele",
+      "league": "Legend",
+      "score": 22.6,
+      "language": "C++",
+      "country": "PL",
+      "agent_id": 6881706,
+      "percentage": 25
+    }
+  ]
+}

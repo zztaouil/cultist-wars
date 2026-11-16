@@ -1,0 +1,20 @@
+{
+  "architecture": [
+    128,
+    128,
+    64,
+    1
+  ],
+  "parameters": 24833,
+  "best_epoch": 9,
+  "epochs": 12,
+  "validation": {
+    "loss": 1.593916585291283,
+    "top1": 0.48234224620066796,
+    "top3": 0.7432857058160905,
+    "positions": 50601
+  },
+  "feature_version": 1,
+  "baseline_sha256": "82b341ea7cb5ace6f316af95069fd0d763476c0aa5126693b78b8df398368b4d",
+  "note": "Stage deliberately stopped for lower-LR refinement; best complete-epoch checkpoint retained. No test evaluation at this stage."
+}

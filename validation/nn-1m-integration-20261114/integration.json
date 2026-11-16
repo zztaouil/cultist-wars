@@ -1,0 +1,39 @@
+{
+  "base_submission": 41711135,
+  "base_sha256": "902527dc4e76421fa7f6e20190d7a6d97a3ee8ef7e22e61deeb7caddb772b4e9",
+  "candidate_sha256": "c7bf57e54c2a174abe5b4cb7074face043a9fea1efe6f11e570ea4370f0b1a35",
+  "engine_outside_policy_identical": true,
+  "production_matches_candidate": true,
+  "budget_ms": 49,
+  "model": "../imitation-1m-20261114/model-blocks/best.pt",
+  "model_best_epoch": 36,
+  "training_positions": 1000000,
+  "source_bytes": 99119,
+  "validation": {
+    "engine_tests": "passed",
+    "protocol": "12 turns passed",
+    "asan_ubsan": "passed",
+    "differential_transitions": 21708,
+    "test_positions_parity": 32382,
+    "local_matches": {
+      "tag": "million49",
+      "games": 48,
+      "W": 14,
+      "D": 14,
+      "L": 20,
+      "score": 43.75,
+      "pairs": 24,
+      "seat0": 37.5,
+      "seat1": 50.0,
+      "paired_lo": 33.01,
+      "paired_hi": 54.49
+    },
+    "root_cost": {
+      "positions": 500,
+      "root_precompute_median_ms": 0.149,
+      "root_precompute_p95_ms": 0.31,
+      "root_precompute_max_ms": 0.562,
+      "includes": "action generation, feature extraction, NN inference, rank cache; first-call decoding included"
+    }
+  }
+}

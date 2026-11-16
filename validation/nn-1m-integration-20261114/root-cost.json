@@ -1,0 +1,7 @@
+{
+  "positions": 500,
+  "root_precompute_median_ms": 0.149,
+  "root_precompute_p95_ms": 0.31,
+  "root_precompute_max_ms": 0.562,
+  "includes": "action generation, feature extraction, NN inference, rank cache; first-call decoding included"
+}

@@ -1,3 +1,33 @@
+# Current development preference
+
+Use C++17 `bot.cpp` for all future changes and submissions. `bot.c` is historical.
+Read `AGENTS.md` and `validation/cpp-legend-20261114/README.md` first.
+Earlier C-production instructions below are superseded.
+
+Arena update: user requested submission; accepted as **41714430**. Initial ranking pending. Earlier no-submission notes below are historical.
+
+# Search efficiency update — 2026-11-14
+
+`bot.c` now freezes live submission 41711656's network/evaluation and improves
+four-ply tactical caching, bound reuse, and quiet-escape history ordering.
+49 ms retained. New 49 ms paired sample: 27W/14D/23L (53.12%, approximate paired
+95% interval 47.41–58.84%). Private selected replays: 2W/2L versus rerun baseline
+1W/3L. Strength gain remains unproven; no arena submission or IDE overwrite.
+Correctness, ASan/UBSan, protocol, and differential tests pass. Read
+`validation/search-20261114/README.md` and `performance.json` for measured speed,
+rejected alternatives, source provenance, and limitations. The prior incoming
+local million-position integration is preserved in that directory's `incoming.c`.
+Earlier entries below are historical.
+
+# Latest integration — 2026-11-14
+
+User requested wiring the million-position imitation model into the best bot.
+`bot.c` now uses frozen 41711135 engine + newly trained 128→128→64→1 root policy.
+49 ms budget retained. Read `validation/nn-1m-integration-20261114/README.md`.
+Original incoming `bot.c` preserved as `incoming-bot.c` there. No arena submission
+made by this integration task. Live arena at inspection: 41711458, identical to
+prior large-policy trial 41711350; ranking incomplete. Earlier notes below historical.
+
 # Cultist Wars continuation
 
 Arena trial update: user explicitly requested submission of the larger policy.

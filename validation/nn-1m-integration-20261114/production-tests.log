@@ -1,0 +1,79 @@
+cc -O3 -std=c11 -Wall -Wextra -Wpedantic tests/test_bot.c -o tests/test_bot
+In file included from tests/test_bot.c:2:
+tests/../bot.c:483:1: warning: string literal of length 66224 exceeds maximum length 4095 that ISO C99 compilers are required to support [-Woverlength-strings]
+  483 | "nKqwmhQ0xjL5NGcgCDY1JRqbCSk6sYIviKrWrTIrdR66tLq4cK3RsYSshyB3p22ztDSVMKssTateKfukGrMJuKE11yItLYKtISg6LtessJ2ksQ2phCmipdow"
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  484 | "+rWzNJmwGawDpJ4aYzAYtNG4/CWqF/AqnB9kLK8pC6Q2NlArGKpEJ/66BbzYNcQw0qqxro4s/7bquEg2wC6sLLKgKiabtKC7/7KdMxUpapnYINgoPR+LMxI4"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  485 | "ZqbGrGqqxbCqt6W06K/Jqv25SjcZtJc4vjCKpLamTylMs3Ex6bqjtmNAVDJbpre057jjsCM7d66GLC8xdMSrtIItzrP8QTQzCLJlMVU3uCHRFTQoZbALrVyn"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  486 | "qTWKmkmqcS/Gr4CsAKw2LNOWhakSokkj3agaq9Asmwl6H9IhgaTRELGp6jACoZ6qyCJDKg4lACs6Ko8jQquOKcInfSaFrCAvbRfpIEYiUqSwrKcrVCtaHzCn"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  487 | "2ScnH1SM6prvKy8kYSvbmd8g0KGnGoQuSSClJEoltR9zp5gs7iwEI++dEaH7JnGj6ykLLqMk3CoaqEGqbq4qpBYlEB8tJuOWwCvyIZUozjBHICqnvSkDK30m"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  488 | "Uq3ENze8LTwQue1AsS2IwOKs8DhUtQA1zjasrMItf7DVut8nkbOWKoalSSsZuH1F/rZDqVw2qiYToxM/dqKsqEwWyzd2NNEx8SjSKlso/RynpYQiwbONqCix"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  489 | "4h6+kVq8PzETuDG5sKn0ojEaT6sFqR4xJbjxKKAcbCS+tCs3DjTLtaUsLqgkJLO4JjQRtgS3iiuNHoWglSwQGrw0GaqvojMdDCKZNmEuhzvBrIksuahgpS85"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  490 | "YaAqOJ0rsSyLpnWkMjUCIJo1vqz7K7ac/6Z2s187WiwAq4UlwKpipo073jVQOY6zt6aYKhIZN7gZN7K4xDhwp9IlhyOWqjI0+jEaOE0k+jdtsTyv9S15LYCh"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  491 | "cbAjK+SyF7YUsAC2zTivNYW0uzmCMq05yL+as2Iwnze6RR9AwalGuNi0r7EVO0OxEixHqCI3DLQ0M2+fiy0sITmYmy59OPWzhiV0NGKdWSEVuzAlIKkausSr"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  492 | "XShMKHq0jpm3sLq0riq7qQAs7TktLjw2EDn+pm4ivac3tdAqXC5gtnuRCCqrpbK5rrPytQ+y06yWH9sh4KRGs8WyIjGSpBothh07Nx46JDLQL5MmWyRlIQA1"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  493 | "/DYlNvQ2d6E1LCapabuQtnS03bqYKT8rgSXuKW4zzKQRrFOpwSTxJa0ywbGTOGA1MS26KTMr9TOeuAA3prAmrNU07SFJLke1TrByLSAyoaKfsHq1Y0GmPFeo"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  494 | "dS0vODA2aClIOXi4tLunMB7BMcN8tRSxjT01NG20aL8tM3OpzaxhrxSvRq12rYKoeatDoo2qkacursisbapeIdYTqarAKDOsKyvzrCusDK04q1ep06hLqHkn"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  495 | "NSzOo9MlVK05IBevPiirpSGpfCYIpDKr/SaRINGrOSSzl/EhpqUpFtKhVS4FHICqJ6vZqMej8aUVJxKsTK2cHr6P2qzzqconjyoZrFamdqZlJCksoqkNpYyn"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  496 | "yyo0Kycp36qbFqopWx9SKoesfRwEqwur+KgDruyj6SKSKFGtYS5UJtisOibnK9+o656tIJkp4alqLosowK+Qq/an9KhcrfQjzxXPqQOvEK5OoTCpfqXAKJcl"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  497 | "OKzMqkwmH7D+qR2sjKq7r3ikK65BKf8puyQhqaEvSiwlsAKssaAYuGKyibjqq+y4l5+jJBStaD02tCC8P51VpESlnLmLNfY4ObrWKYgo/aB8Gsywbyg8s7wp"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  498 | "x6hLoty1hzmAOP26mCodHDwh5zt4Okw1Zbi9J/qqJB9Dus289DfrNBmhEKgOJlA2VzLFq0E1YSnNq6ehyrcvuVi6ariXLK4lxRE2IHo3crB3s3+srCJeInQu"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+cc -O3 -std=c11 -Wall -Wextra -Wpedantic bot.c -o bot
+bot.c:483:1: warning: string literal of length 66224 exceeds maximum length 4095 that ISO C99 compilers are required to support [-Woverlength-strings]
+  483 | "nKqwmhQ0xjL5NGcgCDY1JRqbCSk6sYIviKrWrTIrdR66tLq4cK3RsYSshyB3p22ztDSVMKssTateKfukGrMJuKE11yItLYKtISg6LtessJ2ksQ2phCmipdow"
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  484 | "+rWzNJmwGawDpJ4aYzAYtNG4/CWqF/AqnB9kLK8pC6Q2NlArGKpEJ/66BbzYNcQw0qqxro4s/7bquEg2wC6sLLKgKiabtKC7/7KdMxUpapnYINgoPR+LMxI4"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  485 | "ZqbGrGqqxbCqt6W06K/Jqv25SjcZtJc4vjCKpLamTylMs3Ex6bqjtmNAVDJbpre057jjsCM7d66GLC8xdMSrtIItzrP8QTQzCLJlMVU3uCHRFTQoZbALrVyn"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  486 | "qTWKmkmqcS/Gr4CsAKw2LNOWhakSokkj3agaq9Asmwl6H9IhgaTRELGp6jACoZ6qyCJDKg4lACs6Ko8jQquOKcInfSaFrCAvbRfpIEYiUqSwrKcrVCtaHzCn"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  487 | "2ScnH1SM6prvKy8kYSvbmd8g0KGnGoQuSSClJEoltR9zp5gs7iwEI++dEaH7JnGj6ykLLqMk3CoaqEGqbq4qpBYlEB8tJuOWwCvyIZUozjBHICqnvSkDK30m"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  488 | "Uq3ENze8LTwQue1AsS2IwOKs8DhUtQA1zjasrMItf7DVut8nkbOWKoalSSsZuH1F/rZDqVw2qiYToxM/dqKsqEwWyzd2NNEx8SjSKlso/RynpYQiwbONqCix"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  489 | "4h6+kVq8PzETuDG5sKn0ojEaT6sFqR4xJbjxKKAcbCS+tCs3DjTLtaUsLqgkJLO4JjQRtgS3iiuNHoWglSwQGrw0GaqvojMdDCKZNmEuhzvBrIksuahgpS85"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  490 | "YaAqOJ0rsSyLpnWkMjUCIJo1vqz7K7ac/6Z2s187WiwAq4UlwKpipo073jVQOY6zt6aYKhIZN7gZN7K4xDhwp9IlhyOWqjI0+jEaOE0k+jdtsTyv9S15LYCh"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  491 | "cbAjK+SyF7YUsAC2zTivNYW0uzmCMq05yL+as2Iwnze6RR9AwalGuNi0r7EVO0OxEixHqCI3DLQ0M2+fiy0sITmYmy59OPWzhiV0NGKdWSEVuzAlIKkausSr"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  492 | "XShMKHq0jpm3sLq0riq7qQAs7TktLjw2EDn+pm4ivac3tdAqXC5gtnuRCCqrpbK5rrPytQ+y06yWH9sh4KRGs8WyIjGSpBothh07Nx46JDLQL5MmWyRlIQA1"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  493 | "/DYlNvQ2d6E1LCapabuQtnS03bqYKT8rgSXuKW4zzKQRrFOpwSTxJa0ywbGTOGA1MS26KTMr9TOeuAA3prAmrNU07SFJLke1TrByLSAyoaKfsHq1Y0GmPFeo"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  494 | "dS0vODA2aClIOXi4tLunMB7BMcN8tRSxjT01NG20aL8tM3OpzaxhrxSvRq12rYKoeatDoo2qkacursisbapeIdYTqarAKDOsKyvzrCusDK04q1ep06hLqHkn"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  495 | "NSzOo9MlVK05IBevPiirpSGpfCYIpDKr/SaRINGrOSSzl/EhpqUpFtKhVS4FHICqJ6vZqMej8aUVJxKsTK2cHr6P2qzzqconjyoZrFamdqZlJCksoqkNpYyn"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  496 | "yyo0Kycp36qbFqopWx9SKoesfRwEqwur+KgDruyj6SKSKFGtYS5UJtisOibnK9+o656tIJkp4alqLosowK+Qq/an9KhcrfQjzxXPqQOvEK5OoTCpfqXAKJcl"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  497 | "OKzMqkwmH7D+qR2sjKq7r3ikK65BKf8puyQhqaEvSiwlsAKssaAYuGKyibjqq+y4l5+jJBStaD02tCC8P51VpESlnLmLNfY4ObrWKYgo/aB8Gsywbyg8s7wp"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  498 | "x6hLoty1hzmAOP26mCodHDwh5zt4Okw1Zbi9J/qqJB9Dus289DfrNBmhEKgOJlA2VzLFq0E1YSnNq6ehyrcvuVi6ariXLK4lxRE2IHo3crB3s3+srCJeInQu"
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+./tests/test_bot
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+python3 tests/test_protocol.py
+PASS: 12 protocol turns; max local latency 232.3 ms
+cc -O1 -g -std=c11 -Wall -Wextra -fsanitize=address,undefined tests/test_bot.c -o /tmp/cultist-wars-test
+/tmp/cultist-wars-test
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+{"positions": 720, "transitions": 21708, "fixed_depth_positions": 24, "seconds_before_after": [0.04521570692304522, 0.019303376029711217], "visits_before_after": [228844, 155203], "speedup": 2.3423730052945384}

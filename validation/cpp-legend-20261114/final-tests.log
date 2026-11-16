@@ -1,0 +1,8 @@
+c++ -O3 -std=c++17 -Wall -Wextra -Wpedantic bot.cpp -o bot_cpp
+python3 tests/test_cpp.py
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+PASS: Q bounds, horizon isolation, compact move hints
+PASS: recruitment access, blocking, exposure, symmetry, cache, dead leaders, walls
+PASS: safety damage, ownership symmetry, cache sign, walls, conversion contest
+PASS: C++ leader options, symmetry, lethal exposure, deadline fallback
+PASS: 12 protocol turns; max local latency 243.0 ms

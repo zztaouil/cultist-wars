@@ -1,0 +1,101 @@
+{"phase": "discovery", "agents": 10, "pending": 460, "teacher_agents": 80, "games": 3599}
+{"phase": "discovery", "agents": 20, "pending": 450, "teacher_agents": 80, "games": 3599}
+{"phase": "discovery", "agents": 30, "pending": 440, "teacher_agents": 80, "games": 3599}
+{"phase": "discovery", "agents": 40, "pending": 430, "teacher_agents": 80, "games": 3599}
+{"phase": "discovery", "agents": 50, "pending": 420, "teacher_agents": 80, "games": 3599}
+{"phase": "discovery", "agents": 60, "pending": 410, "teacher_agents": 80, "games": 3599}
+{"phase": "discovery", "agents": 70, "pending": 400, "teacher_agents": 80, "games": 3599}
+{"phase": "discovery", "agents": 80, "pending": 390, "teacher_agents": 80, "games": 3599}
+{"phase": "discovery", "agents": 90, "pending": 390, "teacher_agents": 90, "games": 4055}
+{"phase": "discovery", "agents": 100, "pending": 383, "teacher_agents": 93, "games": 4146}
+{"phase": "discovery", "agents": 110, "pending": 374, "teacher_agents": 94, "games": 4233}
+{"phase": "discovery", "agents": 120, "pending": 364, "teacher_agents": 94, "games": 4276}
+{"phase": "discovery", "agents": 130, "pending": 354, "teacher_agents": 94, "games": 4291}
+{"phase": "discovery", "agents": 140, "pending": 346, "teacher_agents": 96, "games": 4319}
+{"phase": "discovery", "agents": 150, "pending": 341, "teacher_agents": 101, "games": 4335}
+{"phase": "discovery", "agents": 160, "pending": 333, "teacher_agents": 103, "games": 4339}
+{"phase": "discovery", "agents": 170, "pending": 323, "teacher_agents": 103, "games": 4345}
+{"phase": "discovery", "agents": 180, "pending": 314, "teacher_agents": 104, "games": 4357}
+{"phase": "discovery", "agents": 190, "pending": 305, "teacher_agents": 105, "games": 4366}
+{"phase": "discovery", "agents": 200, "pending": 296, "teacher_agents": 106, "games": 4377}
+{"phase": "discovery", "agents": 210, "pending": 287, "teacher_agents": 107, "games": 4386}
+{"phase": "discovery", "agents": 220, "pending": 278, "teacher_agents": 108, "games": 4394}
+{"phase": "discovery", "agents": 230, "pending": 270, "teacher_agents": 110, "games": 4404}
+{"phase": "discovery", "agents": 240, "pending": 262, "teacher_agents": 112, "games": 4413}
+{"phase": "discovery", "agents": 250, "pending": 254, "teacher_agents": 114, "games": 4420}
+{"phase": "discovery", "agents": 260, "pending": 244, "teacher_agents": 114, "games": 4422}
+{"phase": "discovery", "agents": 270, "pending": 236, "teacher_agents": 116, "games": 4425}
+{"phase": "discovery", "agents": 280, "pending": 227, "teacher_agents": 117, "games": 4430}
+{"phase": "discovery", "agents": 290, "pending": 217, "teacher_agents": 117, "games": 4434}
+{"phase": "discovery", "agents": 300, "pending": 207, "teacher_agents": 117, "games": 4439}
+{"phase": "discovery", "agents": 310, "pending": 197, "teacher_agents": 117, "games": 4439}
+{"phase": "discovery", "agents": 320, "pending": 187, "teacher_agents": 117, "games": 4441}
+{"phase": "discovery", "agents": 330, "pending": 177, "teacher_agents": 117, "games": 4442}
+{"phase": "discovery", "agents": 340, "pending": 167, "teacher_agents": 117, "games": 4442}
+{"phase": "discovery", "agents": 350, "pending": 157, "teacher_agents": 117, "games": 4443}
+{"phase": "discovery", "agents": 360, "pending": 147, "teacher_agents": 117, "games": 4446}
+{"phase": "discovery", "agents": 370, "pending": 137, "teacher_agents": 117, "games": 4446}
+{"phase": "discovery", "agents": 380, "pending": 127, "teacher_agents": 117, "games": 4447}
+{"phase": "discovery", "agents": 390, "pending": 117, "teacher_agents": 117, "games": 4448}
+{"phase": "discovery", "agents": 400, "pending": 107, "teacher_agents": 117, "games": 4451}
+{"phase": "discovery", "agents": 410, "pending": 97, "teacher_agents": 117, "games": 4452}
+{"phase": "discovery", "agents": 420, "pending": 87, "teacher_agents": 117, "games": 4453}
+{"phase": "discovery", "agents": 430, "pending": 77, "teacher_agents": 117, "games": 4453}
+{"phase": "discovery", "agents": 440, "pending": 67, "teacher_agents": 117, "games": 4455}
+{"phase": "discovery", "agents": 450, "pending": 57, "teacher_agents": 117, "games": 4456}
+{"phase": "discovery", "agents": 460, "pending": 47, "teacher_agents": 117, "games": 4457}
+{"phase": "discovery", "agents": 470, "pending": 37, "teacher_agents": 117, "games": 4459}
+{"phase": "discovery", "agents": 480, "pending": 27, "teacher_agents": 117, "games": 4461}
+{"phase": "discovery", "agents": 490, "pending": 17, "teacher_agents": 117, "games": 4461}
+{"phase": "discovery", "agents": 500, "pending": 7, "teacher_agents": 117, "games": 4461}
+{"phase": "replays", "games": 4464, "new_games": 917}
+{"phase": "replays", "processed": 0, "total": 4464}
+{"phase": "replays", "processed": 50, "total": 4464}
+{"phase": "replays", "processed": 100, "total": 4464}
+{"phase": "replays", "processed": 200, "total": 4464}
+{"phase": "replays", "processed": 250, "total": 4464}
+{"phase": "replays", "processed": 300, "total": 4464}
+{"phase": "replays", "processed": 450, "total": 4464}
+{"phase": "replays", "processed": 550, "total": 4464}
+{"phase": "replays", "processed": 600, "total": 4464}
+{"phase": "replays", "processed": 650, "total": 4464}
+{"phase": "replays", "processed": 750, "total": 4464}
+{"phase": "replays", "processed": 850, "total": 4464}
+{"phase": "replays", "processed": 1500, "total": 4464}
+{"phase": "replays", "processed": 1900, "total": 4464}
+{"phase": "replays", "processed": 2300, "total": 4464}
+{"phase": "replays", "processed": 2550, "total": 4464}
+{"phase": "replays", "processed": 2700, "total": 4464}
+{"phase": "replays", "processed": 2750, "total": 4464}
+{"phase": "replays", "processed": 3650, "total": 4464}
+{"phase": "replays", "processed": 3800, "total": 4464}
+{"phase": "replays", "processed": 3950, "total": 4464}
+{"phase": "replays", "processed": 4350, "total": 4464}
+Traceback (most recent call last):
+  File "/Users/hexagone/Documents/ChatGPT/cultist-wars/validation/imitation-5m-20261114/collect.py", line 99, in <module>
+    report=dict(games=len(allgames),players=sorted(TOP),discovery_agents=len(seen),teacher_agents=len(teachers),raw_expert_turns=sum(map(turns,allgames.values())),eligible_expert_turns_before_reconstruction=eligible,theoretical_max_positions_with_four_reflections=eligible*4)
+                           ^^^^^^
+  File "/Users/hexagone/Documents/ChatGPT/cultist-wars/validation/imitation-5m-20261114/collect.py", line 79, in main
+    g=post('gameResult/findByGameId',[gid,None])
+  File "/Users/hexagone/Documents/ChatGPT/cultist-wars/validation/imitation-5m-20261114/collect.py", line 28, in post
+    def post(endpoint,body):return request('https://www.codingame.com/services/'+endpoint,body)
+                                   ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hexagone/Documents/ChatGPT/cultist-wars/validation/imitation-5m-20261114/collect.py", line 18, in request
+    with urllib.request.urlopen(req,timeout=60) as f:return json.load(f)
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 422: Unprocessable Entity

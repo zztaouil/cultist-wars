@@ -1,0 +1,20 @@
+{
+  "baseline_submission": 41714601,
+  "baseline_sha256": "728cbc8412a487c31da12fa240f6c4bd5e8e3fb99332e02979d9ef017c3a64d0",
+  "candidate_sha256": "078ab8c4f496eb6ab4e2b63cde612bf429ffd29617a655ecc017ba03c573759a",
+  "bytes": 95665,
+  "features": {
+    "LEADER_VALUE": 0,
+    "SAFETY_WEIGHT": 1,
+    "RACE_WEIGHT": 60,
+    "DEFENSIVE_PRUNING": 1,
+    "CYCLE_Q": 1,
+    "BUDGET_MS": 48
+  },
+  "judge_replays": [
+    921574271,
+    921574605,
+    921572974,
+    921574680
+  ]
+}

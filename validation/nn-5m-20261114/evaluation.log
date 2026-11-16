@@ -1,0 +1,29 @@
+Both training runs finished; starting export and evaluation.
+{'parameters': 24833, 'source_bytes': 99119, 'storage': 'IEEE float16 little endian, base64', 'inference': 'float32', 'architecture': [128, 128, 64, 1], 'source_sha256': '6f7a7b34137e818366f3979c1d575a668f368da0257af33aa1738b85f8a970e5', 'baseline_sha256': 'c7bf57e54c2a174abe5b4cb7074face043a9fea1efe6f11e570ea4370f0b1a35'}
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+{'groups': 100892, 'decoded_params_exact': True, 'max_c_vs_fp16_numpy_error': 2.288818359375e-05, 'c_vs_fp16_top1_disagreements': 0, 'max_c_vs_fp32_error': 0.019755840301513672, 'fp32_vs_fp16_top1_disagreements': 47, 'fp16_test_top1': 0.48927243443160806, 'validation': {'positions': 50601, 'top1': 0.4824015335665303, 'top3': 0.7439576292958637, 'loss': 1.585177007577218}, 'test': {'positions': 50291, 'top1': 0.48927243443160806, 'top3': 0.7522021832932334, 'loss': 1.560476934706388}}
+{'architecture': [128, 192, 96, 1], 'parameters': 43393, 'source_bytes': 92208, 'source_sha256': '44a826d6b29b5bab0af282446773a93b5ddd4c689b42a75f6685a5b32c0ba86f', 'storage': 'per-channel int8 weights; FP16 scales and biases', 'inference': 'float32'}
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+{'groups': 100892, 'decoded_params_exact': True, 'max_c_vs_int8_numpy_error': 3.814697265625e-05, 'c_vs_int8_top1_disagreements': 0, 'max_c_vs_fp32_error': 4.854714393615723, 'fp32_vs_int8_top1_disagreements': 14273, 'int8_test_top1': 0.47280825595036885, 'validation': {'positions': 50601, 'top1': 0.4673030177269224, 'top3': 0.7320606312128218, 'loss': 1.6320610768986874}, 'test': {'positions': 50291, 'top1': 0.47280825595036885, 'top3': 0.7402517349028653, 'loss': 1.6119141367615064}}
+{'positions': 100, 'depth': 4, 'disabled_policy_exact': True}
+{"weights": "/Users/hexagone/Documents/ChatGPT/cultist-wars/validation/imitation-1m-20261114/model-blocks/policy_weights.npz", "weights_sha256": "09235e0275e5b58aa0df27ac582f79030082165bc624d8cf0fe11df0f43b8a3d", "test": {"positions": 50291, "loss": 1.6379246178962072, "top1": 0.4777395557853294, "top3": 0.7354596249826013}, "note": "Same original-only test maps as new policy; descriptive comparison, not an arena-strength test."}
+Selected candidate {'candidate': 1.585177007577218, 'wide': 1.6320610768986874}
+tree source bytes 99551
+{'positions': 100, 'depth': 4, 'tree_full_width_value_exact': True}
+candidate PASS: 12 protocol turns; max local latency 248.8 ms
+wide PASS: 12 protocol turns; max local latency 254.6 ms
+tree PASS: 12 protocol turns; max local latency 256.8 ms
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+{"positions": 720, "transitions": 21708, "fixed_depth_positions": 24, "seconds_before_after": [0.0435187480179593, 0.01692833102424629], "visits_before_after": [228844, 155203], "speedup": 2.570764238697117}
+
+{"tag": "five49", "games": 128, "W": 45, "D": 38, "L": 45, "score": 50.0, "pairs": 64, "seat0": 49.22, "seat1": 50.78, "paired_lo": 45.37, "paired_hi": 54.63}
+
+{"tag": "wide49", "games": 128, "W": 45, "D": 35, "L": 48, "score": 48.83, "pairs": 64, "seat0": 52.34, "seat1": 45.31, "paired_lo": 44.54, "paired_hi": 53.11}
+
+{"tag": "tree49", "games": 128, "W": 48, "D": 31, "L": 49, "score": 49.61, "pairs": 64, "seat0": 52.34, "seat1": 46.88, "paired_lo": 44.67, "paired_hi": 54.55}
+
+{'positions': 500, 'root_precompute_median_ms': 0.1485, 'root_precompute_p95_ms': 0.315, 'root_precompute_max_ms': 0.651, 'includes': 'action generation, feature extraction, NN inference, rank cache; first-call decoding included'}
+{"baseline": {"positions": 100, "mean_depth": 7.21, "median_nodes": 520176.0, "median_ms": 49.0, "p95_ms": 49.003, "max_ms": 49.005}, "candidate": {"positions": 100, "mean_depth": 7.21, "median_nodes": 521904.0, "median_ms": 49.001, "p95_ms": 49.003, "max_ms": 49.004}, "tree": {"positions": 100, "mean_depth": 7.07, "median_nodes": 449856.0, "median_ms": 49.001, "p95_ms": 49.003, "max_ms": 49.007}, "wide": {"positions": 100, "mean_depth": 7.18, "median_nodes": 515488.0, "median_ms": 49.001, "p95_ms": 49.003, "max_ms": 49.004}}
+Evaluation pipeline complete.

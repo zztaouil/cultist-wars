@@ -1,0 +1,386 @@
+[
+  {
+    "variant": "puct-value",
+    "map": 41734000,
+    "seat": 0,
+    "own": 0,
+    "opponent": 7,
+    "plies": 142
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734000,
+    "seat": 1,
+    "own": 1,
+    "opponent": 6,
+    "plies": 150
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734004,
+    "seat": 0,
+    "own": 0,
+    "opponent": 7,
+    "plies": 110
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734004,
+    "seat": 1,
+    "own": 0,
+    "opponent": 4,
+    "plies": 117
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734001,
+    "seat": 0,
+    "own": 0,
+    "opponent": 6,
+    "plies": 94
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734001,
+    "seat": 1,
+    "own": 1,
+    "opponent": 3,
+    "plies": 150
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734005,
+    "seat": 0,
+    "own": 0,
+    "opponent": 4,
+    "plies": 130
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734005,
+    "seat": 1,
+    "own": 0,
+    "opponent": 7,
+    "plies": 119
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734002,
+    "seat": 0,
+    "own": 0,
+    "opponent": 4,
+    "plies": 128
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734002,
+    "seat": 1,
+    "own": 0,
+    "opponent": 6,
+    "plies": 67
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734006,
+    "seat": 0,
+    "own": 0,
+    "opponent": 5,
+    "plies": 140
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734006,
+    "seat": 1,
+    "own": 0,
+    "opponent": 8,
+    "plies": 91
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734003,
+    "seat": 0,
+    "own": 3,
+    "opponent": 4,
+    "plies": 150
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734003,
+    "seat": 1,
+    "own": 1,
+    "opponent": 7,
+    "plies": 150
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734007,
+    "seat": 0,
+    "own": 0,
+    "opponent": 4,
+    "plies": 96
+  },
+  {
+    "variant": "puct-value",
+    "map": 41734007,
+    "seat": 1,
+    "own": 0,
+    "opponent": 7,
+    "plies": 53
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734000,
+    "seat": 0,
+    "own": 3,
+    "opponent": 3,
+    "plies": 150
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734000,
+    "seat": 1,
+    "own": 3,
+    "opponent": 4,
+    "plies": 150
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734004,
+    "seat": 0,
+    "own": 1,
+    "opponent": 3,
+    "plies": 150
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734004,
+    "seat": 1,
+    "own": 1,
+    "opponent": 3,
+    "plies": 150
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734001,
+    "seat": 0,
+    "own": 0,
+    "opponent": 6,
+    "plies": 148
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734001,
+    "seat": 1,
+    "own": 4,
+    "opponent": 6,
+    "plies": 150
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734005,
+    "seat": 0,
+    "own": 0,
+    "opponent": 9,
+    "plies": 94
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734005,
+    "seat": 1,
+    "own": 1,
+    "opponent": 4,
+    "plies": 150
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734002,
+    "seat": 0,
+    "own": 2,
+    "opponent": 3,
+    "plies": 150
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734002,
+    "seat": 1,
+    "own": 3,
+    "opponent": 3,
+    "plies": 150
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734006,
+    "seat": 0,
+    "own": 4,
+    "opponent": 4,
+    "plies": 150
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734006,
+    "seat": 1,
+    "own": 0,
+    "opponent": 7,
+    "plies": 111
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734003,
+    "seat": 0,
+    "own": 6,
+    "opponent": 4,
+    "plies": 150
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734003,
+    "seat": 1,
+    "own": 3,
+    "opponent": 5,
+    "plies": 150
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734007,
+    "seat": 0,
+    "own": 0,
+    "opponent": 3,
+    "plies": 112
+  },
+  {
+    "variant": "puct-heuristic",
+    "map": 41734007,
+    "seat": 1,
+    "own": 1,
+    "opponent": 2,
+    "plies": 150
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734000,
+    "seat": 0,
+    "own": 0,
+    "opponent": 6,
+    "plies": 90
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734000,
+    "seat": 1,
+    "own": 0,
+    "opponent": 8,
+    "plies": 119
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734004,
+    "seat": 0,
+    "own": 0,
+    "opponent": 5,
+    "plies": 56
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734004,
+    "seat": 1,
+    "own": 0,
+    "opponent": 8,
+    "plies": 85
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734001,
+    "seat": 0,
+    "own": 0,
+    "opponent": 7,
+    "plies": 80
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734001,
+    "seat": 1,
+    "own": 0,
+    "opponent": 6,
+    "plies": 65
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734005,
+    "seat": 0,
+    "own": 0,
+    "opponent": 8,
+    "plies": 98
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734005,
+    "seat": 1,
+    "own": 0,
+    "opponent": 6,
+    "plies": 83
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734002,
+    "seat": 0,
+    "own": 1,
+    "opponent": 7,
+    "plies": 150
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734002,
+    "seat": 1,
+    "own": 0,
+    "opponent": 8,
+    "plies": 137
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734006,
+    "seat": 0,
+    "own": 0,
+    "opponent": 5,
+    "plies": 96
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734006,
+    "seat": 1,
+    "own": 0,
+    "opponent": 9,
+    "plies": 101
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734003,
+    "seat": 0,
+    "own": 0,
+    "opponent": 4,
+    "plies": 28
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734003,
+    "seat": 1,
+    "own": 0,
+    "opponent": 6,
+    "plies": 73
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734007,
+    "seat": 0,
+    "own": 0,
+    "opponent": 6,
+    "plies": 56
+  },
+  {
+    "variant": "ab-value",
+    "map": 41734007,
+    "seat": 1,
+    "own": 0,
+    "opponent": 5,
+    "plies": 65
+  }
+]

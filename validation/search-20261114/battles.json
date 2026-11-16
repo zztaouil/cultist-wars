@@ -1,0 +1,402 @@
+{
+  "submission_id": 41711656,
+  "battles": [
+    {
+      "game_id": 921438200,
+      "done": true,
+      "ended_at": "2026-11-14T05:48:47.622Z",
+      "my_position": 0,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        },
+        {
+          "position": 1,
+          "nickname": "matsu7874",
+          "agent_id": 6834404
+        }
+      ]
+    },
+    {
+      "game_id": 921438081,
+      "done": true,
+      "ended_at": "2026-11-14T05:47:51.507Z",
+      "my_position": 0,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        },
+        {
+          "position": 0,
+          "nickname": "Peterpanda",
+          "agent_id": 4611895
+        }
+      ]
+    },
+    {
+      "game_id": 921437962,
+      "done": true,
+      "ended_at": "2026-11-14T05:47:09.813Z",
+      "my_position": 1,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "Gold boss",
+          "agent_id": 4611894,
+          "boss": true,
+          "league": "Gold"
+        },
+        {
+          "position": 1,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        }
+      ]
+    },
+    {
+      "game_id": 921437843,
+      "done": true,
+      "ended_at": "2026-11-14T05:46:18.835Z",
+      "my_position": 1,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "Lv0Sys",
+          "agent_id": 6823739
+        },
+        {
+          "position": 1,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        }
+      ]
+    },
+    {
+      "game_id": 921437762,
+      "done": true,
+      "ended_at": "2026-11-14T05:45:49.420Z",
+      "my_position": 0,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        },
+        {
+          "position": 1,
+          "nickname": "NOT__",
+          "agent_id": 6806047
+        }
+      ]
+    },
+    {
+      "game_id": 921437605,
+      "done": true,
+      "ended_at": "2026-11-14T05:45:02.401Z",
+      "my_position": 0,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        },
+        {
+          "position": 1,
+          "nickname": "Konstant",
+          "agent_id": 6797148
+        }
+      ]
+    },
+    {
+      "game_id": 921437510,
+      "done": true,
+      "ended_at": "2026-11-14T05:44:24.807Z",
+      "my_position": 0,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        },
+        {
+          "position": 1,
+          "nickname": "YALOKGAR",
+          "agent_id": 6787045
+        }
+      ]
+    },
+    {
+      "game_id": 921437255,
+      "done": true,
+      "ended_at": "2026-11-14T05:43:31.874Z",
+      "my_position": 0,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        },
+        {
+          "position": 0,
+          "nickname": "YALOKGAR",
+          "agent_id": 6787045
+        }
+      ]
+    },
+    {
+      "game_id": 921437135,
+      "done": true,
+      "ended_at": "2026-11-14T05:42:28.450Z",
+      "my_position": 0,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        },
+        {
+          "position": 1,
+          "nickname": "Gold boss",
+          "agent_id": 4611894,
+          "boss": true,
+          "league": "Gold"
+        }
+      ]
+    },
+    {
+      "game_id": 921437014,
+      "done": true,
+      "ended_at": "2026-11-14T05:41:35.385Z",
+      "my_position": 0,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        },
+        {
+          "position": 1,
+          "nickname": "Konstant",
+          "agent_id": 6797148
+        }
+      ]
+    },
+    {
+      "game_id": 921436880,
+      "done": true,
+      "ended_at": "2026-11-14T05:40:45.578Z",
+      "my_position": 0,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        },
+        {
+          "position": 0,
+          "nickname": "NOT__",
+          "agent_id": 6806047
+        }
+      ]
+    },
+    {
+      "game_id": 921436771,
+      "done": true,
+      "ended_at": "2026-11-14T05:40:04.070Z",
+      "my_position": 0,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        },
+        {
+          "position": 0,
+          "nickname": "Konstant",
+          "agent_id": 6797148
+        }
+      ]
+    },
+    {
+      "game_id": 921436643,
+      "done": true,
+      "ended_at": "2026-11-14T05:39:12.857Z",
+      "my_position": 1,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "fabianoliver.at",
+          "agent_id": 6822650
+        },
+        {
+          "position": 1,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        }
+      ]
+    },
+    {
+      "game_id": 921436577,
+      "done": true,
+      "ended_at": "2026-11-14T05:38:52.682Z",
+      "my_position": 1,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "N3l",
+          "agent_id": 6796217
+        },
+        {
+          "position": 1,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        }
+      ]
+    },
+    {
+      "game_id": 921436446,
+      "done": true,
+      "ended_at": "2026-11-14T05:38:05.477Z",
+      "my_position": 1,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "Gold boss",
+          "agent_id": 4611894,
+          "boss": true,
+          "league": "Gold"
+        },
+        {
+          "position": 1,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        }
+      ]
+    },
+    {
+      "game_id": 921436360,
+      "done": true,
+      "ended_at": "2026-11-14T05:37:28.987Z",
+      "my_position": 0,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        },
+        {
+          "position": 1,
+          "nickname": "matsu7874",
+          "agent_id": 6834404
+        }
+      ]
+    },
+    {
+      "game_id": 921436202,
+      "done": true,
+      "ended_at": "2026-11-14T05:36:45.116Z",
+      "my_position": 0,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        },
+        {
+          "position": 1,
+          "nickname": "FrancoisB",
+          "agent_id": 6880362
+        }
+      ]
+    },
+    {
+      "game_id": 921436047,
+      "done": true,
+      "ended_at": "2026-11-14T05:35:51.867Z",
+      "my_position": 1,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "NOT__",
+          "agent_id": 6806047
+        },
+        {
+          "position": 1,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        }
+      ]
+    },
+    {
+      "game_id": 921435897,
+      "done": true,
+      "ended_at": "2026-11-14T05:35:01.306Z",
+      "my_position": 1,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "FrancoisB",
+          "agent_id": 6880362
+        },
+        {
+          "position": 1,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        }
+      ]
+    },
+    {
+      "game_id": 921435714,
+      "done": true,
+      "ended_at": "2026-11-14T05:34:09.678Z",
+      "my_position": 0,
+      "players": [
+        {
+          "position": 0,
+          "nickname": "hexagonee",
+          "agent_id": 6881754,
+          "me": true
+        },
+        {
+          "position": 1,
+          "nickname": "N3l",
+          "agent_id": 6796217
+        }
+      ]
+    }
+  ],
+  "next_before": 921435714,
+  "limits": {
+    "requests": {
+      "name": "requests_1m",
+      "limit": 120,
+      "used": 2,
+      "remaining": 118,
+      "window_seconds": 60,
+      "resets_in_seconds": 59
+    }
+  }
+}

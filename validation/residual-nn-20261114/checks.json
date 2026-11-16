@@ -1,0 +1,29 @@
+{
+  "disabled_exact_parity_positions": 51,
+  "checks": {
+    "test_bot": {
+      "returncode": 0,
+      "stdout": "PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking\n",
+      "stderr": ""
+    },
+    "test_search": {
+      "returncode": 0,
+      "stdout": "PASS: Q bounds, horizon isolation, compact move hints\n",
+      "stderr": ""
+    },
+    "test_recruitment": {
+      "returncode": 0,
+      "stdout": "PASS: recruitment access, blocking, exposure, symmetry, cache, dead leaders, walls\n",
+      "stderr": ""
+    },
+    "test_components": {
+      "returncode": 0,
+      "stdout": "PASS: safety damage, ownership symmetry, cache sign, walls, conversion contest\n",
+      "stderr": ""
+    }
+  },
+  "antisymmetry": true,
+  "bounded": true,
+  "tactical_bypass": true,
+  "terminal_bypass": true
+}

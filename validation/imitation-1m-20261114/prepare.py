@@ -1,5 +1,5 @@
 """Verify original transitions; deduplicate visible states; augment train only."""
-import array,ctypes as C,gzip,hashlib,json,random,subprocess,time
+import argparse,array,ctypes as C,gzip,hashlib,json,random,subprocess,time
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
 BASE=ROOT.parent/'nn-41710886'
@@ -17,6 +17,7 @@ def reflect(w,s,a,t):
  return ww,ss,aa
 
 def main():
+ p=argparse.ArgumentParser();p.add_argument('--corpus',type=Path,default=ROOT/'games.jsonl.gz');p.add_argument('--cache',type=Path,default=ROOT/'cache');p.add_argument('--max-games',type=int);args=p.parse_args()
  start=time.monotonic();build=ROOT/'build';build.mkdir(exist_ok=True)
  subprocess.run(['javac','-d',str(build/'java'),*map(str,(BASE/'java/model').glob('*.java'))],check=True)
  # Same frozen engine/features; expose shot victim to reject asymmetric ray tie cases.
@@ -27,9 +28,10 @@ def main():
  lib.extract.argtypes=[C.POINTER(C.c_int),C.POINTER(C.c_int),C.POINTER(C.c_float),C.POINTER(C.c_int),C.POINTER(C.c_int)]
  lib.verify_step.argtypes=[C.POINTER(C.c_int)]*3
  lib.shot_victim.argtypes=[C.POINTER(C.c_int)]*2
- games={str(g['id']):g for g in map(json.loads,gzip.open(ROOT/'games.jsonl.gz','rt'))}
+ games={str(g['id']):g for g in map(json.loads,gzip.open(args.corpus,'rt'))}
  experts={r['nickname'] for r in json.loads((ROOT/'leaderboard.json').read_text())['rows']}
  gids=sorted(games);random.Random(17).shuffle(gids)
+ if args.max_games:gids=gids[:args.max_games]
  with (build/'input.txt').open('w') as f:
   for gid in gids:
    g=games[gid]
@@ -37,10 +39,10 @@ def main():
    f.write(f"G {gid} {g['ref'].strip().split('=')[1]} {len(g['actions'])}\n"+'\n'.join(g['actions'])+'\n')
  with (build/'input.txt').open() as inp,(build/'recon.txt').open('w') as out:
   subprocess.run(['java','-cp',str(build/'java'),'model.Batch'],stdin=inp,stdout=out,check=True)
- cache=ROOT/'cache';cache.mkdir(exist_ok=False)
+ cache=args.cache;cache.mkdir(exist_ok=False)
  xf=(cache/'features.f32').open('wb');rf=(cache/'records.jsonl').open('w')
  offsets=[0];labels=[];splits=[];seen=set();counts=[0,0,0];players={};variants=[0]*4
- stats=dict(games_seen=0,games_valid=0,games_rejected=0,transitions_verified=0,original_positions=0,duplicates=0,reflection_ray_rejected=0,unmatched=0,forced=0)
+ stats=dict(corpus_games=len(games),timeout_or_empty_games_excluded=sum('TIMEOUT' in g['actions'] or not g['actions'] for g in games.values()),games_seen=0,games_valid=0,games_rejected=0,transitions_verified=0,original_positions=0,duplicates=0,reflection_ray_rejected=0,unmatched=0,forced=0)
  buf=(C.c_float*(253*128))();order=(C.c_int*253)();label=C.c_int()
  def consume(gid,w,states,acts,bad):
   stats['games_seen']+=1;g=games[gid]
@@ -53,19 +55,23 @@ def main():
   key=hashlib.sha256(bytes(min(reflect(w,states[0],acts[0],t)[0] for t in range(4)))).hexdigest()
   bucket=int(key[:8],16)%100;split=0 if bucket<80 else 1 if bucket<90 else 2
   names={a['index']:a['pseudo'] for a in g['agents']}
-  for i,s in enumerate(states[:-1]):
-   if names[s[56]] not in experts:continue
-   if split==0 and counts[0]>=TARGET:continue
-   a=acts[i];lib.setup(W(*w));original_victim=lib.shot_victim(A(*s),M(*a))
-   for t in (range(4) if split==0 else [0]):
+  candidates=[i for i,s in enumerate(states[:-1]) if names[s[56]] in experts]
+  victims={i:lib.shot_victim(A(*states[i]),M(*acts[i])) for i in candidates}
+  for t in (range(4) if split==0 else [0]):
+   ww=reflect(w,states[0],acts[0],t)[0];lib.setup(W(*ww))
+   for i in candidates:
     if split==0 and counts[0]>=TARGET:break
-    ww,ss,aa=reflect(w,s,a,t);lib.setup(W(*ww))
-    if a[0]==2 and lib.shot_victim(A(*ss),M(*aa))!=original_victim:stats['reflection_ray_rejected']+=1;continue
+    s=states[i];a=acts[i]
+    _,ss,aa=reflect(w,s,a,t)
+    if a[0]==2 and lib.shot_victim(A(*ss),M(*aa))!=victims[i]:stats['reflection_ray_rejected']+=1;continue
     n=lib.extract(A(*ss),M(*aa),buf,order,C.byref(label))
     if label.value<0:stats['unmatched']+=1;continue
     if n<2:stats['forced']+=1;continue
     # Observable state includes fixed IDs, seat, remaining turns; excludes hidden RNG.
-    digest=hashlib.blake2b(bytes(ww)+array.array('i',ss[:58]).tobytes(),digest_size=16).digest()
+    observable=ss[:58]
+    for j in range(14):
+     if observable[j*4+1]==0:observable[j*4:j*4+4]=[0]*4
+    digest=hashlib.blake2b(bytes(ww)+array.array('i',observable).tobytes(),digest_size=16).digest()
     if digest in seen:stats['duplicates']+=1;continue
     seen.add(digest);xf.write(C.string_at(buf,n*128*4));offsets.append(offsets[-1]+n);labels.append(label.value);splits.append(split);counts[split]+=1;variants[t]+=1
     stats['original_positions']+=int(t==0);players[names[s[56]]]=players.get(names[s[56]],0)+1

@@ -1,0 +1,2 @@
+PASS: rays, transitions, endgame, minimax, quiescence, neutral RNG, observation tracking
+PASS: recruitment access, blocking, exposure, symmetry, cache, dead leaders, walls

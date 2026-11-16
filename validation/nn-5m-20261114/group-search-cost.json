@@ -1,0 +1,26 @@
+{
+  "candidate": {
+    "positions": 100,
+    "mean_depth": 7.23,
+    "median_nodes": 517296.0,
+    "median_ms": 49.001,
+    "p95_ms": 49.003,
+    "max_ms": 49.005
+  },
+  "wide-group": {
+    "positions": 100,
+    "mean_depth": 7.22,
+    "median_nodes": 520656.0,
+    "median_ms": 49.0,
+    "p95_ms": 49.002,
+    "max_ms": 49.005
+  },
+  "group-tree": {
+    "positions": 100,
+    "mean_depth": 6.98,
+    "median_nodes": 407296.0,
+    "median_ms": 49.0005,
+    "p95_ms": 49.003,
+    "max_ms": 49.005
+  }
+}

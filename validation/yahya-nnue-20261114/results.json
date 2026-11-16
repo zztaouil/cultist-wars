@@ -1,0 +1,60 @@
+{
+  "teacher": {
+    "summary": true,
+    "games": 128,
+    "wins_a": 42,
+    "wins_b": 65,
+    "draws": 21,
+    "first_wins": 78,
+    "faults_a": 0,
+    "faults_b": 0,
+    "avg_plies": 143.1,
+    "max_ms_a": 5.9,
+    "max_ms_b": 192.1,
+    "ms": 50,
+    "first_ms": 1000,
+    "nodes": 8000,
+    "nodes_b": 8000,
+    "seed": 441100,
+    "score": 0.41015625,
+    "paired_bootstrap_95": [
+      0.34765625,
+      0.47265625
+    ]
+  },
+  "production": {
+    "summary": true,
+    "games": 64,
+    "wins_a": 64,
+    "wins_b": 0,
+    "draws": 0,
+    "first_wins": 32,
+    "faults_a": 0,
+    "faults_b": 0,
+    "avg_plies": 134.8,
+    "max_ms_a": 852.2,
+    "max_ms_b": 227.8,
+    "ms": 49,
+    "first_ms": 1000,
+    "nodes": 0,
+    "nodes_b": 0,
+    "seed": 541100,
+    "score": 1.0,
+    "paired_bootstrap_95": [
+      1.0,
+      1.0
+    ]
+  },
+  "sha256": {
+    "baseline.cpp": "53b76385ff7fdd7ab064bfb17b0b14ab2cd48c72c16d4b176416fbfa5c8a58a8",
+    "engine.cpp": "367cabbe70946c690b6992d420d6b5951cd7a036630e831e111ad31a860203b0",
+    "teacher.bin": "82e70a7153d71a04c330f633682cc2ad346d97f08f693e9229ac3840f384827e",
+    "candidate.bin": "1081244f492a097e936ff507c8176faa31033f12b342116874aa219c99d8e84a",
+    "bot.cpp": "3d234182c25bb3d239ab908da02c2c1a1049ce6a6dbc982e87d0c975984194f6",
+    "train.py": "356e847947937f15b201bda02a4f13d115da115fec08da98e4868d89de2cc24b",
+    "generate.py": "d454bdbc84e50556b605ebd92ee9f8d944e6f3979d4ea8256b12e8c1956277c3",
+    "tools/model.py": "8eac7863a1780efe350560d4f66c1f3aa1e37efc3be67d9befd551a52c946cbd",
+    "tools/pack.py": "99e349d7fe0eb6243c4aeb1888dfa7ffd734215295fab3b4b32703f7d90d6f61",
+    "tools/referee.cpp": "b1d242e11c1fa1e38832d9aeca63543ea2c23a36b7e1149fe91969e823a86d87"
+  }
+}

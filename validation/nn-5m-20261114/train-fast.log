@@ -1,0 +1,87 @@
+{"stage": "loading", "cache": "validation/imitation-5m-20261114/cache"}
+{"stage": "training", "split_positions": [5000000, 50601, 50291]}
+{"initial_validation": {"loss": 1.609655009529595, "top1": 0.4791407284441019, "top3": 0.7398075136855002, "positions": 50601}}
+{"epoch": 1, "processed": 819200, "seconds": 20.8}
+{"epoch": 1, "processed": 1638400, "seconds": 42.08}
+{"epoch": 1, "processed": 2457600, "seconds": 62.92}
+{"epoch": 1, "processed": 3271488, "seconds": 83.63}
+{"epoch": 1, "processed": 4090688, "seconds": 103.9}
+{"epoch": 1, "processed": 4909888, "seconds": 124.37}
+{"epoch": 1, "train_loss": 1.6008337360588074, "validation": {"loss": 1.6042247321473235, "top1": 0.478034030948005, "top3": 0.7390565403845774, "positions": 50601}, "seconds": 128.21, "lr": 0.0003}
+{"epoch": 2, "processed": 819200, "seconds": 21.64}
+{"epoch": 2, "processed": 1638400, "seconds": 43.27}
+{"epoch": 2, "processed": 2452288, "seconds": 63.78}
+{"epoch": 2, "processed": 3271488, "seconds": 85.05}
+{"epoch": 2, "processed": 4090688, "seconds": 106.17}
+{"epoch": 2, "processed": 4909888, "seconds": 126.94}
+{"epoch": 2, "train_loss": 1.5941595282676697, "validation": {"loss": 1.6046943389385369, "top1": 0.47846880496432875, "top3": 0.7399853757830873, "positions": 50601}, "seconds": 130.41, "lr": 0.0003}
+{"epoch": 3, "processed": 819200, "seconds": 21.25}
+{"epoch": 3, "processed": 1638400, "seconds": 42.74}
+{"epoch": 3, "processed": 2457600, "seconds": 63.39}
+{"epoch": 3, "processed": 3276800, "seconds": 84.22}
+{"epoch": 3, "processed": 4096000, "seconds": 104.87}
+{"epoch": 3, "processed": 4909888, "seconds": 126.72}
+{"epoch": 3, "train_loss": 1.5899909021087646, "validation": {"loss": 1.5993597051333595, "top1": 0.4795755024604257, "top3": 0.7396098891326258, "positions": 50601}, "seconds": 129.95, "lr": 0.0003}
+{"epoch": 4, "processed": 813888, "seconds": 21.5}
+{"epoch": 4, "processed": 1633088, "seconds": 41.91}
+{"epoch": 4, "processed": 2452288, "seconds": 62.87}
+{"epoch": 4, "processed": 3271488, "seconds": 84.14}
+{"epoch": 4, "processed": 4090688, "seconds": 105.84}
+{"epoch": 4, "processed": 4909888, "seconds": 127.16}
+{"epoch": 4, "train_loss": 1.5863196388572693, "validation": {"loss": 1.5993627676867026, "top1": 0.4817888974526195, "top3": 0.741131598189759, "positions": 50601}, "seconds": 131.04, "lr": 0.0003}
+{"epoch": 5, "processed": 819200, "seconds": 21.6}
+{"epoch": 5, "processed": 1638400, "seconds": 44.38}
+{"epoch": 5, "processed": 2457600, "seconds": 65.89}
+{"epoch": 5, "processed": 3276800, "seconds": 86.33}
+{"epoch": 5, "processed": 4090688, "seconds": 107.45}
+{"epoch": 5, "processed": 4909888, "seconds": 129.03}
+{"epoch": 5, "train_loss": 1.5834280607971192, "validation": {"loss": 1.6005108621228306, "top1": 0.47916049089938934, "top3": 0.7402027627912492, "positions": 50601}, "seconds": 132.64, "lr": 0.0003}
+{"epoch": 6, "processed": 819200, "seconds": 27.11}
+{"epoch": 6, "processed": 1633088, "seconds": 64.78}
+{"epoch": 6, "processed": 2452288, "seconds": 102.03}
+{"epoch": 6, "processed": 3271488, "seconds": 141.48}
+{"epoch": 6, "processed": 4090688, "seconds": 180.57}
+{"epoch": 6, "processed": 4909888, "seconds": 211.49}
+{"epoch": 6, "train_loss": 1.5808528017623902, "validation": {"loss": 1.5999732688185664, "top1": 0.4781328432244422, "top3": 0.7396296515879133, "positions": 50601}, "seconds": 217.6, "lr": 0.0003}
+{"epoch": 7, "processed": 819200, "seconds": 35.75}
+{"epoch": 7, "processed": 1638400, "seconds": 70.61}
+{"epoch": 7, "processed": 2457600, "seconds": 104.2}
+{"epoch": 7, "processed": 3271488, "seconds": 139.79}
+{"epoch": 7, "processed": 4090688, "seconds": 175.01}
+{"epoch": 7, "processed": 4909888, "seconds": 210.94}
+{"epoch": 7, "train_loss": 1.5783201354225158, "validation": {"loss": 1.5974585826268641, "top1": 0.47876524179364044, "top3": 0.7407758739945851, "positions": 50601}, "seconds": 216.62, "lr": 0.0003}
+{"epoch": 8, "processed": 819200, "seconds": 34.98}
+{"epoch": 8, "processed": 1638400, "seconds": 69.56}
+{"epoch": 8, "processed": 2457600, "seconds": 105.19}
+{"epoch": 8, "processed": 3276800, "seconds": 141.03}
+{"epoch": 8, "processed": 4090688, "seconds": 176.15}
+{"epoch": 8, "processed": 4909888, "seconds": 210.86}
+{"epoch": 8, "train_loss": 1.5764942671669007, "validation": {"loss": 1.5988865551162912, "top1": 0.47757949447639375, "top3": 0.7413292227426336, "positions": 50601}, "seconds": 216.84, "lr": 0.0003}
+{"epoch": 9, "processed": 819200, "seconds": 35.19}
+{"epoch": 9, "processed": 1638400, "seconds": 69.36}
+{"epoch": 9, "processed": 2457600, "seconds": 102.23}
+{"epoch": 9, "processed": 3276800, "seconds": 137.53}
+{"epoch": 9, "processed": 4096000, "seconds": 171.8}
+{"epoch": 9, "processed": 4915200, "seconds": 206.52}
+{"epoch": 9, "train_loss": 1.5745141100196838, "validation": {"loss": 1.593916585291283, "top1": 0.48234224620066796, "top3": 0.7432857058160905, "positions": 50601}, "seconds": 212.08, "lr": 0.0003}
+{"epoch": 10, "processed": 819200, "seconds": 33.34}
+{"epoch": 10, "processed": 1638400, "seconds": 67.84}
+{"epoch": 10, "processed": 2452288, "seconds": 103.28}
+{"epoch": 10, "processed": 3271488, "seconds": 138.41}
+{"epoch": 10, "processed": 4090688, "seconds": 172.21}
+{"epoch": 10, "processed": 4909888, "seconds": 206.88}
+{"epoch": 10, "train_loss": 1.5728266366920471, "validation": {"loss": 1.597536329747104, "top1": 0.47929882808640145, "top3": 0.7378707930673307, "positions": 50601}, "seconds": 213.1, "lr": 0.0003}
+{"epoch": 11, "processed": 819200, "seconds": 37.08}
+{"epoch": 11, "processed": 1638400, "seconds": 73.34}
+{"epoch": 11, "processed": 2457600, "seconds": 107.64}
+{"epoch": 11, "processed": 3276800, "seconds": 143.42}
+{"epoch": 11, "processed": 4096000, "seconds": 177.04}
+{"epoch": 11, "processed": 4909888, "seconds": 211.14}
+{"epoch": 11, "train_loss": 1.5715275422706605, "validation": {"loss": 1.5968353934293773, "top1": 0.4787059544277781, "top3": 0.7428114068891919, "positions": 50601}, "seconds": 216.47, "lr": 0.0003}
+{"epoch": 12, "processed": 819200, "seconds": 34.92}
+{"epoch": 12, "processed": 1638400, "seconds": 69.82}
+{"epoch": 12, "processed": 2457600, "seconds": 104.3}
+{"epoch": 12, "processed": 3276800, "seconds": 138.2}
+{"epoch": 12, "processed": 4090688, "seconds": 170.84}
+{"epoch": 12, "processed": 4909888, "seconds": 206.0}
+{"epoch": 12, "train_loss": 1.570074653689575, "validation": {"loss": 1.5962775226204846, "top1": 0.48044505049307323, "top3": 0.742416157783443, "positions": 50601}, "seconds": 211.69, "lr": 0.0003}

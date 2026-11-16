@@ -1,0 +1,9 @@
+{
+  "wins": 3,
+  "draws": 8,
+  "losses": 5,
+  "score": 0.4375,
+  "budget_ms": 48,
+  "pairs": 8,
+  "workers": 1
+}

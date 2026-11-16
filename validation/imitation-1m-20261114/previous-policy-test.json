@@ -1,0 +1,11 @@
+{
+  "weights": "/Users/hexagone/Documents/ChatGPT/cultist-wars/validation/nn-large-20261114/large/policy_weights.npz",
+  "weights_sha256": "b369acf2ec2ac8af180c737290206827953236cc22320572410244b434fe5895",
+  "test": {
+    "positions": 32382,
+    "loss": 1.7133911492818517,
+    "top1": 0.4515162744734729,
+    "top3": 0.7002655796430115
+  },
+  "note": "Same original-only test maps as new policy; descriptive comparison, not an arena-strength test."
+}

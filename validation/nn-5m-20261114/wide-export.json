@@ -1,0 +1,13 @@
+{
+  "architecture": [
+    128,
+    192,
+    96,
+    1
+  ],
+  "parameters": 43393,
+  "source_bytes": 92208,
+  "source_sha256": "44a826d6b29b5bab0af282446773a93b5ddd4c689b42a75f6685a5b32c0ba86f",
+  "storage": "per-channel int8 weights; FP16 scales and biases",
+  "inference": "float32"
+}

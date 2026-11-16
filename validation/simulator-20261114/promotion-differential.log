@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/hexagone/Documents/ChatGPT/cultist-wars/tests/test_differential.py", line 77, in <module>
+    assert before.score(state)==after.score(state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,19 @@
+{
+  "games": 8,
+  "wins": 0,
+  "draws": 0,
+  "losses": 8,
+  "budget_ms": 49,
+  "maps": [
+    41734002,
+    41734008,
+    41734051,
+    41734053
+  ],
+  "candidate_sha256": "26581fb8d7360167ab58e2202ad93ba5c25a2c8712ac22eba5216bd1154f26a3",
+  "baseline_sha256": "53b76385ff7fdd7ab064bfb17b0b14ab2cd48c72c16d4b176416fbfa5c8a58a8",
+  "notes": [
+    "Reused development maps, paired seats, exact-RNG same-family simulator.",
+    "Local evidence only. No arena strength or judge timing claim."
+  ]
+}

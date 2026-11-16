@@ -40,3 +40,13 @@
 {"agent": 6881318, "battles": 145, "games": 1231, "agents_remaining": 1}
 {"agent": 6881440, "battles": 123, "games": 1262, "agents_remaining": 0}
 {"processed": 50, "total": 1262}
+{"processed": 100, "total": 1262}
+{"processed": 150, "total": 1262}
+{"processed": 600, "total": 1262}
+{"processed": 650, "total": 1262}
+{"processed": 700, "total": 1262}
+{"processed": 750, "total": 1262}
+{"processed": 800, "total": 1262}
+{"processed": 850, "total": 1262}
+{"processed": 900, "total": 1262}
+{"games": 3315, "players": ["Astrobytes", "KawattaTaido", "MSz", "Noobkins", "Pduhard-", "Zylo", "aCat", "jacek", "putibuzu", "yhyoxx"], "agents": 41, "raw_expert_turns": 343681}

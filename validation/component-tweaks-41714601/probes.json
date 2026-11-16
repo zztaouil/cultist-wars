@@ -1,0 +1,2702 @@
+[
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 79,
+    "variant": "baseline",
+    "value": 1959,
+    "action": [
+      1,
+      2,
+      17
+    ],
+    "depth": 6,
+    "nodes": 209792,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 79,
+    "variant": "guard_futility",
+    "value": 1959,
+    "action": [
+      1,
+      2,
+      17
+    ],
+    "depth": 6,
+    "nodes": 351648,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 79,
+    "variant": "no_nn",
+    "value": 1959,
+    "action": [
+      1,
+      2,
+      17
+    ],
+    "depth": 6,
+    "nodes": 388928,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 81,
+    "variant": "baseline",
+    "value": 1926,
+    "action": [
+      2,
+      2,
+      7
+    ],
+    "depth": 6,
+    "nodes": 387776,
+    "ns": 48002000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 81,
+    "variant": "guard_futility",
+    "value": 1926,
+    "action": [
+      2,
+      2,
+      7
+    ],
+    "depth": 6,
+    "nodes": 407904,
+    "ns": 48003000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 81,
+    "variant": "no_nn",
+    "value": 1926,
+    "action": [
+      2,
+      2,
+      7
+    ],
+    "depth": 6,
+    "nodes": 411360,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 83,
+    "variant": "baseline",
+    "value": 1885,
+    "action": [
+      1,
+      1,
+      20
+    ],
+    "depth": 6,
+    "nodes": 428032,
+    "ns": 48003000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 83,
+    "variant": "guard_futility",
+    "value": 1885,
+    "action": [
+      1,
+      1,
+      20
+    ],
+    "depth": 6,
+    "nodes": 429184,
+    "ns": 48003000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 83,
+    "variant": "no_nn",
+    "value": 1885,
+    "action": [
+      1,
+      1,
+      20
+    ],
+    "depth": 6,
+    "nodes": 426272,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 85,
+    "variant": "baseline",
+    "value": 1010,
+    "action": [
+      1,
+      8,
+      30
+    ],
+    "depth": 7,
+    "nodes": 442592,
+    "ns": 48003000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 85,
+    "variant": "guard_futility",
+    "value": 1010,
+    "action": [
+      1,
+      8,
+      30
+    ],
+    "depth": 7,
+    "nodes": 444896,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 85,
+    "variant": "no_nn",
+    "value": 1010,
+    "action": [
+      1,
+      8,
+      30
+    ],
+    "depth": 7,
+    "nodes": 444192,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 89,
+    "variant": "baseline",
+    "value": 1005,
+    "action": [
+      1,
+      1,
+      18
+    ],
+    "depth": 6,
+    "nodes": 407520,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 89,
+    "variant": "guard_futility",
+    "value": 1003,
+    "action": [
+      1,
+      1,
+      20
+    ],
+    "depth": 7,
+    "nodes": 428096,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 89,
+    "variant": "no_nn",
+    "value": 1005,
+    "action": [
+      1,
+      1,
+      18
+    ],
+    "depth": 6,
+    "nodes": 414144,
+    "ns": 48003000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 91,
+    "variant": "baseline",
+    "value": 1032,
+    "action": [
+      2,
+      8,
+      0
+    ],
+    "depth": 7,
+    "nodes": 463520,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 91,
+    "variant": "guard_futility",
+    "value": 1032,
+    "action": [
+      2,
+      8,
+      0
+    ],
+    "depth": 7,
+    "nodes": 444704,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574605",
+    "turn": 91,
+    "variant": "no_nn",
+    "value": 1032,
+    "action": [
+      2,
+      8,
+      0
+    ],
+    "depth": 7,
+    "nodes": 448320,
+    "ns": 48002000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574271",
+    "turn": 29,
+    "variant": "baseline",
+    "value": -151,
+    "action": [
+      1,
+      8,
+      11
+    ],
+    "depth": 6,
+    "nodes": 311328,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574271",
+    "turn": 29,
+    "variant": "guard_futility",
+    "value": -151,
+    "action": [
+      1,
+      8,
+      11
+    ],
+    "depth": 6,
+    "nodes": 304960,
+    "ns": 48004000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574271",
+    "turn": 29,
+    "variant": "no_nn",
+    "value": -151,
+    "action": [
+      1,
+      8,
+      11
+    ],
+    "depth": 6,
+    "nodes": 312416,
+    "ns": 48002000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574271",
+    "turn": 39,
+    "variant": "baseline",
+    "value": -172,
+    "action": [
+      1,
+      8,
+      25
+    ],
+    "depth": 6,
+    "nodes": 285536,
+    "ns": 48003000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574271",
+    "turn": 39,
+    "variant": "guard_futility",
+    "value": -172,
+    "action": [
+      1,
+      8,
+      25
+    ],
+    "depth": 6,
+    "nodes": 287264,
+    "ns": 48002000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574271",
+    "turn": 39,
+    "variant": "no_nn",
+    "value": -172,
+    "action": [
+      1,
+      8,
+      25
+    ],
+    "depth": 6,
+    "nodes": 291968,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574271",
+    "turn": 49,
+    "variant": "baseline",
+    "value": -279,
+    "action": [
+      2,
+      10,
+      9
+    ],
+    "depth": 6,
+    "nodes": 332288,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574271",
+    "turn": 49,
+    "variant": "guard_futility",
+    "value": -279,
+    "action": [
+      2,
+      10,
+      9
+    ],
+    "depth": 6,
+    "nodes": 339872,
+    "ns": 48002000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574271",
+    "turn": 49,
+    "variant": "no_nn",
+    "value": -279,
+    "action": [
+      2,
+      10,
+      9
+    ],
+    "depth": 6,
+    "nodes": 335104,
+    "ns": 48002000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574680",
+    "turn": 33,
+    "variant": "baseline",
+    "value": -1199,
+    "action": [
+      1,
+      1,
+      45
+    ],
+    "depth": 6,
+    "nodes": 310624,
+    "ns": 48004000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574680",
+    "turn": 33,
+    "variant": "guard_futility",
+    "value": -1199,
+    "action": [
+      1,
+      1,
+      45
+    ],
+    "depth": 6,
+    "nodes": 312608,
+    "ns": 48002000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574680",
+    "turn": 33,
+    "variant": "no_nn",
+    "value": -1199,
+    "action": [
+      1,
+      1,
+      45
+    ],
+    "depth": 6,
+    "nodes": 310784,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574680",
+    "turn": 37,
+    "variant": "baseline",
+    "value": -2179,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 4,
+    "nodes": 400960,
+    "ns": 48002000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574680",
+    "turn": 37,
+    "variant": "guard_futility",
+    "value": -2179,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 4,
+    "nodes": 415392,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574680",
+    "turn": 37,
+    "variant": "no_nn",
+    "value": -2179,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 4,
+    "nodes": 412640,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574680",
+    "turn": 99,
+    "variant": "baseline",
+    "value": -2227,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 399968,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574680",
+    "turn": 99,
+    "variant": "guard_futility",
+    "value": -2227,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 406528,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574680",
+    "turn": 99,
+    "variant": "no_nn",
+    "value": -2227,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 399264,
+    "ns": 48004000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574680",
+    "turn": 139,
+    "variant": "baseline",
+    "value": -2177,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 460032,
+    "ns": 48002000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574680",
+    "turn": 139,
+    "variant": "guard_futility",
+    "value": -2177,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 457280,
+    "ns": 48002000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574680",
+    "turn": 139,
+    "variant": "no_nn",
+    "value": -2177,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 454208,
+    "ns": 48002000
+  },
+  {
+    "rep": 0,
+    "id": "game-921572974",
+    "turn": 52,
+    "variant": "baseline",
+    "value": -2162,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 6,
+    "nodes": 351008,
+    "ns": 48006000
+  },
+  {
+    "rep": 0,
+    "id": "game-921572974",
+    "turn": 52,
+    "variant": "guard_futility",
+    "value": -2162,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 6,
+    "nodes": 346272,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921572974",
+    "turn": 52,
+    "variant": "no_nn",
+    "value": -2162,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 6,
+    "nodes": 352960,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921572974",
+    "turn": 100,
+    "variant": "baseline",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 7,
+    "nodes": 328192,
+    "ns": 48004000
+  },
+  {
+    "rep": 0,
+    "id": "game-921572974",
+    "turn": 100,
+    "variant": "guard_futility",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 7,
+    "nodes": 333568,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921572974",
+    "turn": 100,
+    "variant": "no_nn",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 7,
+    "nodes": 337792,
+    "ns": 48004000
+  },
+  {
+    "rep": 0,
+    "id": "game-921572974",
+    "turn": 140,
+    "variant": "baseline",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 5,
+    "nodes": 416192,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921572974",
+    "turn": 140,
+    "variant": "guard_futility",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 5,
+    "nodes": 415872,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921572974",
+    "turn": 140,
+    "variant": "no_nn",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 5,
+    "nodes": 420672,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574110",
+    "turn": 115,
+    "variant": "baseline",
+    "value": 139,
+    "action": [
+      1,
+      1,
+      59
+    ],
+    "depth": 12,
+    "nodes": 701888,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574110",
+    "turn": 115,
+    "variant": "guard_futility",
+    "value": 139,
+    "action": [
+      1,
+      1,
+      59
+    ],
+    "depth": 12,
+    "nodes": 698048,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574110",
+    "turn": 115,
+    "variant": "no_nn",
+    "value": 139,
+    "action": [
+      1,
+      1,
+      59
+    ],
+    "depth": 12,
+    "nodes": 699936,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574110",
+    "turn": 117,
+    "variant": "baseline",
+    "value": -709,
+    "action": [
+      3,
+      1,
+      6
+    ],
+    "depth": 13,
+    "nodes": 699936,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574110",
+    "turn": 117,
+    "variant": "guard_futility",
+    "value": -709,
+    "action": [
+      3,
+      1,
+      6
+    ],
+    "depth": 13,
+    "nodes": 679680,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574110",
+    "turn": 117,
+    "variant": "no_nn",
+    "value": -69,
+    "action": [
+      3,
+      1,
+      6
+    ],
+    "depth": 12,
+    "nodes": 671968,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574564",
+    "turn": 22,
+    "variant": "baseline",
+    "value": -790,
+    "action": [
+      3,
+      0,
+      12
+    ],
+    "depth": 6,
+    "nodes": 366272,
+    "ns": 48004000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574564",
+    "turn": 22,
+    "variant": "guard_futility",
+    "value": -790,
+    "action": [
+      3,
+      0,
+      12
+    ],
+    "depth": 6,
+    "nodes": 365632,
+    "ns": 48001000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574564",
+    "turn": 22,
+    "variant": "no_nn",
+    "value": -790,
+    "action": [
+      3,
+      0,
+      12
+    ],
+    "depth": 6,
+    "nodes": 366304,
+    "ns": 48000000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574564",
+    "turn": 24,
+    "variant": "baseline",
+    "value": -737,
+    "action": [
+      2,
+      12,
+      9
+    ],
+    "depth": 5,
+    "nodes": 365984,
+    "ns": 48002000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574564",
+    "turn": 24,
+    "variant": "guard_futility",
+    "value": -737,
+    "action": [
+      2,
+      12,
+      9
+    ],
+    "depth": 5,
+    "nodes": 365600,
+    "ns": 48003000
+  },
+  {
+    "rep": 0,
+    "id": "game-921574564",
+    "turn": 24,
+    "variant": "no_nn",
+    "value": -737,
+    "action": [
+      2,
+      12,
+      9
+    ],
+    "depth": 5,
+    "nodes": 368704,
+    "ns": 48002000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 79,
+    "variant": "no_nn",
+    "value": 1959,
+    "action": [
+      1,
+      2,
+      17
+    ],
+    "depth": 6,
+    "nodes": 380128,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 79,
+    "variant": "guard_futility",
+    "value": 1959,
+    "action": [
+      1,
+      2,
+      17
+    ],
+    "depth": 6,
+    "nodes": 371904,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 79,
+    "variant": "baseline",
+    "value": 1959,
+    "action": [
+      1,
+      2,
+      17
+    ],
+    "depth": 6,
+    "nodes": 372000,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 81,
+    "variant": "no_nn",
+    "value": 1926,
+    "action": [
+      2,
+      2,
+      7
+    ],
+    "depth": 6,
+    "nodes": 404160,
+    "ns": 48002000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 81,
+    "variant": "guard_futility",
+    "value": 1926,
+    "action": [
+      2,
+      2,
+      7
+    ],
+    "depth": 6,
+    "nodes": 421824,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 81,
+    "variant": "baseline",
+    "value": 1926,
+    "action": [
+      2,
+      2,
+      7
+    ],
+    "depth": 6,
+    "nodes": 410432,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 83,
+    "variant": "no_nn",
+    "value": 1885,
+    "action": [
+      1,
+      1,
+      20
+    ],
+    "depth": 6,
+    "nodes": 422944,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 83,
+    "variant": "guard_futility",
+    "value": 1885,
+    "action": [
+      1,
+      1,
+      20
+    ],
+    "depth": 6,
+    "nodes": 425152,
+    "ns": 48005000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 83,
+    "variant": "baseline",
+    "value": 1885,
+    "action": [
+      1,
+      1,
+      20
+    ],
+    "depth": 6,
+    "nodes": 425952,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 85,
+    "variant": "no_nn",
+    "value": 1010,
+    "action": [
+      1,
+      8,
+      30
+    ],
+    "depth": 7,
+    "nodes": 443680,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 85,
+    "variant": "guard_futility",
+    "value": 1010,
+    "action": [
+      1,
+      8,
+      30
+    ],
+    "depth": 7,
+    "nodes": 445600,
+    "ns": 48002000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 85,
+    "variant": "baseline",
+    "value": 1010,
+    "action": [
+      1,
+      8,
+      30
+    ],
+    "depth": 7,
+    "nodes": 441984,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 89,
+    "variant": "no_nn",
+    "value": 1005,
+    "action": [
+      1,
+      1,
+      18
+    ],
+    "depth": 6,
+    "nodes": 410560,
+    "ns": 48002000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 89,
+    "variant": "guard_futility",
+    "value": 1003,
+    "action": [
+      1,
+      1,
+      20
+    ],
+    "depth": 7,
+    "nodes": 418080,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 89,
+    "variant": "baseline",
+    "value": 1005,
+    "action": [
+      1,
+      1,
+      18
+    ],
+    "depth": 6,
+    "nodes": 406848,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 91,
+    "variant": "no_nn",
+    "value": 1032,
+    "action": [
+      2,
+      8,
+      0
+    ],
+    "depth": 7,
+    "nodes": 454080,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 91,
+    "variant": "guard_futility",
+    "value": 1032,
+    "action": [
+      2,
+      8,
+      0
+    ],
+    "depth": 7,
+    "nodes": 457312,
+    "ns": 48002000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574605",
+    "turn": 91,
+    "variant": "baseline",
+    "value": 1032,
+    "action": [
+      2,
+      8,
+      0
+    ],
+    "depth": 7,
+    "nodes": 458208,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574271",
+    "turn": 29,
+    "variant": "no_nn",
+    "value": -151,
+    "action": [
+      1,
+      8,
+      11
+    ],
+    "depth": 6,
+    "nodes": 312544,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574271",
+    "turn": 29,
+    "variant": "guard_futility",
+    "value": -151,
+    "action": [
+      1,
+      8,
+      11
+    ],
+    "depth": 6,
+    "nodes": 316288,
+    "ns": 48004000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574271",
+    "turn": 29,
+    "variant": "baseline",
+    "value": -151,
+    "action": [
+      1,
+      8,
+      11
+    ],
+    "depth": 6,
+    "nodes": 310688,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574271",
+    "turn": 39,
+    "variant": "no_nn",
+    "value": -172,
+    "action": [
+      1,
+      8,
+      25
+    ],
+    "depth": 6,
+    "nodes": 292384,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574271",
+    "turn": 39,
+    "variant": "guard_futility",
+    "value": -172,
+    "action": [
+      1,
+      8,
+      25
+    ],
+    "depth": 6,
+    "nodes": 288512,
+    "ns": 48006000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574271",
+    "turn": 39,
+    "variant": "baseline",
+    "value": -172,
+    "action": [
+      1,
+      8,
+      25
+    ],
+    "depth": 6,
+    "nodes": 258912,
+    "ns": 48004000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574271",
+    "turn": 49,
+    "variant": "no_nn",
+    "value": -279,
+    "action": [
+      2,
+      10,
+      9
+    ],
+    "depth": 6,
+    "nodes": 324384,
+    "ns": 48003000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574271",
+    "turn": 49,
+    "variant": "guard_futility",
+    "value": -279,
+    "action": [
+      2,
+      10,
+      9
+    ],
+    "depth": 6,
+    "nodes": 338976,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574271",
+    "turn": 49,
+    "variant": "baseline",
+    "value": -279,
+    "action": [
+      2,
+      10,
+      9
+    ],
+    "depth": 6,
+    "nodes": 338464,
+    "ns": 48004000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574680",
+    "turn": 33,
+    "variant": "no_nn",
+    "value": -1199,
+    "action": [
+      1,
+      1,
+      45
+    ],
+    "depth": 6,
+    "nodes": 310880,
+    "ns": 48004000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574680",
+    "turn": 33,
+    "variant": "guard_futility",
+    "value": -1199,
+    "action": [
+      1,
+      1,
+      45
+    ],
+    "depth": 6,
+    "nodes": 317248,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574680",
+    "turn": 33,
+    "variant": "baseline",
+    "value": -1199,
+    "action": [
+      1,
+      1,
+      45
+    ],
+    "depth": 6,
+    "nodes": 309024,
+    "ns": 48002000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574680",
+    "turn": 37,
+    "variant": "no_nn",
+    "value": -2179,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 4,
+    "nodes": 412480,
+    "ns": 48003000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574680",
+    "turn": 37,
+    "variant": "guard_futility",
+    "value": -2179,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 4,
+    "nodes": 343104,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574680",
+    "turn": 37,
+    "variant": "baseline",
+    "value": -2179,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 4,
+    "nodes": 403424,
+    "ns": 48004000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574680",
+    "turn": 99,
+    "variant": "no_nn",
+    "value": -2227,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 398176,
+    "ns": 48002000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574680",
+    "turn": 99,
+    "variant": "guard_futility",
+    "value": -2227,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 401664,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574680",
+    "turn": 99,
+    "variant": "baseline",
+    "value": -2227,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 397920,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574680",
+    "turn": 139,
+    "variant": "no_nn",
+    "value": -2177,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 464576,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574680",
+    "turn": 139,
+    "variant": "guard_futility",
+    "value": -2177,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 454144,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574680",
+    "turn": 139,
+    "variant": "baseline",
+    "value": -2177,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 455552,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921572974",
+    "turn": 52,
+    "variant": "no_nn",
+    "value": -2162,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 6,
+    "nodes": 354848,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921572974",
+    "turn": 52,
+    "variant": "guard_futility",
+    "value": -2162,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 6,
+    "nodes": 354464,
+    "ns": 48002000
+  },
+  {
+    "rep": 1,
+    "id": "game-921572974",
+    "turn": 52,
+    "variant": "baseline",
+    "value": -2162,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 6,
+    "nodes": 352768,
+    "ns": 48003000
+  },
+  {
+    "rep": 1,
+    "id": "game-921572974",
+    "turn": 100,
+    "variant": "no_nn",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 7,
+    "nodes": 336064,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921572974",
+    "turn": 100,
+    "variant": "guard_futility",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 7,
+    "nodes": 333664,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921572974",
+    "turn": 100,
+    "variant": "baseline",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 7,
+    "nodes": 332864,
+    "ns": 48005000
+  },
+  {
+    "rep": 1,
+    "id": "game-921572974",
+    "turn": 140,
+    "variant": "no_nn",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 5,
+    "nodes": 420256,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921572974",
+    "turn": 140,
+    "variant": "guard_futility",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 5,
+    "nodes": 416480,
+    "ns": 48003000
+  },
+  {
+    "rep": 1,
+    "id": "game-921572974",
+    "turn": 140,
+    "variant": "baseline",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 5,
+    "nodes": 418048,
+    "ns": 48002000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574110",
+    "turn": 115,
+    "variant": "no_nn",
+    "value": 139,
+    "action": [
+      1,
+      1,
+      59
+    ],
+    "depth": 12,
+    "nodes": 698816,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574110",
+    "turn": 115,
+    "variant": "guard_futility",
+    "value": 139,
+    "action": [
+      1,
+      1,
+      59
+    ],
+    "depth": 12,
+    "nodes": 695072,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574110",
+    "turn": 115,
+    "variant": "baseline",
+    "value": 139,
+    "action": [
+      1,
+      1,
+      59
+    ],
+    "depth": 12,
+    "nodes": 703776,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574110",
+    "turn": 117,
+    "variant": "no_nn",
+    "value": -69,
+    "action": [
+      3,
+      1,
+      6
+    ],
+    "depth": 12,
+    "nodes": 696320,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574110",
+    "turn": 117,
+    "variant": "guard_futility",
+    "value": -709,
+    "action": [
+      3,
+      1,
+      6
+    ],
+    "depth": 13,
+    "nodes": 698080,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574110",
+    "turn": 117,
+    "variant": "baseline",
+    "value": -709,
+    "action": [
+      3,
+      1,
+      6
+    ],
+    "depth": 13,
+    "nodes": 700512,
+    "ns": 48002000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574564",
+    "turn": 22,
+    "variant": "no_nn",
+    "value": -790,
+    "action": [
+      3,
+      0,
+      12
+    ],
+    "depth": 6,
+    "nodes": 372064,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574564",
+    "turn": 22,
+    "variant": "guard_futility",
+    "value": -790,
+    "action": [
+      3,
+      0,
+      12
+    ],
+    "depth": 6,
+    "nodes": 374048,
+    "ns": 48001000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574564",
+    "turn": 22,
+    "variant": "baseline",
+    "value": -790,
+    "action": [
+      3,
+      0,
+      12
+    ],
+    "depth": 6,
+    "nodes": 371744,
+    "ns": 48005000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574564",
+    "turn": 24,
+    "variant": "no_nn",
+    "value": -737,
+    "action": [
+      2,
+      12,
+      9
+    ],
+    "depth": 5,
+    "nodes": 373376,
+    "ns": 48002000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574564",
+    "turn": 24,
+    "variant": "guard_futility",
+    "value": -737,
+    "action": [
+      2,
+      12,
+      9
+    ],
+    "depth": 5,
+    "nodes": 376768,
+    "ns": 48000000
+  },
+  {
+    "rep": 1,
+    "id": "game-921574564",
+    "turn": 24,
+    "variant": "baseline",
+    "value": -737,
+    "action": [
+      2,
+      12,
+      9
+    ],
+    "depth": 5,
+    "nodes": 372192,
+    "ns": 48005000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 79,
+    "variant": "baseline",
+    "value": 1959,
+    "action": [
+      1,
+      2,
+      17
+    ],
+    "depth": 6,
+    "nodes": 386944,
+    "ns": 48002000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 79,
+    "variant": "guard_futility",
+    "value": 1959,
+    "action": [
+      1,
+      2,
+      17
+    ],
+    "depth": 6,
+    "nodes": 388480,
+    "ns": 48002000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 79,
+    "variant": "no_nn",
+    "value": 1959,
+    "action": [
+      1,
+      2,
+      17
+    ],
+    "depth": 6,
+    "nodes": 389664,
+    "ns": 48003000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 81,
+    "variant": "baseline",
+    "value": 1926,
+    "action": [
+      2,
+      2,
+      7
+    ],
+    "depth": 6,
+    "nodes": 404288,
+    "ns": 48000000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 81,
+    "variant": "guard_futility",
+    "value": 1926,
+    "action": [
+      2,
+      2,
+      7
+    ],
+    "depth": 6,
+    "nodes": 410656,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 81,
+    "variant": "no_nn",
+    "value": 1926,
+    "action": [
+      2,
+      2,
+      7
+    ],
+    "depth": 6,
+    "nodes": 402752,
+    "ns": 48004000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 83,
+    "variant": "baseline",
+    "value": 1885,
+    "action": [
+      1,
+      1,
+      20
+    ],
+    "depth": 6,
+    "nodes": 422144,
+    "ns": 48003000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 83,
+    "variant": "guard_futility",
+    "value": 1885,
+    "action": [
+      1,
+      1,
+      20
+    ],
+    "depth": 6,
+    "nodes": 429440,
+    "ns": 48003000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 83,
+    "variant": "no_nn",
+    "value": 1885,
+    "action": [
+      1,
+      1,
+      20
+    ],
+    "depth": 6,
+    "nodes": 429760,
+    "ns": 48000000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 85,
+    "variant": "baseline",
+    "value": 1010,
+    "action": [
+      1,
+      8,
+      30
+    ],
+    "depth": 7,
+    "nodes": 445728,
+    "ns": 48000000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 85,
+    "variant": "guard_futility",
+    "value": 1010,
+    "action": [
+      1,
+      8,
+      30
+    ],
+    "depth": 7,
+    "nodes": 441536,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 85,
+    "variant": "no_nn",
+    "value": 1010,
+    "action": [
+      1,
+      8,
+      30
+    ],
+    "depth": 7,
+    "nodes": 451008,
+    "ns": 48002000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 89,
+    "variant": "baseline",
+    "value": 1005,
+    "action": [
+      1,
+      1,
+      18
+    ],
+    "depth": 6,
+    "nodes": 409824,
+    "ns": 48002000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 89,
+    "variant": "guard_futility",
+    "value": 1003,
+    "action": [
+      1,
+      1,
+      20
+    ],
+    "depth": 7,
+    "nodes": 430752,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 89,
+    "variant": "no_nn",
+    "value": 1005,
+    "action": [
+      1,
+      1,
+      18
+    ],
+    "depth": 6,
+    "nodes": 413376,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 91,
+    "variant": "baseline",
+    "value": 1032,
+    "action": [
+      2,
+      8,
+      0
+    ],
+    "depth": 7,
+    "nodes": 448864,
+    "ns": 48003000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 91,
+    "variant": "guard_futility",
+    "value": 1032,
+    "action": [
+      2,
+      8,
+      0
+    ],
+    "depth": 7,
+    "nodes": 439520,
+    "ns": 48000000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574605",
+    "turn": 91,
+    "variant": "no_nn",
+    "value": 1032,
+    "action": [
+      2,
+      8,
+      0
+    ],
+    "depth": 7,
+    "nodes": 443904,
+    "ns": 48003000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574271",
+    "turn": 29,
+    "variant": "baseline",
+    "value": -151,
+    "action": [
+      1,
+      8,
+      11
+    ],
+    "depth": 6,
+    "nodes": 299808,
+    "ns": 48002000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574271",
+    "turn": 29,
+    "variant": "guard_futility",
+    "value": -151,
+    "action": [
+      1,
+      8,
+      11
+    ],
+    "depth": 6,
+    "nodes": 303136,
+    "ns": 48002000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574271",
+    "turn": 29,
+    "variant": "no_nn",
+    "value": -151,
+    "action": [
+      1,
+      8,
+      11
+    ],
+    "depth": 6,
+    "nodes": 305792,
+    "ns": 48005000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574271",
+    "turn": 39,
+    "variant": "baseline",
+    "value": -172,
+    "action": [
+      1,
+      8,
+      25
+    ],
+    "depth": 6,
+    "nodes": 285440,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574271",
+    "turn": 39,
+    "variant": "guard_futility",
+    "value": -172,
+    "action": [
+      1,
+      8,
+      25
+    ],
+    "depth": 6,
+    "nodes": 282176,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574271",
+    "turn": 39,
+    "variant": "no_nn",
+    "value": -172,
+    "action": [
+      1,
+      8,
+      25
+    ],
+    "depth": 6,
+    "nodes": 285888,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574271",
+    "turn": 49,
+    "variant": "baseline",
+    "value": -279,
+    "action": [
+      2,
+      10,
+      9
+    ],
+    "depth": 6,
+    "nodes": 331584,
+    "ns": 48002000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574271",
+    "turn": 49,
+    "variant": "guard_futility",
+    "value": -279,
+    "action": [
+      2,
+      10,
+      9
+    ],
+    "depth": 6,
+    "nodes": 331168,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574271",
+    "turn": 49,
+    "variant": "no_nn",
+    "value": -279,
+    "action": [
+      2,
+      10,
+      9
+    ],
+    "depth": 6,
+    "nodes": 330464,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574680",
+    "turn": 33,
+    "variant": "baseline",
+    "value": -1199,
+    "action": [
+      1,
+      1,
+      45
+    ],
+    "depth": 6,
+    "nodes": 304128,
+    "ns": 48003000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574680",
+    "turn": 33,
+    "variant": "guard_futility",
+    "value": -1199,
+    "action": [
+      1,
+      1,
+      45
+    ],
+    "depth": 6,
+    "nodes": 303392,
+    "ns": 48002000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574680",
+    "turn": 33,
+    "variant": "no_nn",
+    "value": -1199,
+    "action": [
+      1,
+      1,
+      45
+    ],
+    "depth": 6,
+    "nodes": 308320,
+    "ns": 48002000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574680",
+    "turn": 37,
+    "variant": "baseline",
+    "value": -2179,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 4,
+    "nodes": 405632,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574680",
+    "turn": 37,
+    "variant": "guard_futility",
+    "value": -2179,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 4,
+    "nodes": 406432,
+    "ns": 48000000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574680",
+    "turn": 37,
+    "variant": "no_nn",
+    "value": -2179,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 4,
+    "nodes": 403584,
+    "ns": 48011000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574680",
+    "turn": 99,
+    "variant": "baseline",
+    "value": -2227,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 392128,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574680",
+    "turn": 99,
+    "variant": "guard_futility",
+    "value": -2227,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 401632,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574680",
+    "turn": 99,
+    "variant": "no_nn",
+    "value": -2227,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 394016,
+    "ns": 48005000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574680",
+    "turn": 139,
+    "variant": "baseline",
+    "value": -2177,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 451712,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574680",
+    "turn": 139,
+    "variant": "guard_futility",
+    "value": -2177,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 447360,
+    "ns": 48000000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574680",
+    "turn": 139,
+    "variant": "no_nn",
+    "value": -2177,
+    "action": [
+      3,
+      1,
+      13
+    ],
+    "depth": 6,
+    "nodes": 459040,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921572974",
+    "turn": 52,
+    "variant": "baseline",
+    "value": -2162,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 6,
+    "nodes": 350880,
+    "ns": 48000000
+  },
+  {
+    "rep": 2,
+    "id": "game-921572974",
+    "turn": 52,
+    "variant": "guard_futility",
+    "value": -2162,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 6,
+    "nodes": 354528,
+    "ns": 48002000
+  },
+  {
+    "rep": 2,
+    "id": "game-921572974",
+    "turn": 52,
+    "variant": "no_nn",
+    "value": -2162,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 6,
+    "nodes": 354208,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921572974",
+    "turn": 100,
+    "variant": "baseline",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 7,
+    "nodes": 338784,
+    "ns": 48002000
+  },
+  {
+    "rep": 2,
+    "id": "game-921572974",
+    "turn": 100,
+    "variant": "guard_futility",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 7,
+    "nodes": 334272,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921572974",
+    "turn": 100,
+    "variant": "no_nn",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 7,
+    "nodes": 336960,
+    "ns": 48002000
+  },
+  {
+    "rep": 2,
+    "id": "game-921572974",
+    "turn": 140,
+    "variant": "baseline",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 5,
+    "nodes": 416928,
+    "ns": 48000000
+  },
+  {
+    "rep": 2,
+    "id": "game-921572974",
+    "turn": 140,
+    "variant": "guard_futility",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 5,
+    "nodes": 414272,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921572974",
+    "turn": 140,
+    "variant": "no_nn",
+    "value": -187,
+    "action": [
+      3,
+      0,
+      4
+    ],
+    "depth": 5,
+    "nodes": 420928,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574110",
+    "turn": 115,
+    "variant": "baseline",
+    "value": 139,
+    "action": [
+      1,
+      1,
+      59
+    ],
+    "depth": 12,
+    "nodes": 704896,
+    "ns": 48000000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574110",
+    "turn": 115,
+    "variant": "guard_futility",
+    "value": 139,
+    "action": [
+      1,
+      1,
+      59
+    ],
+    "depth": 12,
+    "nodes": 696352,
+    "ns": 48000000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574110",
+    "turn": 115,
+    "variant": "no_nn",
+    "value": 139,
+    "action": [
+      1,
+      1,
+      59
+    ],
+    "depth": 12,
+    "nodes": 688768,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574110",
+    "turn": 117,
+    "variant": "baseline",
+    "value": -709,
+    "action": [
+      3,
+      1,
+      6
+    ],
+    "depth": 13,
+    "nodes": 693184,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574110",
+    "turn": 117,
+    "variant": "guard_futility",
+    "value": -709,
+    "action": [
+      3,
+      1,
+      6
+    ],
+    "depth": 13,
+    "nodes": 692864,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574110",
+    "turn": 117,
+    "variant": "no_nn",
+    "value": -69,
+    "action": [
+      3,
+      1,
+      6
+    ],
+    "depth": 12,
+    "nodes": 693472,
+    "ns": 48001000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574564",
+    "turn": 22,
+    "variant": "baseline",
+    "value": -790,
+    "action": [
+      3,
+      0,
+      12
+    ],
+    "depth": 6,
+    "nodes": 371040,
+    "ns": 48002000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574564",
+    "turn": 22,
+    "variant": "guard_futility",
+    "value": -790,
+    "action": [
+      3,
+      0,
+      12
+    ],
+    "depth": 6,
+    "nodes": 372512,
+    "ns": 48000000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574564",
+    "turn": 22,
+    "variant": "no_nn",
+    "value": -790,
+    "action": [
+      3,
+      0,
+      12
+    ],
+    "depth": 6,
+    "nodes": 372480,
+    "ns": 48006000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574564",
+    "turn": 24,
+    "variant": "baseline",
+    "value": -737,
+    "action": [
+      2,
+      12,
+      9
+    ],
+    "depth": 5,
+    "nodes": 371904,
+    "ns": 48004000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574564",
+    "turn": 24,
+    "variant": "guard_futility",
+    "value": -737,
+    "action": [
+      2,
+      12,
+      9
+    ],
+    "depth": 5,
+    "nodes": 372160,
+    "ns": 48003000
+  },
+  {
+    "rep": 2,
+    "id": "game-921574564",
+    "turn": 24,
+    "variant": "no_nn",
+    "value": -737,
+    "action": [
+      2,
+      12,
+      9
+    ],
+    "depth": 5,
+    "nodes": 374720,
+    "ns": 48002000
+  }
+]

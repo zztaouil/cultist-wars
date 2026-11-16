@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "a": "baseline.c",
+    "b": "candidate.c",
+    "a_sha256": "c7bf57e54c2a174abe5b4cb7074face043a9fea1efe6f11e570ea4370f0b1a35",
+    "b_sha256": "6f7a7b34137e818366f3979c1d575a668f368da0257af33aa1738b85f8a970e5",
+    "maps_sha256": "a106b7dae4467313e753890566c00198650e046fc28ae042d3b49686cd9a5559",
+    "budget_ms": 49,
+    "parts": 4,
+    "shuffle_seed": 41723000,
+    "runner_sha256": "89480a100f168f7256f7735c66333b9a6123b88b289a69b2a110cd88f41d8fba",
+    "simulator_sha256": "202dfc0bbaa4ef9c1d51c48aa5b67c57fe7ae86e44064c654a7e45f6284f1e88"
+  },
+  "recorded_after_start": true
+}

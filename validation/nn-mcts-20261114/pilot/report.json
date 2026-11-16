@@ -1,0 +1,55 @@
+{
+  "validation": {
+    "policy_loss": 1.8361072329639072,
+    "value_mse": 0.7775777990723743,
+    "top1": 0.4144994656216601,
+    "positions": 11228,
+    "loss": 2.6136850320362814
+  },
+  "test": {
+    "policy_loss": 1.8084931182861328,
+    "value_mse": 0.6619273905132128,
+    "top1": 0.42130434782608694,
+    "positions": 9200,
+    "loss": 2.4704205087993456
+  },
+  "parameters": 16578,
+  "seconds": 6.775028333009686,
+  "world_size": 1,
+  "config": {
+    "cache": "validation/nn-mcts-20261114/cache",
+    "out": "validation/nn-mcts-20261114/pilot",
+    "epochs": 12,
+    "batch_size": 256,
+    "device": "cpu",
+    "threads": 4,
+    "seed": 31,
+    "lr": 0.001
+  },
+  "dataset": {
+    "accepted": 1000,
+    "rejected": 0,
+    "transitions": 139329,
+    "positions": 104172,
+    "split_positions": [
+      83744,
+      11228,
+      9200
+    ],
+    "maps": 999,
+    "feature_version": 1,
+    "seconds": 3.625302583008306,
+    "baseline_sha256": "96ca86d8855230504e4ff1c733270009d33171c7d9e8092361136b9820ef8641",
+    "notes": [
+      "Expert turns only; all complete-game transitions verified.",
+      "Map split inherited from prior experiments, not globally untouched.",
+      "No reflection augmentation: hidden RNG trajectories need not preserve reflection."
+    ]
+  },
+  "torch_version": "2.15.0",
+  "targets_sha256": "ed17d305b7d2122c711f9e9fa1e3390c45e6c87e40477557ec9abbe4009eef31",
+  "notes": [
+    "Checkpoint selected by validation policy CE + value MSE.",
+    "Outcome labels from expert-game distribution; no search-leaf/self-play training yet."
+  ]
+}

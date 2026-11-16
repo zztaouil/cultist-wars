@@ -1,0 +1,31 @@
+{
+  "sha256": {
+    "leaderboard.json": "9bfc5e0344e1363b011e1f04fc080975d4de503bb266c90b4535f4f328700f95",
+    "games.jsonl.gz": "2557056818051a507f6d5c24815fb89157e769a11894beab240ae142e134bfd1",
+    "collect.py": "be3bf5e03356c96fddc602147de6a7d63dac896f2e6ec6eeb3ffda150d7ae904",
+    "prepare.py": "952465bd0bb989a6d89445b14ade285f8da249e291394e197ce123fc09c02ecb",
+    "audit.py": "9b87fbce0ef9be4aa3f7f2ee374e7d6964e357f427ea0f8c5ea9e05b59cfe562",
+    "train.py": "9439c8e6d5342b3117eec0c45fd48ccbb0a620def3375907f3384e5db6117923",
+    "requirements-lock.txt": "22cce28e993d311c2bd813ac9a157876e82348daac16ab9a68e582108ea881e7",
+    "cache/meta.json": "3955295eeede6afbfd3e79e9678bfd17037a69bcee44b9dcf2f655dac1697cd3",
+    "cache/records.jsonl": "6d110f96313e285a16e9e33bb12dbf4c41818d69153a9afcf92be188e6ef0fea",
+    "model-blocks/report.json": "538bb3c3d7d1619d8a5165413d63350608d17d144ecfd229bc29f02975912244",
+    "model-blocks/best.pt": "0b2f3ee722e6de0cbf10f472b87a17b88dc7efd4fc0b21452f44605723626843",
+    "model-blocks/policy_weights.json": "5e3c57e2fd902a09d6b278ff7de27f0ff13ccf6a1e50c5fad80a57b7685ca599",
+    "model-blocks/history.json": "194557475c152b98102fc96ad4e6f0616cecf6dd06732405709e547fc46a06aa",
+    "model-blocks/verification.json": "5a1b62a560db827b0df61abd522682078214afe6e3bceb38e6b3367d621c385f",
+    "model-blocks/policy_weights.npz": "09235e0275e5b58aa0df27ac582f79030082165bc624d8cf0fe11df0f43b8a3d",
+    "cache/report.json": "3285a52a123820d588f4698ee9b08198520a8909fe3913b93cde6af46da65ad9",
+    "cache/audit.json": "c8cd6a82bdf3a7e180eab38021f0472b991ea099a568333cf7723ca527f31625",
+    "previous-policy-test.json": "e51e799afd940c8084d5e4e0d8ae2e08df05dc994b810c2801da87f4293a77de"
+  },
+  "feature_implementation": "../nn-41710886/features.c",
+  "frozen_baseline": "../nn-41710886/baseline.c",
+  "new_downloaded_games": 784,
+  "historical_cohort_games": 2531,
+  "training_positions": 1000000,
+  "training_originals": 253182,
+  "training_reflections": 746818,
+  "validation_positions": 33797,
+  "test_positions": 32382
+}

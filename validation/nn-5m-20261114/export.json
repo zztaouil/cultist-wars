@@ -1,0 +1,14 @@
+{
+  "parameters": 24833,
+  "source_bytes": 99119,
+  "storage": "IEEE float16 little endian, base64",
+  "inference": "float32",
+  "architecture": [
+    128,
+    128,
+    64,
+    1
+  ],
+  "source_sha256": "6f7a7b34137e818366f3979c1d575a668f368da0257af33aa1738b85f8a970e5",
+  "baseline_sha256": "c7bf57e54c2a174abe5b4cb7074face043a9fea1efe6f11e570ea4370f0b1a35"
+}

@@ -1,0 +1,898 @@
+[
+  {
+    "game": "game-921558174",
+    "turn": 20,
+    "selected": {
+      "value": 1011,
+      "action": [
+        1,
+        0,
+        40
+      ],
+      "depth": 8,
+      "nodes": 216544,
+      "ns": 48008000,
+      "eval_ns": 128.0
+    },
+    "fast": {
+      "value": 1011,
+      "action": [
+        1,
+        0,
+        40
+      ],
+      "depth": 8,
+      "nodes": 264448,
+      "ns": 48005000,
+      "eval_ns": 119.9
+    }
+  },
+  {
+    "game": "game-921558174",
+    "turn": 40,
+    "fast": {
+      "value": -15,
+      "action": [
+        2,
+        2,
+        7
+      ],
+      "depth": 6,
+      "nodes": 315904,
+      "ns": 48001000,
+      "eval_ns": 88.9
+    },
+    "selected": {
+      "value": -15,
+      "action": [
+        2,
+        2,
+        7
+      ],
+      "depth": 6,
+      "nodes": 298080,
+      "ns": 48003000,
+      "eval_ns": 91.7
+    }
+  },
+  {
+    "game": "game-921558512",
+    "turn": 20,
+    "selected": {
+      "value": 66,
+      "action": [
+        1,
+        0,
+        16
+      ],
+      "depth": 6,
+      "nodes": 232128,
+      "ns": 48003000,
+      "eval_ns": 106.0
+    },
+    "fast": {
+      "value": 66,
+      "action": [
+        1,
+        0,
+        16
+      ],
+      "depth": 6,
+      "nodes": 261216,
+      "ns": 48001000,
+      "eval_ns": 98.4
+    }
+  },
+  {
+    "game": "game-921558512",
+    "turn": 40,
+    "fast": {
+      "value": 222,
+      "action": [
+        1,
+        0,
+        69
+      ],
+      "depth": 6,
+      "nodes": 325824,
+      "ns": 48003000,
+      "eval_ns": 57.9
+    },
+    "selected": {
+      "value": 222,
+      "action": [
+        1,
+        0,
+        69
+      ],
+      "depth": 6,
+      "nodes": 321632,
+      "ns": 48003000,
+      "eval_ns": 61.8
+    }
+  },
+  {
+    "game": "game-921558609",
+    "turn": 20,
+    "selected": {
+      "value": 1064,
+      "action": [
+        1,
+        0,
+        80
+      ],
+      "depth": 7,
+      "nodes": 348544,
+      "ns": 48003000,
+      "eval_ns": 98.0
+    },
+    "fast": {
+      "value": 1064,
+      "action": [
+        1,
+        0,
+        80
+      ],
+      "depth": 7,
+      "nodes": 332352,
+      "ns": 48003000,
+      "eval_ns": 90.7
+    }
+  },
+  {
+    "game": "game-921558609",
+    "turn": 40,
+    "fast": {
+      "value": 2257,
+      "action": [
+        2,
+        5,
+        13
+      ],
+      "depth": 6,
+      "nodes": 308832,
+      "ns": 48001000,
+      "eval_ns": 82.9
+    },
+    "selected": {
+      "value": 2257,
+      "action": [
+        2,
+        5,
+        13
+      ],
+      "depth": 6,
+      "nodes": 299360,
+      "ns": 48003000,
+      "eval_ns": 71.9
+    }
+  },
+  {
+    "game": "game-921558672",
+    "turn": 20,
+    "selected": {
+      "value": 1075,
+      "action": [
+        1,
+        4,
+        83
+      ],
+      "depth": 5,
+      "nodes": 291008,
+      "ns": 48001000,
+      "eval_ns": 109.9
+    },
+    "fast": {
+      "value": 1075,
+      "action": [
+        1,
+        4,
+        83
+      ],
+      "depth": 5,
+      "nodes": 286880,
+      "ns": 48004000,
+      "eval_ns": 115.3
+    }
+  },
+  {
+    "game": "game-921558672",
+    "turn": 40,
+    "fast": {
+      "value": 36,
+      "action": [
+        1,
+        0,
+        84
+      ],
+      "depth": 7,
+      "nodes": 399968,
+      "ns": 48002000,
+      "eval_ns": 81.6
+    },
+    "selected": {
+      "value": 36,
+      "action": [
+        1,
+        0,
+        84
+      ],
+      "depth": 7,
+      "nodes": 409536,
+      "ns": 48003000,
+      "eval_ns": 75.6
+    }
+  },
+  {
+    "game": "game-921558810",
+    "turn": 20,
+    "selected": {
+      "value": 1193,
+      "action": [
+        1,
+        0,
+        4
+      ],
+      "depth": 6,
+      "nodes": 311168,
+      "ns": 48000000,
+      "eval_ns": 119.3
+    },
+    "fast": {
+      "value": 1193,
+      "action": [
+        1,
+        0,
+        4
+      ],
+      "depth": 6,
+      "nodes": 295712,
+      "ns": 48002000,
+      "eval_ns": 117.1
+    }
+  },
+  {
+    "game": "game-921558810",
+    "turn": 40,
+    "fast": {
+      "value": 1176,
+      "action": [
+        1,
+        3,
+        6
+      ],
+      "depth": 6,
+      "nodes": 388992,
+      "ns": 48001000,
+      "eval_ns": 71.3
+    },
+    "selected": {
+      "value": 1176,
+      "action": [
+        1,
+        3,
+        6
+      ],
+      "depth": 6,
+      "nodes": 380576,
+      "ns": 48005000,
+      "eval_ns": 80.6
+    }
+  },
+  {
+    "game": "game-921559414",
+    "turn": 20,
+    "selected": {
+      "value": 23,
+      "action": [
+        1,
+        0,
+        70
+      ],
+      "depth": 5,
+      "nodes": 305760,
+      "ns": 48004000,
+      "eval_ns": 130.0
+    },
+    "fast": {
+      "value": 23,
+      "action": [
+        1,
+        0,
+        70
+      ],
+      "depth": 5,
+      "nodes": 302464,
+      "ns": 48001000,
+      "eval_ns": 117.5
+    }
+  },
+  {
+    "game": "game-921559414",
+    "turn": 40,
+    "fast": {
+      "value": -1803,
+      "action": [
+        2,
+        4,
+        8
+      ],
+      "depth": 5,
+      "nodes": 382368,
+      "ns": 48003000,
+      "eval_ns": 54.3
+    },
+    "selected": {
+      "value": -1803,
+      "action": [
+        2,
+        4,
+        8
+      ],
+      "depth": 5,
+      "nodes": 376672,
+      "ns": 48003000,
+      "eval_ns": 52.9
+    }
+  },
+  {
+    "game": "game-921559739",
+    "turn": 20,
+    "selected": {
+      "value": -88,
+      "action": [
+        1,
+        3,
+        29
+      ],
+      "depth": 5,
+      "nodes": 298048,
+      "ns": 48002000,
+      "eval_ns": 107.2
+    },
+    "fast": {
+      "value": -88,
+      "action": [
+        1,
+        3,
+        29
+      ],
+      "depth": 5,
+      "nodes": 302176,
+      "ns": 48005000,
+      "eval_ns": 105.6
+    }
+  },
+  {
+    "game": "game-921559739",
+    "turn": 40,
+    "fast": {
+      "value": -1220,
+      "action": [
+        2,
+        3,
+        8
+      ],
+      "depth": 5,
+      "nodes": 372736,
+      "ns": 48004000,
+      "eval_ns": 105.2
+    },
+    "selected": {
+      "value": -1220,
+      "action": [
+        2,
+        3,
+        8
+      ],
+      "depth": 5,
+      "nodes": 375616,
+      "ns": 48002000,
+      "eval_ns": 102.6
+    }
+  },
+  {
+    "game": "game-921559790",
+    "turn": 20,
+    "selected": {
+      "value": 1028,
+      "action": [
+        3,
+        0,
+        4
+      ],
+      "depth": 5,
+      "nodes": 282048,
+      "ns": 48006000,
+      "eval_ns": 127.1
+    },
+    "fast": {
+      "value": 1028,
+      "action": [
+        3,
+        0,
+        4
+      ],
+      "depth": 5,
+      "nodes": 282144,
+      "ns": 48001000,
+      "eval_ns": 119.2
+    }
+  },
+  {
+    "game": "game-921559790",
+    "turn": 40,
+    "fast": {
+      "value": 1275,
+      "action": [
+        1,
+        0,
+        44
+      ],
+      "depth": 5,
+      "nodes": 400448,
+      "ns": 48000000,
+      "eval_ns": 69.4
+    },
+    "selected": {
+      "value": 1275,
+      "action": [
+        1,
+        0,
+        44
+      ],
+      "depth": 5,
+      "nodes": 393248,
+      "ns": 48000000,
+      "eval_ns": 83.0
+    }
+  },
+  {
+    "game": "game-921559851",
+    "turn": 20,
+    "selected": {
+      "value": 132,
+      "action": [
+        1,
+        0,
+        29
+      ],
+      "depth": 7,
+      "nodes": 291872,
+      "ns": 48003000,
+      "eval_ns": 108.7
+    },
+    "fast": {
+      "value": 132,
+      "action": [
+        1,
+        0,
+        29
+      ],
+      "depth": 7,
+      "nodes": 297984,
+      "ns": 48004000,
+      "eval_ns": 107.2
+    }
+  },
+  {
+    "game": "game-921559851",
+    "turn": 40,
+    "fast": {
+      "value": 1151,
+      "action": [
+        2,
+        2,
+        8
+      ],
+      "depth": 6,
+      "nodes": 336800,
+      "ns": 48005000,
+      "eval_ns": 91.9
+    },
+    "selected": {
+      "value": 1151,
+      "action": [
+        2,
+        2,
+        8
+      ],
+      "depth": 6,
+      "nodes": 334880,
+      "ns": 48001000,
+      "eval_ns": 85.9
+    }
+  },
+  {
+    "game": "game-921560237",
+    "turn": 20,
+    "selected": {
+      "value": 1304,
+      "action": [
+        1,
+        2,
+        45
+      ],
+      "depth": 6,
+      "nodes": 277280,
+      "ns": 48002000,
+      "eval_ns": 127.0
+    },
+    "fast": {
+      "value": 1304,
+      "action": [
+        1,
+        2,
+        45
+      ],
+      "depth": 6,
+      "nodes": 275936,
+      "ns": 48004000,
+      "eval_ns": 124.7
+    }
+  },
+  {
+    "game": "game-921560237",
+    "turn": 40,
+    "fast": {
+      "value": 2584,
+      "action": [
+        2,
+        2,
+        9
+      ],
+      "depth": 6,
+      "nodes": 306528,
+      "ns": 48002000,
+      "eval_ns": 131.2
+    },
+    "selected": {
+      "value": 2584,
+      "action": [
+        2,
+        2,
+        9
+      ],
+      "depth": 6,
+      "nodes": 303616,
+      "ns": 48004000,
+      "eval_ns": 136.8
+    }
+  },
+  {
+    "game": "game-921560273",
+    "turn": 20,
+    "selected": {
+      "value": 62,
+      "action": [
+        1,
+        0,
+        70
+      ],
+      "depth": 7,
+      "nodes": 257472,
+      "ns": 48005000,
+      "eval_ns": 129.1
+    },
+    "fast": {
+      "value": 62,
+      "action": [
+        1,
+        0,
+        70
+      ],
+      "depth": 7,
+      "nodes": 258816,
+      "ns": 48002000,
+      "eval_ns": 129.5
+    }
+  },
+  {
+    "game": "game-921560273",
+    "turn": 40,
+    "fast": {
+      "value": -234,
+      "action": [
+        1,
+        0,
+        56
+      ],
+      "depth": 10,
+      "nodes": 435520,
+      "ns": 48001000,
+      "eval_ns": 96.5
+    },
+    "selected": {
+      "value": -234,
+      "action": [
+        1,
+        0,
+        56
+      ],
+      "depth": 10,
+      "nodes": 428512,
+      "ns": 48002000,
+      "eval_ns": 101.7
+    }
+  },
+  {
+    "game": "game-921560502",
+    "turn": 20,
+    "selected": {
+      "value": -3310,
+      "action": [
+        1,
+        2,
+        69
+      ],
+      "depth": 6,
+      "nodes": 359104,
+      "ns": 48005000,
+      "eval_ns": 110.8
+    },
+    "fast": {
+      "value": -3310,
+      "action": [
+        1,
+        2,
+        69
+      ],
+      "depth": 6,
+      "nodes": 366464,
+      "ns": 48005000,
+      "eval_ns": 108.8
+    }
+  },
+  {
+    "game": "game-921560502",
+    "turn": 40,
+    "fast": {
+      "value": -3406,
+      "action": [
+        2,
+        4,
+        10
+      ],
+      "depth": 6,
+      "nodes": 441472,
+      "ns": 48003000,
+      "eval_ns": 79.3
+    },
+    "selected": {
+      "value": -3406,
+      "action": [
+        2,
+        4,
+        10
+      ],
+      "depth": 6,
+      "nodes": 435488,
+      "ns": 48002000,
+      "eval_ns": 80.5
+    }
+  },
+  {
+    "game": "game-921560564",
+    "turn": 20,
+    "selected": {
+      "value": -49,
+      "action": [
+        2,
+        4,
+        1
+      ],
+      "depth": 4,
+      "nodes": 275360,
+      "ns": 48003000,
+      "eval_ns": 115.2
+    },
+    "fast": {
+      "value": -49,
+      "action": [
+        2,
+        4,
+        1
+      ],
+      "depth": 4,
+      "nodes": 279392,
+      "ns": 48006000,
+      "eval_ns": 113.1
+    }
+  },
+  {
+    "game": "game-921560564",
+    "turn": 40,
+    "fast": {
+      "value": -2268,
+      "action": [
+        2,
+        5,
+        10
+      ],
+      "depth": 6,
+      "nodes": 484768,
+      "ns": 48002000,
+      "eval_ns": 42.0
+    },
+    "selected": {
+      "value": -2268,
+      "action": [
+        2,
+        5,
+        10
+      ],
+      "depth": 6,
+      "nodes": 480672,
+      "ns": 48004000,
+      "eval_ns": 42.2
+    }
+  },
+  {
+    "game": "game-921560705",
+    "turn": 20,
+    "selected": {
+      "value": 1142,
+      "action": [
+        3,
+        0,
+        5
+      ],
+      "depth": 7,
+      "nodes": 299200,
+      "ns": 48001000,
+      "eval_ns": 124.5
+    },
+    "fast": {
+      "value": 1142,
+      "action": [
+        3,
+        0,
+        5
+      ],
+      "depth": 7,
+      "nodes": 288896,
+      "ns": 48020000,
+      "eval_ns": 365.6
+    }
+  },
+  {
+    "game": "game-921560705",
+    "turn": 40,
+    "fast": {
+      "value": 1201,
+      "action": [
+        2,
+        3,
+        12
+      ],
+      "depth": 5,
+      "nodes": 219712,
+      "ns": 48004000,
+      "eval_ns": 104.8
+    },
+    "selected": {
+      "value": 1143,
+      "action": [
+        2,
+        3,
+        12
+      ],
+      "depth": 6,
+      "nodes": 343680,
+      "ns": 48002000,
+      "eval_ns": 95.1
+    }
+  },
+  {
+    "game": "game-921560889",
+    "turn": 20,
+    "selected": {
+      "value": 1310,
+      "action": [
+        1,
+        0,
+        55
+      ],
+      "depth": 6,
+      "nodes": 279200,
+      "ns": 48005000,
+      "eval_ns": 125.6
+    },
+    "fast": {
+      "value": 1310,
+      "action": [
+        1,
+        0,
+        55
+      ],
+      "depth": 6,
+      "nodes": 291648,
+      "ns": 48001000,
+      "eval_ns": 123.4
+    }
+  },
+  {
+    "game": "game-921560889",
+    "turn": 40,
+    "fast": {
+      "value": 1147,
+      "action": [
+        2,
+        4,
+        9
+      ],
+      "depth": 5,
+      "nodes": 374272,
+      "ns": 48001000,
+      "eval_ns": 77.5
+    },
+    "selected": {
+      "value": 1147,
+      "action": [
+        2,
+        4,
+        9
+      ],
+      "depth": 5,
+      "nodes": 373504,
+      "ns": 48003000,
+      "eval_ns": 72.0
+    }
+  },
+  {
+    "game": "game-921561503",
+    "turn": 20,
+    "selected": {
+      "value": -117,
+      "action": [
+        1,
+        3,
+        29
+      ],
+      "depth": 5,
+      "nodes": 275200,
+      "ns": 48004000,
+      "eval_ns": 102.9
+    },
+    "fast": {
+      "value": -117,
+      "action": [
+        1,
+        3,
+        29
+      ],
+      "depth": 5,
+      "nodes": 274240,
+      "ns": 48004000,
+      "eval_ns": 115.9
+    }
+  },
+  {
+    "game": "game-921561503",
+    "turn": 40,
+    "fast": {
+      "value": -197,
+      "action": [
+        1,
+        0,
+        57
+      ],
+      "depth": 5,
+      "nodes": 304960,
+      "ns": 48002000,
+      "eval_ns": 86.1
+    },
+    "selected": {
+      "value": -197,
+      "action": [
+        1,
+        0,
+        57
+      ],
+      "depth": 5,
+      "nodes": 300160,
+      "ns": 48000000,
+      "eval_ns": 91.9
+    }
+  }
+]
